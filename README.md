@@ -9,34 +9,8 @@
 - 排除：Codex 自带的 `.system`、嵌套 `.git`、常见缓存目录，以及 `.env`、私钥等运行时凭据
 - 每次同步保留 skill 的脚本、参考资料、资源和许可证文件
 
-## 手动操作
+## Codex 同步约定
 
-在本仓库目录运行：
+当 Codex 获得、安装或更新 skill 时，由 Codex 在当前任务中读取本地 skill 树、完成差异检查，并使用 Git 将变更提交推送到 `origin/main`。本仓库不使用 PowerShell watcher、计划任务、登录启动项或后台常驻进程。
 
-```powershell
-.\sync-skills.ps1 -Push
-```
-
-只检查同步结果、不提交：
-
-```powershell
-.\sync-skills.ps1 -DryRun
-```
-
-## 默认同步
-
-运行一次：
-
-```powershell
-.\install-skill-sync.ps1
-```
-
-它会优先创建当前 Windows 用户的登录时任务 `Tangyixiao Skills Sync`；如果 Windows 策略拒绝任务计划程序，则自动改用当前用户的 HKCU 登录启动项。今后安装或修改用户 skill 后，监视器会自动等待文件变更稳定，再提交并推送到 `origin/main`。
-
-关闭自动同步：
-
-```powershell
-.\uninstall-skill-sync.ps1
-```
-
-自动同步使用当前 Git 凭据；如果远端发生冲突，任务会记录到 `%LOCALAPPDATA%\tangyixiao-skills\sync.log`，不会强制覆盖远端历史。
+推送前必须排除 `.system` 和凭据文件，并核验实际的 `SKILL.md` 内容与仓库状态。
