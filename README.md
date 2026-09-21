@@ -31,7 +31,7 @@
 .\install-skill-sync.ps1
 ```
 
-它会创建当前 Windows 用户的登录时任务 `Tangyixiao Skills Sync`。今后安装或修改用户 skill 后，监视器会自动等待文件变更稳定，再提交并推送到 `origin/main`。
+它会优先创建当前 Windows 用户的登录时任务 `Tangyixiao Skills Sync`；如果 Windows 策略拒绝任务计划程序，则自动改用当前用户的 HKCU 登录启动项。今后安装或修改用户 skill 后，监视器会自动等待文件变更稳定，再提交并推送到 `origin/main`。
 
 关闭自动同步：
 

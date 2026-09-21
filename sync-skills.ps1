@@ -114,7 +114,6 @@ if ($DryRun) {
 
 $manifestObject = [ordered]@{
     source = '~/.codex/skills'
-    generatedAt = (Get-Date).ToUniversalTime().ToString('o')
     skills = $currentNames
     excludedTopLevel = $ExcludedTopLevel
     excludedDirectories = $ExcludedDirectories
