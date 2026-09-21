@@ -19,30 +19,21 @@ $watcher.Path = $SourceRoot
 $watcher.IncludeSubdirectories = $true
 $watcher.NotifyFilter = [IO.NotifyFilters]'FileName, DirectoryName, LastWrite, Size'
 $watcher.EnableRaisingEvents = $true
-$script:pending = $false
-$script:lastEvent = Get-Date
-
-$handler = {
-    $path = $Event.SourceEventArgs.FullPath
-    $relative = $path.Substring($SourceRoot.Length).TrimStart('\', '/')
-    if ($relative -eq '.system' -or $relative.StartsWith('.system\', [StringComparison]::OrdinalIgnoreCase)) {
-        return
-    }
-    $script:pending = $true
-    $script:lastEvent = Get-Date
-}
-
-$subscriptions = @(
-    Register-ObjectEvent -InputObject $watcher -EventName Created -Action $handler
-    Register-ObjectEvent -InputObject $watcher -EventName Changed -Action $handler
-    Register-ObjectEvent -InputObject $watcher -EventName Deleted -Action $handler
-    Register-ObjectEvent -InputObject $watcher -EventName Renamed -Action $handler
-)
+$pending = $false
+$lastEvent = Get-Date
 
 try {
     while ($true) {
-        if ($script:pending -and ((Get-Date) - $script:lastEvent).TotalSeconds -ge $DebounceSeconds) {
-            $script:pending = $false
+        $change = $watcher.WaitForChanged([IO.WatcherChangeTypes]::All, 2000)
+        if (-not $change.TimedOut) {
+            $relative = [string]$change.Name
+            if ($relative -ne '.system' -and -not $relative.StartsWith('.system\', [StringComparison]::OrdinalIgnoreCase)) {
+                $pending = $true
+                $lastEvent = Get-Date
+            }
+        }
+        if ($pending -and ((Get-Date) - $lastEvent).TotalSeconds -ge $DebounceSeconds) {
+            $pending = $false
             try {
                 $output = & $SyncScript -Push 2>&1 | Out-String
                 Add-Content -LiteralPath $LogPath -Value "$(Get-Date -Format o)`n$output"
@@ -53,6 +44,5 @@ try {
         Start-Sleep -Seconds 2
     }
 } finally {
-    $subscriptions | ForEach-Object { Unregister-Event -SubscriptionId $_.Id -ErrorAction SilentlyContinue; Remove-Job -Id $_.Id -Force -ErrorAction SilentlyContinue }
     $watcher.Dispose()
 }
