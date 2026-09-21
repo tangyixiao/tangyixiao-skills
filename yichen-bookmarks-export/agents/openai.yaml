@@ -1,0 +1,4 @@
+interface:
+  display_name: "逸尘收藏导出"
+  short_description: "只读导出小红书、抖音与 X 私人收藏链接，不自动下载媒体"
+  default_prompt: "Use $yichen-bookmarks-export to export my explicitly authorized private bookmarks as local link files without downloading media."

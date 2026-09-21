@@ -1,0 +1,304 @@
+[
+  {
+    "case": "known_web_url_read",
+    "input_kind": "known_urls",
+    "platform": "web",
+    "action": "read",
+    "decision": "route",
+    "route_backend": "jina-reader",
+    "allowed_branch": "single-known-url"
+  },
+  {
+    "case": "known_web_url_archive",
+    "input_kind": "known_urls",
+    "platform": "web",
+    "action": "archive",
+    "decision": "route",
+    "route_backend": "web-reader",
+    "allowed_branch": "single-known-url-snapshot"
+  },
+  {
+    "case": "known_web_url_file_archive",
+    "input_kind": "known_collection",
+    "container_kind": "url_file",
+    "container_scope": "exact",
+    "platform": "mixed",
+    "action": "archive",
+    "decision": "enumerate_then_route",
+    "route_backend": "exact-url-file",
+    "allowed_branch": "provided-lines-only"
+  },
+  {
+    "case": "known_x_status_read",
+    "input_kind": "known_urls",
+    "platform": "x",
+    "action": "read",
+    "decision": "route",
+    "route_backend": "x-public-known-url",
+    "allowed_branch": "anonymous-post-or-quote"
+  },
+  {
+    "case": "known_x_article_read",
+    "input_kind": "known_urls",
+    "platform": "x",
+    "action": "read",
+    "decision": "route",
+    "route_backend": "x-public-known-url",
+    "allowed_branch": "exact-article-parent"
+  },
+  {
+    "case": "known_x_video_download",
+    "input_kind": "known_urls",
+    "platform": "x",
+    "action": "download",
+    "decision": "route",
+    "route_backend": "public-media-known-url",
+    "allowed_branch": "anonymous-highest-bitrate-mp4",
+    "authentication": "anonymous"
+  },
+  {
+    "case": "known_xiaohongshu_read",
+    "input_kind": "known_urls",
+    "platform": "xiaohongshu",
+    "action": "read",
+    "decision": "route",
+    "route_backend": "xiaohongshu-known-url",
+    "allowed_branch": "skip-media"
+  },
+  {
+    "case": "known_douyin_download",
+    "input_kind": "known_urls",
+    "platform": "douyin",
+    "action": "download",
+    "decision": "route",
+    "route_backend": "douyin-known-url",
+    "allowed_branch": "known-url-download"
+  },
+  {
+    "case": "known_weibo_status_read",
+    "input_kind": "known_urls",
+    "platform": "weibo",
+    "action": "read",
+    "decision": "route",
+    "route_backend": "weibo-known-url",
+    "allowed_branch": "anonymous-single-status-info",
+    "authentication": "anonymous-visitor"
+  },
+  {
+    "case": "known_weibo_video_download",
+    "input_kind": "known_urls",
+    "platform": "weibo",
+    "action": "download",
+    "decision": "route",
+    "route_backend": "weibo-known-url",
+    "allowed_branch": "anonymous-single-video-download",
+    "authentication": "anonymous-visitor"
+  },
+  {
+    "case": "known_public_media_download_generic",
+    "input_kind": "known_urls",
+    "platform": "other_public_media",
+    "action": "download",
+    "decision": "route",
+    "route_backend": "public-media-known-url",
+    "allowed_branch": "anonymous-single-url-ytdlp",
+    "authentication": "anonymous"
+  },
+  {
+    "case": "known_wechat_single_read",
+    "input_kind": "known_urls",
+    "platform": "wechat",
+    "action": "read",
+    "decision": "route",
+    "route_skill": "wechat-mp-batch-exporter",
+    "allowed_branch": "single-url"
+  },
+  {
+    "case": "known_wechat_url_file_archive",
+    "input_kind": "url_file",
+    "platform": "wechat",
+    "action": "archive",
+    "decision": "route",
+    "route_skill": "wechat-mp-batch-exporter",
+    "allowed_branch": "download_urls"
+  },
+  {
+    "case": "known_youtube_info",
+    "input_kind": "known_urls",
+    "platform": "youtube",
+    "action": "read",
+    "decision": "route",
+    "route_backend": "youtube-known-url",
+    "allowed_branch": "known-video-info"
+  },
+  {
+    "case": "known_youtube_download",
+    "input_kind": "confirmed_candidates",
+    "platform": "youtube",
+    "action": "download",
+    "decision": "route",
+    "route_backend": "youtube-known-url",
+    "allowed_branch": "known-video-download"
+  },
+  {
+    "case": "known_youtube_subtitles",
+    "input_kind": "confirmed_candidates",
+    "platform": "youtube",
+    "action": "archive",
+    "decision": "route",
+    "route_backend": "youtube-known-url",
+    "allowed_branch": "known-url-subtitles"
+  },
+  {
+    "case": "known_youtube_playlist_archive",
+    "input_kind": "known_collection",
+    "container_kind": "youtube_playlist_url",
+    "container_scope": "exact",
+    "platform": "youtube",
+    "action": "archive",
+    "decision": "enumerate_then_route",
+    "route_backend": "youtube-known-url",
+    "allowed_branch": "flat-playlist"
+  },
+  {
+    "case": "known_bilibili_bv_read",
+    "input_kind": "known_urls",
+    "platform": "bilibili",
+    "action": "read",
+    "decision": "route",
+    "route_backend": "bili-cli",
+    "allowed_branch": "video-detail"
+  },
+  {
+    "case": "known_bilibili_av_download",
+    "input_kind": "known_urls",
+    "platform": "bilibili",
+    "action": "download",
+    "decision": "route",
+    "route_backend": "yt-dlp",
+    "allowed_branch": "normalized-av-url"
+  },
+  {
+    "case": "known_bilibili_playlist_archive",
+    "input_kind": "known_collection",
+    "container_kind": "bilibili_playlist_url",
+    "container_scope": "exact",
+    "platform": "bilibili",
+    "action": "archive",
+    "decision": "enumerate_then_route",
+    "route_backend": "yt-dlp",
+    "allowed_branch": "flat-playlist"
+  },
+  {
+    "case": "known_xiaoyuzhou_episode_read",
+    "input_kind": "known_urls",
+    "platform": "xiaoyuzhou",
+    "action": "read",
+    "decision": "route",
+    "route_backend": "xiaoyuzhou-stepfun",
+    "allowed_branch": "inspect-only",
+    "authentication": "anonymous"
+  },
+  {
+    "case": "known_xiaoyuzhou_episode_download",
+    "input_kind": "known_urls",
+    "platform": "xiaoyuzhou",
+    "action": "download",
+    "decision": "route",
+    "route_backend": "xiaoyuzhou-stepfun",
+    "allowed_branch": "download-only",
+    "authentication": "anonymous"
+  },
+  {
+    "case": "known_xiaoyuzhou_episode_list_archive",
+    "input_kind": "known_collection",
+    "container_kind": "episode_url_file",
+    "container_scope": "exact",
+    "platform": "xiaoyuzhou",
+    "action": "archive",
+    "decision": "enumerate_then_route",
+    "route_backend": "xiaoyuzhou-stepfun",
+    "allowed_branch": "batch-file-download-only",
+    "authentication": "anonymous"
+  },
+  {
+    "case": "known_xiaoyuzhou_podcast_archive",
+    "input_kind": "known_collection",
+    "container_kind": "xiaoyuzhou_podcast",
+    "container_scope": "exact",
+    "platform": "xiaoyuzhou",
+    "action": "archive",
+    "decision": "enumerate_then_route",
+    "route_backend": "xiaoyuzhou-opencli+xiaoyuzhou-stepfun",
+    "allowed_branch": "authorized-episodes-then-anonymous-batch",
+    "authentication": "current-turn-account-token"
+  },
+  {
+    "case": "known_wechat_account_history_archive",
+    "input_kind": "known_collection",
+    "container_kind": "wechat_account_history",
+    "container_scope": "exact",
+    "platform": "wechat",
+    "action": "archive",
+    "decision": "unsupported",
+    "reason": "upstream_history_interface_retired"
+  },
+  {
+    "case": "keyword_search_rejected",
+    "input_kind": "keyword",
+    "platform": "youtube",
+    "action": "search",
+    "decision": "reject",
+    "reason": "discovery_forbidden"
+  },
+  {
+    "case": "bounded_site_map_then_archive",
+    "input_kind": "known_collection",
+    "container_kind": "bounded_site",
+    "container_scope": "exact_bounded",
+    "platform": "web",
+    "action": "archive",
+    "decision": "enumerate_then_route",
+    "route_backend": "firecrawl-v2-bounded-site",
+    "allowed_branch": "signed-map-preflight-then-explicit-crawl",
+    "authentication": "api-key-only-no-site-login",
+    "bounds": {
+      "required": ["site_url", "path_prefix", "limit", "max_depth"],
+      "max_limit": 100,
+      "max_depth": 3
+    }
+  },
+  {
+    "case": "unbounded_site_crawl_rejected",
+    "input_kind": "site_root",
+    "platform": "web",
+    "action": "crawl",
+    "decision": "reject",
+    "reason": "open_ended_discovery_forbidden"
+  },
+  {
+    "case": "cross_source_expansion_rejected",
+    "input_kind": "known_collection",
+    "container_kind": "youtube_playlist_url",
+    "platform": "youtube",
+    "action": "expand_similar",
+    "decision": "reject",
+    "reason": "cross_source_expansion_forbidden"
+  },
+  {
+    "case": "unconfirmed_candidate_rejected",
+    "input_kind": "unconfirmed_candidates",
+    "platform": "xiaohongshu",
+    "action": "archive",
+    "decision": "reject",
+    "reason": "confirmation_required"
+  },
+  {
+    "case": "unsupported_platform_stops",
+    "input_kind": "known_urls",
+    "platform": "unknown",
+    "action": "archive",
+    "decision": "unsupported",
+    "reason": "unsupported_platform"
+  }
+]

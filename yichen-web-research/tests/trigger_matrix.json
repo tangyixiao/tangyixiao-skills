@@ -1,0 +1,65 @@
+[
+  {
+    "case": "single_platform_search",
+    "stages": ["search"],
+    "platform_count": 1,
+    "deliverable": "candidates",
+    "expected_skill": "yichen-unified-search"
+  },
+  {
+    "case": "explicit_zhihu_search",
+    "stages": ["search"],
+    "platform_count": 1,
+    "deliverable": "candidates",
+    "expected_skill": "yichen-unified-search"
+  },
+  {
+    "case": "four_platform_search_only",
+    "stages": ["search"],
+    "platform_count": 4,
+    "deliverable": "candidates",
+    "expected_skill": "yichen-unified-search"
+  },
+  {
+    "case": "search_then_archive",
+    "stages": ["search", "archive"],
+    "platform_count": 2,
+    "deliverable": "research_package",
+    "expected_skill": "yichen-web-research"
+  },
+  {
+    "case": "horizontal_vertical_deep_research",
+    "stages": ["scope", "plan", "search", "verify", "evidence_synthesis", "report"],
+    "platform_count": 3,
+    "deliverable": "evidence_grounded_research_report",
+    "expected_skill": "yichen-web-research"
+  },
+  {
+    "case": "known_url_archive",
+    "stages": ["archive"],
+    "platform_count": 1,
+    "deliverable": "local_archive",
+    "expected_skill": "yichen-content-archive"
+  },
+  {
+    "case": "bounded_site_map",
+    "stages": ["site_map"],
+    "platform_count": 1,
+    "deliverable": "candidates",
+    "expected_skill": "yichen-unified-search"
+  },
+  {
+    "case": "private_bookmark_export",
+    "stages": ["bookmark_export"],
+    "platform_count": 1,
+    "deliverable": "link_file",
+    "expected_skill": "yichen-bookmarks-export"
+  },
+  {
+    "case": "negative_opinion_daily_report",
+    "stages": ["search", "semantic_risk_filter", "client_report"],
+    "platform_count": 4,
+    "deliverable": "opinion_report",
+    "expected_skill": "public-opinion-monitor"
+  }
+]

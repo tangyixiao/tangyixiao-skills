@@ -1,0 +1,4 @@
+interface:
+  display_name: "OI 自适应教练"
+  short_description: "以诊断、分级提示和间隔复测训练 CSP 与 NOIP 能力"
+  default_prompt: "按证据式掌握规则开始本次 OI 训练。"

@@ -1,0 +1,5 @@
+.env
+.env.*
+!.env.example
+*.local.*
+.skill-sync-log.txt

@@ -1,0 +1,6 @@
+interface:
+  display_name: "逸尘统一 ASR"
+  short_description: "统一路由 Step 与豆包音视频转写、字幕及粗剪能力"
+  default_prompt: "Use $yichen-asr to transcribe this local audio or video with the appropriate Step or Doubao backend while preserving provider and billing safety."
+policy:
+  allow_implicit_invocation: true

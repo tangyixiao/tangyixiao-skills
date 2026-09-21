@@ -1,0 +1,4 @@
+interface:
+  display_name: "逸尘内容归档"
+  short_description: "读取归档已知链接，并抓取抖音与小红书内容"
+  default_prompt: "Use $yichen-content-archive to read, download, archive, or explicitly deposit these known URLs without searching for additional content."
