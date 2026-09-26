@@ -5,6 +5,8 @@
 
 本文件记录用户数据接口的原始 HTTP 契约。日常 Agent 场景通过 `zhihu-cli` 使用当前 Access Secret 所属账号的数据；开发者代表其他用户访问时，需另外完成知乎 OAuth 授权并传入 `X-OAuth-Token`。
 
+本文的 OAuth 身份切换适用于下方创作列表与摘要、关注和收藏接口。黑客松登录后的基础信息使用独立的 [授权用户基础信息 API](hackathon-user-profile-api.md)，仅需 OAuth access token；本人全文、评论和统计遵循 [创作能力](creator.md) 的本人身份限制。
+
 ## 目录
 
 - [身份模型](#身份模型)
@@ -30,7 +32,7 @@
 
 - Access Secret 识别并鉴权开放平台调用方，每次请求都必须提供。
 - OAuth access token 识别第三方应用当前代表的知乎用户，仅访问其他授权用户时提供。
-- OAuth 流程、`app_id`、`app_key` 和用户 token 的后端安全要求见 [OAuth 应用集成](oauth.md)。
+- OAuth 授权与 Token 交换协议见 [OAuth 应用集成](oauth.md)；黑客松应用先按 [黑客松 OAuth 接入](hackathon-oauth.md) 获取赛事凭证。
 - `zhihu-cli` 的普通用户场景只支持第一行：它不发起 OAuth，也不接受、保存或转发 `X-OAuth-Token`。
 
 ## 公共请求约定
@@ -293,3 +295,7 @@ OAuth access token 的获取方式见 [OAuth 应用集成](oauth.md)。
 以下内容在当前资料中不闭合。实现时应按服务端实测或正式文档修订，不要由客户端猜测：
 
 1. 资料没有给出 OAuth scope、token 撤销、刷新 token 或过期后的错误协议。
+
+## 本人创作全文、评论与统计
+
+本人全文、评论、账号与单篇统计是独立的四项能力，见 [创作能力](creator.md)。这四项接口只接受当前 Access Secret 的本人身份，不支持本文列表接口的 OAuth 身份切换。创作列表仍返回标题与摘要。

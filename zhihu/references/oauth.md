@@ -1,6 +1,7 @@
 # 知乎 OAuth 应用集成
 
 资料整理时间：2026-07-22
+黑客松补充资料合入：2026-09-09（历史实测与协议待确认项继续保留）
 适用对象：需要在 Web 应用中集成知乎登录，并代表已授权知乎用户访问数据的开发者
 
 OAuth 是开发者集成能力，不是 `zhihu-cli` 的普通用户鉴权方式。CLI 使用 Access Secret 查询该凭证所属账号自己的数据，不发起 OAuth、不接收用户 OAuth token。
@@ -23,14 +24,16 @@ OAuth 是开发者集成能力，不是 `zhihu-cli` 的普通用户鉴权方式�
 | `app_id` | 第三方应用 | 发起授权、换取 token |
 | `app_key` | 第三方应用密钥 | 仅应用后端换取 token |
 | `authorization_code` | 用户一次授权结果 | 应用后端换取 access token |
-| OAuth `access_token` | 已授权知乎用户 | 用户数据 API 的 `X-OAuth-Token` |
+| OAuth `access_token` | 已授权知乎用户 | 基础信息接口的 `Authorization: Bearer ...`；用户数据列表接口的 `X-OAuth-Token` |
 | 开放平台 Access Secret | 开放平台调用方 | 用户数据 API 的 `Authorization: Bearer ...` |
 
-代表其他用户调用用户数据 API 时，需要同时提供最后两项：Access Secret 鉴权调用方，OAuth access token 指明当前被代表的用户。
+代表其他用户调用创作列表、关注或收藏接口时，需要同时提供最后两项：Access Secret 鉴权调用方，OAuth access token 指明当前被代表的用户。黑客松基础信息接口只使用 OAuth access token，详见 [授权用户基础信息 API](hackathon-user-profile-api.md)；其他应用的接口可用性与字段权限需按平台确认结果处理。
 
 ## 前置申请
 
-向 `product-platform@zhihu.com` 申请 `app_id` 和 `app_key`。
+黑客松参赛应用从赛事页面获取 `app_id` 和 `app_key`，按 [黑客松 OAuth 接入](hackathon-oauth.md) 操作，再复用本文的授权页面、回调和 Token 交换协议。
+
+其他应用沿用以下申请流程：向 `product-platform@zhihu.com` 申请 `app_id` 和 `app_key`。
 
 邮件主题：
 
@@ -52,7 +55,7 @@ OAuth 是开发者集成能力，不是 `zhihu-cli` 的普通用户鉴权方式�
 2. 用户登录知乎并确认授权。
 3. 知乎重定向回已登记的 `redirect_uri`，附带授权码。
 4. 应用后端用授权码、`app_id` 和 `app_key` 换取 access token。
-5. 应用后端将 access token 作为 `X-OAuth-Token` 调用知乎用户数据 API。
+5. 应用后端按目标接口传递凭证：黑客松基础信息接口使用 `Authorization: Bearer <access_token>`；创作列表、关注和收藏使用 Access Secret、`X-OAuth-Token` 与请求时间戳。
 
 ## 授权页面
 
@@ -127,7 +130,7 @@ curl -G 'https://developer.zhihu.com/api/v1/user/contents' \
   -H "X-Request-Timestamp: $(date +%s)"
 ```
 
-完整接口见 [用户数据 API](user-api.md)。
+完整列表接口见 [用户数据 API](user-api.md)。本文的双凭证示例不适用于基础信息 `/user`，该接口遵循 [授权用户基础信息 API](hackathon-user-profile-api.md)。本人全文、评论和统计仅支持 Access Secret 本人身份，见 [创作能力](creator.md)。
 
 ## 安全要求
 
@@ -143,7 +146,7 @@ curl -G 'https://developer.zhihu.com/api/v1/user/contents' \
 2. 文档没有 PKCE、scope、用户拒绝授权、错误响应和回调错误参数。
 3. 只返回 `access_token` 与 `expires_in`，没有 refresh token；需确认过期后是否必须重新授权。
 4. 没有 token 撤销、授权查询或解绑接口。
-5. 文档提到“获取用户信息”，但没有提供对应 endpoint 和响应 schema。
+5. 黑客松补充资料已提供 [基础信息接口与响应字段](hackathon-user-profile-api.md)；通用应用的接口可用性与字段权限仍需平台确认。
 6. 需确认 `app_key` 是否允许直接作为表单参数传输，以及是否另有签名要求。
 
 ## 已验证的协议偏差

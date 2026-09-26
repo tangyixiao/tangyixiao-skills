@@ -78,13 +78,52 @@ function Test-Ready {
     }
 }
 
-if ($args.Count -gt 0 -and $args[0] -eq "status") {
-    if (Test-Ready) {
-        & $Binary status --skill-version $SkillVersion --min-cli-version $MinVersion
-        exit $LASTEXITCODE
-    } else {
-        @{ ok = $true; installed = $false; skill = @{ current_version = $SkillVersion; min_cli_version = $MinVersion }; auth = @{ configured = $false }; update_check = @{ status = "not_applicable" }; next_action = "request_install_consent" } | ConvertTo-Json -Compress -Depth 4
+# Match the Unix status contract without coercing JSON strings or numbers to booleans.
+function Test-Status([string]$StatusText) {
+    # ConvertFrom-Json may unwrap a single-element array; require an object on the wire.
+    if (-not $StatusText.TrimStart().StartsWith("{")) { return $false }
+    try {
+        $Status = $StatusText | ConvertFrom-Json
+    } catch {
+        return $false
     }
+    if ($Status -isnot [pscustomobject] -or $Status.cli -isnot [pscustomobject] -or
+        $Status.auth -isnot [pscustomobject]) { return $false }
+    if ($Status.ok -isnot [bool] -or $Status.ok -ne $true -or
+        $Status.installed -isnot [bool] -or $Status.installed -ne $true -or
+        $Status.cli.compatible -isnot [bool] -or $Status.auth.configured -isnot [bool]) { return $false }
+    if ($Status.cli.current_version -isnot [string] -or $Status.cli.current_version.Length -eq 0 -or
+        $Status.cli.binary_path -isnot [string] -or $Status.cli.binary_path.Length -eq 0 -or
+        $Status.next_action -isnot [string]) { return $false }
+    if (-not $Status.cli.compatible) {
+        return $Status.next_action -ceq "request_cli_upgrade_consent"
+    }
+    if (-not $Status.auth.configured) {
+        return $Status.next_action -ceq "request_access_secret"
+    }
+    return $Status.next_action -ceq "ready"
+}
+
+if ($args.Count -gt 0 -and $args[0] -eq "status") {
+    # Probe the executable without enforcing compatibility; broken installs retain the repair path.
+    if (Test-Path $Binary -PathType Leaf) {
+        try {
+            $CurrentVersion = [string]((& $Binary version 2>$null | ConvertFrom-Json).version)
+            if ($LASTEXITCODE -eq 0 -and $CurrentVersion) {
+                $StatusOutput = & $Binary status --skill-version $SkillVersion --min-cli-version $MinVersion 2>$null
+                if ($LASTEXITCODE -eq 0 -and $StatusOutput) {
+                    $StatusText = $StatusOutput -join "`n"
+                    if (Test-Status $StatusText) {
+                        Write-Output $StatusText
+                        exit 0
+                    }
+                }
+            }
+        } catch {
+            # Invalid output or an executable that cannot start falls back to setup guidance.
+        }
+    }
+    @{ ok = $true; installed = $false; skill = @{ current_version = $SkillVersion; min_cli_version = $MinVersion }; auth = @{ configured = $false }; update_check = @{ status = "not_applicable" }; next_action = "request_install_consent" } | ConvertTo-Json -Compress -Depth 4
     exit 0
 }
 

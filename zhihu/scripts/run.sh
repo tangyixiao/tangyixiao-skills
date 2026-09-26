@@ -58,12 +58,79 @@ is_ready() {
   [ -n "$current" ] && version_ge "$current" "$MIN_VERSION"
 }
 
-if [ "${1:-}" = "status" ]; then
-  if is_ready; then
-    exec "$BINARY" status --skill-version "$SKILL_VERSION" --min-cli-version "$MIN_VERSION"
+# 使用安装器同样支持的解析器验证 JSON；不把解析器缺失误报为 CLI 未安装。
+status_field() {
+  case "$status_parser" in
+    plutil) printf '%s' "$status_output" | plutil -extract "$1" raw -expect "$2" -o - - 2>/dev/null ;;
+    jq)
+      printf '%s' "$status_output" | jq -ers --arg path "$1" --arg kind "$2" '
+        if length != 1 then error("multiple values") else .[0] end |
+        getpath($path | split(".")) |
+        if type == (if $kind == "bool" then "boolean" else $kind end)
+        then tostring else error("invalid type") end' 2>/dev/null
+      ;;
+    python3)
+      printf '%s' "$status_output" | python3 -c '
+import json, sys
+value = json.load(sys.stdin)
+for key in sys.argv[1].split("."):
+    value = value[key]
+expected = bool if sys.argv[2] == "bool" else str
+if type(value) is not expected:
+    sys.exit(1)
+print(str(value).lower() if expected is bool else value)
+' "$1" "$2" 2>/dev/null
+      ;;
+  esac
+}
+
+valid_status() {
+  if [ "$(uname -s)" = Darwin ] && command -v plutil >/dev/null 2>&1; then
+    status_parser=plutil
+  elif command -v jq >/dev/null 2>&1; then
+    status_parser=jq
+  elif command -v python3 >/dev/null 2>&1; then
+    status_parser=python3
   else
-    printf '{"ok":true,"installed":false,"skill":{"current_version":"%s","min_cli_version":"%s"},"auth":{"configured":false},"update_check":{"status":"not_applicable"},"next_action":"request_install_consent"}\n' "$SKILL_VERSION" "$MIN_VERSION"
+    return 2
   fi
+  # plutil 也接受 plist；状态协议仅接受 JSON 对象。
+  case "$(printf '%s' "$status_output" | sed 's/^[[:space:]]*//' | head -n 1)" in
+    \{*) ;; *) return 1 ;;
+  esac
+  [ "$(status_field ok bool)" = true ] || return 1
+  [ "$(status_field installed bool)" = true ] || return 1
+  status_compatible=$(status_field cli.compatible bool) || return 1
+  status_auth=$(status_field auth.configured bool) || return 1
+  [ -n "$(status_field cli.current_version string)" ] || return 1
+  [ -n "$(status_field cli.binary_path string)" ] || return 1
+  status_action=$(status_field next_action string) || return 1
+  if [ "$status_compatible" = false ]; then
+    [ "$status_action" = request_cli_upgrade_consent ]
+  elif [ "$status_auth" = false ]; then
+    [ "$status_action" = request_access_secret ]
+  else
+    [ "$status_action" = ready ]
+  fi
+}
+
+if [ "${1:-}" = "status" ]; then
+  # 先确认 CLI 能报告版本，保留损坏安装的修复入口；此处不要求版本兼容。
+  if [ -x "$BINARY" ] && [ -n "$(installed_version)" ]; then
+    if status_output=$("$BINARY" status --skill-version "$SKILL_VERSION" --min-cli-version "$MIN_VERSION" 2>/dev/null) && [ -n "$status_output" ]; then
+      if valid_status; then
+        printf '%s\n' "$status_output"
+        exit 0
+      else
+        validation_code=$?
+        if [ "$validation_code" -eq 2 ]; then
+          printf '%s\n' '{"ok":false,"error":{"code":"STATUS_VALIDATOR_UNAVAILABLE","message":"jq or python3 is required to validate CLI status"}}'
+          exit 7
+        fi
+      fi
+    fi
+  fi
+  printf '{"ok":true,"installed":false,"skill":{"current_version":"%s","min_cli_version":"%s"},"auth":{"configured":false},"update_check":{"status":"not_applicable"},"next_action":"request_install_consent"}\n' "$SKILL_VERSION" "$MIN_VERSION"
   exit 0
 fi
 

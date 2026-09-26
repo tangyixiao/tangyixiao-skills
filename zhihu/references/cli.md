@@ -10,6 +10,10 @@
 | 全网搜索 | `zhihu-cli search global` | 查找新闻、官网和外部权威来源 |
 | 知乎热榜 | `zhihu-cli hot` | 了解当前知乎热点议题 |
 | 知乎直答 | `zhihu-cli answer` | 快速获得检索增强的 AI 答案 |
+| 个性化问题推荐 | `zhihu-cli question recommend` | 根据当前账号画像发现适合回答的问题 |
+| 主题问题推荐 | `zhihu-cli question recommend --query` | 根据用户给出的主题或关键词发现问题 |
+| 问题回答摘要 | `zhihu-cli question answers` | 查看问题下的回答摘要和原文链接 |
+| 本人创作全文、评论、统计 | `zhihu-cli me content/comments/stats/content-stats` | 见 [创作能力](creator.md)，仅支持本人 |
 | 我的创作 | `zhihu-cli me contents` | 查看当前 Access Secret 所属账号的回答、文章、视频、想法和问题 |
 | 我的关注 | `zhihu-cli me followees` | 查看当前账号关注的用户 |
 | 我的收藏夹 | `zhihu-cli me favorites lists/items` | 浏览收藏夹及其中公开内容 |
@@ -21,7 +25,7 @@
 
 ## 安装与检查
 
-每个 Session 第一次激活 Skill 时，先定位本 Skill 根目录，并做一次无副作用检查：
+每个 Session 第一次需要使用 CLI 时，先定位本 Skill 根目录，并做一次无副作用检查。仅查阅黑客松流程、开发 OAuth 或调用活动无鉴权内容接口时，按 [Skill 任务入口](../SKILL.md) 直接读取相应资料。
 
 ```bash
 # macOS
@@ -31,7 +35,7 @@ bash <skill-dir>/scripts/run.sh status
 powershell -ExecutionPolicy Bypass -File <skill-dir>/scripts/run.ps1 status
 ```
 
-如果 `status` 成功返回合法 JSON 且 `installed=false`，说明当前没有可用且满足最低版本要求的 CLI。Agent 请求用户授权安装或修复；得到明确同意后执行 setup：
+如果 `status` 成功返回合法 JSON 且 `installed=false`，说明当前没有可运行的 CLI。Agent 请求用户授权安装或修复；得到明确同意后执行 setup：
 
 ```bash
 # macOS
@@ -43,7 +47,7 @@ powershell -ExecutionPolicy Bypass -File <skill-dir>/scripts/setup.ps1
 
 此时还会返回 `next_action=request_install_consent` 和 `update_check.status=not_applicable`。Agent 不需要等待 `verified`；setup 完成后再次运行 `status`。如果命令报错或没有返回合法 JSON，先排查脚本故障。
 
-如果 `status` 返回 `installed=true`，远端更新检查成功时 `update_check.status=verified`，失败时为 `unavailable`。`unavailable` 不等于“已是最新版”，但兼容的本地 CLI 仍可继续使用。后续操作以 `next_action` 为准。
+如果 `status` 返回 `installed=true`，再检查 `compatible`；为 false 时按 `next_action` 请求升级，升级前不调用业务命令。远端更新检查成功时 `update_check.status=verified`，失败时为 `unavailable`。`unavailable` 不等于“已是最新版”，但兼容的本地 CLI 仍可继续使用。
 
 CLI 支持 macOS Apple Silicon、macOS Intel、Windows x64、Linux amd64 和 Linux arm64。Skill ZIP 不包含 CLI 二进制；setup 查询官方 manifest，选择当前平台最新版，下载后校验官方域名与跳转、大小、SHA-256、归档结构和二进制版本。CLI 安装到用户数据目录，不使用管理员权限、不修改 PATH。Linux 默认目录是 `${XDG_DATA_HOME:-$HOME/.local/share}/zhihu-cli`，可用绝对路径 `ZHIHU_CLI_HOME` 覆盖。CLI、Skill 和凭证分别存放，覆盖升级 Skill 不会删除已安装 CLI 或 Access Secret。
 
@@ -53,7 +57,7 @@ setup 成功时 stdout 最后一行返回：
 {"ok":true,"installed":true,"downloaded_cli_version":"<cli-version>","binary_path":"/absolute/path/to/zhihu-cli","auth_configured":false,"next_action":"request_access_secret"}
 ```
 
-Agent 必须读取绝对 `binary_path`，本次任务后续全部通过该路径调用，不依赖 PATH。setup 可重复执行；本地 CLI 等于或高于 Skill 声明的最低版本时直接复用，日常更新使用 `upgrade`，setup 不会主动降级已安装的兼容版本。
+Agent 必须读取绝对 `binary_path`，本次任务后续的 CLI 调用全部通过该路径执行，不依赖 PATH。setup 可重复执行；本地 CLI 等于或高于 Skill 声明的最低版本时直接复用，日常更新使用 `upgrade`，setup 不会主动降级已安装的兼容版本。
 
 更新命令：
 
@@ -154,11 +158,49 @@ zhihu-cli quota --api-id knowledge
 zhihu-cli quota --api-id knowledge --api-id tools
 ```
 
-- 不传 `--api-id` 时返回全部 7 个公开额度项；该参数可重复，CLI 会保持顺序并去重。
-- 合法值为 `global_search`、`zhihu_search`、`hot_list`、`user_data`、`zhida_openai`、`knowledge`、`tools`。
+- 不传 `--api-id` 时返回全部 9 个公开额度项；该参数可重复，CLI 会保持顺序并去重。
+- 合法值为 `global_search`、`zhihu_search`、`hot_list`、`question_answers`、`user_data`、`creator`、`zhida_openai`、`knowledge`、`tools`。
+- 问题回答摘要使用 `question_answers`；两种问题推荐与本人全文、评论、账号统计、单篇统计共用 `creator`。默认每个租户、每个能力组每日 100 次，未实名等低额度用户为 10 次，实际额度以 `quota` 查询结果为准。
 - 知识库文件上传、列表、内容列表和检索共用 `knowledge` 统一额度；PDF 解析和 PPT 生成共用 `tools` 统一额度。
 - 响应中的 `TotalQuota`、`TotalUsed`、`RemainingQuota` 分别表示自然日总额度、已用额度和剩余额度。查询本身不消耗业务额度。
 - 需要网页趋势和调用记录时继续使用 <https://developer.zhihu.com/profile> 的用量统计页面。
+
+## 发现问题与查看回答摘要
+
+根据当前账号画像推荐问题：
+
+问题推荐统一使用 `question recommend`：不传 `--query` 时按当前账号画像推荐，传入时按主题推荐。显式空值或纯空白会报参数错误，不会回退为画像推荐。
+
+```bash
+zhihu-cli question recommend --count 5
+```
+
+根据主题或关键词推荐问题：
+
+```bash
+zhihu-cli question recommend --query '人工智能教育' --count 5
+```
+
+查看问题下的回答摘要：
+
+```bash
+zhihu-cli question answers \
+  --question-url 'https://www.zhihu.com/question/123' \
+  --offset 0 \
+  --limit 20
+```
+
+| 命令 | 参数 | 必填 | 默认值 | 范围或说明 |
+|---|---|---:|---:|---|
+| `recommend` | `--count` | 否 | `5` | `1-20` |
+| `recommend` | `--query` | 否 | 不传 | 不传时按画像推荐；传入时必须为非空主题或关键词 |
+| `answers` | `--question-url` | 是 | - | 完整的知乎问题 URL |
+| `answers` | `--offset` | 否 | `0` | 非负 Int64 |
+| `answers` | `--limit` | 否 | `20` | `1-50` |
+
+推荐命令的两种模式均返回问题标题和链接。`answers` 返回服务提供的 `Summary` 和回答链接，不额外生成 AI 摘要，也不返回回答全文。
+
+CLI 不自动翻页。无效或无摘要的回答会被过滤，单页可能不足 `Limit`，甚至为空；以 `Paging.IsEnd` 判断结束。为 `false` 且用户需要更多结果时，将 `Paging.NextOffset` 传给下一次调用的 `--offset`，不要按返回条数计算偏移。若缺少 `NextOffset`，停止自动翻页并报告分页信息不完整。`Totals` 可能包含被过滤的项。
 
 ## 搜索知乎
 
@@ -366,3 +408,7 @@ CLI 自身错误使用稳定 JSON：
 - 注册、额度与客服：[开放平台指南](open-platform.md)
 - 原始请求、响应与字段：[HTTP API 文档](http-api.md)
 - MCP 客户端接入：[MCP 接入文档](mcp.md)
+
+## 本人全文、评论与创作数据
+
+CLI 0.6.0 起提供 `me content`、`me comments`、`me stats`、`me content-stats`。完整参数、HTTP 映射、数据边界和分页见 [创作能力](creator.md)。仅使用当前 Access Secret，无代查和 OAuth 参数。

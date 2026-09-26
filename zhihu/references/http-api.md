@@ -11,6 +11,8 @@
 - 知乎搜索 API
 - 知乎热榜 API
 - 知乎直答 API
+- 问题发现与回答摘要 API
+- 额度查询 API
 - 用户数据 API（独立文档）
 - OAuth 应用集成（独立文档）
 
@@ -140,7 +142,7 @@ Item：
 | ContentType | String | 是 | 内容类型，如回答、文章                    |
 | ContentID | String | 是 | 内容 Token                       |
 | ContentText | String | 是 | 内容摘要，高亮部分用 <em> 标签表示           |
-| Url | String | 是 | 内容链接（带溯源 utm 参数）               |
+| Url | String | 是 | 内容链接（带溯源 UTM 参数） |
 | CommentCount | Int32 | 是 | 评论数                            |
 | VoteUpCount | Int32 | 是 | 赞同数                            |
 | AuthorName | String | 是 | 作者昵称，匿名时，展示为：知乎用户              |
@@ -169,7 +171,7 @@ CommentInfo:
             "ContentType": "Answer",
             "ContentID": "1903044959663284716",
             "ContentText": "首先要澄清一个常见误解：ChatGPT的免费版和付费版使用的是不同模型与功能配置，体验差距确实很大。很多人用了一下免费版就觉得"就这？"，其实是没体验过付费版完整的能力，比如文件上传、多模态理解等功能。\n虽然免费版目前也使用了GPT-4-turbo模型，但功能上仍有限，例如不能用代码解释器、不支持上传文件、无长期记忆能力等，而且还有使用频率限制。\n相比之下，花20美金开通的付费版支持更多高级功能，比如处理图片、文档、复杂代码分析、图表生成等，在实际使用中效率和精度明显提升。\n如果你每天只是问几句闲聊或搜索类问题，的确不必付费，国产的一些大模型（如DeepSeek、Kimi）也能胜任。但如果你依赖它来工作学习、频繁做复杂任务，这20美元绝对是值得投入的，光省下的时间就够本。\n最后不建议拼会员，多人共用一个账号容易导致模型输出错乱，影响效果；账号安全、IP污染等问题也无法忽视。一个账号专人使用，才是最稳定、最优的体验方式。",
-            "Url": "https://www.zhihu.com/answer/1903044959663284716?utm_medium=openapi_platform&utm_source=6d23634e",
+            "Url": "https://www.zhihu.com/answer/1903044959663284716?utm_medium=openapi_platform&utm_source=c2f012356e63",
             "CommentCount": 22,
             "VoteUpCount": 18,
             "AuthorName": "时光纪",
@@ -188,7 +190,7 @@ CommentInfo:
             "ContentType": "Article",
             "ContentID": "18698154193",
             "ContentText": " macOS 版本：14及以上\n 处理器： 建议使用M1芯片或更新的Mac电脑，以获得最佳性能（旧款设备可能出现卡顿）。\n 下载步骤：\n1.打开浏览器，打开 OpenAI 官方下载页面：https://openai.com/chatgpt/desktop/\n2.点击 "Download for macOS" 按钮，开始下载。\n安装步骤：\n1.下载完成后，双击 .dmg 文件，将 ChatGPT 应用拖动到 "应用程序" 文件夹。\n2.如果系统提示 "来自未知开发者"，请在 "系统偏好设置">"安全性与隐私" 中点击 "仍要打开"。\n安装完成： 完成以上步骤，macOS 用户即可正常使用桌面版 ChatGPT。\n 2. Windows 用户安装指南系统时区设置： 需将电脑系统地区和时区设置为阿美莉卡（或其他OpenAI支持服务的地区）。\n1.打开电脑的"设置">"时间和语言">"日期和时间"。\n2.在"自动设置时区"中，先关闭自动设置，然后在"时区"中选择阿美莉卡（或OpenAI支持的地区）的时区。\n下载步骤：\n1.设置好之后，打开OpenAI 官方下载页面： https://openai.com/chatgpt/desktop/\n2.点击 "Download for Windows" 按钮。\n安装步骤：\n1.浏览器会自动打开到微软应用商店页面。\n2.点击 "View in Store/在Microsoft Store中查看" 按钮，跳转到微软应用商店，按照提示完成安装。\n安装完成： 完成以上步骤，Windows 用户即可正常使用桌面版 ChatGPT。\n 三、ChatGPT桌面版使用技巧安装好 ChatGPT 桌面版之后，如何充分利用它的功能，提高效率呢？\n接下来，我分享一些实用的使用技巧：\n1. 快捷键：使用快捷键可以随时随地唤出 ChatGPT，无需切换窗口，非常便捷。\nmacOS： Option + 空格Windows： Alt + 空格 (可以自定义)2. 多模态输入：截图功能： 遇到问题，直接截图发给ChatGPT，它可以帮你分析解读，无论是编程题、Excel 表格，还是其他数据报表，通通不在话下。拍照功能： 拍照上传，可以让 ChatGPT 解答数学题、识别物体等。多文件上传： 可一次性上传多个文档，让 ChatGPT 帮你总结、归纳。3. 高级语音模式：点击输入框右侧的语音图标，即可开始与 ChatGPT 进行语音对话。免费用户也可以体验高级语音模式（有体验时长限制），ChatGPT Plus用户可以享受更长时间的语音对话。4. 多窗口支持：在桌面版中，你可以同时打开多个对话窗口，方便你同时进行多个任务。设置方式：鼠标放到左侧栏相应对话后的"···"，在选项弹窗中选择"在伴随浮窗中打开"。5. 自定义快捷键：如果你觉得默认的快捷键用着不习惯，可以在系统设置中自定义快捷键，让操作更加顺手。设置方式：点击左下角的账号头像>设置>应用，选择"伴随浮窗热键"进行更改。6. 直接启动第三方应用（macOS 独享）：macOS的ChatGPT Plus/Pro和Teams订阅用户，可以直接在ChatGPT中启动VS Code、Xcode、Terminal等第三方应用，进行跨应用协作。对于编辑器类应用，ChatGPT能够读取最前窗口的完整内容；对于终端类应用，可以读取最后200行内容。四、桌面版跟网页版有什么不一样？ChatGPT 桌面版和网页版虽然都使用相同的模型，但使用体验却大相径庭。\n来看一下两者之间的主要区别：\n如果你是一个经常要用的ChatGPT的用户，从效率和功能角度看，桌面版无疑是更好的选择。\n五、ChatGPT Plus或Pro方法不管是哪个端，如果你想解锁ChatGPT的全部功能，包括o1模型、sora、task、高级语音模式等，就需要订阅 ChatGPT Plus或者Pro。\n具体可以看⬇️：\nChatGPT Plus如何升级订阅最新方法全网汇总以上。\n如果有啥疑问也可以在留言告诉我。",
-            "Url": "https://zhuanlan.zhihu.com/p/18698154193?utm_medium=openapi_platform&utm_source=6d23634e",
+            "Url": "https://zhuanlan.zhihu.com/p/18698154193?utm_medium=openapi_platform&utm_source=c2f012356e63",
             "CommentCount": 15,
             "VoteUpCount": 27,
             "AuthorName": "文字机器凸哥",
@@ -347,7 +349,7 @@ Item：
 | ContentType | String | 是 | 内容类型 |
 | ContentID | String | 是 | 内容标识 |
 | ContentText | String | 是 | 内容摘要 |
-| Url | String | 是 | 内容链接（带溯源 utm 参数） |
+| Url | String | 是 | 内容链接（带溯源 UTM 参数） |
 | CommentCount | Int32 | 是 | 评论数 |
 | VoteUpCount | Int32 | 是 | 赞同数 |
 | AuthorName | String | 是 | 作者昵称 |
@@ -379,7 +381,7 @@ CommentInfo：
                 "ContentType": "Article",
                 "ContentID": "123456789",
                 "ContentText": "本文介绍了主流 RAG 评测框架，包括 RAGAS、TruLens ...",
-                "Url": "https://zhuanlan.zhihu.com/p/123456789?utm_medium=openapi_platform&utm_source=6d23634e",
+                "Url": "https://zhuanlan.zhihu.com/p/123456789?utm_medium=openapi_platform&utm_source=c2f012356e63",
                 "CommentCount": 15,
                 "VoteUpCount": 128,
                 "AuthorName": "张三",
@@ -635,6 +637,58 @@ data: [DONE]
 5. 支持 role、content 上下文传参的模型：`zhida-fast-1p5`、`zhida-thinking-1p5`。
 6. 实际可用模型还会受租户授权配置影响。
 
+# 问题发现与回答摘要 API
+
+问题推荐和回答摘要两个接口均使用 Bearer 鉴权和秒级 `X-Request-Timestamp`，HTTP Method 均为 `GET`。
+
+## 根据用户画像推荐问题
+
+```http
+GET /api/v1/user/question_recommendations?Count=5
+```
+
+`Count` 可选，默认 `5`，范围 `1-20`。不传 `Query` 时，根据当前 Access Secret 所属用户的画像推荐问题。
+
+## 根据主题推荐问题
+
+```http
+GET /api/v1/user/question_recommendations?Query=AI%20Agent&Count=5
+```
+
+| Query | 类型 | 必填 | 默认值 | 说明 |
+|---|---|---:|---:|---|
+| `Query` | String | 主题模式必填 | 不传 | 主题或关键词；显式传空值或纯空白返回 `10001`，不传时走画像模式 |
+| `Count` | Int32 | 否 | `5` | `1-20` |
+
+同一推荐接口的两种模式返回相同结构，`Data.Items` 包含：
+
+| 字段 | 类型 | 说明 |
+|---|---|---|
+| `Title` | String | 问题标题 |
+| `Url` | String | 问题链接 |
+
+两种问题推荐与本人全文、评论、账号统计、单篇统计共用 `creator` 创作能力额度，默认每个租户每个自然日 100 次，未实名等低额度用户为 10 次；实际额度以额度查询结果为准。
+
+## 获取问题下的回答摘要
+
+```http
+GET /api/v1/content/question_answers?QuestionUrl=https%3A%2F%2Fwww.zhihu.com%2Fquestion%2F123&Offset=0&Limit=20
+```
+
+| Query | 类型 | 必填 | 默认值 | 说明 |
+|---|---|---:|---:|---|
+| `QuestionUrl` | String | 是 | - | 完整的知乎问题 URL |
+| `Offset` | Int64 | 否 | `0` | 非负分页偏移 |
+| `Limit` | Int64 | 否 | `20` | `1-50` |
+
+响应 `Data.Items` 包含 `ContentType`、`ContentToken`、`Url` 和 `Summary`，`Data.Paging` 包含布尔值 `IsEnd`、可选 Int64 `NextOffset` 与可选 Int64 `Totals`。`Summary` 是服务返回的摘要或截取文本，不额外生成 AI 摘要，也不代表回答全文。
+
+无效或无摘要的回答会被过滤，单页可能不足 `Limit`，甚至为空。以 `Paging.IsEnd` 判断结束；为 `false` 且需要更多结果时，将 `Paging.NextOffset` 作为下一次请求的 `Offset`，不要按返回条数计算偏移。若缺少 `NextOffset`，停止自动翻页并报告分页信息不完整。`Totals` 可能包含被过滤的项。
+
+该接口使用独立的 `question_answers` 知乎问题回答额度，默认每个租户每个自然日 100 次，未实名等低额度用户为 10 次；实际额度以额度查询结果为准。
+
+频率、并发限制和日额度耗尽均返回 `30001`；遇到限制时按需查询对应能力组的剩余额度，避免持续重试。
+
 # 额度查询 API
 
 ## 接口说明
@@ -657,9 +711,9 @@ Query：
 
 | 名称 | 类型 | 必填 | 说明 |
 |---|---|---:|---|
-| `APIIDs` | String | 否 | 逗号分隔的公开 APIID；省略时返回全部 7 项 |
+| `APIIDs` | String | 否 | 逗号分隔的公开 APIID；省略时返回全部 9 项 |
 
-`APIIDs` 支持 `global_search`、`zhihu_search`、`hot_list`、`user_data`、`zhida_openai`、`knowledge`、`tools`。知识库和小工具分别使用 `knowledge`、`tools` 统一额度。
+`APIIDs` 支持 `global_search`、`zhihu_search`、`hot_list`、`question_answers`、`user_data`、`creator`、`zhida_openai`、`knowledge`、`tools`。问题回答摘要使用 `question_answers`；两种问题推荐共用 `creator`。知识库和小工具分别使用 `knowledge`、`tools` 统一额度。
 
 请求示例：
 
@@ -768,3 +822,7 @@ Content-Type: application/json
 | `40006` | `file parsing failed` | 文件解析失败 |
 | `50002` | `search failed, please try again later` | RAG 检索失败 |
 | `90001` | `request failed` | 其他安全收敛后的内部失败 |
+
+## 本人创作全文、评论与统计
+
+四项新增 GET API 只接受当前 Access Secret 身份，路径、参数、响应和错误处理见 [创作能力](creator.md)。原用户列表类接口的 OAuth 说明不适用于这四项能力。

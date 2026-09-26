@@ -1,18 +1,39 @@
 ---
 name: zhihu
+display_name: 知乎
+display_name_en: Zhihu
 description: >-
-  使用知乎开放平台搜索知乎和全网内容、获取热榜、调用知乎直答，读取当前用户自己的知乎创作、关注与收藏，列出、检索和上传知识库，或查询开放 API 剩余额度。用户提到知乎搜索、社区观点、真实经验、热点、热榜、知乎直答、我的知乎内容、我的关注、我的收藏、知识库、RAG、API 额度、剩余额度、用量、开放平台、API、MCP、Access Secret，或要求查看、安装和配置知乎 Skill 时使用。深度研究优先返回搜索原始来源；本人数据和知识库只读取完成任务所需的最小范围。
+  使用知乎开放平台搜索知乎和全网内容、获取热榜、调用知乎直答、发现适合回答的问题、查看问题下的回答摘要，读取本人创作全文、评论、账号与单篇创作数据，以及关注与收藏，列出、检索和上传知识库，查询开放 API 剩余额度，或协助知乎黑客松参赛与作品开发。用户提到知乎搜索、社区观点、真实经验、热点、热榜、知乎直答、问题推荐、选题、回答摘要、我的知乎内容、我的关注、我的收藏、知识库、RAG、API 额度、剩余额度、用量、知乎黑客松、知乎登录接入、开放平台、API、MCP、Access Secret，或要求查看、安装和配置知乎 Skill 时使用。深度研究优先返回搜索原始来源；本人数据和知识库只读取完成任务所需的最小范围。
+description_zh: >-
+  搜索知乎与全网内容，获取热榜和直答，发现选题，读取本人创作数据、关注和收藏，
+  管理知识库、查询 API 额度，并获取知乎黑客松参赛与开发指引。
+description_en: >-
+  Search Zhihu and the web, explore trends and AI answers, discover topics,
+  access your content data, follows and favorites, manage knowledge bases,
+  check API quotas, and get Zhihu hackathon guidance.
+category: writing
+version: 0.7.1
+author: 知乎
 ---
 
 # 知乎开放平台
 
-当前 Skill 版本：0.5.0
+当前 Skill 版本：0.7.1
 
 通过知乎官方 CLI 使用公共知识与当前用户自己的知乎 Context。日常任务优先调用 CLI；只有开发接入场景才读取原始 HTTP API、OAuth 或 MCP 文档。
 
-## 首次检查与初始化
+## 按任务选择入口
 
-每个 Session 第一次激活这个 Skill 时，先定位本文件所在的 Skill 根目录，再运行一次无副作用的状态检查。同一 Session 后续调用不要重复检查，也不要先调用 PATH 中来源不明的 `zhihu-cli`。
+- 了解黑客松赛程、报名、组队或提交要求：直接读取 [参赛与项目流程](references/hackathon.md)。
+- 开发知乎登录或授权用户数据接入：黑客松作品读取 [黑客松 OAuth 接入](references/hackathon-oauth.md)，其他应用读取 [OAuth 应用集成](references/oauth.md)。
+- 使用黑客松故事或知识内容：读取 [活动内容 API](references/hackathon-content-api.md)，按需直接调用其中的无鉴权接口。
+- 通过 CLI 调用搜索、热榜、直答、问题、本人数据、知识库或额度能力，以及安装、配置 CLI：进入下方检查与初始化流程。
+
+前三类任务不以 CLI 安装或 Access Secret 配置为前置条件；需要调用开放平台业务接口时，再按对应文档配置凭证。任务同时需要 CLI 能力时，只为该部分执行 CLI 检查。
+
+## CLI 首次检查与初始化
+
+每个 Session 第一次需要使用 CLI 时，先定位本文件所在的 Skill 根目录，再运行一次无副作用的状态检查。同一 Session 后续调用不要重复检查，也不要先调用 PATH 中来源不明的 `zhihu-cli`。
 
 Skill 的安装、升级、备份与回滚由宿主管理。若宿主创建备份，应备份完整的 Skill 目录，并存放在非自动发现区域；不得在任何 Skill 自动发现目录中创建同名、带后缀或其他仍可被识别为 Skill 的备份目录，避免宿主同时发现多个 `zhihu` Skill。
 
@@ -48,7 +69,7 @@ powershell -ExecutionPolicy Bypass -File <skill-dir>/scripts/run.ps1 status
 
 `auth status --verify` 会发起一次本人内容相关请求验证凭证，`me contents --type all --limit 1` 会再发起一次最小业务请求验收实际命令；两次调用都可能消耗接口额度。两条命令都成功后才报告初始化完成；内容列表为空也算成功。已经安装并完成授权时，不重复初始化，直接处理当前任务。
 
-本次任务的所有调用都使用状态检查或 setup 返回的 `binary_path`。下文 `<CLI>` 均代表这个绝对路径，不是要求 PATH 中存在裸命令。
+本次任务的所有 CLI 调用都使用状态检查或 setup 返回的 `binary_path`。下文 `<CLI>` 均代表这个绝对路径，不是要求 PATH 中存在裸命令。
 
 Skill 包不携带 CLI 二进制。setup 获得用户授权后，从发布时注入的官方 HTTPS manifest 只下载当前平台版本，校验 host、文件大小、SHA-256、归档结构和二进制自报版本后安装到用户目录；不使用 sudo，也不修改 PATH。Linux 默认遵循 XDG 用户数据目录；桌面凭据使用 Secret Service，headless 使用进程级 `ZHIHU_ACCESS_SECRET`。安装协议和故障处理见 [CLI 使用文档](references/cli.md)。
 
@@ -61,6 +82,10 @@ Skill 包不携带 CLI 二进制。setup 获得用户授权后，从发布时注
 | 同时需要社区观点和外部证据 | 两种搜索分别调用 | 分开检索后综合，不把两类来源混成一个黑盒 |
 | 了解当前关注热点 | `hot` | 只代表当前热度；需要解释或核实时继续搜索 |
 | 快速获得综合答案 | `answer` | 先检索再生成答案，不替代原始资料研究 |
+| 根据本人画像发现待回答问题 | `question recommend` | 使用当前 Access Secret 所属账号画像，返回问题标题和链接 |
+| 根据主题发现待回答问题 | `question recommend --query` | 用用户给出的主题或关键词推荐问题 |
+| 查看问题下的回答摘要 | `question answers` | 返回服务提供的 Summary 和回答链接，不生成 AI 摘要或返回全文 |
+| 查看本人全文、评论和创作数据 | `me content/comments/stats/content-stats` | 只读当前账号，先阅读 [创作能力](references/creator.md) |
 | 查看我的创作、关注和收藏 | `me ...` | 只查询当前 Access Secret 所属账号的公开范围数据 |
 | 查看或检索知识库 | `knowledge bases/items/search` | 只读取完成任务所需的知识库和分页结果 |
 | 上传文件到知识库 | `knowledge upload` | 只上传用户明确指定的单个文件，固定使用 `--progress` |
@@ -104,6 +129,18 @@ Skill 包不携带 CLI 二进制。setup 获得用户授权后，从发布时注
 
 需要切换快速、深度思考或智能检索模型，以及使用流式输出时，先运行 `<CLI> answer --help`。
 
+### 发现问题与查看回答摘要
+
+```text
+<CLI> question recommend --count 5
+<CLI> question recommend --query "用户指定的主题" --count 5
+<CLI> question answers --question-url "https://www.zhihu.com/question/123" --limit 20
+```
+
+- 使用 `question recommend` 推荐问题：用户未指定主题时省略 `--query`，明确给出主题时传入 `--query`。不能传空值或纯空白，也不自行编造主题。
+- `answers` 返回服务提供的 `Summary`，不把它描述成 AI 摘要，也不当作回答全文。
+- 单页可能不足 `Limit` 或为空；以 `Paging.IsEnd` 判断结束。用户需要更多回答时，将 `NextOffset` 传给 `--offset`，不按条数计算偏移。若 `IsEnd=false` 但缺少 `NextOffset`，停止自动翻页并报告分页信息不完整。
+
 ### 查看我的创作和关注
 
 ```text
@@ -111,7 +148,18 @@ Skill 包不携带 CLI 二进制。setup 获得用户授权后，从发布时注
 <CLI> me followees --offset 0 --limit 20
 ```
 
-创作接口只返回标题与摘要，不把 `Summary` 当作完整正文。分页响应的 `Paging.IsEnd=false` 时，只有用户需要更多结果才使用 `NextOffset` 请求下一页。
+`me contents` 列表只返回标题与摘要，不把 `Summary` 当作完整正文。分页响应的 `Paging.IsEnd=false` 时，只有用户需要更多结果才使用 `NextOffset` 请求下一页。
+
+### 查看本人全文、评论和创作数据
+
+先阅读 [创作能力](references/creator.md)，按用户目标选取单一能力。全文与评论分别调用，不默认联查。
+
+```text
+<CLI> me content --content-url "https://zhuanlan.zhihu.com/p/123"
+<CLI> me comments --content-url "https://www.zhihu.com/answer/123" --limit 20
+<CLI> me stats --type all
+<CLI> me content-stats --content-url "https://zhuanlan.zhihu.com/p/123"
+```
 
 ### 查看我的收藏
 
@@ -151,10 +199,21 @@ Skill 包不携带 CLI 二进制。setup 获得用户授权后，从发布时注
 ```
 
 - 用户询问“还剩多少额度”时调用 `quota`；不定时轮询，也不为每次普通请求预先查询。
-- 默认返回全网搜、知乎搜索、热榜、知乎用户数据、直答、知识库和小工具 7 个统一额度项。
-- 用户只关心部分能力时重复传入 `--api-id`；合法值为 `global_search`、`zhihu_search`、`hot_list`、`user_data`、`zhida_openai`、`knowledge`、`tools`。
+- 默认返回全网搜、知乎搜索、热榜、知乎问题回答、知乎用户数据、创作能力、直答、知识库和小工具 9 个统一额度项。
+- 用户只关心部分能力时重复传入 `--api-id`；合法值为 `global_search`、`zhihu_search`、`hot_list`、`question_answers`、`user_data`、`creator`、`zhida_openai`、`knowledge`、`tools`。
+- 问题回答摘要使用 `question_answers`；两种问题推荐与本人全文、评论、账号统计、单篇统计共用 `creator`。默认每个租户、每个能力组每日 100 次，未实名等低额度用户为 10 次，实际额度以 `quota` 查询结果为准。
 - 知识库和小工具分别使用 `knowledge`、`tools` 统一额度。
 - 用 `TotalQuota`、`TotalUsed`、`RemainingQuota` 回答当前自然日状态；查询本身不消耗这些业务额度。
+
+## 知乎黑客松
+
+按当前任务读取对应资料，无需一次加载全部文档：
+
+- 报名、组队、建项、赛程及交付材料：[参赛与项目流程](references/hackathon.md)。报名、邀请队员和提交作品等外部操作按用户明确请求执行。
+- 赛事应用凭证、知乎登录、会话及用户数据接入：[黑客松 OAuth 接入](references/hackathon-oauth.md)；基础信息的字段与错误处理见 [授权用户基础信息 API](references/hackathon-user-profile-api.md)。
+- 活动故事、知识列表及正文：[活动内容 API](references/hackathon-content-api.md)。这些接口无需鉴权，适用范围限于文档列明的活动。
+
+OAuth 用户的创作列表提供标题与摘要。本人全文、评论和统计仍遵循 [创作能力](references/creator.md) 的本人身份限制。
 
 ## 呈现搜索结果
 
@@ -177,8 +236,9 @@ Skill 包不携带 CLI 二进制。setup 获得用户授权后，从发布时注
 - 在代码或服务中直接接入公共内容 API：读取 [HTTP API 文档](references/http-api.md)。
 - 知识库命令、上传进度和 HTTP 字段：读取 [CLI 使用文档](references/cli.md) 和 [HTTP API 文档](references/http-api.md) 的知识库章节。
 - 额度命令、公开 APIID 和 HTTP 字段：读取 [CLI 使用文档](references/cli.md) 和 [HTTP API 文档](references/http-api.md) 的额度章节。
-- 开发本人或 OAuth 授权用户的创作、关注和收藏能力：读取 [用户数据 API](references/user-api.md)。
-- 开发“知乎登录”或代表其他已授权用户访问数据：同时读取 [OAuth 应用集成](references/oauth.md) 和 [用户数据 API](references/user-api.md)。CLI 日常调用不使用 OAuth。
+- 问题发现、回答摘要及分页：读取 [CLI 使用文档](references/cli.md) 和 [HTTP API 文档](references/http-api.md) 的问题章节。
+- 开发本人或 OAuth 授权用户的创作列表、关注和收藏能力：读取 [用户数据 API](references/user-api.md)；本人全文、评论和统计读取 [创作能力](references/creator.md)。
+- 黑客松以外的应用开发“知乎登录”或代表其他已授权用户访问数据：读取 [OAuth 应用集成](references/oauth.md)，需要创作列表、关注或收藏时再读取 [用户数据 API](references/user-api.md)。CLI 日常调用不使用 OAuth。
 - 在 MCP 客户端中配置知乎现有服务：读取 [MCP 接入文档](references/mcp.md)。本 Skill 不建设新的 MCP Server。
 
 日常调用不要自行重写 CLI 已封装的 HTTP 鉴权、时间戳、重试和错误处理。根据对应命令返回的 `Code`、`Message`、`Data` 或 Chat Completions 字段处理结果。
