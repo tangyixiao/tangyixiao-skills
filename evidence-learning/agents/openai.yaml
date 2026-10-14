@@ -1,0 +1,4 @@
+interface:
+  display_name: "证据式学习"
+  short_description: "用独立作答、延迟复测和变式证据改进高中、信奥与 AI 辅助学习"
+  default_prompt: "使用 $evidence-learning，根据我的真实记录确定一个学习目标、合适的方法和下一次检验。"

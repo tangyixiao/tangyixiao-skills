@@ -1,0 +1,11 @@
+.env
+.env.*
+*.pem
+*.key
+__pycache__/
+.DS_Store
+Thumbs.db
+.obsidian/
+private/
+sessions/
+*.local.*
