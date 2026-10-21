@@ -1,0 +1,15 @@
+{
+  "id": "calibrated-directness",
+  "source_type": "user-supplied archive",
+  "archive_name": "calibrated-directness-skill.zip",
+  "archive_sha256": "cfc2f0ca067b3cb13727f08241da23abefa2d5ba4229fe54ff6393985a64b2da",
+  "input_sha256": {
+    "calibrated-directness/README.md": "b962079ba30cedde28b3bf4170e324e1a55b393bf56a21b5abc0092726416fb8",
+    "calibrated-directness/SKILL.md": "74b180154983b70c98eb6e8bf7931fe1fbfe691d138b0ccde70a577e4a558c29",
+    "calibrated-directness/GLOBAL-INSTRUCTIONS.md": "5d44494c06405b6846019d3088ca918d6b1460f3065995ae071fe53e67b91d82"
+  },
+  "license_file": "LICENSES/calibrated-directness.txt",
+  "license_sha256": "d5a6137ecb3a09db52d6246ab27280be3e4762442eb2890f18daeb42c4faae9f",
+  "license_authorization": "The supplying user confirmed authority and explicitly authorized MIT publication on 2026-10-21.",
+  "contribution": "Answer-first style, proportionate caveats, honest capability reporting, fewer nonessential clarifications, and calm correction without defensive explanations."
+}

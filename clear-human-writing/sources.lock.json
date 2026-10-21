@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "retrieved_on": "2026-10-21",
+  "sources": [
+    {
+      "id": "academic-humanizer",
+      "repository": "https://github.com/AIScientists-Dev/academic-humanizer",
+      "commit": "94b88b23703bed7df507acae7d6d5876209a0cdf",
+      "paths": [
+        "SKILL.md"
+      ],
+      "license_file": "LICENSES/academic-humanizer.txt",
+      "license_sha256": "d0d121e36d849e451d8e75eb62481d3d2e02d74a6552b89503444170de4af8c8",
+      "input_sha256": {
+        "SKILL.md": "1f4501cb7331cffe9018960f8db045c719eea0658ce04e4af5e273ee59785a9c"
+      },
+      "contribution": "Academic precision, evidence calibration, author voice and proposal mode."
+    },
+    {
+      "id": "agent-toolkit",
+      "repository": "https://github.com/softaworks/agent-toolkit",
+      "commit": "3027f20f3181758385a1bb8c022d4041dfb4de84",
+      "paths": [
+        "skills/humanizer/SKILL.md",
+        "skills/writing-clearly-and-concisely/SKILL.md"
+      ],
+      "license_file": "LICENSES/agent-toolkit.txt",
+      "license_sha256": "c35fc1ec8678412787692308f37bfe538f79b8bc7f0df70effa1eb82051dce03",
+      "input_sha256": {
+        "skills/humanizer/SKILL.md": "6688e4e292ab4f235e2a27f5193a7d048657c74b26ed6000398ee3371c9c3a4b",
+        "skills/writing-clearly-and-concisely/SKILL.md": "c5f4ecc8bfa7984d0df70d30cea3bfeb824f7b24d31db111d5a1a9a959880575"
+      },
+      "contribution": "AI-pattern diagnosis, concise prose and paragraph organization."
+    },
+    {
+      "id": "blader-humanizer",
+      "repository": "https://github.com/blader/humanizer",
+      "commit": "8c307f367c91bd974002f10f2be2965d642c13df",
+      "paths": [
+        "SKILL.md"
+      ],
+      "license_file": "LICENSES/blader-humanizer.txt",
+      "license_sha256": "caa1be9cba41c1afb88fe730ab1a4e04728295ea5b29ac2ee9f003a4ffbe3a77",
+      "input_sha256": {
+        "SKILL.md": "0612f1dfb1672b0ea9b97e139bf1f06cabe98d8b27424fe8ff01e1fb4cc99cad"
+      },
+      "contribution": "Structural writing patterns, reader context, voice matching and factual preservation."
+    },
+    {
+      "id": "anti-defensive-writing",
+      "repository": "https://github.com/Kiterlin/anti-defensive-writing",
+      "commit": "f516147d017a3fe43ae99192cb89d8261b0c8679",
+      "paths": [
+        "SKILL.md"
+      ],
+      "license_file": "LICENSES/anti-defensive-writing.txt",
+      "license_sha256": "b555b6829b575c47560ce5042b3c3c83e8bdbdc37ba5079b39c365a857415ec9",
+      "input_sha256": {
+        "SKILL.md": "287e3d05aeabf6409fa53b74a124ee0d897338009be2c04d3e38c352ca74a3c1"
+      },
+      "contribution": "Positive scope, evidence-calibrated directness, adverse results and Chinese SOP precision."
+    },
+    {
+      "id": "calibrated-directness",
+      "source_type": "user-supplied archive",
+      "archive_name": "calibrated-directness-skill.zip",
+      "archive_sha256": "cfc2f0ca067b3cb13727f08241da23abefa2d5ba4229fe54ff6393985a64b2da",
+      "input_sha256": {
+        "calibrated-directness/README.md": "b962079ba30cedde28b3bf4170e324e1a55b393bf56a21b5abc0092726416fb8",
+        "calibrated-directness/SKILL.md": "74b180154983b70c98eb6e8bf7931fe1fbfe691d138b0ccde70a577e4a558c29",
+        "calibrated-directness/GLOBAL-INSTRUCTIONS.md": "5d44494c06405b6846019d3088ca918d6b1460f3065995ae071fe53e67b91d82"
+      },
+      "license_file": "LICENSES/calibrated-directness.txt",
+      "license_sha256": "d5a6137ecb3a09db52d6246ab27280be3e4762442eb2890f18daeb42c4faae9f",
+      "license_authorization": "The supplying user confirmed authority and explicitly authorized MIT publication on 2026-10-21.",
+      "contribution": "Answer-first style, proportionate caveats, honest capability reporting, fewer nonessential clarifications, and calm correction without defensive explanations."
+    }
+  ]
+}

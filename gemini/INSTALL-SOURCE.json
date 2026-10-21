@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/softaworks/agent-toolkit",
+  "commit": "3027f20f3181758385a1bb8c022d4041dfb4de84",
+  "path": "skills/gemini",
+  "installed_name": "gemini",
+  "frontmatter_changes": [
+    "description: comparison symbol replaced with equivalent words for Codex validation"
+  ]
+}

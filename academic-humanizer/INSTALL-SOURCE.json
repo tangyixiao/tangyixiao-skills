@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/AIScientists-Dev/academic-humanizer",
+  "commit": "94b88b23703bed7df507acae7d6d5876209a0cdf",
+  "path": ".",
+  "installed_name": "academic-humanizer",
+  "frontmatter_changes": [
+    "compatibility moved to metadata.upstream-compatibility",
+    "version moved to metadata.upstream-version"
+  ]
+}

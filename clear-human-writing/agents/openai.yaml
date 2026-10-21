@@ -1,0 +1,4 @@
+interface:
+  display_name: "Clear Human Writing / 自然准确直接"
+  short_description: "Natural Chinese and English prose with facts and voice intact"
+  default_prompt: "Use $clear-human-writing to revise this text for natural, direct expression while preserving its facts, evidence, and my voice."
