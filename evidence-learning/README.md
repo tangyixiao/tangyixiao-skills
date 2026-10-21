@@ -19,6 +19,7 @@
 | 规划高中后续阶段，选择准备尝试的方法 | [未来学习与方法试验](references/future-methods.md) |
 | 避免把听懂记成掌握，判断方法有无帮助 | [能力证据与指标](references/evidence.md) |
 | 让 AI 辅助讲解、提示、批改和接续 | [Skill 入口](SKILL.md) |
+| 按平盖尔材料选具体做法或追溯某期视频 | [方法入口](references/pingaier-methods.md)、[完整方法库](references/pingaier-method-library.md)、[149条材料索引](references/pingaier-corpus.md) |
 | 查研究依据和适用边界 | [来源与证据边界](references/sources.md) |
 | 直接开始记录 | [学习记录模板](assets/session.md)、[接续模板](assets/handoff.md)、[方法试验模板](assets/experiment.md) |
 

@@ -4,8 +4,9 @@
 
 ## 同步范围
 
-- 来源：`C:\Users\tangy\.codex\skills`
-- 当前同步：所有包含顶层 `SKILL.md` 的用户 skill
+- 来源：`C:\Users\tangy\.codex\skills` 与 `C:\Users\tangy\.agents\skills`
+- 当前同步：两个来源中所有包含顶层 `SKILL.md` 的用户 skill；同名副本先比对内容，一致时只保留一份，有冲突时先报告，不相互覆盖
+- 插件托管缓存由插件管理，不混入用户 skill 备份
 - 排除：Codex 自带的 `.system`、嵌套 `.git`、常见缓存目录，以及 `.env`、私钥等运行时凭据
 - 每次同步保留 skill 的脚本、参考资料、资源和许可证文件
 
