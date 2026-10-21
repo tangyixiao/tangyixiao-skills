@@ -10,7 +10,7 @@
         "SKILL.md"
       ],
       "license_file": "LICENSES/academic-humanizer.txt",
-      "license_sha256": "d0d121e36d849e451d8e75eb62481d3d2e02d74a6552b89503444170de4af8c8",
+      "license_sha256": "95201f07cd5d4454f205a53a65337cbe00298a4d21a4e68a1fc516958e7cdaf9",
       "input_sha256": {
         "SKILL.md": "1f4501cb7331cffe9018960f8db045c719eea0658ce04e4af5e273ee59785a9c"
       },
@@ -25,7 +25,7 @@
         "skills/writing-clearly-and-concisely/SKILL.md"
       ],
       "license_file": "LICENSES/agent-toolkit.txt",
-      "license_sha256": "c35fc1ec8678412787692308f37bfe538f79b8bc7f0df70effa1eb82051dce03",
+      "license_sha256": "4b4447da5344f8b2d3a8a19ba8366d1ac7a24d9ab4690bd04576dc772ddf8321",
       "input_sha256": {
         "skills/humanizer/SKILL.md": "6688e4e292ab4f235e2a27f5193a7d048657c74b26ed6000398ee3371c9c3a4b",
         "skills/writing-clearly-and-concisely/SKILL.md": "c5f4ecc8bfa7984d0df70d30cea3bfeb824f7b24d31db111d5a1a9a959880575"
@@ -40,7 +40,7 @@
         "SKILL.md"
       ],
       "license_file": "LICENSES/blader-humanizer.txt",
-      "license_sha256": "caa1be9cba41c1afb88fe730ab1a4e04728295ea5b29ac2ee9f003a4ffbe3a77",
+      "license_sha256": "4ac4810254ab36d45419141aeb8e69bf50652cfafe5b2dab947d06d44e5cbf96",
       "input_sha256": {
         "SKILL.md": "0612f1dfb1672b0ea9b97e139bf1f06cabe98d8b27424fe8ff01e1fb4cc99cad"
       },
@@ -54,7 +54,7 @@
         "SKILL.md"
       ],
       "license_file": "LICENSES/anti-defensive-writing.txt",
-      "license_sha256": "b555b6829b575c47560ce5042b3c3c83e8bdbdc37ba5079b39c365a857415ec9",
+      "license_sha256": "cc3d842a912f0ed1fc80ae8d2ca7ab6cff37756422069424bf2edec554219fc9",
       "input_sha256": {
         "SKILL.md": "287e3d05aeabf6409fa53b74a124ee0d897338009be2c04d3e38c352ca74a3c1"
       },
@@ -71,7 +71,7 @@
         "calibrated-directness/GLOBAL-INSTRUCTIONS.md": "5d44494c06405b6846019d3088ca918d6b1460f3065995ae071fe53e67b91d82"
       },
       "license_file": "LICENSES/calibrated-directness.txt",
-      "license_sha256": "d5a6137ecb3a09db52d6246ab27280be3e4762442eb2890f18daeb42c4faae9f",
+      "license_sha256": "c3897bd62e7cdfedf8c6c6723ae362cbdf247c76cddc8d9ca00a12be550a0f54",
       "license_authorization": "The supplying user confirmed authority and explicitly authorized MIT publication on 2026-10-21.",
       "contribution": "Answer-first style, proportionate caveats, honest capability reporting, fewer nonessential clarifications, and calm correction without defensive explanations."
     }
