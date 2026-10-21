@@ -61,6 +61,9 @@ oi-coach/
 ├── SKILL.md                         核心流程、提示与掌握规则
 ├── agents/openai.yaml               Codex 显示信息
 ├── references/adaptive-teaching.md   教学蓝本、自然语言与动态教学协议
+├── references/periodic-review.md     低负担复习与真实证据记录
+├── references/pingaier-method-library.md  46项按困难选用的方法
+├── references/pingaier-corpus.md     149条来源卡与音画覆盖边界
 ├── examples/teaching-cases.md        课堂片段与行为检查案例
 ├── README.md
 └── LICENSE

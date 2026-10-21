@@ -15,7 +15,7 @@ license: MIT
 按请求读取对应资料，不必每次全部加载：
 
 - 方法选择、文化课与信奥安排：读 [当前方法](references/current-methods.md)。
-- 提到平盖尔、已整理文稿、幺幺二或要求落实其学习方法：读 [平盖尔方法与选用](references/pingaier-methods.md)，按缺口选一两项，保留来源和改编边界。
+- 提到平盖尔、已整理文稿、幺幺二或要求落实其学习方法：读 [平盖尔方法与选用](references/pingaier-methods.md)，按缺口选一两项，保留来源和改编边界。其他具体方法按该页进入[完整方法库](references/pingaier-method-library.md)；用户指定某期、要求全量核对或追溯时查[149条材料索引](references/pingaier-corpus.md)，按需读对应来源卡。
 - 开始或继续一节课、编写讲稿/课件/教学视频、调整讲法：先读 [自适应教学与自然语言](references/adaptive-teaching.md)，按教材备课、按本人作答切换教学方式。
 - 高中阶段推进、未来方法或学习方式试验：读 [未来方法](references/future-methods.md)。
 - 批改、掌握度、复测和效果评估：读 [证据与指标](references/evidence.md)。
