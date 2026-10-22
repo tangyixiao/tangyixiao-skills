@@ -99,6 +99,10 @@ $clear-human-writing 修改 SOP 的第二节。保留操作顺序、阈值、禁
 
 ## 验证与评估
 
+GitHub Actions 使用 [.github/workflows/validate.yml](.github/workflows/validate.yml) 在推送、PR 和手动运行时执行校验。运行记录见仓库的 [Actions 页面](https://github.com/tangyixiao/clear-human-writing/actions)。工作流只授予仓库内容读取权限，使用 Python 3.12，依赖的 Actions 固定到具体提交。
+
+本地可以运行相同校验：
+
 ```sh
 python scripts/validate.py
 ```

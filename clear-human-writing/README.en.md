@@ -62,6 +62,13 @@ and funder rules must be checked against official guidance when needed.
 
 ## Validate
 
+GitHub Actions runs [.github/workflows/validate.yml](.github/workflows/validate.yml)
+on pushes, pull requests, and manual dispatch. See [workflow runs](https://github.com/tangyixiao/clear-human-writing/actions).
+The workflow grants only read access to repository contents, uses Python 3.12,
+and pins its actions to commit SHAs.
+
+Run the same check locally:
+
 ```sh
 python scripts/validate.py
 ```
