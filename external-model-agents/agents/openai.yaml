@@ -1,0 +1,5 @@
+interface:
+  display_name: "External Model Agents"
+  short_description: "Delegate bounded tasks to WorkBuddy, ZCode and OpenCode models"
+policy:
+  allow_implicit_invocation: true
