@@ -2,10 +2,33 @@
   "repo": "tangyixiao/tangyixiao-skills",
   "sourceBranch": "main",
   "sourceCommit": "39dec3b21baecd41da0792738600372627ee9516",
+  "designVersion": 3,
+  "direction": {
+    "visualConcept": "紫灰与杏色的个人技能索引柜：大标题像柜门标签，真实 skill 目录以可检索的书脊组成不规则书架，文档、脚本与许可用展开折页呈现。事实边界：用户 skills 备份与按任务同步，不是自动联网市场，不把数量写成实时能力，也不暗示后台 watcher。",
+    "layout": "catalog",
+    "palette": {
+      "light": {
+        "bg": "#E8E0EA",
+        "surface": "#F6ECDD",
+        "ink": "#392B40",
+        "muted": "#6e5d72",
+        "accent": "#674075"
+      },
+      "dark": {
+        "bg": "#211B27",
+        "surface": "#34293B",
+        "ink": "#F2E8EC",
+        "muted": "#bda8c0",
+        "accent": "#d8a6d9"
+      }
+    },
+    "threeConcept": "Three.js 创建按真实目录名标记的杏色索引薄册与紫灰抽屉，只取页面已展示的有限集合；抽出时露出 SKILL.md / scripts / references 三张纸，不伪造整个市场规模或安装状态。",
+    "distinctiveInteraction": "输入目录名做纯本地索引过滤，选中书脊展开其 GitHub 路径；同步说明可按“比较→核对→提交”顺序翻页，不自动安装或触发同步。"
+  },
   "media": [],
   "skills": [
     "baoyu-design",
     "design-taste-frontend"
   ],
-  "design": "content-first source/product/photography; no rejected template or faux 3D"
+  "flagshipModel": null
 }
