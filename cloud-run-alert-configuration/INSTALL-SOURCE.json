@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/cloud-run-alert-configuration",
+  "installed_name": "cloud-run-alert-configuration",
+  "original_name": "cloud-run-alert-configuration",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "eb07be009c910f0f6cea51c8bdf3492da52528619089ca9d49237abfc9ea8033",
+  "installed_skill_sha256": "02775ccadcb7fdc018943b589b39416bd34954370822e82b2f7ac3e1156d37d7"
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/google-cloud-scc-remediation",
+  "installed_name": "google-cloud-scc-remediation",
+  "original_name": "google-cloud-scc-remediation",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "d90573c27a29b7d49dd203df532aab5d48c407c9b4d493eb0827811f655f3ff7",
+  "installed_skill_sha256": "39117e2a486ab91f0eb1c40a0a8dbf89ff9eb8acda99683b68ee59da86c5f80d"
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/addyosmani/agent-skills",
+  "commit": "301b02b12bff98e4688e6984af6556802322bbde",
+  "path": "skills/context-engineering",
+  "installed_name": "context-engineering",
+  "original_name": "context-engineering",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "5ee2929d3aded01587aa24fc9907693c8820f87f807ea0c52a263af718b62d0b",
+  "installed_skill_sha256": "68516d6faeb83c0b8944c62c48d451724461bfc4cafea2000f9365a9f3932577"
+}

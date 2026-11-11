@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/google-cloud-solution-hybrid-search-alloydb",
+  "installed_name": "google-cloud-solution-hybrid-search-alloydb",
+  "original_name": "google-cloud-solution-hybrid-search-alloydb",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "375437b165cdb2738a74e1e95b6a3f6c9f980981bc27271023eb649278265e2c",
+  "installed_skill_sha256": "52dcce92b0414fb24ffd0363eedc2e4907b63a5401ee79e3983aec6b1c431d3b"
+}

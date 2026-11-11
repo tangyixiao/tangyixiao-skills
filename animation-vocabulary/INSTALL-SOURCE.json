@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/emilkowalski/skills",
+  "commit": "715c1807e08c497cfd1dc4feb450a2a3300ef2a9",
+  "path": "skills/animation-vocabulary",
+  "installed_name": "animation-vocabulary",
+  "original_name": "animation-vocabulary",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "40d2b27adfdfeb0570a9f20e7d0255109d9233c50603878bcd0dcd04c923fd94",
+  "installed_skill_sha256": "efb8a000d2823b36a81dc09ac7919ad2440fc7eac7edc052ecbdbb2df4c5fbde"
+}

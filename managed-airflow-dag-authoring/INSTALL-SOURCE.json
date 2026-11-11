@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/managed-airflow-dag-authoring",
+  "installed_name": "managed-airflow-dag-authoring",
+  "original_name": "managed-airflow-dag-authoring",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "54a64ea556820bd35effb3c68cd1101769c5ffe1fce65ae8233d68cff1c074a8",
+  "installed_skill_sha256": "6c8dfc8d2c5ebb5f93830049c9e66ac350c25d6b97b60b74998905f35c350208"
+}

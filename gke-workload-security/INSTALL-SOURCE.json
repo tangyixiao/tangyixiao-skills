@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-workload-security",
+  "installed_name": "gke-workload-security",
+  "original_name": "gke-workload-security",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "2c30e7ab0b9a3a36980a0d2a9f212a80db17ba00f022ed2a79210e5215c21dc1",
+  "installed_skill_sha256": "5eaacd0c356e3cf03c1c9c2249e0ee30b09d26ec3fd93c8b009cf41dde3c15a8"
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/google-cloud-filestore-log-troubleshooting",
+  "installed_name": "google-cloud-filestore-log-troubleshooting",
+  "original_name": "google-cloud-filestore-log-troubleshooting",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "38881f97b175dde28b408c08ab0d0e369bcdcb0b5158311a7d6271b607e816dd",
+  "installed_skill_sha256": "2a1e2cf37c341050d44d10021f4d174117cebbe5dcfacddad4697e74ef726eff"
+}

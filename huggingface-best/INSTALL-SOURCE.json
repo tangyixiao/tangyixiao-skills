@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/huggingface/skills",
+  "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+  "path": "skills/huggingface-best",
+  "installed_name": "huggingface-best",
+  "original_name": "huggingface-best",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "4566c02cb6da804dcc434b6b4d48a1895e937157cdaec4ec4c523a2f97cf16d0",
+  "installed_skill_sha256": "52cbc61836502abdcd49530da8991a3719bfcad61fac9720e6cd42bdc5e2f780"
+}

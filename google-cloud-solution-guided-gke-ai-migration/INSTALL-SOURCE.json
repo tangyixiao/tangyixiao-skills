@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/google-cloud-solution-guided-gke-ai-migration",
+  "installed_name": "google-cloud-solution-guided-gke-ai-migration",
+  "original_name": "google-cloud-solution-guided-gke-ai-migration",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "9b296ff2579811657e5279896fab4c779e75448256d590d73cb7665d2481a079",
+  "installed_skill_sha256": "0c2844569961979345a4eb442fece0a1beb8633ff011a33f03205efd60cb6667"
+}

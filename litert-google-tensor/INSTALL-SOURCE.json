@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/platform-devices/litert-google-tensor",
+  "installed_name": "litert-google-tensor",
+  "original_name": "litert-google-tensor",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "0195bec666d1bacd30891fc72363592dab7a7a6a18c811289fae2e5a5e81669e",
+  "installed_skill_sha256": "5dc519dc72c17d36ddee52156bcafe99c72eb79fb3def160f7e0ee91ae291637"
+}

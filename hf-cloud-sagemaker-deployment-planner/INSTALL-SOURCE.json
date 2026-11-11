@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/huggingface/skills",
+  "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+  "path": "skills/hf-cloud-sagemaker-deployment-planner",
+  "installed_name": "hf-cloud-sagemaker-deployment-planner",
+  "original_name": "hf-cloud-sagemaker-deployment-planner",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "2538e5f705466ef2912c07eb4311befc29940f026dfd17720242e4c976a8d8e9",
+  "installed_skill_sha256": "38d148531f75869d4b832d9470919425cb0860eab76a0c24894e08dfcb7596e1"
+}

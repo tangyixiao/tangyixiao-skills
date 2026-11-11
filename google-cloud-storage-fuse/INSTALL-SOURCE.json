@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/google-cloud-storage-fuse",
+  "installed_name": "google-cloud-storage-fuse",
+  "original_name": "google-cloud-storage-fuse",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "7c809ae1472b6b5f1bda1a053b3ec41bb210c83bca6782e8d23da01dbd8985bd",
+  "installed_skill_sha256": "32b5264edad85d19a130307f90d3e7773037ff81cf562ac121c9444bcb3ba4c0"
+}

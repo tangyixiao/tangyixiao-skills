@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/addyosmani/agent-skills",
+  "commit": "301b02b12bff98e4688e6984af6556802322bbde",
+  "path": "skills/spec-driven-development",
+  "installed_name": "spec-driven-development",
+  "original_name": "spec-driven-development",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "b9d05b4259c14550bbffbaafd8201492129926d37ede716db352c6e4f91b404d",
+  "installed_skill_sha256": "40fe23d92ccacfcbffa3df588f8199513633beea6f8435abaf391d9f72c27011"
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/analytics/google-analytics-admin-api-basics",
+  "installed_name": "google-analytics-admin-api-basics",
+  "original_name": "google-analytics-admin-api-basics",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "e925587b9be8c40e449a3236de0f296719fda77c72b7b01dd8b336147a6ee33f",
+  "installed_skill_sha256": "215afd9df167b12ffe661655a172f3ecf8d9c73e1ba2326358bbffcc6b8dca33"
+}

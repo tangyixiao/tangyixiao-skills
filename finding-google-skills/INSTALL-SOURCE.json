@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/developers/finding-google-skills",
+  "installed_name": "finding-google-skills",
+  "original_name": "finding-google-skills",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "8b44ec77a39e0ef0bb428ae6dc646d61edd9d0ceac749e7be8175108991cf8c1",
+  "installed_skill_sha256": "fab2ba648f0cbb412c9a9b8ad0a631e2658bd96529740d2b2b99288d24fc4dbc"
+}

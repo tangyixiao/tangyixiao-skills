@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/google-cloud-storage-diagnostic",
+  "installed_name": "google-cloud-storage-diagnostic",
+  "original_name": "google-cloud-storage-diagnostic",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "151d7e135e6ef098e6a65af8113017799ec1d54c6d9cf23dd65ed3b0f3e40f7c",
+  "installed_skill_sha256": "56469e00e1ff6364e35b24d08e991be63f3358912f467763144153d1352ef7e0"
+}

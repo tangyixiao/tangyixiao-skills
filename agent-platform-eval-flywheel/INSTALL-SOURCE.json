@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/agent-platform-eval-flywheel",
+  "installed_name": "agent-platform-eval-flywheel",
+  "original_name": "agent-platform-eval-flywheel",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "17ba2fac40d1c5c9dce0b0346288dc787311788de721182af78e2342d605ce91",
+  "installed_skill_sha256": "2d717f1ccf7f16c6a96cc79331a787eaf4694c0c3bf0494f0429ec00bef80f05"
+}

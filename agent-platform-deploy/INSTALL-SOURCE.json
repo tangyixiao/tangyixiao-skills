@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/agent-platform-deploy",
+  "installed_name": "agent-platform-deploy",
+  "original_name": "agent-platform-deploy",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "22d7334c1cf129825fd3c8dff7d56ba4e84fd4707856b465d4c5256dcb945519",
+  "installed_skill_sha256": "f6b319140e8bee4042ec6a4b05869c531820f922bbefea21481438ab5f89ec27"
+}

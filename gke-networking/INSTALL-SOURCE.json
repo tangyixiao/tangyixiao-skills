@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-networking",
+  "installed_name": "gke-networking",
+  "original_name": "gke-networking",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "b7f96f68c011ef86e194aa3911b043f61b247ef3b61d501c3afb14c932a7612e",
+  "installed_skill_sha256": "b8b9d4cd78791b1e8e32279a39bdc6f835e4c40bbe3436cd55d5612f3d6350ad"
+}

@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/mattpocock/skills",
+  "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+  "path": "skills/engineering/grill-with-docs",
+  "installed_name": "grill-with-docs",
+  "original_name": "grill-with-docs",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "disable-model-invocation moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "7de372c13488f1ee96cc11cd8907b56b6809cc93eef776eeddd37de6b6cbe3fe",
+  "installed_skill_sha256": "fd6ae032bfdc54c4ef9d1fcc9855c681950226463a42ef37e9015a77c326d456"
+}

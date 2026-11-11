@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/developing-genkit-go",
+  "installed_name": "developing-genkit-go",
+  "original_name": "developing-genkit-go",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "a9521fa7758eafe9817a3fc17b816edd56122585bc48ed249087ba30cfab548e",
+  "installed_skill_sha256": "f7cdf7816f699ca3d4b53be94b6751322a0bd8314fbbb99d00606732251aef6f"
+}

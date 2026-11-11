@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/cloud-operator",
+  "installed_name": "cloud-operator",
+  "original_name": "cloud-operator",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "6131b908caf1ab1213af6c7e0c091957dc4e79d2543d773068c2648e96dd5dca",
+  "installed_skill_sha256": "f74793f72005445960fff9e12b8dee790830a9e42ef3cc8bc8a3f36872487974"
+}

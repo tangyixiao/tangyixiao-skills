@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-multitenancy",
+  "installed_name": "gke-multitenancy",
+  "original_name": "gke-multitenancy",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "eb60874b5f37992a541b90143218dbffe669bb18a50193059ca9bd7884b0de21",
+  "installed_skill_sha256": "98a6716104a44344e089f28c3a9e9b55a4249b29de889bf9962b2b11c3b01211"
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-upgrades",
+  "installed_name": "gke-upgrades",
+  "original_name": "gke-upgrades",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "d775dd9d64c95aeb4ec0cf3bc01cc6e14776b472cd089c9d70ef1152b06cb605",
+  "installed_skill_sha256": "d0bb753e03966e8b55ae420b575a50cbfaf64cba35910cc51b73607dcc5aa6b3"
+}

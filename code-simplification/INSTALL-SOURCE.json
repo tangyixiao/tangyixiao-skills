@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/addyosmani/agent-skills",
+  "commit": "301b02b12bff98e4688e6984af6556802322bbde",
+  "path": "skills/code-simplification",
+  "installed_name": "code-simplification",
+  "original_name": "code-simplification",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "e13b433345e6bf425c3625442ac1b3507b371c18d7ea3e3db822da7a7f742a29",
+  "installed_skill_sha256": "c815507cd059488db985c3de396ee21defb15b12d1d8760ea998bb78f2c28d57"
+}

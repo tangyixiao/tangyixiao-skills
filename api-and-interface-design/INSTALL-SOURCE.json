@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/addyosmani/agent-skills",
+  "commit": "301b02b12bff98e4688e6984af6556802322bbde",
+  "path": "skills/api-and-interface-design",
+  "installed_name": "api-and-interface-design",
+  "original_name": "api-and-interface-design",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "cc5e2166c484b2c297e8253f56e7525e5031f81d66101ca4e760ef378ea6bad0",
+  "installed_skill_sha256": "ce9c3fd82cc70319748bb7df864f344632b8c39bb22cffd0eb6bf5d82fe1d45c"
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/google-cloud-networking-observability",
+  "installed_name": "google-cloud-networking-observability",
+  "original_name": "google-cloud-networking-observability",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "6bac4adad705797b11df96aa0cb4ea34805f3c445e7f83cbde006c7cabef950f",
+  "installed_skill_sha256": "1e3d6f27213a56bca09243a02b047e0831b829a03f6da3021b74e2134bb04e42"
+}

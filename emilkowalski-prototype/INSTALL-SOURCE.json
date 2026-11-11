@@ -1,0 +1,15 @@
+{
+  "repository": "https://github.com/emilkowalski/skills",
+  "commit": "715c1807e08c497cfd1dc4feb450a2a3300ef2a9",
+  "path": "skills/prototype",
+  "installed_name": "emilkowalski-prototype",
+  "original_name": "prototype",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "name adapted to avoid collision or satisfy Codex naming",
+    "disable-model-invocation moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "bba39c955eb1871c5a02733976ceec5d0324198e0812e667604756489c89f7b9",
+  "installed_skill_sha256": "28872fbdf5bd183de385adbab338570cb6e1b88bfbe5bf6e563d9d524d766934"
+}

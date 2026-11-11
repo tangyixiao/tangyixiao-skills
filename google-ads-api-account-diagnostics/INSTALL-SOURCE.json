@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/ads/google-ads-api-account-diagnostics",
+  "installed_name": "google-ads-api-account-diagnostics",
+  "original_name": "google-ads-api-account-diagnostics",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "compatibility moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "5845c59e9c90e17424f2451028fa83b9de0a985030e306bb54bac628facec5ed",
+  "installed_skill_sha256": "a55ac0e5d7d40002c38a20b95e8ea5ed9145da8ce9273f50d17dab6c0c4cfb7d"
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/huggingface/skills",
+  "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+  "path": "skills/huggingface-trackio",
+  "installed_name": "huggingface-trackio",
+  "original_name": "huggingface-trackio",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "540f52974f4f77c2455a7b37ed983da0dbfb0f5af3d2c482e4736f14f1cc8724",
+  "installed_skill_sha256": "6c9db1173a85235eb7dacbda57f2db89e8ec9ca36b2e707fac342cdd9085588b"
+}

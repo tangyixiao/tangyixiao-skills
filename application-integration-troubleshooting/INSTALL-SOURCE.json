@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/application-integration-troubleshooting",
+  "installed_name": "application-integration-troubleshooting",
+  "original_name": "application-integration-troubleshooting",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "036cb2175fb730e3ca18bcb8f5f56a85b7cb70a9f86bf82547dba68bdd79d153",
+  "installed_skill_sha256": "f2d3dc0e5a9e57a7d248a5728d11e4fb5ddf39d1f51a5795bce1354e3c32fef6"
+}

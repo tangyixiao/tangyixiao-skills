@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/huggingface/skills",
+  "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+  "path": "skills/hf-cloud-aws-context-discovery",
+  "installed_name": "hf-cloud-aws-context-discovery",
+  "original_name": "hf-cloud-aws-context-discovery",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "6b59128ea1834913b01ff6752d52e529d304ee6086e2edec5c7ce451f7a14dff",
+  "installed_skill_sha256": "00c02821b54c3998b86bc15ca1323beddebe1427f467327bc6bef11151b99f1c"
+}

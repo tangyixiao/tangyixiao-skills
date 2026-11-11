@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/huggingface/skills",
+  "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+  "path": "skills/hf-mem",
+  "installed_name": "hf-mem",
+  "original_name": "hf-mem",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "ee99f9d97e084aa61a80eaec4e6de2265341e71256d918d48fb87a2ac01ce99f",
+  "installed_skill_sha256": "cad57acfb57e7a4eb0ee07fee97b080bf63cca3a08b636921d803ce9c2ed863f"
+}

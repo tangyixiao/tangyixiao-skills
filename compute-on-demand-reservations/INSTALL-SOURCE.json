@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/compute-on-demand-reservations",
+  "installed_name": "compute-on-demand-reservations",
+  "original_name": "compute-on-demand-reservations",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "20699c87e40c9a9ec6acc8d99279d221d49fa71958cc6151351c87b7b3318c90",
+  "installed_skill_sha256": "e98708de777350ae5b6152d5ad413908d59712458abce873791896307ab137d5"
+}

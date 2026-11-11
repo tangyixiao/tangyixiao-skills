@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/JimLiu/baoyu-skills",
+  "commit": "ca703c2d7c2c4399a1dc0cf82224f8551e05a96d",
+  "path": "skills/baoyu-translate",
+  "installed_name": "baoyu-translate",
+  "original_name": "baoyu-translate",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "version moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "8ec2ce47110cc28aa5fa48c1cce46f9194caf67c7c368196fe65ded511e9d2c2",
+  "installed_skill_sha256": "9c90bd2b86e3453726982cb30d2975d9696e0c2cd954f198cf8a5e72c2d61d3f"
+}

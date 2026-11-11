@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/agent-platform-alert-configuration",
+  "installed_name": "agent-platform-alert-configuration",
+  "original_name": "agent-platform-alert-configuration",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "52f2b68b53c193526ff7b8e557f69b89e5976ad4196f21f2493d869e5f8d5b3c",
+  "installed_skill_sha256": "c908f0195d9622b72189fa66ec639bb53fce39a54037d9c65a2603b4b30ac0aa"
+}

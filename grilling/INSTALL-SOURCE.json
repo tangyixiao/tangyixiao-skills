@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/mattpocock/skills",
+  "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+  "path": "skills/productivity/grilling",
+  "installed_name": "grilling",
+  "original_name": "grilling",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "a146842ed93ca43d833550fa9adf02e58cb63c83fea9d4b4522995b82242d4e2",
+  "installed_skill_sha256": "e23a96d3dee7f5ee0bea36f45e5b9a099b2427ada7de807b71aa80c2f6a84dcc"
+}

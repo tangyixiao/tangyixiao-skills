@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/cloud-monitoring-notification-channels-configuration",
+  "installed_name": "cloud-monitoring-notification-channels-configuration",
+  "original_name": "cloud-monitoring-notification-channels-configuration",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "d755fb3816eccc17064dad3281c0e8a2ef8ab7feca5d172c3b3415d2d46ebaff",
+  "installed_skill_sha256": "3c14fdc8126fbd975a39057382a2ba372dfc8d025be331a751700ac7723d0c96"
+}

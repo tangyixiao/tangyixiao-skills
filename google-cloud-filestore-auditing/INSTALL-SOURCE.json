@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/google-cloud-filestore-auditing",
+  "installed_name": "google-cloud-filestore-auditing",
+  "original_name": "google-cloud-filestore-auditing",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "0a7ea29b63a37fa9032caccd719b504be7b97685f23c48703cb3440eb4410a81",
+  "installed_skill_sha256": "e0bce88af2d8c0d86917d1f34251e213a0b5adee1f58514a28c3ca3a39bc1858"
+}

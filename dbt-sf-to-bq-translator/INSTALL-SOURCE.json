@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/dbt-sf-to-bq-translator",
+  "installed_name": "dbt-sf-to-bq-translator",
+  "original_name": "dbt-sf-to-bq-translator",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "f2f4eb8c9628c67a10e78cd46c47f79bc71118cca3872aca7c2e360597013237",
+  "installed_skill_sha256": "534fe09a9f24649f15b87e85a5497141a6acce1128f95dd82a4ffb818f38f6c0"
+}

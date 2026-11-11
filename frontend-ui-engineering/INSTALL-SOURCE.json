@@ -1,0 +1,16 @@
+{
+  "repository": "https://github.com/addyosmani/agent-skills",
+  "commit": "301b02b12bff98e4688e6984af6556802322bbde",
+  "path": "skills/frontend-ui-engineering",
+  "installed_name": "frontend-ui-engineering",
+  "original_name": "frontend-ui-engineering",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "relocated references/aliases: SKILL.md"
+  ],
+  "shared_resource_roots": [
+    "references"
+  ],
+  "upstream_skill_sha256": "93a0ebffbb6075340d85255ae50724bc5e5e19b0fcbf2ae5d5857b9c5ddf9498",
+  "installed_skill_sha256": "b617870e8e87f5a1b39c76d4e63ded942b5b04d704c93b0213af961b6f6bb974"
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/google-cloud-recipe-onboarding",
+  "installed_name": "google-cloud-recipe-onboarding",
+  "original_name": "google-cloud-recipe-onboarding",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "f922dea42e381cad35279bf39432e2371abaf009255183e7340e4703f8ab5b61",
+  "installed_skill_sha256": "dcad822013af2fc62fe13322ffbe4eab74d0a4ec89362fd6549bb83700324ada"
+}

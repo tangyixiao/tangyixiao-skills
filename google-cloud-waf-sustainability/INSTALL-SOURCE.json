@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/google-cloud-waf-sustainability",
+  "installed_name": "google-cloud-waf-sustainability",
+  "original_name": "google-cloud-waf-sustainability",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "0788e132a4cd7408f09914a90a5bed0198c23fa76562377dfc919f642fac82a6",
+  "installed_skill_sha256": "90401d84c32d87c237a9f2087a7083e64a9812e6b518c0550206ad92434ecf34"
+}

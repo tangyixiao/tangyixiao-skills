@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gcloud",
+  "installed_name": "gcloud",
+  "original_name": "gcloud",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "4e8c58e24c71a42803ac211e8c03c5f6f22279960e66819c1ee14f984a4668be",
+  "installed_skill_sha256": "a2838735a05f06877f8a634f1630fda58d15740506cde9956f3e500ae6e5b2ae"
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/cloud-monitoring-chart-generation",
+  "installed_name": "cloud-monitoring-chart-generation",
+  "original_name": "cloud-monitoring-chart-generation",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "c3c402245ed2d136bcf14a43a7ee04ae63d2849cd944baa24e64db2a22af4b5d",
+  "installed_skill_sha256": "766aad26d5c11878ba6d76d7c21ad0cd8c5aa639a38c2fd149ced3e7f3134441"
+}

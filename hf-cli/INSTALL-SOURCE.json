@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/huggingface/skills",
+  "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+  "path": "skills/hf-cli",
+  "installed_name": "hf-cli",
+  "original_name": "hf-cli",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "a60115f0ca8fa0468e2e7878730925fc4dbf2fffdbed15391d14429a9830c4c1",
+  "installed_skill_sha256": "709be9a1a2fa2c380960c7845542d6415fd775e10e9b3e3fae46c8f39d6f5dde"
+}

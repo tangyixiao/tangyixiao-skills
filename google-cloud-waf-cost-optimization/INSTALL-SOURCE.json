@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/google-cloud-waf-cost-optimization",
+  "installed_name": "google-cloud-waf-cost-optimization",
+  "original_name": "google-cloud-waf-cost-optimization",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "d8a60befc391e24616e7dac371e1ccfd2ecb38b1c207bef3428f155bdb84f1d7",
+  "installed_skill_sha256": "780013ea37235c424630da7497f0def26318d2fcf20e798aaf51dd4088b883b6"
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/google-cloud-global-frontend-configuration",
+  "installed_name": "google-cloud-global-frontend-configuration",
+  "original_name": "google-cloud-global-frontend-configuration",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "226e8c9c2bfecc850492aca2fcc95ee16140f88263f185c7668a163a5cd3a6e4",
+  "installed_skill_sha256": "2e34c80383a49e9468c29f4d4af37715bd62363d12fec9e0c59c87756348f3a4"
+}

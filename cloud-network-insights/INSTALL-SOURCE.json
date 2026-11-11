@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/cloud-network-insights",
+  "installed_name": "cloud-network-insights",
+  "original_name": "cloud-network-insights",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "44dde9629f9fb4b1048aa451e63e413930fb1fd6ac16c564986955822e336793",
+  "installed_skill_sha256": "382552bcbd875f8f3cc987ff107a55a403dc0fdd0fbf2d0f9eaf649d3830e189"
+}

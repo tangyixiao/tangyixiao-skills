@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/mattpocock/skills",
+  "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+  "path": "skills/in-progress/setup-ts-deep-modules",
+  "installed_name": "setup-ts-deep-modules",
+  "original_name": "setup-ts-deep-modules",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "disable-model-invocation moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "29acca66ac99d4532e2a6f0370d8125d7cba1e87c9ac66573203c75189d3e6c7",
+  "installed_skill_sha256": "801a52278b80172743e0d1f154147f1bc9c3891c66dff224286094c58b58b910"
+}

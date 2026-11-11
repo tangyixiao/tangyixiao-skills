@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/pathways-workload",
+  "installed_name": "pathways-workload",
+  "original_name": "pathways-workload",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "f28aa41eae4415e4b7a7e51c06e4d4679c8da7d9aa89b6c34f935e114b072eaa",
+  "installed_skill_sha256": "129cb84b686bb06c9a07cb4b02f4ec9a063d79833318090df7b856f0bbdba84d"
+}

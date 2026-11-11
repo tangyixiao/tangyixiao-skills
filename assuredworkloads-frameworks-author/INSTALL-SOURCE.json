@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/assuredworkloads-frameworks-author",
+  "installed_name": "assuredworkloads-frameworks-author",
+  "original_name": "assuredworkloads-frameworks-author",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "6069aca85c0d6d877ac1e02ac474d0b5db7a65698db6263c2e61f22e92269139",
+  "installed_skill_sha256": "0045ce1c9ec282f978f4cd1698b93e5ec28c7b5fe0eb586e82e5b0595de4ff3b"
+}

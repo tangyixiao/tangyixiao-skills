@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/mattpocock/skills",
+  "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+  "path": "skills/in-progress/writing-fragments",
+  "installed_name": "writing-fragments",
+  "original_name": "writing-fragments",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "disable-model-invocation moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "298b0edd23df229183630de592ed8aa4289233560f2040691f6eb77caeaad4ea",
+  "installed_skill_sha256": "8498b4d5c4fb747eb382df57ed01dad9e309d656ac36f5434a97141c36ce7a98"
+}

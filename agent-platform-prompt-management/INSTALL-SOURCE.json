@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/agent-platform-prompt-management",
+  "installed_name": "agent-platform-prompt-management",
+  "original_name": "agent-platform-prompt-management",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "38eb838cbf01a64c4248bb661c16354601a6dadfb46699199ee9cdec9e9a24d3",
+  "installed_skill_sha256": "5150659f569036a8f55b98f282d9943da3ccb7c8d281b9b9c4d878533fcaf4a3"
+}

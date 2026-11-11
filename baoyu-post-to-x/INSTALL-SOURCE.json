@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/JimLiu/baoyu-skills",
+  "commit": "ca703c2d7c2c4399a1dc0cf82224f8551e05a96d",
+  "path": "skills/baoyu-post-to-x",
+  "installed_name": "baoyu-post-to-x",
+  "original_name": "baoyu-post-to-x",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "version moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "e3854754a77fcea6a6d8f3798a1187f8f9be8cae5f7c9b8e6332ff5465547b49",
+  "installed_skill_sha256": "b55faba2da2e4228bba4331987934dcc23e0d917f7151dc26ef395bed50a054a"
+}

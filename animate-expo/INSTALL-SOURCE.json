@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/emilkowalski/skills",
+  "commit": "715c1807e08c497cfd1dc4feb450a2a3300ef2a9",
+  "path": "skills/animate-expo",
+  "installed_name": "animate-expo",
+  "original_name": "animate-expo",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "9a01a91701e6563c67677dde6b66ab30f066a5341d42c21a90ba51d99679274a",
+  "installed_skill_sha256": "25ffa36f221541ecf445bfa9aeb0fcc6e99f889fdf37c8e141430a27ccc99e0a"
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-inference",
+  "installed_name": "gke-inference",
+  "original_name": "gke-inference",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "2153b93588c895ef51e972036dac35b4ef1687e663ab52d3ca3e57ce16759418",
+  "installed_skill_sha256": "c6524305db5749cea85151e393a6d504bb942f0a0dcfbf84bdb3168e02c8d53a"
+}

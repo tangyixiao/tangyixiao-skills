@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/mattpocock/skills",
+  "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+  "path": "skills/engineering/tdd",
+  "installed_name": "tdd",
+  "original_name": "tdd",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "5505d25bbaa8fc14a79e4d20163936958992a2995b7f1dd1d6197edc9ed722e0",
+  "installed_skill_sha256": "0f8cd9a400eb33b2ad35a5e8e12c9c3cc0d5d10b95cfcccc2d36d4b3de5dd77a"
+}

@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/mattpocock/skills",
+  "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+  "path": "skills/engineering/implement",
+  "installed_name": "implement",
+  "original_name": "implement",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "disable-model-invocation moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "483bdc4ccf4ac31d86ac7beeaa0d0db80313e71e120bb8c59b3196ae5decd53d",
+  "installed_skill_sha256": "d825362fd65d960a05d1a5968f17224589c4b29ae5fd41a830c381e653a56580"
+}

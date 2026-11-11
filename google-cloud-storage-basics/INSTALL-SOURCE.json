@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/google-cloud-storage-basics",
+  "installed_name": "google-cloud-storage-basics",
+  "original_name": "google-cloud-storage-basics",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "e0bcd86d98b4d0ff37d183593c7bfad857623e94b0a653f10b53c012ba6fb93b",
+  "installed_skill_sha256": "62765cfc41ff64f7f991bf629c8ea0ae732b1331c030b46c39e285f9ac58c7d7"
+}

@@ -1,0 +1,96 @@
+---
+name: text-dimension
+description: Text density dimension for cover images
+---
+
+# Text Dimension
+
+## Values
+
+| Value | Title | Subtitle | Tags | Visual Area |
+|-------|:-----:|:--------:|:----:|:-----------:|
+| `none` | - | - | - | 100% |
+| `title-only` | ✓ | - | - | 85% |
+| `title-subtitle` | ✓ | ✓ | - | 75% |
+| `text-rich` | ✓ | ✓ | ✓ (2-4) | 60% |
+
+## Detail
+
+### none
+
+Pure visual cover with no text elements.
+
+**Use Cases**:
+- Photography-focused covers
+- Abstract art pieces
+- Visual-only social sharing
+- When title added externally
+
+**Composition**:
+- Full visual area available
+- No reserved text zones
+- Emphasis on visual metaphor
+
+### title-only
+
+Single headline, maximum impact.
+
+**Use Cases**:
+- Most article covers (default)
+- Clear single message
+- Strong brand recognition
+
+**Composition**:
+- Title: prominent placement
+- Reserved zone: top or bottom 15%
+- Visual supports title message
+
+**Title Guidelines** (all title levels):
+- Use exact title from source content or user-provided title
+- Do NOT invent or modify titles
+- Match content language
+
+### title-subtitle
+
+Title with supporting context.
+
+**Use Cases**:
+- Technical articles needing clarification
+- Series with episode/part info
+- Content with dual messages
+
+**Composition**:
+- Title: primary element
+- Subtitle: secondary element
+- Reserved zone: 25%
+- Clear hierarchy between title/subtitle
+
+**Subtitle Guidelines**:
+- Clarify or contextualize title
+- Can include series name, author, date
+- Smaller, less prominent than title
+
+### text-rich
+
+Information-dense cover with multiple text elements.
+
+**Use Cases**:
+- Infographic-style covers
+- Event announcements with details
+- Promotional material with features
+- Content with multiple key points
+
+**Composition**:
+- Title: primary focus
+- Subtitle: supporting info
+- Tags: 2-4 keyword labels
+- Reserved zone: 40%
+- Clear visual hierarchy
+
+**Tag Guidelines**:
+- 2-4 tags maximum
+- Short keywords (1-2 words each)
+- Positioned as badges/labels
+- Can highlight: category, date, author, key features
+
+Type compatibility: [../compatibility.md](../compatibility.md#type--text). Auto selection: [../auto-selection.md](../auto-selection.md#auto-text-selection).

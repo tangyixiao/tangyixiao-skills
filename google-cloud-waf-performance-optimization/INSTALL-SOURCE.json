@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/google-cloud-waf-performance-optimization",
+  "installed_name": "google-cloud-waf-performance-optimization",
+  "original_name": "google-cloud-waf-performance-optimization",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "beaa5fc4db5e07bb79c0dba6abb09b40b291cc6b32f8eb71161db9526c32a5b1",
+  "installed_skill_sha256": "c1b16d7134fe9e66a3aace04083687501e3d73e88709a33cea30d4f1da715f09"
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/agent-platform-skill-registry",
+  "installed_name": "agent-platform-skill-registry",
+  "original_name": "agent-platform-skill-registry",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "e0ed737b0fde8909974bd00787c8bfa3f80358361fb543761e30c2ebc11a19cd",
+  "installed_skill_sha256": "b99f44f61b1ff084cd07ecc883b0bfb6f0b9cbac3660be011a1582eae2e07bb1"
+}

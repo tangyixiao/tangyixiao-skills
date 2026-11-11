@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-backup-dr",
+  "installed_name": "gke-backup-dr",
+  "original_name": "gke-backup-dr",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "0e8ece639ca5d22ad30f5cbeed442340221f0496226a6dc02582565adca000a6",
+  "installed_skill_sha256": "df034186726c0c678abce0daaf57bd3567b75bd68b255ac2a8d2ff67aaa6d5fb"
+}

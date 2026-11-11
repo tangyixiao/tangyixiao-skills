@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/secops-detection-engineering",
+  "installed_name": "secops-detection-engineering",
+  "original_name": "secops-detection-engineering",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "248f572e57e5342f33ef2f5358860229b36a0a8ef149c822914bf21d81ff1caf",
+  "installed_skill_sha256": "64239f9164c3e9952da63ec1149877a5fab23aff921cefc832b96696c8e6d890"
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/bigquery-bigframes",
+  "installed_name": "bigquery-bigframes",
+  "original_name": "bigquery-bigframes",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "c1a24b1f43bc0410db38ac61d0b8ba62cac71f7c051dde61fe37d1cc2d5c64c8",
+  "installed_skill_sha256": "e9033cea3363fbe0bfc1e056a394aa83cfafe34325b17992e2cdd8ff6aa37d06"
+}

@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/ads/google-ads-api-mcp-setup",
+  "installed_name": "google-ads-api-mcp-setup",
+  "original_name": "google-ads-api-mcp-setup",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "compatibility moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "1430b983516185125ffeca03874e9f518250f01c26b365afeed08782b5f29dd5",
+  "installed_skill_sha256": "2108ca16cc4abae2482896ab3727f1709876d998ec4628c9dc41ad04ccb42256"
+}

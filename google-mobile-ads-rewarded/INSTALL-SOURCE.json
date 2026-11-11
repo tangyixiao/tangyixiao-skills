@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/ads/google-mobile-ads-rewarded",
+  "installed_name": "google-mobile-ads-rewarded",
+  "original_name": "google-mobile-ads-rewarded",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "11d6117b4545acba7dd0dcdf0bbe02dc86fc029032eefaa4c85971e77b0ea5f5",
+  "installed_skill_sha256": "47f109582c4389a9d9dc63be45674d9732088c0f9a98ad04c537c5723c977d91"
+}

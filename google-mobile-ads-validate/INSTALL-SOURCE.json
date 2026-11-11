@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/ads/google-mobile-ads-validate",
+  "installed_name": "google-mobile-ads-validate",
+  "original_name": "google-mobile-ads-validate",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "050a4431c19f91dbf5df01bd0dff2d5828867d9edfb2a64df79b2a15f4ce27ef",
+  "installed_skill_sha256": "7f5f42afaa312ad4fe8127adfe3914e972aac93f0dd379ac0ccf8bc977d3e2ce"
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/mattpocock/skills",
+  "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+  "path": "skills/misc/scaffold-exercises",
+  "installed_name": "scaffold-exercises",
+  "original_name": "scaffold-exercises",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "75f5c9d771606fb9762f16522efc954df11c324f87148d8ff069bce166257de9",
+  "installed_skill_sha256": "55c020f4a21c2b731ac7b9f406682979bf9631b626d96f7627d151fd25fd0307"
+}

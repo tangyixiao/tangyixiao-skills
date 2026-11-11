@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/ads/google-ads-api-quickstart",
+  "installed_name": "google-ads-api-quickstart",
+  "original_name": "google-ads-api-quickstart",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "compatibility moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "b30a029d9fba9286be054cb6fe22f449d51865d252f79b508822a012a578f27a",
+  "installed_skill_sha256": "65660df641c6d7bab55fba8e67adfc978acf8028a9d309609fc7ab0e90fcc7ec"
+}

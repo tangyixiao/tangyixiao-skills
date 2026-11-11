@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/huggingface/skills",
+  "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+  "path": "skills/huggingface-lora-space-builder",
+  "installed_name": "huggingface-lora-space-builder",
+  "original_name": "huggingface-lora-space-builder",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "7192d4a44172609eb073334e0410aff1d3b9134f82b94f1329435ca7fcfa0ad2",
+  "installed_skill_sha256": "9d5976a77a4a0af629da3a18ae5879477cef04fb063beedff0fa0116689aca7f"
+}

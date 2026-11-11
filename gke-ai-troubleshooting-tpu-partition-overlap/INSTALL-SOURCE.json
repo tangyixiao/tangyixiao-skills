@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-ai-troubleshooting-tpu-partition-overlap",
+  "installed_name": "gke-ai-troubleshooting-tpu-partition-overlap",
+  "original_name": "gke-ai-troubleshooting-tpu-partition-overlap",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "ff9fb102da079cda5401a0c979b57eb560a1072dbb4b803cd886b4ec1a852b09",
+  "installed_skill_sha256": "8873461a16fda13d32a66e0282567f9af314a8169e156082a69417847fb27261"
+}

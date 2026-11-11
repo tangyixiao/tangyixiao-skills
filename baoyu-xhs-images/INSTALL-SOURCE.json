@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/JimLiu/baoyu-skills",
+  "commit": "ca703c2d7c2c4399a1dc0cf82224f8551e05a96d",
+  "path": "skills/baoyu-xhs-images",
+  "installed_name": "baoyu-xhs-images",
+  "original_name": "baoyu-xhs-images",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "version moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "03cf6ace98316c8d2caaaa6209b4ec8e5c6656f2f8075cdf1367dce891c5202f",
+  "installed_skill_sha256": "ddb46e32ea1122c591aa6cacf36d6efaf9b638fff5d05c5547bb94d4a8f83809"
+}

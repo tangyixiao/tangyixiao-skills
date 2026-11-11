@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/JimLiu/baoyu-skills",
+  "commit": "ca703c2d7c2c4399a1dc0cf82224f8551e05a96d",
+  "path": "skills/baoyu-comic",
+  "installed_name": "baoyu-comic",
+  "original_name": "baoyu-comic",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "version moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "f180f8220cfb69d02bf8ad5d272d45234c1a037ab31e9facce6c46b73630e04d",
+  "installed_skill_sha256": "632215c1c1b70c0b3d96d22d97fcdd07a72ae3d2908b9d36b4924b13a0072308"
+}

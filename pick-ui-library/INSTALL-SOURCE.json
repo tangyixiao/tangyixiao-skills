@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/emilkowalski/skills",
+  "commit": "715c1807e08c497cfd1dc4feb450a2a3300ef2a9",
+  "path": "skills/pick-ui-library",
+  "installed_name": "pick-ui-library",
+  "original_name": "pick-ui-library",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "disable-model-invocation moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "675fdce308683256ed617351a9b74d23457a5fbd0a562d9831b9c764b8c5e682",
+  "installed_skill_sha256": "c5f3e6739e45cfaa1507a722c4828440baef7f8f75d23bf3e2e80d22b0e1d17b"
+}

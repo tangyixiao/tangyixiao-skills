@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/emilkowalski/skills",
+  "commit": "715c1807e08c497cfd1dc4feb450a2a3300ef2a9",
+  "path": "skills/remove-animations",
+  "installed_name": "remove-animations",
+  "original_name": "remove-animations",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "dea95b7a7ef81cba312c7f70a3c5c67d7e06a287cb16b16d2f90f2b1fb0afff9",
+  "installed_skill_sha256": "1c9930b32dcc3fca71130c7f3a48c999110bb24265c599d6c09c505bc276e56e"
+}

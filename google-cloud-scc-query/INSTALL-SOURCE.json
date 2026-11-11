@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/google-cloud-scc-query",
+  "installed_name": "google-cloud-scc-query",
+  "original_name": "google-cloud-scc-query",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "26e65e02098730e4d5f90931c7c02d68c61e6d02ee5eae4eeda711f3088501fe",
+  "installed_skill_sha256": "3e55568e2a01363040f015b2d40ec8d261e8b4a8156cf2ad21d43a1a1e16ca05"
+}

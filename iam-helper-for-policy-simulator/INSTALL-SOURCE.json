@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/iam-helper-for-policy-simulator",
+  "installed_name": "iam-helper-for-policy-simulator",
+  "original_name": "iam-helper-for-policy-simulator",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "853b62bbf9429b9f4354d2d445ea357ea49ac1eb99860a18d7d2043ebdf1c831",
+  "installed_skill_sha256": "d102064c567e78b320114169e58832669ce0b4d755b2cfc4a03ddc890d7a0dc7"
+}

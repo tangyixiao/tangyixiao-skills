@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-cluster-creation",
+  "installed_name": "gke-cluster-creation",
+  "original_name": "gke-cluster-creation",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "11725bb16d85546a52a6df302f03247ba0ee31db26094494dcfc4b57a6dc0425",
+  "installed_skill_sha256": "532d0c5fbdd58deea37898ecb85b92105649ce2c86fd3fbfc224893ad167b627"
+}

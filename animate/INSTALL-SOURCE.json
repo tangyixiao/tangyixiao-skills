@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/emilkowalski/skills",
+  "commit": "715c1807e08c497cfd1dc4feb450a2a3300ef2a9",
+  "path": "skills/animate",
+  "installed_name": "animate",
+  "original_name": "animate",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "39138996033e0dbe53e73217514116eaeca774bae84a0687c80d445a4e0cc3a6",
+  "installed_skill_sha256": "fc9c94b2f36ea68de2c8659f918dee4c189808f0b6028172c12b2d2789a9b62d"
+}

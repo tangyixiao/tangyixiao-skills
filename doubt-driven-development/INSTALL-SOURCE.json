@@ -1,0 +1,16 @@
+{
+  "repository": "https://github.com/addyosmani/agent-skills",
+  "commit": "301b02b12bff98e4688e6984af6556802322bbde",
+  "path": "skills/doubt-driven-development",
+  "installed_name": "doubt-driven-development",
+  "original_name": "doubt-driven-development",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "relocated references/aliases: SKILL.md"
+  ],
+  "shared_resource_roots": [
+    "references"
+  ],
+  "upstream_skill_sha256": "7a7d53d9d2b93ca7af8d882718753dc7887716f143e7937ecbc381f26416bda7",
+  "installed_skill_sha256": "4bdf5bd46d73201c9af599ae43272094a59a37bf1702146a1993e8e35d92a0a2"
+}

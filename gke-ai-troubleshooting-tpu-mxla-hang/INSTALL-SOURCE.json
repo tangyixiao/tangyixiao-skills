@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-ai-troubleshooting-tpu-mxla-hang",
+  "installed_name": "gke-ai-troubleshooting-tpu-mxla-hang",
+  "original_name": "gke-ai-troubleshooting-tpu-mxla-hang",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "e8b780ba71d4aca93063493fa19107f4c68bd0444f68bfcf01fb3e1439c53538",
+  "installed_skill_sha256": "4dd104cba346a94f6a1c7e7a18393b3d18f938fe4d1bd19348ab14e15b33e9fb"
+}

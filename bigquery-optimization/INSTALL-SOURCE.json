@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/bigquery-optimization",
+  "installed_name": "bigquery-optimization",
+  "original_name": "bigquery-optimization",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "c3ab16164631beeec73cf34d4bf9a6d248bd9e1a8ec0c12e6d4fa1dc8cba9c2f",
+  "installed_skill_sha256": "2fde446feb4dc3ef158723faf883549ef074521003242a81afc6ff9ad09f3133"
+}

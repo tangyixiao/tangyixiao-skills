@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/google-cloud-solution-agentic-analytics-spark-knowledge-catalog",
+  "installed_name": "google-cloud-solution-agentic-analytics-spark-knowledge-catalog",
+  "original_name": "google-cloud-solution-agentic-analytics-spark-knowledge-catalog",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "75f55bc5d90a661655ca1ce6046dc6842bd8eb1b730927180d76a2285c50a310",
+  "installed_skill_sha256": "5f04ca8c888278a780ce4fcacdc852334835d23821949e22e861a8df572dd0a8"
+}

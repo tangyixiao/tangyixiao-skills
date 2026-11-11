@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-manifest-generation",
+  "installed_name": "gke-manifest-generation",
+  "original_name": "gke-manifest-generation",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "2885711d8db7c4528532adf3f3e549c16910e9639a1fb7f42ae96df67fd85bee",
+  "installed_skill_sha256": "90c848b3185fd4457b4c2c6d6046075c19d0903447a88f5a7c52fc09072bd858"
+}

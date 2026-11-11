@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/application-design-center-design-deploy",
+  "installed_name": "application-design-center-design-deploy",
+  "original_name": "application-design-center-design-deploy",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "2b264e0eb58d0daee11e5662dd87b3aec9b596e66ff61a94a905221f9bd1ddb0",
+  "installed_skill_sha256": "a5acd01b00b76f2b2e2ea5eeef85d97299a5724dcc255cd6a7cb162e6827c475"
+}

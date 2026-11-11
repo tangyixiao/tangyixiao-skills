@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/emilkowalski/skills",
+  "commit": "715c1807e08c497cfd1dc4feb450a2a3300ef2a9",
+  "path": "skills/emil-design-eng",
+  "installed_name": "emil-design-eng",
+  "original_name": "emil-design-eng",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "965cc3108047a1f68e504977ae7816c66115b202a32e7509c0b8305314839c54",
+  "installed_skill_sha256": "80d5d88e24062d91fa176a483fbf1a92299edae857502d92abc3fb2416decf81"
+}

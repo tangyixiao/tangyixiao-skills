@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/agent-platform-migrate-from-ai-studio",
+  "installed_name": "agent-platform-migrate-from-ai-studio",
+  "original_name": "agent-platform-migrate-from-ai-studio",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "f8df91303ca2258d1167f1103189d7e3df0e73e72cb0cb77c7c11a218b42ce8f",
+  "installed_skill_sha256": "733ffe94ab439396e8a9e41c1a0bd9f11e3775040ee2f1c1ac44cb7308858398"
+}

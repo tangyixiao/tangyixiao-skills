@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/huggingface/skills",
+  "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+  "path": "skills/hf-cloud-python-env-setup",
+  "installed_name": "hf-cloud-python-env-setup",
+  "original_name": "hf-cloud-python-env-setup",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "c5d108b134dc5237ec63fbbb3200717853f2c5281ab33b7a2f1576b46a4d0fe8",
+  "installed_skill_sha256": "7b6997373c80db6959d24d23f558421c20830902cc4db61c5f42b854066ab9aa"
+}

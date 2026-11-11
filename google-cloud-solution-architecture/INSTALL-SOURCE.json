@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/google-cloud-solution-architecture",
+  "installed_name": "google-cloud-solution-architecture",
+  "original_name": "google-cloud-solution-architecture",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "31257382582b3dd64b619af00e881db85ead991b9b9cefc43fcb4f2ebe4e9a10",
+  "installed_skill_sha256": "9fdef62af7a715fc519e6d88dd8dc7334de817af939cf22c6747a5d0f116c608"
+}

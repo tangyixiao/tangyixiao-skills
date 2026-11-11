@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-workload-scaling-troubleshooting",
+  "installed_name": "gke-workload-scaling-troubleshooting",
+  "original_name": "gke-workload-scaling-troubleshooting",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "description angle brackets made typographic for Codex"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "aaa6c6d2c45f6f2bd07a0bf81655724e3dc066cb3b61cd8c58feddecde58e2a4",
+  "installed_skill_sha256": "f64995a00ee7c601b561b8594271b558dbf4de8c3417ba2420e5a246f24ac178"
+}

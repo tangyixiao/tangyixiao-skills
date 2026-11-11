@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-compute-classes",
+  "installed_name": "gke-compute-classes",
+  "original_name": "gke-compute-classes",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "b1f13a472a59692c2f608a636ab5fffc91ad554637c31b6029c8b3f6b6224a98",
+  "installed_skill_sha256": "9b6d638b36699bb8a0860942b61218e3f6dccc79ee5aa37c58c4757c05a0c1c7"
+}

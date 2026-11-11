@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/datalineage-summary",
+  "installed_name": "datalineage-summary",
+  "original_name": "datalineage-summary",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "ec218ad8b3f455917dae3f1c75e3f7d24ee6bc0c3ccef19bcee21963c1b59daa",
+  "installed_skill_sha256": "07dc9adb42dd1012a814ce27813ffbee5a0f41a9a46b9df2ab343da5ea43bcd0"
+}

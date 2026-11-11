@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/mattpocock/skills",
+  "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+  "path": "skills/productivity/to-questionnaire",
+  "installed_name": "to-questionnaire",
+  "original_name": "to-questionnaire",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "disable-model-invocation moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "b5eb929842ee0e93d867c5e906d183d350f2f2d149eaeaa86967d94d8eda1d3b",
+  "installed_skill_sha256": "ce6a6f744c55df55a1b780b853ce6835298219a1992be25e45486c00935455b0"
+}

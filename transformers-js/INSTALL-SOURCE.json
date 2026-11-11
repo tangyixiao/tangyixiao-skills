@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/huggingface/skills",
+  "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+  "path": "skills/transformers-js",
+  "installed_name": "transformers-js",
+  "original_name": "transformers-js",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "compatibility moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "241ef15a39acbdf1d610acab683c0f76500d7c021c9c0303e6bb2c751ac3d395",
+  "installed_skill_sha256": "b311c815f9fd19f8ea7655a221cb3957993f0630903afe9166c10ddfd72cbd67"
+}

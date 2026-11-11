@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-workload-scaling",
+  "installed_name": "gke-workload-scaling",
+  "original_name": "gke-workload-scaling",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "9c9d8e486538f410ee0579e591fe9f95cfca4fc209c72d4897030c7c4ef344fa",
+  "installed_skill_sha256": "2550e925e2e9c66353ff666e637ed0466610a18ba91bebbcfc139efd3b3710e8"
+}

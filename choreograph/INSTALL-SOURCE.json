@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/emilkowalski/skills",
+  "commit": "715c1807e08c497cfd1dc4feb450a2a3300ef2a9",
+  "path": "skills/choreograph",
+  "installed_name": "choreograph",
+  "original_name": "choreograph",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "815c7d889230bafc72c03bb0769087aeede310130e8795c7949b3e3a1684e464",
+  "installed_skill_sha256": "870fc8f37ff0d20a4b0ec5a7fb32e985668b82209b21b3fb75048b73e57e5f70"
+}

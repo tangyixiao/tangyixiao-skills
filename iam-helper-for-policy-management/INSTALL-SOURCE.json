@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/iam-helper-for-policy-management",
+  "installed_name": "iam-helper-for-policy-management",
+  "original_name": "iam-helper-for-policy-management",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "88748a96df77ce6325cb31b4be919afbe77af4472dd03028a4ed31bd8dde5d24",
+  "installed_skill_sha256": "c4c529971925247ccf9c490b9531e64cda696f81252c39219e5270ae3b0cc35c"
+}

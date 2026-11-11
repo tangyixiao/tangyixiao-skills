@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/google-cloud-waf-security",
+  "installed_name": "google-cloud-waf-security",
+  "original_name": "google-cloud-waf-security",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "90cf88c53d4bcf9f5239db2529aa7bdeba928701e85d406b559d3f6a12e57434",
+  "installed_skill_sha256": "d0b822319a3b687ee74593f68db5e94ed06aaca52bb7efd210023afc5703e6c3"
+}

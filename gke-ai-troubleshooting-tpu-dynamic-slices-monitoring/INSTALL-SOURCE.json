@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-ai-troubleshooting-tpu-dynamic-slices-monitoring",
+  "installed_name": "gke-ai-troubleshooting-tpu-dynamic-slices-monitoring",
+  "original_name": "gke-ai-troubleshooting-tpu-dynamic-slices-monitoring",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "31335c92c55641e4be71dc90b5293242343a97f80a0f254380bd781223db1917",
+  "installed_skill_sha256": "76921cfac86fb4ae1181d8921b47e4773c19054e86edd760ded491aff5653640"
+}

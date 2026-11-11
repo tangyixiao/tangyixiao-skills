@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/detection-engineering-coverage-evaluation",
+  "installed_name": "detection-engineering-coverage-evaluation",
+  "original_name": "detection-engineering-coverage-evaluation",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "1fef812b19e8cb0a1b8ed6c2c47f062a41ce56855bef6aba59e1d838aaf736e8",
+  "installed_skill_sha256": "75c077fc2038fb3142a5a6825a8a3fd0384c65578c7a97477c3948314f7980de"
+}

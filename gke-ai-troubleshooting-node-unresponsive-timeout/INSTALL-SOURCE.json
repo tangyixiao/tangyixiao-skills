@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-ai-troubleshooting-node-unresponsive-timeout",
+  "installed_name": "gke-ai-troubleshooting-node-unresponsive-timeout",
+  "original_name": "gke-ai-troubleshooting-node-unresponsive-timeout",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "fcb428c38fdfa8eae0d8eca0b8c5f7308a7069261a048e1fef737528bd4a695a",
+  "installed_skill_sha256": "a1da22ce1ac837c9a96de72274af6b96cda8d14692b619d035c8eda48cd38c36"
+}

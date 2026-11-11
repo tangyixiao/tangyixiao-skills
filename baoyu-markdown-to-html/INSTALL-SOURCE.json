@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/JimLiu/baoyu-skills",
+  "commit": "ca703c2d7c2c4399a1dc0cf82224f8551e05a96d",
+  "path": "skills/baoyu-markdown-to-html",
+  "installed_name": "baoyu-markdown-to-html",
+  "original_name": "baoyu-markdown-to-html",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "version moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "b0493c0e2d9cf71a8195653f13da711c5b4c2c4cdb0ee48053cbcaeddcb6bcba",
+  "installed_skill_sha256": "99cde3b23c89a012ca73ed55ce6e35803e0f0efb3327aeae1b5dccee907cf9cb"
+}

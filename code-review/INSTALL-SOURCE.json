@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/mattpocock/skills",
+  "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+  "path": "skills/engineering/code-review",
+  "installed_name": "code-review",
+  "original_name": "code-review",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "9c921a8d88138a41401d8897ca1bb852088ab1b7b605cdd04edc13e3e8aab6dd",
+  "installed_skill_sha256": "a939a5ff790f880eb368a31adae40e3aa11e97ec63a92d7af55ae77352b5c896"
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/compute-future-reservations",
+  "installed_name": "compute-future-reservations",
+  "original_name": "compute-future-reservations",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "8885c07a84ae0d6b6fe4eb72d092dbebe7e636e3a5fa28b8b9ba58e98c790462",
+  "installed_skill_sha256": "dab70f8cbf299b590a2ff136578d33020d7bdca307524289d94d2545bb2f1817"
+}

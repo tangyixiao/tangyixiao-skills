@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/google-cloud-solution-n-tier-serverless-web-app",
+  "installed_name": "google-cloud-solution-n-tier-serverless-web-app",
+  "original_name": "google-cloud-solution-n-tier-serverless-web-app",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "47f3e0d86a622d628ce86b3c91e80c08da8ba10c7a5140a230e3beacb0ca59f8",
+  "installed_skill_sha256": "fa3081b62164fa49eb8cb37c52bd40f282dcb3b5705f246f9046a923ca821b6a"
+}

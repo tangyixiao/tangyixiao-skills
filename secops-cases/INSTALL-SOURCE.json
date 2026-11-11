@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/secops-cases",
+  "installed_name": "secops-cases",
+  "original_name": "secops-cases",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "09b368ffa530685f8f1fe0d28fac3bef81b1452f12ef1c3e8125d2e2e18d1d86",
+  "installed_skill_sha256": "39a98cd859369552ef19c594289abccb396187b04957751040aa6cdc7a5cae39"
+}

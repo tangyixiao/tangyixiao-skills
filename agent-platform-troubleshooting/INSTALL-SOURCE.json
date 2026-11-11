@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/agent-platform-troubleshooting",
+  "installed_name": "agent-platform-troubleshooting",
+  "original_name": "agent-platform-troubleshooting",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "82a4522522660f19cd216b5cf484bccbfd3fb6ef7008d2a2aae07bf0914a4d7a",
+  "installed_skill_sha256": "2c889d1e10c9adc9932d47276dcddc884e0c6f79a27fb8f35698e0a297517af0"
+}

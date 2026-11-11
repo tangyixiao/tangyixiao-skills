@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/identity/sign-in-with-google-web",
+  "installed_name": "sign-in-with-google-web",
+  "original_name": "sign-in-with-google-web",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "3166d397b856a751caf5faff23487057beec66c76a33fb9a395a420b5206ab3c",
+  "installed_skill_sha256": "897c04d8555461e9d87dd8505acb0a578f2afd50e120d0f8ff1eefa659f25411"
+}

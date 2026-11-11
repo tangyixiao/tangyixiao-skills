@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-ai-troubleshooting-handle-disruption-gpu-tpu",
+  "installed_name": "gke-ai-troubleshooting-handle-disruption-gpu-tpu",
+  "original_name": "gke-ai-troubleshooting-handle-disruption-gpu-tpu",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "f88600305a781c711e0c00fb1fa802e440306798021fcc516517b9c998e915f2",
+  "installed_skill_sha256": "09e3ea938cf49e82e15447c155b073be504e4bfe8c9ec68affb46a4fea33ec5d"
+}

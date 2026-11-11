@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/mattpocock/skills",
+  "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+  "path": "skills/engineering/setup-matt-pocock-skills",
+  "installed_name": "setup-matt-pocock-skills",
+  "original_name": "setup-matt-pocock-skills",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "disable-model-invocation moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "b01e05bfe8c323171275c6ceec78b12f1bd4c62dfd26c2cfe8be806d3883f1ed",
+  "installed_skill_sha256": "7176f491ad4fd9e14e22cad4f1c583fa4d50410bccc3c1708c60a875b9142f8a"
+}

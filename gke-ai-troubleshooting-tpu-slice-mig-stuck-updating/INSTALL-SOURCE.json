@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-ai-troubleshooting-tpu-slice-mig-stuck-updating",
+  "installed_name": "gke-ai-troubleshooting-tpu-slice-mig-stuck-updating",
+  "original_name": "gke-ai-troubleshooting-tpu-slice-mig-stuck-updating",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "54e59f7fa41e848665f0ae6edbfb8efcee15ddeed31aae6e437b4219535f9eb2",
+  "installed_skill_sha256": "c420f47f28bd5ad68095455455b8878dbe6403a2f7ef31a4c35c399027169afd"
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/mattpocock/skills",
+  "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+  "path": "skills/engineering/prototype",
+  "installed_name": "prototype",
+  "original_name": "prototype",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "714de632d116bb73f65cdb5a882db15b9369a6713b9a47c0fad827848f0bfbe3",
+  "installed_skill_sha256": "302db586084c81c0f35b78c7c7ce1dd1231f8d9c58882a381c11588783f7085b"
+}

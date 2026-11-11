@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/JimLiu/baoyu-skills",
+  "commit": "ca703c2d7c2c4399a1dc0cf82224f8551e05a96d",
+  "path": "skills/baoyu-danger-x-to-markdown",
+  "installed_name": "baoyu-danger-x-to-markdown",
+  "original_name": "baoyu-danger-x-to-markdown",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "version moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "122e0c11558e372175463deb8bbacc458d3cf5c8eccce2c671acbb3249a0a2e3",
+  "installed_skill_sha256": "fc9032e5ad99706cb4be5546135599f97e4c355df65f6c6679820c7cc4a6270e"
+}

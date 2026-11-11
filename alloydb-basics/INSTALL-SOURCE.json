@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/alloydb-basics",
+  "installed_name": "alloydb-basics",
+  "original_name": "alloydb-basics",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "80821962a4dd8ad27d5efd212d9bf65fea7d9674a1c002dc8c54dbecf528e173",
+  "installed_skill_sha256": "ee6ea907f45f5c3d4efcff8accf27d952b8ae7037ffbc0b893a222e1568de62d"
+}

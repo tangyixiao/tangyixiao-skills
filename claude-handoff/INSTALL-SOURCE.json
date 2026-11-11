@@ -1,0 +1,15 @@
+{
+  "repository": "https://github.com/mattpocock/skills",
+  "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+  "path": "skills/in-progress/claude-handoff",
+  "installed_name": "claude-handoff",
+  "original_name": "claude-handoff",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "argument-hint moved to metadata",
+    "disable-model-invocation moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "79357a18425d66d4c24048bedf83dceb79d3bba356f38014950f764a7fab4026",
+  "installed_skill_sha256": "8ef9614332941385c72bd1e665bf5fa0e4edc2ffd044d4304d9c7e56e4da8057"
+}

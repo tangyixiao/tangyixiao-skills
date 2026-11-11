@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/api-gateway-mcp-server",
+  "installed_name": "api-gateway-mcp-server",
+  "original_name": "api-gateway-mcp-server",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "0349386766c2732c95e26e41fbec5860e722db20554500a47028d189627399fd",
+  "installed_skill_sha256": "de85e441f15252fdac5222718cf458df88459a6dd981e5f4d0d01125145714d9"
+}

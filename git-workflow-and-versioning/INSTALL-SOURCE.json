@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/addyosmani/agent-skills",
+  "commit": "301b02b12bff98e4688e6984af6556802322bbde",
+  "path": "skills/git-workflow-and-versioning",
+  "installed_name": "git-workflow-and-versioning",
+  "original_name": "git-workflow-and-versioning",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "d77c955f57cfafde73efb7641ed9a478ffaa0f61c0f31bd9fe87317702f1b60d",
+  "installed_skill_sha256": "d6be571fe20d8c43016bae7685356602caf5c2f916ec734e54c669755572787c"
+}

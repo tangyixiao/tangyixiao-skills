@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/huggingface/skills",
+  "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+  "path": "skills/huggingface-vision-trainer",
+  "installed_name": "huggingface-vision-trainer",
+  "original_name": "huggingface-vision-trainer",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "c7aba4de75fa6595ffdaf5c50136786e8346aba0c9ff0261eaee656af4a3b0d9",
+  "installed_skill_sha256": "c77b838baa8590fd3dc7ac0b359e81f7513e8082741b9f647c4470f6fc9099ac"
+}

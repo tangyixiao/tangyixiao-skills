@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-cluster-autoscaler",
+  "installed_name": "gke-cluster-autoscaler",
+  "original_name": "gke-cluster-autoscaler",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "1437b2691f562e0109a5dcf078efb768c41ef1dd0502fb425a10d74ab203ef30",
+  "installed_skill_sha256": "42af5bc721ab9b8406bdf6a3fe00882626c85905b4a4582dec0af1f6d686248e"
+}

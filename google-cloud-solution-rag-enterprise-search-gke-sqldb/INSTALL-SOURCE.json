@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/google-cloud-solution-rag-enterprise-search-gke-sqldb",
+  "installed_name": "google-cloud-solution-rag-enterprise-search-gke-sqldb",
+  "original_name": "google-cloud-solution-rag-enterprise-search-gke-sqldb",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "f74a4d6c72a1e17a7acca2d91d86f8b35a6b2801854319e2ad48a711014c137e",
+  "installed_skill_sha256": "751a1150facfcbf38897f47d4d4394f580e20f85c0fffd94e00248bd2820d285"
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-custom-golden-image-discovery",
+  "installed_name": "gke-custom-golden-image-discovery",
+  "original_name": "gke-custom-golden-image-discovery",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "7b196c0cafefb574612518a2f9bd6ad8f1d1360d1963acee4c5fe2093998a570",
+  "installed_skill_sha256": "972bf5581921009540300ef2bfdf908a533787518627a930756beab6a985e30a"
+}

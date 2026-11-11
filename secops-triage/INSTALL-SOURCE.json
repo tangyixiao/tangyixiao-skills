@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/secops-triage",
+  "installed_name": "secops-triage",
+  "original_name": "secops-triage",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "cf9617d3b0011dc87f94f5f6923dc9e5571b7d1776012f748f45442cc1f68d72",
+  "installed_skill_sha256": "2d1797911f5a3f4937e74e001539b4c718c33574ca05a54cc2f4e542f39efbf5"
+}

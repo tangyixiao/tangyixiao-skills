@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-workload-troubleshooting",
+  "installed_name": "gke-workload-troubleshooting",
+  "original_name": "gke-workload-troubleshooting",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "b62106427fce63e98eb6f399f3bb034da9eec8978faa993264811e1da7c1fc8d",
+  "installed_skill_sha256": "5f7ac30990ed45b71d363ad304b754308274570c1b52d3b01c1ee1c5b88e4f40"
+}

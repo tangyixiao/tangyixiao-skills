@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/emilkowalski/skills",
+  "commit": "715c1807e08c497cfd1dc4feb450a2a3300ef2a9",
+  "path": "skills/apple-design",
+  "installed_name": "apple-design",
+  "original_name": "apple-design",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "77bb63b7043bb93aca2ff4ab040c249484eef35682bb6ff7163433c31d30adc7",
+  "installed_skill_sha256": "b8c416f85ecf1bd1dff1a6b408ec0be97d64da425556a13be5ca38d69e6f2aa5"
+}

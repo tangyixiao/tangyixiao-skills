@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/managed-airflow-migrations",
+  "installed_name": "managed-airflow-migrations",
+  "original_name": "managed-airflow-migrations",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "a76ba484ca42d63853b3922816027363de12e969963614a8488209062167ccf6",
+  "installed_skill_sha256": "d197208a6a7488ddaac1655a5191c06ac243c7035561af5aeb352a91c6a8f73b"
+}

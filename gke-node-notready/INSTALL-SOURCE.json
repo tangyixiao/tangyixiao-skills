@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-node-notready",
+  "installed_name": "gke-node-notready",
+  "original_name": "gke-node-notready",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "a5649fac6b96098b966c58047e6396d300b104f34ea107efe830680f2d9e58dc",
+  "installed_skill_sha256": "335ff2d31c7de7b36c7611faf2ba0b221240c29f626d83a8cc9da47907e3d7c0"
+}

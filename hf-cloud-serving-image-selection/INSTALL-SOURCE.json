@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/huggingface/skills",
+  "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+  "path": "skills/hf-cloud-serving-image-selection",
+  "installed_name": "hf-cloud-serving-image-selection",
+  "original_name": "hf-cloud-serving-image-selection",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "6af6adfe1cdcf7bcc061ee11e1e2cf88bae9fbb08bf79d16945ce748839c1d76",
+  "installed_skill_sha256": "90bcf2cbdbd3b9cb80baf8b1a59a688b1657f230f81a35b672ddf8c98caab1ac"
+}

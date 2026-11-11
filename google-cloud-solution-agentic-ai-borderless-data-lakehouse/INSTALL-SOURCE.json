@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/google-cloud-solution-agentic-ai-borderless-data-lakehouse",
+  "installed_name": "google-cloud-solution-agentic-ai-borderless-data-lakehouse",
+  "original_name": "google-cloud-solution-agentic-ai-borderless-data-lakehouse",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "24dcef2751816f6174e0089aeaf436bbb1fe6dfd9f5dd168d70eba0bcc2eed7a",
+  "installed_skill_sha256": "8f1dd7cc26999692a452052f312c6b2a4d95367c0beb6b844e26f4dcde5d7c7e"
+}

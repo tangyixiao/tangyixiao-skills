@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/google-cloud-solution-agentic-ai-data-science-workflow",
+  "installed_name": "google-cloud-solution-agentic-ai-data-science-workflow",
+  "original_name": "google-cloud-solution-agentic-ai-data-science-workflow",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "04329bcdd1993910eec414f327edbcaa158bdf297c46cc2ff705d0d3415feba0",
+  "installed_skill_sha256": "1d78b2ac690f21bde2e937831bf9c149f534db0ace35a4fdbe2f73954ca46de1"
+}

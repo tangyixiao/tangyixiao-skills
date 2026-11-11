@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/mattpocock/skills",
+  "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+  "path": "skills/engineering/diagnosing-bugs",
+  "installed_name": "diagnosing-bugs",
+  "original_name": "diagnosing-bugs",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "849198df88cdb65fd0d97236604c1fca7ff2f22d2f705f9724a800d0266b118d",
+  "installed_skill_sha256": "451431a80e5dc64ba7e28a70a320168ba2121335d1026ca6ddb007be367178d5"
+}

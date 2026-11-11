@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/developing-genkit-python",
+  "installed_name": "developing-genkit-python",
+  "original_name": "developing-genkit-python",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "c73956d29cd9e34670f11de61e306ccfc206eb7d11ecc0d0beda4d7ad50a2af8",
+  "installed_skill_sha256": "5e4e51a1da95cae252afe3d062d92f8ce1a60bdc5512a231aec8400ee08e6aa0"
+}

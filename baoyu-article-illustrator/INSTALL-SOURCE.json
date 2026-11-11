@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/JimLiu/baoyu-skills",
+  "commit": "ca703c2d7c2c4399a1dc0cf82224f8551e05a96d",
+  "path": "skills/baoyu-article-illustrator",
+  "installed_name": "baoyu-article-illustrator",
+  "original_name": "baoyu-article-illustrator",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "version moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "1c9ee6c39acca81c393aee35bbeead14c4423dd7746b8c51a5944191d19be265",
+  "installed_skill_sha256": "30baf10912865cfac197adb9bc595fafde29384071e1fc9e2491a5aaef002339"
+}

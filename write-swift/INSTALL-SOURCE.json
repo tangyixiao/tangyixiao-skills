@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/emilkowalski/skills",
+  "commit": "715c1807e08c497cfd1dc4feb450a2a3300ef2a9",
+  "path": "skills/write-swift",
+  "installed_name": "write-swift",
+  "original_name": "write-swift",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "16a4b6adb74e338e55e704ce5753ad54d825438b8a63930eeaede9f3c04c9447",
+  "installed_skill_sha256": "4dc736fc4a86a8d19e600ad701e5d04693aa3cb15703dfff1daee0dc2b24ec0b"
+}

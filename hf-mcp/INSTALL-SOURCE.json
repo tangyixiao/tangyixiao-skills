@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/huggingface/skills",
+  "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+  "path": "hf-mcp/skills/hf-mcp",
+  "installed_name": "hf-mcp",
+  "original_name": "hf-mcp",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "4cd99f2f6fabc5d87eac1b9e9bb2278d8348eca3621c2120599dede8d6b66eb4",
+  "installed_skill_sha256": "19ff650f2e4bbabb601ba5539d996490542be3165d4254848b49c4b4f1f7fa32"
+}

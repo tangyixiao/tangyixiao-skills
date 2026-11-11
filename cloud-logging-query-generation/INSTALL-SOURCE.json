@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/cloud-logging-query-generation",
+  "installed_name": "cloud-logging-query-generation",
+  "original_name": "cloud-logging-query-generation",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "a53d70ee98951996bcf22071aad1423b720524e14697775d80c52ebd233f3e6d",
+  "installed_skill_sha256": "4e2c497d9c7a3799dcef66b9de59258b37920e6287acd529e067b9d69653a169"
+}

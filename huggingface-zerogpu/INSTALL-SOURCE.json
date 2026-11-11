@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/huggingface/skills",
+  "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+  "path": "skills/huggingface-zerogpu",
+  "installed_name": "huggingface-zerogpu",
+  "original_name": "huggingface-zerogpu",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "829659aec34224970fe7ed619729fdc7849fc5dd696e2000256c3ee0b517eff7",
+  "installed_skill_sha256": "be70b3c7e23e540be7f8d639907765f7db738990fa5703a6fba97f89a93a195d"
+}

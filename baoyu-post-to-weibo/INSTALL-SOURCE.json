@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/JimLiu/baoyu-skills",
+  "commit": "ca703c2d7c2c4399a1dc0cf82224f8551e05a96d",
+  "path": "skills/baoyu-post-to-weibo",
+  "installed_name": "baoyu-post-to-weibo",
+  "original_name": "baoyu-post-to-weibo",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "version moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "255e0346f9ab22ac2b8ff88db5e6259eed56dbb9330a3de4d6a732be1f372bae",
+  "installed_skill_sha256": "7bb56534885693a37f7626832322f9a2afd1145d55aa971865f33c425a73d728"
+}

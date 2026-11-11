@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/mattpocock/skills",
+  "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+  "path": "skills/engineering/pr",
+  "installed_name": "pr",
+  "original_name": "pr",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "ab63f1cf78647389edcd386c9427c5dfca27ed2836930c24773ffee834c19bcd",
+  "installed_skill_sha256": "ead3b3ff1dff0d07db1c374237bdf3ea499136cb29b81dcc116f5f4944e03140"
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/agent-platform-inference",
+  "installed_name": "agent-platform-inference",
+  "original_name": "agent-platform-inference",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "2378b77c52141ae807e7b543fd8287faaeed375b4d6414a906fdd19bb9937406",
+  "installed_skill_sha256": "02cadbe0dc520cefce76ecbb968f516a094ab0f67e534187581aefd8858709f9"
+}

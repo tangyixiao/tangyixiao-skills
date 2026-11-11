@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/addyosmani/agent-skills",
+  "commit": "301b02b12bff98e4688e6984af6556802322bbde",
+  "path": "skills/documentation-and-adrs",
+  "installed_name": "documentation-and-adrs",
+  "original_name": "documentation-and-adrs",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "6fccf3088d5042a3c889faa25113ffa47b9f7f999f4fc9e527d5e5226888442f",
+  "installed_skill_sha256": "22c00cd75ac34c44c2bfeca083b8686d76dd87374f28e27e74d77164d228237d"
+}

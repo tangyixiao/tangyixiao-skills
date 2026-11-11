@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/iam-helper-for-privileged-access-management",
+  "installed_name": "iam-helper-for-privileged-access-management",
+  "original_name": "iam-helper-for-privileged-access-management",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "3071ca4612e27fab04257aaf3e94e306b4700be265bdc1f06ebec80abf3a1816",
+  "installed_skill_sha256": "5a4cdbacfe1b4f78346aacde6c2fa66fb21d25729ee66b5ac785be4e2cf03a8a"
+}

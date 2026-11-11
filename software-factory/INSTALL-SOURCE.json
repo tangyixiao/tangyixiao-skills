@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/mattpocock/skills",
+  "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+  "path": "skills/in-progress/software-factory",
+  "installed_name": "software-factory",
+  "original_name": "software-factory",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "disable-model-invocation moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "645ab761b6cca61a480072b1b510eb05fe0fe5cde2ce0495b6fc234311692253",
+  "installed_skill_sha256": "6ac4098aa1797b38e2178985c896fb9515d4c136d6ad8eaf9f31fa26701fbf0a"
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/bigquery-migration-sql-translator",
+  "installed_name": "bigquery-migration-sql-translator",
+  "original_name": "bigquery-migration-sql-translator",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "d8d0f159542a4b98e1963437dc4539de08a09f42666f8a3630300d70248f9303",
+  "installed_skill_sha256": "56da7580122f199f2b8f85e43c43f8182088d4333328a06b2f7017bdef12c94f"
+}

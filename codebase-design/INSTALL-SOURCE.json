@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/mattpocock/skills",
+  "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+  "path": "skills/engineering/codebase-design",
+  "installed_name": "codebase-design",
+  "original_name": "codebase-design",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "2c20617f87ec8af6a434859f381b2f061a69b530444e74eb39e78bb016a6d1e2",
+  "installed_skill_sha256": "b614786e2808b059516f6ebf4d16593d389eb72935cef8a56532d1877e31ca8a"
+}

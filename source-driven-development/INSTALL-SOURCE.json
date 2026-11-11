@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/addyosmani/agent-skills",
+  "commit": "301b02b12bff98e4688e6984af6556802322bbde",
+  "path": "skills/source-driven-development",
+  "installed_name": "source-driven-development",
+  "original_name": "source-driven-development",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "df38a852658679a67c7a9e4840160570c95094a13a63307e834045ddbf8aa287",
+  "installed_skill_sha256": "912e7ecf844e973a3da7a9439d27c35663cc7d9b680e7ed7ce3badb061123494"
+}

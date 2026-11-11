@@ -1,0 +1,16 @@
+{
+  "repository": "https://github.com/addyosmani/agent-skills",
+  "commit": "301b02b12bff98e4688e6984af6556802322bbde",
+  "path": "skills/planning-and-task-breakdown",
+  "installed_name": "planning-and-task-breakdown",
+  "original_name": "planning-and-task-breakdown",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "relocated references/aliases: SKILL.md"
+  ],
+  "shared_resource_roots": [
+    "references"
+  ],
+  "upstream_skill_sha256": "ed0f90cc5951ddd4bcab7f871f64efec93a49af9279ef93bc470da77ad8da3f7",
+  "installed_skill_sha256": "7e947050d828639a9cdb4f93da887927260411f6b3de746d1f5286a380a0abe6"
+}

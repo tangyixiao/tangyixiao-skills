@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-ai-troubleshooting-tpu-metrics-monitoring",
+  "installed_name": "gke-ai-troubleshooting-tpu-metrics-monitoring",
+  "original_name": "gke-ai-troubleshooting-tpu-metrics-monitoring",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "976606f04633b0aef7a7741b5ae9b1f2d11af7c456d10dd9413fd95cb820839d",
+  "installed_skill_sha256": "23614587a5a99b0edc848927b9fd2f4c69e90c27bd61543165724a33c35213c8"
+}

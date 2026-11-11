@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/cloud-logging-cross-project-configuration",
+  "installed_name": "cloud-logging-cross-project-configuration",
+  "original_name": "cloud-logging-cross-project-configuration",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "85d36d8f4c733f81971e91b1d2f743c2022bdb7ee8d11f43bca35da243118631",
+  "installed_skill_sha256": "caaabfde9237c9f2290622e8296ea89ba17260bd018d0317c728e2c98d9b2321"
+}

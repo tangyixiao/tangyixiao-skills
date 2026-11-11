@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/JimLiu/baoyu-skills",
+  "commit": "ca703c2d7c2c4399a1dc0cf82224f8551e05a96d",
+  "path": "skills/baoyu-cover-image",
+  "installed_name": "baoyu-cover-image",
+  "original_name": "baoyu-cover-image",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "version moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "440c753f28545766b0f8c17087bb403ac24ab71669e504c81171872097d87ddf",
+  "installed_skill_sha256": "4345d4d2dbf698f381c44cc11782c034a6ab9f0fc6151415a42604ef53af08e9"
+}

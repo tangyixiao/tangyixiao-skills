@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-observability",
+  "installed_name": "gke-observability",
+  "original_name": "gke-observability",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "e64638982eacac7bca45eeb59338a795df2ee19aadfb3bba80223655db3f3c17",
+  "installed_skill_sha256": "100fb96fd202cca962984480ff6a3ea7197c8b03ed10ddb1e609f52d1ed3da54"
+}

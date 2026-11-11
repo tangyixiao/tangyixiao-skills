@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/google-cloud-solution-build-deploy-agents",
+  "installed_name": "google-cloud-solution-build-deploy-agents",
+  "original_name": "google-cloud-solution-build-deploy-agents",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "f742bb6dd1f9db7987701f3c50760277bd66da30b78bdec06245321a00e52c94",
+  "installed_skill_sha256": "85c8075c6d8b4cab90983aa80ba85c6dfe63388d097bd63ecb2add02715f0f70"
+}

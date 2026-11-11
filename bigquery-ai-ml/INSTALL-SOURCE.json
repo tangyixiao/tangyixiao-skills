@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/bigquery-ai-ml",
+  "installed_name": "bigquery-ai-ml",
+  "original_name": "bigquery-ai-ml",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "e5a3b5480a59c1a43e8bdd30ec6236cb97dc45cc370b6d1fe5d63c2bca3e3e53",
+  "installed_skill_sha256": "d6fc769d9746baaac523110d9452b9fe5c8edcc0dd080da16e4ff4c266dd6759"
+}

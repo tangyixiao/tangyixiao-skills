@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/cloud-databases-onboarding",
+  "installed_name": "cloud-databases-onboarding",
+  "original_name": "cloud-databases-onboarding",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "b35881ab66565a01432f4979109e113f424b2bb6e8701cb28542fa93c85dd6e5",
+  "installed_skill_sha256": "aa4136a0391ce077f8086a2541aee8fc87bf14f8ec3f0353a4cd4706686d819c"
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/managed-airflow-recommendations",
+  "installed_name": "managed-airflow-recommendations",
+  "original_name": "managed-airflow-recommendations",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "6447505069ac999f05a0abcb70ca2fbc6e94c04941e57d21b65a54ad40a71827",
+  "installed_skill_sha256": "f428501d54fe0954a4d33ed4afae977e5879028fad6c6fb2debcf3958246e4fe"
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/huggingface/skills",
+  "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+  "path": "skills/huggingface-community-evals",
+  "installed_name": "huggingface-community-evals",
+  "original_name": "huggingface-community-evals",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "a97f1c703f55b72427453a76af858237e6392a447fcafa9eeb85f7ac67f0155d",
+  "installed_skill_sha256": "7d43dd5b59aabb2aaea2bf32e1b2ecc2b0d051707e948d49e6c5090ecd71e412"
+}

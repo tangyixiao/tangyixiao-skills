@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/mattpocock/skills",
+  "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+  "path": "skills/productivity/writing-for-agents",
+  "installed_name": "writing-for-agents",
+  "original_name": "writing-for-agents",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "551adca942227b44192edba88acd4e8db911f0121ce58ad16944ccf6a896a74a",
+  "installed_skill_sha256": "ac57aa12c6fbd855d6c25ac4d2a3128108f3bda0c7df1741fa23c0152f5ec350"
+}

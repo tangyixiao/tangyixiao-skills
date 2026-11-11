@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/bigquery-basics",
+  "installed_name": "bigquery-basics",
+  "original_name": "bigquery-basics",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "56a16fab677f74728cc7f46aa8db5d2179be8cf6ad04b1582107dc3983d13db3",
+  "installed_skill_sha256": "9a1ac9edeac34ea20e8bdd075f717686248d50817fbf8bea4b5525d64c75e66b"
+}

@@ -1,0 +1,17 @@
+{
+  "repository": "https://github.com/addyosmani/agent-skills",
+  "commit": "301b02b12bff98e4688e6984af6556802322bbde",
+  "path": "skills/security-and-hardening",
+  "installed_name": "security-and-hardening",
+  "original_name": "security-and-hardening",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "relocated references/aliases: references/hardening-patterns.md",
+    "relocated references/aliases: SKILL.md"
+  ],
+  "shared_resource_roots": [
+    "references"
+  ],
+  "upstream_skill_sha256": "358566859a3d791c474eb9fa36939b45875c7480d7d4650eaa092dceae2c1c37",
+  "installed_skill_sha256": "f1e1f436d303cb5fc0be364adb717d224d0574e9c1526876087b3e4b9c08442e"
+}

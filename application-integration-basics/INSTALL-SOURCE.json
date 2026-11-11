@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/application-integration-basics",
+  "installed_name": "application-integration-basics",
+  "original_name": "application-integration-basics",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "4a71d9f71788e7546978da9dce1b44ccca2907d443e275604a43900d974e595c",
+  "installed_skill_sha256": "2adee02bda375d5d0f05ce2610c3d732001bfbaaaf28d70d219c92a25fa0c6dc"
+}

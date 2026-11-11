@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-basics",
+  "installed_name": "gke-basics",
+  "original_name": "gke-basics",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "dcfa897d9fdd11a0a53bacef8ce6fca3c9de7431f3bc99d0fd9156ce6dc4c2c1",
+  "installed_skill_sha256": "85f7fa0cf4f83a8a526088b20bfacbacab2be854c629d00e488b442d71d54c16"
+}

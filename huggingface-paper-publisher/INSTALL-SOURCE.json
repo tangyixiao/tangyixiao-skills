@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/huggingface/skills",
+  "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+  "path": "skills/huggingface-paper-publisher",
+  "installed_name": "huggingface-paper-publisher",
+  "original_name": "huggingface-paper-publisher",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "04b59406cf88054ab365f5bbbc57fe2e2fcb369e942dff2841c4f4297318c353",
+  "installed_skill_sha256": "9933a6ab89fcac7b8dca52febda3f0a90be42aafc54dcbde3b0ffda1e545fe24"
+}

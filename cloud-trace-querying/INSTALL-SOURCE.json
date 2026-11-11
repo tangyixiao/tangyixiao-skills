@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/cloud-trace-querying",
+  "installed_name": "cloud-trace-querying",
+  "original_name": "cloud-trace-querying",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "55fce66d185c03d0bf6f5da2aaf9f23ba3a13ac698c1849d6301a0f0160828dd",
+  "installed_skill_sha256": "4f475451b8a11e9254ffa36352a4ef8715640beee0eb8bef1232c9f66b119b16"
+}

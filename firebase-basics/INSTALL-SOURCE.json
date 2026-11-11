@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/firebase-basics",
+  "installed_name": "firebase-basics",
+  "original_name": "firebase-basics",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "947d37d98f0a3ccf12e2cd5230bf53964fb036c9b8e76820fa689fd7dc8481db",
+  "installed_skill_sha256": "46b0c76b2a7f879a430aeb79bc252a2a10f9eb6d19336eef55f8ec385f8a86c8"
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/addyosmani/agent-skills",
+  "commit": "301b02b12bff98e4688e6984af6556802322bbde",
+  "path": "skills/idea-refine",
+  "installed_name": "idea-refine",
+  "original_name": "idea-refine",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "c226c1cd369bef2671073f5fd1f4108731691f725ef28f8c8c01d247c214d0c3",
+  "installed_skill_sha256": "f689cc30ba860feb7a0997b787096dbadc3f7e00f6b2cdae8cca8f27bdfa9907"
+}

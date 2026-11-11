@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/bigquery-troubleshooting",
+  "installed_name": "bigquery-troubleshooting",
+  "original_name": "bigquery-troubleshooting",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "b11a0c859f098bdd4075f5d0c3edb9bf9272b77fadcc8341fff76cb6d4648fa3",
+  "installed_skill_sha256": "1e2a8b119654aaf48042c9e8f7ec6f45ed7923364945b3b1e56ae8c322d4fab9"
+}

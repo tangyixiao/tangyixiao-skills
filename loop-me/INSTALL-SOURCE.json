@@ -1,0 +1,15 @@
+{
+  "repository": "https://github.com/mattpocock/skills",
+  "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+  "path": "skills/in-progress/loop-me",
+  "installed_name": "loop-me",
+  "original_name": "loop-me",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "disable-model-invocation moved to metadata",
+    "argument-hint moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "e44d1cc3e760fb86ac42964c2a5f1fcac511715db50fb375f3f7be814de1eaa7",
+  "installed_skill_sha256": "92e2fa4c71167ed4a3b9f2ae9764f433d6b0aa48bcbbe0b585d57baa92c12022"
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/google-cloud-recipe-auth",
+  "installed_name": "google-cloud-recipe-auth",
+  "original_name": "google-cloud-recipe-auth",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "3415b14510b1b32a25a04233d2e81b2c8f4a923e4a40486f5b6fe5a4439afa54",
+  "installed_skill_sha256": "7343c7a399afce25ca306de659e7915be5ce60619dce65a18f2c7e61d8f5996d"
+}

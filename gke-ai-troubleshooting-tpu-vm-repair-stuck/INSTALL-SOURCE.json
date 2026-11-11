@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-ai-troubleshooting-tpu-vm-repair-stuck",
+  "installed_name": "gke-ai-troubleshooting-tpu-vm-repair-stuck",
+  "original_name": "gke-ai-troubleshooting-tpu-vm-repair-stuck",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "2670ec0a3a78b12d2078d1973a1cb9d195d1b355dd27a36050d7d86db25ebc69",
+  "installed_skill_sha256": "be01e252d24cdbb4f8fbc76fbd3a547345f3772baeae884573bcb1bb8c6367db"
+}

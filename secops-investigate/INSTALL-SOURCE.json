@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/secops-investigate",
+  "installed_name": "secops-investigate",
+  "original_name": "secops-investigate",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "cc0b117c47d465717bac140e866a0c1cbc6d0d8a9b26886b44f2aac9b54d2ecb",
+  "installed_skill_sha256": "d144d811333977aeda82360dbef51f6bed21ad5bf8e11d1f74c16144a236fc7d"
+}

@@ -1,0 +1,16 @@
+{
+  "repository": "https://github.com/addyosmani/agent-skills",
+  "commit": "301b02b12bff98e4688e6984af6556802322bbde",
+  "path": "skills/shipping-and-launch",
+  "installed_name": "shipping-and-launch",
+  "original_name": "shipping-and-launch",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "relocated references/aliases: SKILL.md"
+  ],
+  "shared_resource_roots": [
+    "references"
+  ],
+  "upstream_skill_sha256": "92fec446ec4e947a7b8aac88b851aa5743ff8cb39d5987fb53df08ba8a160d64",
+  "installed_skill_sha256": "ad067fe389296f84e219d2c72c9b4f31b2649e7484edfd9838a2e6c9541eb132"
+}

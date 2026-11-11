@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/cloud-monitoring-list-time-series-request",
+  "installed_name": "cloud-monitoring-list-time-series-request",
+  "original_name": "cloud-monitoring-list-time-series-request",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "2386179b38ba422e9e9bfc1b353d81a0d4bce5d437c750c057b462a8495d719d",
+  "installed_skill_sha256": "e09877a1972a0e987944359dc408105a5ad7246bf7acbe4cbe9b3bef86cb0bb0"
+}

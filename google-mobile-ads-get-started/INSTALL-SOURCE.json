@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/ads/google-mobile-ads-get-started",
+  "installed_name": "google-mobile-ads-get-started",
+  "original_name": "google-mobile-ads-get-started",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "f78293f37128fbabaf986ebcc1e2faa8bb8f341c7443af356ed2812035c536d4",
+  "installed_skill_sha256": "ce4667b2a123433c5fd7df13fc8d0acec867c8ed68cbc8563a3dc4847e3177ec"
+}

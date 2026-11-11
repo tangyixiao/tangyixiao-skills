@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gemini-live-api",
+  "installed_name": "gemini-live-api",
+  "original_name": "gemini-live-api",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "ac332fb38402182a25597036ab158645a1dc29cac876bbd596ce1506fa39b2cb",
+  "installed_skill_sha256": "cc27d0b71aab85abbb6c9879e6b4e0fe7c5bbf96cace1f82f5735f531c1e8178"
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-storage",
+  "installed_name": "gke-storage",
+  "original_name": "gke-storage",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "e1e1875bdd6f2839ec3a43c1afbd5d58181f4060a9bb9333faad9212355ad4c5",
+  "installed_skill_sha256": "c11223b8570e4eda541d1e56486d50ba5e40f6f21e7ce80b8d998fc39f4330fe"
+}

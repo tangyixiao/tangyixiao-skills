@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/ads/google-mobile-ads-banner",
+  "installed_name": "google-mobile-ads-banner",
+  "original_name": "google-mobile-ads-banner",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "75dcfb5350c3feb1af57480f01518f4385d5c646593c194229888d37a7e45acb",
+  "installed_skill_sha256": "ce6cf1e883a97aea79d30ad329126694d43d5c2e1e7fb79bc1de8d4c7c136760"
+}

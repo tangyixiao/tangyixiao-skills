@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-workload-identity",
+  "installed_name": "gke-workload-identity",
+  "original_name": "gke-workload-identity",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "6ca454feb1f9b0ad3be8b21b64584d9dff6057ea35ff8546be63e06e3fe3a4a1",
+  "installed_skill_sha256": "42bab82006a3d3dda5762d3a10902213a5255a308198a1200fa7e28b6d64881b"
+}

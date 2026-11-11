@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-app-onboarding",
+  "installed_name": "gke-app-onboarding",
+  "original_name": "gke-app-onboarding",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "fbf034c1e29c66d5d4ecb71c982f335d7e8bae3030964ef732d3e532f25568d6",
+  "installed_skill_sha256": "be8e8bb6bdd3fe4a0228670f250b5fa969d23b0aab5fe48d727e570a9457fc34"
+}

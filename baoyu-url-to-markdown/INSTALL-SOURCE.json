@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/JimLiu/baoyu-skills",
+  "commit": "ca703c2d7c2c4399a1dc0cf82224f8551e05a96d",
+  "path": "skills/baoyu-url-to-markdown",
+  "installed_name": "baoyu-url-to-markdown",
+  "original_name": "baoyu-url-to-markdown",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "version moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "9e29277ce9ffbd39c240cacb49dc303d9cc44dee14740e2965e7e8632dd960ce",
+  "installed_skill_sha256": "b6e4d636403f70b3223eca2272359828d0d3feeff697705328cf037ea76a7963"
+}

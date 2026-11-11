@@ -1,0 +1,15 @@
+{
+  "repository": "https://github.com/JimLiu/baoyu-skills",
+  "commit": "ca703c2d7c2c4399a1dc0cf82224f8551e05a96d",
+  "path": "skills/baoyu-electron-extract",
+  "installed_name": "baoyu-electron-extract",
+  "original_name": "baoyu-electron-extract",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "version moved to metadata",
+    "description angle brackets made typographic for Codex"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "5e4190e84f8a3e9c0cd4060125e9f32599a9acf8eccaf94d035e4aa2f93011d8",
+  "installed_skill_sha256": "f084db15a15d4e943bfa21f7afd80aa0f05816c1f96ba6fea355f8c2d6b9e73d"
+}

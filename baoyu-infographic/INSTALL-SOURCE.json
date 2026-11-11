@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/JimLiu/baoyu-skills",
+  "commit": "ca703c2d7c2c4399a1dc0cf82224f8551e05a96d",
+  "path": "skills/baoyu-infographic",
+  "installed_name": "baoyu-infographic",
+  "original_name": "baoyu-infographic",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "version moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "c65cb4a14cb3b91390606808555887a32bfbae3137b37e44c05247bbd432ba40",
+  "installed_skill_sha256": "235bea714c4686d90bc57981bb28bccbfa8ef5ef75341e5c939aea6b9b728b07"
+}

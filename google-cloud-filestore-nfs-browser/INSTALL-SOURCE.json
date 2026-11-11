@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/google-cloud-filestore-nfs-browser",
+  "installed_name": "google-cloud-filestore-nfs-browser",
+  "original_name": "google-cloud-filestore-nfs-browser",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "3aa35496cea58bfa4e6a0f4d8761af03f64218340bff1d19a78cb36d3dfd0358",
+  "installed_skill_sha256": "881d5c2f18e66751ceeabfe9d18e17cea8d160b45030ec4221c1bf03cdef3845"
+}

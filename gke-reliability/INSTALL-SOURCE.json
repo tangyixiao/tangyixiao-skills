@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-reliability",
+  "installed_name": "gke-reliability",
+  "original_name": "gke-reliability",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "5c81ffedb8ae49c9110f65bc95b74cd8ba67b11d8b8c92f987bed826ca4b8fd5",
+  "installed_skill_sha256": "b2d774b9f85093427a02777516d689f6c9c02eaeeca94cb2a55c6b4869259da4"
+}

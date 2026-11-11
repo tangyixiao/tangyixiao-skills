@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/emilkowalski/skills",
+  "commit": "715c1807e08c497cfd1dc4feb450a2a3300ef2a9",
+  "path": "skills/find-animation-opportunities",
+  "installed_name": "find-animation-opportunities",
+  "original_name": "find-animation-opportunities",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "d52a377819b84a71930f0c822cfe2849f40301605a2d5c7eccbfa3b257700df2",
+  "installed_skill_sha256": "dd2643cf7d30cc2578830c646f363cbd7a816039d67fbc01f6adc26c66aca45c"
+}

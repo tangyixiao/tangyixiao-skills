@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/JimLiu/baoyu-skills",
+  "commit": "ca703c2d7c2c4399a1dc0cf82224f8551e05a96d",
+  "path": "skills/baoyu-image-gen",
+  "installed_name": "baoyu-image-gen",
+  "original_name": "baoyu-image-gen",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "version moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "c92cc35968807c179015f5f5751bb060bd6d64624dd4631bcaeb1f3378d33e8e",
+  "installed_skill_sha256": "5188e7481c31e197bb664683c22008c8581ec783ffe039f503e6af0b42c2a5ee"
+}

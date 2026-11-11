@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/ads/data-manager-api-setup",
+  "installed_name": "data-manager-api-setup",
+  "original_name": "data-manager-api-setup",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "a60488c726b69c67eda74234c0e91b58706d77b6a58e3763ab83e13dbff3946c",
+  "installed_skill_sha256": "4cdc315df047979c6b29e54fa330b00447c00bf3c6d4f3201156dcd8544dc4a4"
+}

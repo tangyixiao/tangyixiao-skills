@@ -1,0 +1,16 @@
+{
+  "repository": "https://github.com/addyosmani/agent-skills",
+  "commit": "301b02b12bff98e4688e6984af6556802322bbde",
+  "path": "skills/test-driven-development",
+  "installed_name": "test-driven-development",
+  "original_name": "test-driven-development",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "relocated references/aliases: SKILL.md"
+  ],
+  "shared_resource_roots": [
+    "references"
+  ],
+  "upstream_skill_sha256": "8fcaa57cf445ca6111fd20d2321bcfc0f424db7cfe526836db7b9bf8828fee39",
+  "installed_skill_sha256": "c07f9883d53033224a68c0539bbd98ecb08cad049765595a5c7efb5a82301bef"
+}

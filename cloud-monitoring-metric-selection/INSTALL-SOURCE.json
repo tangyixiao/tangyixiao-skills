@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/cloud-monitoring-metric-selection",
+  "installed_name": "cloud-monitoring-metric-selection",
+  "original_name": "cloud-monitoring-metric-selection",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "483318464b56754c7a9092604b61fb6ec04ffe6f96aa41432f22a8ef94ea0ce4",
+  "installed_skill_sha256": "6bb7dfdf1af5e64f7a47e66080751c86995ba704bbda76f5b7d0503ee3dbab55"
+}

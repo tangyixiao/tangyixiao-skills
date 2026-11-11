@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/agent-platform-endpoint-management",
+  "installed_name": "agent-platform-endpoint-management",
+  "original_name": "agent-platform-endpoint-management",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "c88cfcc1742a3801b614ffe93e244fdb8cf2350e0dbad55b4d03f4552776d12c",
+  "installed_skill_sha256": "b338ce7c3e458bfc5c56129915d86a87cb79a48c08f49da51b9f5db150ebb91c"
+}

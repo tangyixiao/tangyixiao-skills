@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/JimLiu/baoyu-skills",
+  "commit": "ca703c2d7c2c4399a1dc0cf82224f8551e05a96d",
+  "path": "skills/baoyu-compress-image",
+  "installed_name": "baoyu-compress-image",
+  "original_name": "baoyu-compress-image",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "version moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "e93d107e4ffa1c27f213880e7f830961a6bab07e43a1695aae12314851e09d2c",
+  "installed_skill_sha256": "a60d77d4479cbfc2f01a5191e26433d161b7c9b935a338952adc50a4644110f7"
+}

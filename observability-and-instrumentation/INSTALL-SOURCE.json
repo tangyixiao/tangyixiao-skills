@@ -1,0 +1,16 @@
+{
+  "repository": "https://github.com/addyosmani/agent-skills",
+  "commit": "301b02b12bff98e4688e6984af6556802322bbde",
+  "path": "skills/observability-and-instrumentation",
+  "installed_name": "observability-and-instrumentation",
+  "original_name": "observability-and-instrumentation",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "relocated references/aliases: SKILL.md"
+  ],
+  "shared_resource_roots": [
+    "references"
+  ],
+  "upstream_skill_sha256": "e7fcb0820306d46268de9594d676ad98e35040858926c412b7000faa52a61f87",
+  "installed_skill_sha256": "e225e345bff3b5373453e71b1910902841ac0fc2cdb5a8b7ca62066c58b1314a"
+}

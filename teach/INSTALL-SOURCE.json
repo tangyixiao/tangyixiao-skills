@@ -1,0 +1,15 @@
+{
+  "repository": "https://github.com/mattpocock/skills",
+  "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+  "path": "skills/productivity/teach",
+  "installed_name": "teach",
+  "original_name": "teach",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "disable-model-invocation moved to metadata",
+    "argument-hint moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "550482c2d674b085c9043b87bfdc14a8f2ec453c736119e7fcbb1e9332bffeba",
+  "installed_skill_sha256": "283213a2749e2b8d6f48a2b2d215dcadb9696fe141ebb8f2d88866135feef257"
+}

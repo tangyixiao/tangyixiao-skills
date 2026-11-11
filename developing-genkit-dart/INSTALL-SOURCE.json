@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/developing-genkit-dart",
+  "installed_name": "developing-genkit-dart",
+  "original_name": "developing-genkit-dart",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "fe236a39be2af692c2abb85a1869a706c5b4d417365d3a9171ce5a50aca6311c",
+  "installed_skill_sha256": "979e355af589f0047ca0fbc44068a62ec8dc1bcd89053f4d75d61698a553e2aa"
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/developers/retrieving-developer-knowledge",
+  "installed_name": "retrieving-developer-knowledge",
+  "original_name": "retrieving-developer-knowledge",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "c3d991be534984082d6f6232b3cc213c9f94556ccee2657b527f95dc427be0a1",
+  "installed_skill_sha256": "f761fcf4d07810b5f3faf625c328cb857ae6496a5034be432606b192934e935f"
+}

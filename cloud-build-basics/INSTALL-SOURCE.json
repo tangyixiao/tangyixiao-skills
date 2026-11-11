@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/cloud-build-basics",
+  "installed_name": "cloud-build-basics",
+  "original_name": "cloud-build-basics",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "3dda02d8830aa553216ac9920dffe3c9b3e26f7f55af4810b0d0281d3de76389",
+  "installed_skill_sha256": "a929e302d44dc30100ecdcac3bca531467c6a33614bd62a6b70ae54c47ca8c1f"
+}

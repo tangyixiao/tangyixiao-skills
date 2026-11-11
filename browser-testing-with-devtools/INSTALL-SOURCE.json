@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/addyosmani/agent-skills",
+  "commit": "301b02b12bff98e4688e6984af6556802322bbde",
+  "path": "skills/browser-testing-with-devtools",
+  "installed_name": "browser-testing-with-devtools",
+  "original_name": "browser-testing-with-devtools",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "e28dd45416e6df93f0db6fffeb3aa2477a0e48a22f8e05fd5bb1892484115bb6",
+  "installed_skill_sha256": "e7072fae17589df49471c26bb84314c04609743c14242b6b2534d02b571d3aa3"
+}

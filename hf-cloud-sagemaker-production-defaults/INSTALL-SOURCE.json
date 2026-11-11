@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/huggingface/skills",
+  "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+  "path": "skills/hf-cloud-sagemaker-production-defaults",
+  "installed_name": "hf-cloud-sagemaker-production-defaults",
+  "original_name": "hf-cloud-sagemaker-production-defaults",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "6a8c1aff465e548ac4476d56831f864621af83b6a0f54544637601f3ecc44f9e",
+  "installed_skill_sha256": "2602c5baf3bdf660be573d429c7d5bf80cf1d4a6d93b4c24df9aceab45902671"
+}

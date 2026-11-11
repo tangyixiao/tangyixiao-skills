@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/addyosmani/agent-skills",
+  "commit": "301b02b12bff98e4688e6984af6556802322bbde",
+  "path": "skills/constraint-driven-development",
+  "installed_name": "constraint-driven-development",
+  "original_name": "constraint-driven-development",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "5a690018d415fa972d1ecc85aed943a4f86b0d3c2305eea84f286ff391422008",
+  "installed_skill_sha256": "1a97b402f619d51c4912072a3feae7429dacc52741a6019a9ae09068d650121c"
+}

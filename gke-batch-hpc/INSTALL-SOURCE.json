@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-batch-hpc",
+  "installed_name": "gke-batch-hpc",
+  "original_name": "gke-batch-hpc",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "4eae151d68b18edaf4569c4396b0369e5b01f94fb23127d1fa2efb10ed55265b",
+  "installed_skill_sha256": "85647fc516eb7b569e65309bba743ddbbd0e1d06eef3c7771c42907cf28328a1"
+}

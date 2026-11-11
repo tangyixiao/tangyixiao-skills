@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/agent-platform-access-audit",
+  "installed_name": "agent-platform-access-audit",
+  "original_name": "agent-platform-access-audit",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "77273610d36d58ba9cbbf81a73a027f6155fe8ee23429e800876c91e684e1f46",
+  "installed_skill_sha256": "7cb11922a8a39d1383e371bf98e1a146b5578540f02df3c2ce0c990ad36ee63e"
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/huggingface/skills",
+  "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+  "path": "skills/huggingface-local-models",
+  "installed_name": "huggingface-local-models",
+  "original_name": "huggingface-local-models",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "814640db1d5f2f274aec09d66b3589ed5a0fdcfaf536afd508b1d757dcae1534",
+  "installed_skill_sha256": "776cd733a7f58a1db24d228ce862f6ec9b8522ee9aac5008b2405edfc143c1e1"
+}

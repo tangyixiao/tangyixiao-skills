@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/JimLiu/baoyu-skills",
+  "commit": "ca703c2d7c2c4399a1dc0cf82224f8551e05a96d",
+  "path": "skills/baoyu-slide-deck",
+  "installed_name": "baoyu-slide-deck",
+  "original_name": "baoyu-slide-deck",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "version moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "130267194669ed1d5a49e188ab4f9386e5e1751f4937bfa66a8aaf95643aea06",
+  "installed_skill_sha256": "92408f14b4f7103291826e006126a5eb8f86db3fc2b3cc84b5d480676e73349b"
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/mattpocock/skills",
+  "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+  "path": "skills/misc/git-guardrails-claude-code",
+  "installed_name": "git-guardrails-claude-code",
+  "original_name": "git-guardrails-claude-code",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "69b291d655626a01602b998a1836fcb93c058ede68dfafddfd71e87f17074764",
+  "installed_skill_sha256": "76b010f111529501da42e373f6dd1d6ee1dba0d1a5f322116a510a2b2d3b7261"
+}

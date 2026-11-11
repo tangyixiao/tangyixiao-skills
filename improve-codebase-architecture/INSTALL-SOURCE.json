@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/mattpocock/skills",
+  "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+  "path": "skills/engineering/improve-codebase-architecture",
+  "installed_name": "improve-codebase-architecture",
+  "original_name": "improve-codebase-architecture",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "disable-model-invocation moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "35b03a3db61e0f5aa333ea59b54963e45a3d2ace6649b2ef4f9576603e2582a6",
+  "installed_skill_sha256": "a492ee76278cf069f45fa25aa8cfb6b676c2e4f94f02fe439c70889c51cac9b6"
+}

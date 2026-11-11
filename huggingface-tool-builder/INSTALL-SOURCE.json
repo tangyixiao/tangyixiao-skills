@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/huggingface/skills",
+  "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+  "path": "skills/huggingface-tool-builder",
+  "installed_name": "huggingface-tool-builder",
+  "original_name": "huggingface-tool-builder",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "2846b591259b134a5978073e4da477a06275d7a10893ce1383a0a3920c3ff1e1",
+  "installed_skill_sha256": "9432eea9dfd53cdd2d7b44d975d3653a3c74ecf7b874312556a0c2651c36b9b9"
+}

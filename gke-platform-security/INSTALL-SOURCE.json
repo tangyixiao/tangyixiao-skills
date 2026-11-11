@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-platform-security",
+  "installed_name": "gke-platform-security",
+  "original_name": "gke-platform-security",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "a1ddfc22462d5e346891fcd52283a613137bcb0654b138b2b0c2f00c79e1b05f",
+  "installed_skill_sha256": "75d2654744b33fdf23e40b9e7f68aa0faad3ac62728ac19fcc1f40d5d03ae861"
+}

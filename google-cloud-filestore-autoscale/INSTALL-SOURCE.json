@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/google-cloud-filestore-autoscale",
+  "installed_name": "google-cloud-filestore-autoscale",
+  "original_name": "google-cloud-filestore-autoscale",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "aef9a703fc0116a2ede93d1ad4f9c046170c832f89adc7286974ece34a45ccea",
+  "installed_skill_sha256": "33b2dfaea1abcff5ec58954d227dbbf9916fe58145f8168be31d45fbb38bfed4"
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/mattpocock/skills",
+  "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+  "path": "skills/engineering/domain-modeling",
+  "installed_name": "domain-modeling",
+  "original_name": "domain-modeling",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "7b925d7b1e341a2eeae33ad68a8a8c0ab889a38ddd22a7598e4c240e5a7556a3",
+  "installed_skill_sha256": "2892690960e24908fddd92401673eef5889157a02af85b84df6213e233bcba41"
+}

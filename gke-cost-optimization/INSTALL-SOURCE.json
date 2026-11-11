@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-cost-optimization",
+  "installed_name": "gke-cost-optimization",
+  "original_name": "gke-cost-optimization",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "c1ec38f2e3360a917bfa82eedba611caf51c5239ec15fc322f87b5a0a9b51198",
+  "installed_skill_sha256": "a293d44b10a1d2faedcfaa0274003faf9540fda20c8ac94226de7bc93d04ce3c"
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/developer-device-platform-basics",
+  "installed_name": "developer-device-platform-basics",
+  "original_name": "developer-device-platform-basics",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "f34ca9243ca6a8f8f4b6862d16322ff4f1d6c49b0d651c9727c16cdb3cb24b6a",
+  "installed_skill_sha256": "aa6f89c555fdce4d758f93f7a9ee101af634eed6a4c1fc3464b8698f64db9a8e"
+}

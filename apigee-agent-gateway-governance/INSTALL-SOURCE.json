@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/apigee-agent-gateway-governance",
+  "installed_name": "apigee-agent-gateway-governance",
+  "original_name": "apigee-agent-gateway-governance",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "f9994cbfef5d3068fd0b06f8dd16c8849481b664c9b5e990694461c1a6471b94",
+  "installed_skill_sha256": "4e811f3f8b2f141a542c515c3b075f8ffd3f906b3092485a045d066ffba4da51"
+}

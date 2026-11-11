@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-cost-analysis",
+  "installed_name": "gke-cost-analysis",
+  "original_name": "gke-cost-analysis",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "08671e3fa0a357ed35deeefdf0dbb6ddc723db0b158417a4df02634cc54ae7b8",
+  "installed_skill_sha256": "aa50d111dcb3806799312fc7878a3b41369d4cac7c8fe56f4c27f7e04d69a65b"
+}

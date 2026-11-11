@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/ads/google-mobile-ads-android-migrate-to-next-gen",
+  "installed_name": "google-mobile-ads-android-migrate-to-next-gen",
+  "original_name": "google-mobile-ads-android-migrate-to-next-gen",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "fe9cd5ae56ead163f8b36066c4f179632b9f6296068bbf439f6ff06ad95820bd",
+  "installed_skill_sha256": "e97d8312095d1ee848f7745b1f915eeceb8fd99f15524f7cc78fcea473ba4a02"
+}

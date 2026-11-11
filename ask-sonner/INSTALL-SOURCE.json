@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/emilkowalski/skills",
+  "commit": "715c1807e08c497cfd1dc4feb450a2a3300ef2a9",
+  "path": "skills/ask-sonner",
+  "installed_name": "ask-sonner",
+  "original_name": "ask-sonner",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "39f3ee185b3aa2cf70a689052ff078953ce7ba5915ed7a9391d232e9d4dcf57f",
+  "installed_skill_sha256": "80225c5baa232feb30590323f2381743c0a23da211ab41d20b0f028a5f2adb86"
+}

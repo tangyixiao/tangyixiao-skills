@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/mattpocock/skills",
+  "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+  "path": "skills/misc/setup-pre-commit",
+  "installed_name": "setup-pre-commit",
+  "original_name": "setup-pre-commit",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "c9819d7f1e3b198064edc1faa3154224ed67395e9f07f5d3cea4b67cf0a11a98",
+  "installed_skill_sha256": "d92c51f52c8f4557a8c61f0511961a94ed51c462bf3c88be7c3cca062ca59512"
+}

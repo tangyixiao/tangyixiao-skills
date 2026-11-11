@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/cloud-armor-crs-rule-upgrader",
+  "installed_name": "cloud-armor-crs-rule-upgrader",
+  "original_name": "cloud-armor-crs-rule-upgrader",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "9ca2bf2111061b501dc009d849bacb6d77b4a74301b44cea7f5892e5fb29313e",
+  "installed_skill_sha256": "10f8bdb488adddc9145ef662794774c385239900e4b5cb0415dbfddf1865d53b"
+}

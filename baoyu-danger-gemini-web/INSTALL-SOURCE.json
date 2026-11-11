@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/JimLiu/baoyu-skills",
+  "commit": "ca703c2d7c2c4399a1dc0cf82224f8551e05a96d",
+  "path": "skills/baoyu-danger-gemini-web",
+  "installed_name": "baoyu-danger-gemini-web",
+  "original_name": "baoyu-danger-gemini-web",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "version moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "2d015d00dfe4fa463356fa2f5aa5c8e9bc49fee41aa976a7743c8abdb7a6dc75",
+  "installed_skill_sha256": "b11aebf7f4a640eab4f8edb79fc870308cae90d8c017e8a66187501e4e3a1d83"
+}

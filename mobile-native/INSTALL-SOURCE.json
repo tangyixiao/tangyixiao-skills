@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/emilkowalski/skills",
+  "commit": "715c1807e08c497cfd1dc4feb450a2a3300ef2a9",
+  "path": "skills/mobile-native",
+  "installed_name": "mobile-native",
+  "original_name": "mobile-native",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "888b7651d66d66dbac4e72b7c554638eb19bd971d686d6cbdf030a5ef3788f55",
+  "installed_skill_sha256": "54138302243d1143d0125d667d596ae5b0c206d21c49d4299cae956e63954324"
+}

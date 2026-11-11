@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-golden-path",
+  "installed_name": "gke-golden-path",
+  "original_name": "gke-golden-path",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "7d2b3465899def03d1223395aca5a1b5c3695b1d38ea86540e95edcf7cddb2cb",
+  "installed_skill_sha256": "84a41b042a61bf738827d4ac35427d034992483431acb7ac244bad04362b455c"
+}

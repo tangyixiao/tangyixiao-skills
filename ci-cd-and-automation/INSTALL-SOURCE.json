@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/addyosmani/agent-skills",
+  "commit": "301b02b12bff98e4688e6984af6556802322bbde",
+  "path": "skills/ci-cd-and-automation",
+  "installed_name": "ci-cd-and-automation",
+  "original_name": "ci-cd-and-automation",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "5e0e55c059670a7838dc9d58dc20a3a645c0d43c974416490112af7de522df95",
+  "installed_skill_sha256": "d6e46cf1f50cedc5cc87b19f5ee7a3b653650ac6bfdec1c60264d0aaf1ec52e2"
+}

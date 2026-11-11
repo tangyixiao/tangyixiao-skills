@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/huggingface/skills",
+  "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+  "path": "skills/huggingface-llm-trainer",
+  "installed_name": "huggingface-llm-trainer",
+  "original_name": "huggingface-llm-trainer",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "fb5c5e25103e38226e4d8ae28db84a01de42a11da4be1918fa72f833699f9d0d",
+  "installed_skill_sha256": "7e82d01d6f0534484fb886cb7f74eace01e45bf6bc231f520e5d3559c55ac448"
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/google-cloud-storage-bucket-architect",
+  "installed_name": "google-cloud-storage-bucket-architect",
+  "original_name": "google-cloud-storage-bucket-architect",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "2137fbf6640777af820beda8ddf6acb743ca03d886f0c09ee153cdeeb848f383",
+  "installed_skill_sha256": "3dd5993b7a3b49f5d02a43f2eb3d4cdff973a26954cb524b288c4253b577bf0a"
+}

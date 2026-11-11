@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/agent-platform-model-registry",
+  "installed_name": "agent-platform-model-registry",
+  "original_name": "agent-platform-model-registry",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "a4d7f0eb434698b30c8cf0798d882ee1ad172d507149e5f6d6cac88dfa162427",
+  "installed_skill_sha256": "c2671a2a08071323617b4359b3b994d44b1485a860b9fdcb0b526b43a7f64df6"
+}

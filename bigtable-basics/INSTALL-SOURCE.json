@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/bigtable-basics",
+  "installed_name": "bigtable-basics",
+  "original_name": "bigtable-basics",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "36bf4ac074b32f0f0d4c39338453c185c6cf278359cc2d1137911d9d87393633",
+  "installed_skill_sha256": "3541f64b474d7f84ba87c215ac2b9f2b13dfc21805ce04d938d686c627a1657d"
+}

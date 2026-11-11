@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/analytics/google-analytics-data-api-basics",
+  "installed_name": "google-analytics-data-api-basics",
+  "original_name": "google-analytics-data-api-basics",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "3ec2b0f892d1c640e0d8f6bff803b93a65492ec81a7d11526472b7c37d4f0025",
+  "installed_skill_sha256": "34865a32fa3f4c225073af7452f07c9013ef18af03616da3a77befe57b65cf8c"
+}

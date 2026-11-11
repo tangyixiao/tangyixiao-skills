@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gemini-interactions-api",
+  "installed_name": "gemini-interactions-api",
+  "original_name": "gemini-interactions-api",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "89d8115dd97246ba1fd324f247102cb9cae8e27ee4af97a896355003a4ae025f",
+  "installed_skill_sha256": "307e8799a72ce7c43b9a2d4222fd981f73f36929c2df3355bb4625bf43776e65"
+}

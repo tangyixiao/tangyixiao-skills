@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/mattpocock/skills",
+  "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+  "path": "skills/engineering/to-spec",
+  "installed_name": "to-spec",
+  "original_name": "to-spec",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "disable-model-invocation moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "43ad9cf318e5e7d3d1fa360253a37021796dc87a0c2e595ad262661a10f85088",
+  "installed_skill_sha256": "1b9758a8f6af7734285b4eac70ae3eada2d0332b91bb254e4ea7d6039520d1f0"
+}

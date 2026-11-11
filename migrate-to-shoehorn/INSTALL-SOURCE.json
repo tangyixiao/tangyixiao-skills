@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/mattpocock/skills",
+  "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+  "path": "skills/misc/migrate-to-shoehorn",
+  "installed_name": "migrate-to-shoehorn",
+  "original_name": "migrate-to-shoehorn",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "de4da4c11d924fac79c924b2ee3d2db4a5cb98386eb490a599119463d036ae72",
+  "installed_skill_sha256": "06ee793cec35affb14eafd6c839635a5eb721c959820b5e796eeb2a5bba6df99"
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/ads/data-manager-api-audience-ingestion",
+  "installed_name": "data-manager-api-audience-ingestion",
+  "original_name": "data-manager-api-audience-ingestion",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "a6f820026dfc991de7917d8906b9a52bbf1f55b7af663976903d8e5a722b234a",
+  "installed_skill_sha256": "0325554eee12786a1cf15c53fea8fe32468a902c4ea62798ccedcae784e85107"
+}

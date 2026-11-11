@@ -1,0 +1,16 @@
+{
+  "repository": "https://github.com/addyosmani/agent-skills",
+  "commit": "301b02b12bff98e4688e6984af6556802322bbde",
+  "path": "skills/using-agent-skills",
+  "installed_name": "using-agent-skills",
+  "original_name": "using-agent-skills",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "relocated references/aliases: SKILL.md"
+  ],
+  "shared_resource_roots": [
+    "references"
+  ],
+  "upstream_skill_sha256": "30787ef2c77bf1a4729fffed0f6523ba6fcbe81bdc436b36371b78c21394d3c3",
+  "installed_skill_sha256": "b7ef98c4e430b68c34f01a01c1e339bb6039efd14c9e6827dce675b715da990c"
+}

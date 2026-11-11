@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/api-gateway-openapi-spec-authoring",
+  "installed_name": "api-gateway-openapi-spec-authoring",
+  "original_name": "api-gateway-openapi-spec-authoring",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "daf09e84bf7d6dd50ecce5e916e9ec32cb590d4280cae28c4cfd0dba4949dc1c",
+  "installed_skill_sha256": "8d42c88f892584af37fe92c846c44ad2a02996f2701fb1e4e590daf873830138"
+}

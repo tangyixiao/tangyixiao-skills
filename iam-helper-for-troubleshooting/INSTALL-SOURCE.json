@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/iam-helper-for-troubleshooting",
+  "installed_name": "iam-helper-for-troubleshooting",
+  "original_name": "iam-helper-for-troubleshooting",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "bf2b1bc1137bb7f4d81173f69d3771b11e99af60f2c0bb3a8c26bf152086fac8",
+  "installed_skill_sha256": "fff4c85e28adc5951396d8bc7356bb63be7d3c3eeca210ba59e1258b9e5e1866"
+}

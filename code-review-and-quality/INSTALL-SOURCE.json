@@ -1,0 +1,16 @@
+{
+  "repository": "https://github.com/addyosmani/agent-skills",
+  "commit": "301b02b12bff98e4688e6984af6556802322bbde",
+  "path": "skills/code-review-and-quality",
+  "installed_name": "code-review-and-quality",
+  "original_name": "code-review-and-quality",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "relocated references/aliases: SKILL.md"
+  ],
+  "shared_resource_roots": [
+    "references"
+  ],
+  "upstream_skill_sha256": "a47551daf26e3cc5670f5286f9e4850c2fc662d5ba08b86eee895254f3851797",
+  "installed_skill_sha256": "1acf5a90e4c45514a4fdf97790d52b2ee065b8836db6b797bb2a2c30aa62a804"
+}

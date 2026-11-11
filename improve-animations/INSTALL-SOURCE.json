@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/emilkowalski/skills",
+  "commit": "715c1807e08c497cfd1dc4feb450a2a3300ef2a9",
+  "path": "skills/improve-animations",
+  "installed_name": "improve-animations",
+  "original_name": "improve-animations",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "73962447464433476343e2c12cd08ab39cc99a9e5f3c118c5fb54ed897574ef6",
+  "installed_skill_sha256": "a99927d3c61f1f61a635616a565614124e103de8c61203a6adc24f5e320dec16"
+}

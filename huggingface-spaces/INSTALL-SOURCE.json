@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/huggingface/skills",
+  "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+  "path": "skills/huggingface-spaces",
+  "installed_name": "huggingface-spaces",
+  "original_name": "huggingface-spaces",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "efa6506be823aaea03c31ef6cd06734485f7c451065aab43cfa5b5053c0df82b",
+  "installed_skill_sha256": "a6891f3cd5219aa9cc34f62dca9f301e95e2b795a26c94f92c0d103ef01475e6"
+}

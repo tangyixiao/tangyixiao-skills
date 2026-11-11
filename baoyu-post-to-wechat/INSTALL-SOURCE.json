@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/JimLiu/baoyu-skills",
+  "commit": "ca703c2d7c2c4399a1dc0cf82224f8551e05a96d",
+  "path": "skills/baoyu-post-to-wechat",
+  "installed_name": "baoyu-post-to-wechat",
+  "original_name": "baoyu-post-to-wechat",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "version moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "2b6e86e52c87910c92b3088d25ac3b5891b06a9382d4f5d68cd85a52698f4e27",
+  "installed_skill_sha256": "469e874697c27862989c12fda25b30f6f6591b23d6eb745be3705c5e79dc70d4"
+}

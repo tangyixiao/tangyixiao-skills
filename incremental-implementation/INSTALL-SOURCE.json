@@ -1,0 +1,16 @@
+{
+  "repository": "https://github.com/addyosmani/agent-skills",
+  "commit": "301b02b12bff98e4688e6984af6556802322bbde",
+  "path": "skills/incremental-implementation",
+  "installed_name": "incremental-implementation",
+  "original_name": "incremental-implementation",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "relocated references/aliases: SKILL.md"
+  ],
+  "shared_resource_roots": [
+    "references"
+  ],
+  "upstream_skill_sha256": "df66536610071727feae1ca95f3c391c248ad828041750ccd3699cce763aa00b",
+  "installed_skill_sha256": "3e9abe77beb31e3e5ed624a79416bcceac8513ad11faf2999b2c1e330d35bab9"
+}

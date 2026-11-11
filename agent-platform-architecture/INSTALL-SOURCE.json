@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/agent-platform-architecture",
+  "installed_name": "agent-platform-architecture",
+  "original_name": "agent-platform-architecture",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "db60e7b5d1128403132720c1445cfc2e26049f0651db14e71e94de074d175d48",
+  "installed_skill_sha256": "d66bba049554bed2bce575c8c0b8e147f7f875bee2e195870c355e95944ed9e5"
+}

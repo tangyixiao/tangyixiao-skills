@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/huggingface/skills",
+  "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+  "path": "skills/huggingface-gradio",
+  "installed_name": "huggingface-gradio",
+  "original_name": "huggingface-gradio",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "ce41c656e364a8027755a520372448036d90811f5a1d377f02bb9d549c0865a9",
+  "installed_skill_sha256": "2853eacb832bd48a29cc28cb7b8a976d50ae564a637365793ec30f2360dc69fb"
+}

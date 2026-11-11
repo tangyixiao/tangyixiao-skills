@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/application-integration-authoring",
+  "installed_name": "application-integration-authoring",
+  "original_name": "application-integration-authoring",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "56c9a82a6a1340876cbff8a591617ac1f8628cda55d6d6962086c28507577969",
+  "installed_skill_sha256": "6c1ea0708e2e1f2e5a2aba18cdb508542e4f4a2ffb1978586c326fc051c978ce"
+}

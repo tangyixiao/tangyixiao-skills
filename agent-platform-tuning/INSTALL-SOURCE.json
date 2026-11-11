@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/agent-platform-tuning",
+  "installed_name": "agent-platform-tuning",
+  "original_name": "agent-platform-tuning",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "2688b83de5d66b584cd8193fb4a91d83dcf9fc4404db526255e6a5cd2a81369e",
+  "installed_skill_sha256": "8dc74be5908d60c659dafcb6bcfe1d840767bf59e0230039fcefd2533d471735"
+}

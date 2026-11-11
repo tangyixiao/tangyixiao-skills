@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/google-agents-cli-onboarding",
+  "installed_name": "google-agents-cli-onboarding",
+  "original_name": "google-agents-cli-onboarding",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "12185f37535e120419af1ff92fc22f41f8231a583b8ca1b81bf6499a9319073e",
+  "installed_skill_sha256": "4d29d38b92733674ff124d2bd69a94349c4a005f299a5fcdaadbe5134d14b12c"
+}

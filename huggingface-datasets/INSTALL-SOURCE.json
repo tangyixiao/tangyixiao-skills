@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/huggingface/skills",
+  "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+  "path": "skills/huggingface-datasets",
+  "installed_name": "huggingface-datasets",
+  "original_name": "huggingface-datasets",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "eeca50adf211ea64a288b852938f85a5183b045c720dc696b62db9aa2ea8deb2",
+  "installed_skill_sha256": "97b45b02d363f2e8650561f598e1aae3e7597cc1393b67f5d18e6ef393cbd944"
+}

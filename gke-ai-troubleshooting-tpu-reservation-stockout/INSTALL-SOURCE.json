@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-ai-troubleshooting-tpu-reservation-stockout",
+  "installed_name": "gke-ai-troubleshooting-tpu-reservation-stockout",
+  "original_name": "gke-ai-troubleshooting-tpu-reservation-stockout",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "cc30a83b83172fc2685aab5ace8e0e5bf94501a3aea76ea5d7c6826c6d799fb4",
+  "installed_skill_sha256": "c5095bf8d2821a5dfa91de2451d36af469a8ccd4ea4e0561f85babb7794b329c"
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-storage-troubleshooting",
+  "installed_name": "gke-storage-troubleshooting",
+  "original_name": "gke-storage-troubleshooting",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "9e8d909017757d3e802535bcc1190bc6b6e302e6ede6ee63745ea20fdb7f64e1",
+  "installed_skill_sha256": "6bcb3e012070da21cb15316284211eff2a816c51da371b834639f6c94d5118e0"
+}

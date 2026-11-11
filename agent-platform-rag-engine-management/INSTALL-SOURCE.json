@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/agent-platform-rag-engine-management",
+  "installed_name": "agent-platform-rag-engine-management",
+  "original_name": "agent-platform-rag-engine-management",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "d1614114cc765375e3da901d5aad72188d329a295fb9abe5d84ebc00ef169148",
+  "installed_skill_sha256": "b09dae8e7968cd8186bf2cda0ad6cc3ef61fffdd76598d947b9279168ccfd38d"
+}

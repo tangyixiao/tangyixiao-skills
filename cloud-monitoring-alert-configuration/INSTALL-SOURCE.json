@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/cloud-monitoring-alert-configuration",
+  "installed_name": "cloud-monitoring-alert-configuration",
+  "original_name": "cloud-monitoring-alert-configuration",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "8d3b71679b9cbcc241eb440c5f70f224939981493ef8c0cdda11358289d0429a",
+  "installed_skill_sha256": "8d31c91f64372a3e7b0d6ee20ecdb426209c1daabfc14e8922aacd2e6dbba942"
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/ads/data-manager-api-event-ingestion",
+  "installed_name": "data-manager-api-event-ingestion",
+  "original_name": "data-manager-api-event-ingestion",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "8dbf4a839934e2f6fb08403f124493388205131eec05856af11e6fe04733aaec",
+  "installed_skill_sha256": "05cf6c13eee0227a9f116d7b1661468250abce4104f61e9a3e1577451996cdde"
+}

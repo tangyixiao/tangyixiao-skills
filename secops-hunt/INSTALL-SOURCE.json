@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/secops-hunt",
+  "installed_name": "secops-hunt",
+  "original_name": "secops-hunt",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "080a2d52760c5f41ca68eb7c3b005552c0b4c8139d39911adea84316d490fc85",
+  "installed_skill_sha256": "967b19e2f7eb1b52d04b87dae8a886c132ee3f461b9174f2de2e136af30fb3b2"
+}

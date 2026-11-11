@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/addyosmani/agent-skills",
+  "commit": "301b02b12bff98e4688e6984af6556802322bbde",
+  "path": "skills/interview-me",
+  "installed_name": "interview-me",
+  "original_name": "interview-me",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "ace4b675999bb504593d572e0f73f3d7e803ad6fddf318445598c82c11939db2",
+  "installed_skill_sha256": "a777c35c543d39634afb85061035c2f411efe2cf015e01332c9de0d2a14be6f8"
+}

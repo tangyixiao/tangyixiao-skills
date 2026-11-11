@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/bigquery-udfs",
+  "installed_name": "bigquery-udfs",
+  "original_name": "bigquery-udfs",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "fd305d14f3018b702db95e17e782b1ebdc7678297a46068049b0ce6eafcaf957",
+  "installed_skill_sha256": "3d8fb994c66ff6e48d9def56b03e57787609d516bf7df442a35c53ec9dfbe0de"
+}

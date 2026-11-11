@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/mattpocock/skills",
+  "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+  "path": "skills/engineering/wayfinder",
+  "installed_name": "wayfinder",
+  "original_name": "wayfinder",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "disable-model-invocation moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "0c9fa96791aebf3b7d654cf35c6aadde97d81f57c17b07d13b27c14d9c46561f",
+  "installed_skill_sha256": "dbe1dc04b4c8b87a0bde28cbd0f42790c59f2cafd1624033596f70d99785a0bf"
+}

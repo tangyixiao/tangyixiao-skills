@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/JimLiu/baoyu-skills",
+  "commit": "ca703c2d7c2c4399a1dc0cf82224f8551e05a96d",
+  "path": "skills/baoyu-diagram",
+  "installed_name": "baoyu-diagram",
+  "original_name": "baoyu-diagram",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "version moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "cad323126d00c70da03ea5ea2de13b3fa76d3b430788f6d8d2573a6b3ed03a06",
+  "installed_skill_sha256": "8597fb7aee97935ff5f253fda52beae5de6cbd567f48e5107b75aa7911845d3c"
+}

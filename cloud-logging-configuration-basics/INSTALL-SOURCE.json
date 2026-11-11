@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/cloud-logging-configuration-basics",
+  "installed_name": "cloud-logging-configuration-basics",
+  "original_name": "cloud-logging-configuration-basics",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "c1ef3caedb03f22b4cab32d268cfe7f5c76404fa12c6d33734d10fe6a3e18e15",
+  "installed_skill_sha256": "1a3f5522e2bb56292ed9dd2d4013e6a1ace691691d64bfe77bea88d305f4e38b"
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/addyosmani/agent-skills",
+  "commit": "301b02b12bff98e4688e6984af6556802322bbde",
+  "path": "skills/deprecation-and-migration",
+  "installed_name": "deprecation-and-migration",
+  "original_name": "deprecation-and-migration",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "1896d7db836fc067e2856739664db9ff5bb642526fdff2126d08ec0d588da4b7",
+  "installed_skill_sha256": "478a088bbe4f13d58154e0b033c17ba54c7455cc140dab2e8e2466a2a3dc048e"
+}

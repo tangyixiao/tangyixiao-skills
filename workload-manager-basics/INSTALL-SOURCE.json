@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/workload-manager-basics",
+  "installed_name": "workload-manager-basics",
+  "original_name": "workload-manager-basics",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "91f85b4f4dbd1a190477de800e3b1c9ec742c2919bde264154306b40b3584f7c",
+  "installed_skill_sha256": "52e888568684a472e61051324bb85583cab19cdbc9c599106836c9e2877ad6ed"
+}

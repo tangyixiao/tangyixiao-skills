@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/assuredworkloads-environment-assessor",
+  "installed_name": "assuredworkloads-environment-assessor",
+  "original_name": "assuredworkloads-environment-assessor",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "48a3a0c395bcfb27b6397b781031e237389553539f7bbf742d13d5c76b5f64a6",
+  "installed_skill_sha256": "25e8a6198fe5d8b38bd18d54b40c916de9db3a4e96f8caac6728cbde42b23452"
+}

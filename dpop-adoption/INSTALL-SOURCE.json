@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/identity/dpop-adoption",
+  "installed_name": "dpop-adoption",
+  "original_name": "dpop-adoption",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "f8a99c92fd6576bcef286898bdc02ea07e133d280c417e348d28ac9b16453a9d",
+  "installed_skill_sha256": "169c0f914529f35a4142a4fdd80f070715c002e818ccac85af68717d466a86e0"
+}

@@ -1,0 +1,15 @@
+{
+  "repository": "https://github.com/mattpocock/skills",
+  "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+  "path": "skills/productivity/grill-me",
+  "installed_name": "mattpocock-grill-me",
+  "original_name": "grill-me",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "name adapted to avoid collision or satisfy Codex naming",
+    "disable-model-invocation moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "caaf8b8de1684f96e26b28f3c29189db5c89cce4b73e1c93d86164f66ef88637",
+  "installed_skill_sha256": "0184f05bd229cff9a6c1a7e09d3d403c5ed02ca7e5933a1316a8c75756cbd48f"
+}

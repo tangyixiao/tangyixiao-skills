@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/addyosmani/agent-skills",
+  "commit": "301b02b12bff98e4688e6984af6556802322bbde",
+  "path": "skills/debugging-and-error-recovery",
+  "installed_name": "debugging-and-error-recovery",
+  "original_name": "debugging-and-error-recovery",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "01cff31fbd8796b444225f8a8386219792c25cebb5d4d76df664afd1d13ed610",
+  "installed_skill_sha256": "328620e96ce27861f1e0c9d1c5b30af115947a774f15a237fa021a39bf10e6c6"
+}

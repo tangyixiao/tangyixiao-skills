@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/emilkowalski/skills",
+  "commit": "715c1807e08c497cfd1dc4feb450a2a3300ef2a9",
+  "path": "skills/review-animations",
+  "installed_name": "review-animations",
+  "original_name": "review-animations",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "disable-model-invocation moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "5f9fb98b69cace7107af8b393a4196fd42fa42d98bce0e5afc1f866ff3b8a41c",
+  "installed_skill_sha256": "a3cf7e447d1cfc1853d7c2eff0c4dca4d9b5b8ea2d245ed2370ba45e46de3d66"
+}

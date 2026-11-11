@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/cloud-monitoring-promql-query",
+  "installed_name": "cloud-monitoring-promql-query",
+  "original_name": "cloud-monitoring-promql-query",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "c0ab4b670da5f91eb41bf340ee42dfbee20fef5ea9fca8b667fdecf24c6d7db9",
+  "installed_skill_sha256": "a2d535b7ceddebb880047411c6bc4ebf4f9bdc94b1d18b7bd239983dc6a4cca7"
+}

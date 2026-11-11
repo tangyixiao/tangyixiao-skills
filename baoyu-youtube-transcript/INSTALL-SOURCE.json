@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/JimLiu/baoyu-skills",
+  "commit": "ca703c2d7c2c4399a1dc0cf82224f8551e05a96d",
+  "path": "skills/baoyu-youtube-transcript",
+  "installed_name": "baoyu-youtube-transcript",
+  "original_name": "baoyu-youtube-transcript",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "version moved to metadata"
+  ],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "ae084307b70b71a3493904cb0d0c21c13ea7aee2259d1ca04ff3b0d2ae18982d",
+  "installed_skill_sha256": "79ebc2eaaceb269df5fa0f12a7ad4202cc3a43760f2733613b48e9523b6e0ffe"
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/cloud-logging-finops",
+  "installed_name": "cloud-logging-finops",
+  "original_name": "cloud-logging-finops",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "b14b75c6b47a1b215ec6a3d5e9d1abda8fa187cc02392f7346bc72ec7fbcbe65",
+  "installed_skill_sha256": "c63b300a5cfa1d297582f92965ef53bfb699a37aca96d35723540d9eeba45792"
+}

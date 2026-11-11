@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/huggingface/skills",
+  "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+  "path": "skills/train-sentence-transformers",
+  "installed_name": "train-sentence-transformers",
+  "original_name": "train-sentence-transformers",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "9bd098d81049fc245032ee4f97cf5d9de906d726731ace4a6df0bad6d9dcd182",
+  "installed_skill_sha256": "b09c9eb6e42accadebc87553dee2e6db75f5e4d621e3ed15a93d3bc8df69b3ec"
+}

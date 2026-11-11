@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/huggingface/skills",
+  "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+  "path": "skills/hf-cloud-sagemaker-iam-preflight",
+  "installed_name": "hf-cloud-sagemaker-iam-preflight",
+  "original_name": "hf-cloud-sagemaker-iam-preflight",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "a4ff26c2af2c0ce82a4ab34c5cf5eadce5db4573ed2525745c4ee7b21f1773e4",
+  "installed_skill_sha256": "53bf2ef91f81753db0bad044f52d60acbe441f41484ef888ab61251af418b10f"
+}

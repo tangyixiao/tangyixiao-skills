@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/mattpocock/skills",
+  "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+  "path": "skills/engineering/wizard",
+  "installed_name": "wizard",
+  "original_name": "wizard",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "bdf31d48211ea559878f95a4f344aeabf8d85897488ba564382bab0b000daac1",
+  "installed_skill_sha256": "e1c270074845e8cc26021d50d06957a7b04eb28bdc00bd73c1f4fb8e76acf2fe"
+}

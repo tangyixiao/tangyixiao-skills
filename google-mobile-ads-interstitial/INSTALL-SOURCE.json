@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/ads/google-mobile-ads-interstitial",
+  "installed_name": "google-mobile-ads-interstitial",
+  "original_name": "google-mobile-ads-interstitial",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "35d1686cd69024b7cb132c7b30da5454aca80761cdc3ab7b7494f40e7ee9bbdc",
+  "installed_skill_sha256": "be643fecf7a9ec0653a0e7c036e74f0380ec1491d90b3bd052bf38f1ed3a14cd"
+}

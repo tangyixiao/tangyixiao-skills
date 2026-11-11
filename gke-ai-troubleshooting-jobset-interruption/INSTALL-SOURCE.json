@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-ai-troubleshooting-jobset-interruption",
+  "installed_name": "gke-ai-troubleshooting-jobset-interruption",
+  "original_name": "gke-ai-troubleshooting-jobset-interruption",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "822c9a237e36e46c0aa5aefbc3723328f240f7824ac9de565836e662f94891fa",
+  "installed_skill_sha256": "35909faf77e9ba7472587a9a3a2ce60a85e2e7185b18c9bebfed96c4957556e4"
+}

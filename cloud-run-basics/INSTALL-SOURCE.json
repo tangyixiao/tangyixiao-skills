@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/cloud-run-basics",
+  "installed_name": "cloud-run-basics",
+  "original_name": "cloud-run-basics",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "8bf95426fb0c74b7f4e1a66d906791f59c143959e8bc7205c9249ada00e24903",
+  "installed_skill_sha256": "eb5aae8b1afffce42b42bfa96ea4f5c77df7e7312e34ccb6c4ed45a1f899f1fe"
+}

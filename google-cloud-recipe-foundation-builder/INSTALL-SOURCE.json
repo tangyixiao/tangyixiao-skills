@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/google-cloud-recipe-foundation-builder",
+  "installed_name": "google-cloud-recipe-foundation-builder",
+  "original_name": "google-cloud-recipe-foundation-builder",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "4d9d670e8c731fae63b57232f55b96c3cc08a826a4ee6b63b66cb790c304c0c8",
+  "installed_skill_sha256": "aedd5af4f4a1935ef80a91eef523eb85e2343d6b97221768e56a6782bdeab44c"
+}

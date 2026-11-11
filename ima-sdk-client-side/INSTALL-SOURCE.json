@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/ads/ima-sdk-client-side",
+  "installed_name": "ima-sdk-client-side",
+  "original_name": "ima-sdk-client-side",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "ff6523c5b4cab60367b48be183198a29e1e00862310045896f8d30ae037ef9af",
+  "installed_skill_sha256": "2a69a302fce3fa9be01e26a04aa7b48ca67aa40167d4886c374452470c17eb16"
+}

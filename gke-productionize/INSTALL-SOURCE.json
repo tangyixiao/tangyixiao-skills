@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-productionize",
+  "installed_name": "gke-productionize",
+  "original_name": "gke-productionize",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "49c45032f824392630f734c72565d55cea04361d61562cf5c49b41b766ec422f",
+  "installed_skill_sha256": "2d1bbf8e97eb977f65bc76546540b93adf78c624bc0bb0b81e5039ba70d74d40"
+}

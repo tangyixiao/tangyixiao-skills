@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/huggingface/skills",
+  "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+  "path": "skills/trl-training",
+  "installed_name": "trl-training",
+  "original_name": "trl-training",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "42c855bdc6171390abc7413cdb19bd4fd8dddfb31094d519a874427de08ddc2a",
+  "installed_skill_sha256": "81d2f7a8cfd96a6fbda9b4ce9732a85257f43e3f8c7d1c07eda1b7cee89ead15"
+}

@@ -1,0 +1,17 @@
+{
+  "repository": "https://github.com/addyosmani/agent-skills",
+  "commit": "301b02b12bff98e4688e6984af6556802322bbde",
+  "path": "skills/performance-optimization",
+  "installed_name": "performance-optimization",
+  "original_name": "performance-optimization",
+  "installed_on": "2026-11-11",
+  "adaptations": [
+    "relocated references/aliases: references/optimization-patterns.md",
+    "relocated references/aliases: SKILL.md"
+  ],
+  "shared_resource_roots": [
+    "references"
+  ],
+  "upstream_skill_sha256": "82af71540457cf853893685211f64509cd1e781c0de09d0186f16960f2d6eeba",
+  "installed_skill_sha256": "bde0f302d74a6af2140fed38140862f82d1b1c9ff583eb7ed0faebc585f94841"
+}

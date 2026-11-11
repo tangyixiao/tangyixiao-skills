@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/emilkowalski/skills",
+  "commit": "715c1807e08c497cfd1dc4feb450a2a3300ef2a9",
+  "path": "skills/gestures",
+  "installed_name": "gestures",
+  "original_name": "gestures",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "0835dddc0ce4f4257fdc707ec137d75810f0bdbd8d4eaf69d1de55bfbbf260c2",
+  "installed_skill_sha256": "e6e27cc69c02a5b1e4be7af7ee05b42e599c2e80fd50a3479534fdcf61f56c93"
+}

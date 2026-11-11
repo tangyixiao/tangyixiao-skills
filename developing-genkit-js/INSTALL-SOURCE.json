@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/developing-genkit-js",
+  "installed_name": "developing-genkit-js",
+  "original_name": "developing-genkit-js",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "41bd53781f2f1673024db10600ae98e19936d957d80648b9469c6832ab547ce9",
+  "installed_skill_sha256": "f3fbdd53a9846d51ba62daffd92d9e060aa188efd4d2371f14841a47be276152"
+}

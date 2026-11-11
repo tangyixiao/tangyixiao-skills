@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/datalineage-bigquery-asset-impact-analysis",
+  "installed_name": "datalineage-bigquery-asset-impact-analysis",
+  "original_name": "datalineage-bigquery-asset-impact-analysis",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "466ad3f324c48e05e949807473b84294ea0815c546a744cd5db31e4772caeaf9",
+  "installed_skill_sha256": "f3184cfb569d8ef2253b36347d15e4d91e6cd46a722610c1224b2d78d8756d6f"
+}

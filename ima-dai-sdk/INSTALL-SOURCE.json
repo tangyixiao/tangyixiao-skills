@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/ads/ima-dai-sdk",
+  "installed_name": "ima-dai-sdk",
+  "original_name": "ima-dai-sdk",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "be916bf1758c7b0fd68c742831ccaa45d274bb7c1458e59f52ab2f0bba0e55d6",
+  "installed_skill_sha256": "4d68a0c95879e96d9a71684cf9199b7565505d78150192653030bcfd1d4730fb"
+}

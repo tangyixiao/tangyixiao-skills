@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/google/skills",
+  "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "path": "skills/cloud/gke-ai-troubleshooting-tpu-vbar-oom",
+  "installed_name": "gke-ai-troubleshooting-tpu-vbar-oom",
+  "original_name": "gke-ai-troubleshooting-tpu-vbar-oom",
+  "installed_on": "2026-11-11",
+  "adaptations": [],
+  "shared_resource_roots": [],
+  "upstream_skill_sha256": "42b6b4dc2cd2c54e9412e2af7e9f81b9c2567e9e12a84fba9adb3cd750e9c9de",
+  "installed_skill_sha256": "8e0c37fc3fc9883e235607cff6b20244a3bee417603cba77c8aae8ca7ffc6b8b"
+}
