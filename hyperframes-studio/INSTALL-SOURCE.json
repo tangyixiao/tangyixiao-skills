@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "upstream_repository": "https://github.com/heygen-com/hyperframes",
+  "upstream_commit": "8a15d9feedc62dc9695246dceda9271a6d0a08e9",
+  "checked_on": "2026-11-11",
+  "upstream_path": null,
+  "retired_upstream_path": "skills/hyperframes-studio",
+  "status": "local_compatibility_alias_for_retired_upstream_skill",
+  "files": {
+    "LEGACY-SKILL.md": {
+      "installed_sha256": "85a595e24674c0a95c868359570aed467cbd01c8621c0d36b4bd55769b98bea7",
+      "upstream_sha256": null,
+      "origin": "byte_exact_archive_of_original_local_entry",
+      "verified_previous_commit": null
+    },
+    "SKILL.md": {
+      "installed_sha256": "0b2e79f6684c542f0f4df1b554dba0aa69cd7144f3d8bb9fd93f895f0311e9bd",
+      "upstream_sha256": null,
+      "origin": "additive_compatibility_notice_with_complete_original_body_preserved",
+      "verified_previous_commit": null
+    }
+  },
+  "notes": [
+    "Upstream consolidated seven former skills into hyperframes and media-use. Current four core skills are copied as a coherent set; seven installed names remain local compatibility interfaces.",
+    "No new skill names are installed. reverse-any-video, style-sampling, slideshow, remotion-to-hyperframes and figma remain absent unless separately installed.",
+    "Every existing file is preserved or archived. No deletion is proposed. Original legacy SKILL.md files are archived at the same directory depth as LEGACY-SKILL.md so their relative paths remain valid.",
+    "hyperframes-studio/SKILL.md has no exact match in its five published historical file revisions. Its complete original text remains in the active entry after an additive compatibility notice and also in LEGACY-SKILL.md.",
+    "Retained legacy recipes are a local reference library. Active composition behavior follows the current four upstream skills, rather than the archived auto-update and workflow-install instructions."
+  ],
+  "repository": "https://github.com/heygen-com/hyperframes",
+  "commit": "8a15d9feedc62dc9695246dceda9271a6d0a08e9",
+  "path": "skills/hyperframes-studio",
+  "installed_name": "hyperframes-studio",
+  "source_type": "local-compatibility-adapter"
+}

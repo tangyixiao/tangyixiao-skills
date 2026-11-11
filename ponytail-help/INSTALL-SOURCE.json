@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/DietrichGebert/ponytail",
+  "commit": "96608e078b2d5ea607c5c3b8b5a54d1c1fba6846",
+  "path": "skills/ponytail-help",
+  "installed_name": "ponytail-help",
+  "checked_on": "2026-11-11",
+  "source_verification": "installed identity and exact per-file comparison against pinned upstream snapshots",
+  "comparison_commit": "e3ba2aa6f1e6f0bc4d69eb09c9f0d0a93af56156",
+  "note": "User files and omitted repository-only assets are preserved; this pin supplies a baseline for future three-way comparisons."
+}

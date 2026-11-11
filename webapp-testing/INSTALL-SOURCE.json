@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "upstream_repository": "https://github.com/anthropics/skills",
+  "upstream_commit": "2c5958ecac7cee2b583967a2c4981d0f4a75c579",
+  "upstream_path": "skills/webapp-testing",
+  "checked_on": "2026-11-11",
+  "mapping": "confirmed_by_exact_file_hashes_and_upstream_history",
+  "preserved_local_differences": [],
+  "files": {
+    "LICENSE.txt": {
+      "installed_sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+      "upstream_sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+      "relationship": "matches_upstream"
+    },
+    "SKILL.md": {
+      "installed_sha256": "51b7349e77ec63b7744a6f63647e7566a0b4d2e301121cc10e8c2113af6556a2",
+      "upstream_sha256": "51b7349e77ec63b7744a6f63647e7566a0b4d2e301121cc10e8c2113af6556a2",
+      "relationship": "matches_upstream"
+    },
+    "examples/console_logging.py": {
+      "installed_sha256": "ea46877289acb82da7e7ce59d0bc37c8977cd57e2a006d0c88d7a1c625bf95da",
+      "upstream_sha256": "ea46877289acb82da7e7ce59d0bc37c8977cd57e2a006d0c88d7a1c625bf95da",
+      "relationship": "matches_upstream"
+    },
+    "examples/element_discovery.py": {
+      "installed_sha256": "d63c89604a22f8845d724e95dda45db49b1bf57c25ce0a83afbb7b8da3d402f0",
+      "upstream_sha256": "d63c89604a22f8845d724e95dda45db49b1bf57c25ce0a83afbb7b8da3d402f0",
+      "relationship": "matches_upstream"
+    },
+    "examples/static_html_automation.py": {
+      "installed_sha256": "9d533aafb875ee3ab8b8ebf8f5b9003ac8d999da3d09b285cce252e623140064",
+      "upstream_sha256": "9d533aafb875ee3ab8b8ebf8f5b9003ac8d999da3d09b285cce252e623140064",
+      "relationship": "matches_upstream"
+    },
+    "scripts/with_server.py": {
+      "installed_sha256": "b0dcf4918935b795f4eda9821579b9902119235ff4447f687a30286e7d0925fd",
+      "upstream_sha256": "b0dcf4918935b795f4eda9821579b9902119235ff4447f687a30286e7d0925fd",
+      "relationship": "matches_upstream"
+    }
+  },
+  "notes": "This metadata records a verified source snapshot. Preserved local differences are not claimed to match upstream. No downloaded scripts were executed during preparation.",
+  "repository": "https://github.com/anthropics/skills",
+  "commit": "2c5958ecac7cee2b583967a2c4981d0f4a75c579",
+  "path": "skills/webapp-testing",
+  "installed_name": "webapp-testing"
+}

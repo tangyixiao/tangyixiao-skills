@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "upstream_repository": "https://github.com/anthropics/skills",
+  "upstream_commit": "2c5958ecac7cee2b583967a2c4981d0f4a75c579",
+  "upstream_path": "skills/mcp-builder",
+  "checked_on": "2026-11-11",
+  "mapping": "confirmed_by_exact_file_hashes_and_upstream_history",
+  "preserved_local_differences": [],
+  "files": {
+    "LICENSE.txt": {
+      "installed_sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+      "upstream_sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+      "relationship": "matches_upstream"
+    },
+    "SKILL.md": {
+      "installed_sha256": "b483b56d6673134497e45489c317f26ae0f1429c194db0297e43073e17e6748c",
+      "upstream_sha256": "b483b56d6673134497e45489c317f26ae0f1429c194db0297e43073e17e6748c",
+      "relationship": "matches_upstream"
+    },
+    "reference/evaluation.md": {
+      "installed_sha256": "8c99479f8a2d22a636c38e274537aac3610879e26f34e0709825077c4576f427",
+      "upstream_sha256": "8c99479f8a2d22a636c38e274537aac3610879e26f34e0709825077c4576f427",
+      "relationship": "matches_upstream"
+    },
+    "reference/mcp_best_practices.md": {
+      "installed_sha256": "80fb4369a349447cf18ecdd7494fe7938b6065377e9f08c077cec411093a3007",
+      "upstream_sha256": "80fb4369a349447cf18ecdd7494fe7938b6065377e9f08c077cec411093a3007",
+      "relationship": "matches_upstream"
+    },
+    "reference/node_mcp_server.md": {
+      "installed_sha256": "ee3c95d812e450f6168b734390d0c9ef6f8ebeef041d73a122c972dfbd4d476a",
+      "upstream_sha256": "ee3c95d812e450f6168b734390d0c9ef6f8ebeef041d73a122c972dfbd4d476a",
+      "relationship": "matches_upstream"
+    },
+    "reference/node_mcp_server_v2.md": {
+      "installed_sha256": "49b2fe48f33910b743ae3a56353fffa5d5f252f531053f24f2da4e5914c0d3aa",
+      "upstream_sha256": "49b2fe48f33910b743ae3a56353fffa5d5f252f531053f24f2da4e5914c0d3aa",
+      "relationship": "matches_upstream"
+    },
+    "reference/python_mcp_server.md": {
+      "installed_sha256": "2da52f77e675191014ca2e146a4b95aa04d0ca7dd7e2b100322df15ade685e80",
+      "upstream_sha256": "2da52f77e675191014ca2e146a4b95aa04d0ca7dd7e2b100322df15ade685e80",
+      "relationship": "matches_upstream"
+    },
+    "scripts/connections.py": {
+      "installed_sha256": "9403668a2041568772082a8b334122c1f88daf0541fb393af4522d0094a47a6e",
+      "upstream_sha256": "9403668a2041568772082a8b334122c1f88daf0541fb393af4522d0094a47a6e",
+      "relationship": "matches_upstream"
+    },
+    "scripts/evaluation.py": {
+      "installed_sha256": "49ed1d17cdce5da101b210197740713f49b935c29d4f339542a14b132658e6f7",
+      "upstream_sha256": "49ed1d17cdce5da101b210197740713f49b935c29d4f339542a14b132658e6f7",
+      "relationship": "matches_upstream"
+    },
+    "scripts/example_evaluation.xml": {
+      "installed_sha256": "9272b348ddcc4b06ba562367ccd0770e018158c0068ac5116d5e34aaeff8777a",
+      "upstream_sha256": "9272b348ddcc4b06ba562367ccd0770e018158c0068ac5116d5e34aaeff8777a",
+      "relationship": "matches_upstream"
+    },
+    "scripts/requirements.txt": {
+      "installed_sha256": "d5d7558b2368ecea9dfeed7d1fbc71ee9e0750bebd1282faa527d528a344c3c7",
+      "upstream_sha256": "d5d7558b2368ecea9dfeed7d1fbc71ee9e0750bebd1282faa527d528a344c3c7",
+      "relationship": "matches_upstream"
+    }
+  },
+  "notes": "This metadata records a verified source snapshot. Preserved local differences are not claimed to match upstream. No downloaded scripts were executed during preparation.",
+  "repository": "https://github.com/anthropics/skills",
+  "commit": "2c5958ecac7cee2b583967a2c4981d0f4a75c579",
+  "path": "skills/mcp-builder",
+  "installed_name": "mcp-builder"
+}

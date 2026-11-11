@@ -1,0 +1,16 @@
+{
+  "repository": "https://github.com/remotion-dev/skills",
+  "commit": "1af7e69a2a613437d46095924057970a6a7df40d",
+  "path": "skills/remotion-studio",
+  "installed_name": "remotion-studio",
+  "frontmatter_changes": [
+    "version moved to metadata.upstream-version"
+  ],
+  "local_adaptations": [
+    "version moved to metadata.upstream-version"
+  ],
+  "historical_base_commit": "7a3d0ca45d2f6a00bf35cb3c525734a36d55a834",
+  "historical_base_version": "4.0.518",
+  "layout": "standalone siblings; duplicate bundled sibling reference trees omitted",
+  "updated_on": "2026-11-11"
+}

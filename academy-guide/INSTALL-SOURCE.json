@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "upstream_repository": "https://github.com/anthropics/skills",
+  "upstream_commit": "2c5958ecac7cee2b583967a2c4981d0f4a75c579",
+  "upstream_path": "skills/academy-guide",
+  "checked_on": "2026-11-11",
+  "mapping": "confirmed_by_exact_file_hashes_and_upstream_history",
+  "preserved_local_differences": [],
+  "files": {
+    "LICENSE.txt": {
+      "installed_sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+      "upstream_sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+      "relationship": "matches_upstream"
+    },
+    "SKILL.md": {
+      "installed_sha256": "f27992510c051355dfe68c92394d509af730da5298094ec86834ee40bbd31376",
+      "upstream_sha256": "f27992510c051355dfe68c92394d509af730da5298094ec86834ee40bbd31376",
+      "relationship": "matches_upstream"
+    }
+  },
+  "notes": "This metadata records a verified source snapshot. Preserved local differences are not claimed to match upstream. No downloaded scripts were executed during preparation.",
+  "repository": "https://github.com/anthropics/skills",
+  "commit": "2c5958ecac7cee2b583967a2c4981d0f4a75c579",
+  "path": "skills/academy-guide",
+  "installed_name": "academy-guide"
+}

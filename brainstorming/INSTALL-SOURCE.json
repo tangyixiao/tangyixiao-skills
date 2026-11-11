@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "source_repo": "obra/superpowers",
+  "source_url": "https://github.com/obra/superpowers",
+  "source_commit": "22f0b463e7a5e579904dd6211a520321035526f7",
+  "source_path": "skills/brainstorming",
+  "source_ref": "main (pinned by source_commit)",
+  "skill_version": "7.0.2",
+  "previous_installed_base_commit": "05d90ac59248e6716f1a81e79757d850e62f4f7d",
+  "previous_installed_base_archive_sha256": "bc71e0c60cf7fbd387127266e691a75d03f7c8790be0ebbacc4a3b6deb4f50e9",
+  "previous_installed_supplemental_file_bases": {},
+  "preexisting_local_content_differences": [],
+  "adaptations": [],
+  "upstream_file_sha256": {
+    "SKILL.md": "2c9ca71f94886f9ca9f4aef055f7cafb3e1a9bdf3aeebf8f4cb547c69405d207",
+    "builder-check-prompt.md": "36d51a4723d6f0a3ce5811a0ea3b3a8424f07533947e1355f5d8cb8cce40c55e",
+    "scripts/frame-template.html": "6a8a4e58bd6a44b904e2e3c57de774481d909204597e1498de53f1b2fecc4c4e",
+    "scripts/helper.js": "43c6d69954a46ec34a2a262bcc62a9a7e83e839c739f199cb72646d397c686e3",
+    "scripts/server.cjs": "763abf96510e0b892a1141397b31aa82ef900cf87ed34dde94bc8782baf4a7ca",
+    "scripts/start-server.sh": "314dd68dc00e8dd94c7491aca8a5f004c7fddffc161e2b07482f29f48d13659a",
+    "scripts/stop-server.sh": "0b5ccbbd57f62d3ed88993f7940b5ee0e5c0fc9b21c550c623da4f6292e47daf",
+    "visual-companion.md": "6ffcb038b53254bd31debaa15e12dcd4ff24bd63d690e0b644ac6396701cf2e2"
+  },
+  "notes": [
+    "The complete installed tree was compared with an exact historical snapshot, not a snapshot selected by local mirror date.",
+    "No genuine local content modifications were found; no source content adapters are needed.",
+    "Only this installed skill subtree is staged. Plugin caches, global instructions and global hook configuration are unchanged.",
+    "All eight installed files exactly match the historical base.",
+    "SKILL.md and visual-companion.md update together with the server and new builder-check prompt.",
+    "The obsolete spec-document-reviewer-prompt.md is deleted because it exactly matches the old base and the new skill does not reference it."
+  ],
+  "repository": "https://github.com/obra/superpowers",
+  "commit": "22f0b463e7a5e579904dd6211a520321035526f7",
+  "path": "skills/brainstorming",
+  "installed_name": "brainstorming"
+}

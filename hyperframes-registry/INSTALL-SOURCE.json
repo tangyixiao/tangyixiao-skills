@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "upstream_repository": "https://github.com/heygen-com/hyperframes",
+  "upstream_commit": "8a15d9feedc62dc9695246dceda9271a6d0a08e9",
+  "checked_on": "2026-11-11",
+  "upstream_path": "skills/hyperframes-registry",
+  "retired_upstream_path": null,
+  "status": "current_upstream_with_retained_legacy_resources",
+  "files": {
+    "SKILL.md": {
+      "installed_sha256": "843f9459912d464e84aa9cdeb21ec3d2628d444d252e1db13c2f947582792b70",
+      "upstream_sha256": "843f9459912d464e84aa9cdeb21ec3d2628d444d252e1db13c2f947582792b70",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/search.md": {
+      "installed_sha256": "3da7b42d2a0d8d9e2cbcdd8591da5a83203c424de9f46a995950d374a74531ee",
+      "upstream_sha256": "3da7b42d2a0d8d9e2cbcdd8591da5a83203c424de9f46a995950d374a74531ee",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "references/demo-html-pattern.md": {
+      "installed_sha256": "dfc50cd33eff2c2be75437786fc3e851ab0085f7d453fb35b3380ecf9a6e9f04",
+      "upstream_sha256": "dfc50cd33eff2c2be75437786fc3e851ab0085f7d453fb35b3380ecf9a6e9f04",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/install-locations.md": {
+      "installed_sha256": "83793e7d6aeea9a751755e4bd23ea48182ff9af082287b98a1192343d2571dd1",
+      "upstream_sha256": "83793e7d6aeea9a751755e4bd23ea48182ff9af082287b98a1192343d2571dd1",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/component-quality-bar.md": {
+      "installed_sha256": "f0d4c3c44131bc0791f8a8cc3d2d7478d38045451775af7d20b2dd47cf5f91ac",
+      "upstream_sha256": "f0d4c3c44131bc0791f8a8cc3d2d7478d38045451775af7d20b2dd47cf5f91ac",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/templates.md": {
+      "installed_sha256": "98e1ef62d3c1264b28139d85a1c9b5a8b7438209914aebef6d9890e3f4275805",
+      "upstream_sha256": "98e1ef62d3c1264b28139d85a1c9b5a8b7438209914aebef6d9890e3f4275805",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/wiring-blocks.md": {
+      "installed_sha256": "397f9ad5a9244d173b97bb5a5dfe76ea3cbccfb8dde16cba8b3dabc6044b011a",
+      "upstream_sha256": "397f9ad5a9244d173b97bb5a5dfe76ea3cbccfb8dde16cba8b3dabc6044b011a",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/placeholder-material.md": {
+      "installed_sha256": "15adf4a40b26166f64df784aed065adb58051d9ccd5c0c52ad9b71e3b8367a09",
+      "upstream_sha256": "15adf4a40b26166f64df784aed065adb58051d9ccd5c0c52ad9b71e3b8367a09",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/discovery.md": {
+      "installed_sha256": "ca82fcc1e0b2d824b72a8bda99b60d257b23d493fa1d28adbb0548a762cacd04",
+      "upstream_sha256": "ca82fcc1e0b2d824b72a8bda99b60d257b23d493fa1d28adbb0548a762cacd04",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/wiring-components.md": {
+      "installed_sha256": "6c8341c29fdae6de4f9fd1560a668d11cf34731b81fe5a06c9aeb4a000047b2a",
+      "upstream_sha256": "6c8341c29fdae6de4f9fd1560a668d11cf34731b81fe5a06c9aeb4a000047b2a",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/contributing.md": {
+      "installed_sha256": "3724d1dd269768da26b731f6592ac749f47f62443e909f881ac12ceba36db0fa",
+      "upstream_sha256": "3724d1dd269768da26b731f6592ac749f47f62443e909f881ac12ceba36db0fa",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "examples/add-block.md": {
+      "installed_sha256": "0e3353755c4ef55e53570d1266a4a43b2c5aef9bbe41276430e38cfa6580b83a",
+      "upstream_sha256": "0e3353755c4ef55e53570d1266a4a43b2c5aef9bbe41276430e38cfa6580b83a",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "examples/add-component.md": {
+      "installed_sha256": "d06992d31eec617a91f5c34630c9274c52dd07898bd24f10a869d0d1cab5af29",
+      "upstream_sha256": "d06992d31eec617a91f5c34630c9274c52dd07898bd24f10a869d0d1cab5af29",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    }
+  },
+  "notes": [
+    "Upstream consolidated seven former skills into hyperframes and media-use. Current four core skills are copied as a coherent set; seven installed names remain local compatibility interfaces.",
+    "No new skill names are installed. reverse-any-video, style-sampling, slideshow, remotion-to-hyperframes and figma remain absent unless separately installed.",
+    "Every existing file is preserved or archived. No deletion is proposed. Original legacy SKILL.md files are archived at the same directory depth as LEGACY-SKILL.md so their relative paths remain valid.",
+    "hyperframes-studio/SKILL.md has no exact match in its five published historical file revisions. Its complete original text remains in the active entry after an additive compatibility notice and also in LEGACY-SKILL.md.",
+    "Retained legacy recipes are a local reference library. Active composition behavior follows the current four upstream skills, rather than the archived auto-update and workflow-install instructions."
+  ],
+  "repository": "https://github.com/heygen-com/hyperframes",
+  "commit": "8a15d9feedc62dc9695246dceda9271a6d0a08e9",
+  "path": "skills/hyperframes-registry",
+  "installed_name": "hyperframes-registry"
+}

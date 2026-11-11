@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "upstream_repository": "https://github.com/anthropics/skills",
+  "upstream_commit": "2c5958ecac7cee2b583967a2c4981d0f4a75c579",
+  "upstream_path": "skills/pdf",
+  "checked_on": "2026-11-11",
+  "mapping": "confirmed_by_exact_file_hashes_and_upstream_history",
+  "preserved_local_differences": [],
+  "files": {
+    "LICENSE.txt": {
+      "installed_sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "upstream_sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "relationship": "matches_upstream"
+    },
+    "SKILL.md": {
+      "installed_sha256": "d1c7caf5f35eb7d37877dd7fc33a095037be2b34fb5d2f7f4d43bde3165bb4ee",
+      "upstream_sha256": "d1c7caf5f35eb7d37877dd7fc33a095037be2b34fb5d2f7f4d43bde3165bb4ee",
+      "relationship": "matches_upstream"
+    },
+    "forms.md": {
+      "installed_sha256": "9530b3f57034792e0242a3abfe8b3c296466329551916f2ff6c5a70db78f7e44",
+      "upstream_sha256": "9530b3f57034792e0242a3abfe8b3c296466329551916f2ff6c5a70db78f7e44",
+      "relationship": "matches_upstream"
+    },
+    "reference.md": {
+      "installed_sha256": "03a5f964f8abecbbe156f363356e927e864d7ee964f1012c84ee1bfc8acbeb95",
+      "upstream_sha256": "03a5f964f8abecbbe156f363356e927e864d7ee964f1012c84ee1bfc8acbeb95",
+      "relationship": "matches_upstream"
+    },
+    "scripts/check_bounding_boxes.py": {
+      "installed_sha256": "0ced522402dd7b3c82a0be9518cf4e485fa9cc0467d7beab6ddb04cb36fcc3e1",
+      "upstream_sha256": "0ced522402dd7b3c82a0be9518cf4e485fa9cc0467d7beab6ddb04cb36fcc3e1",
+      "relationship": "matches_upstream"
+    },
+    "scripts/check_fillable_fields.py": {
+      "installed_sha256": "1fe10b9980a5493c9bbec8c20630c603eaa475b45403751c08f26738736647b8",
+      "upstream_sha256": "1fe10b9980a5493c9bbec8c20630c603eaa475b45403751c08f26738736647b8",
+      "relationship": "matches_upstream"
+    },
+    "scripts/convert_pdf_to_images.py": {
+      "installed_sha256": "7f58e292a67e18a8ff000d30bad2469389546731f7e8a698cc1d0aed001ea15d",
+      "upstream_sha256": "7f58e292a67e18a8ff000d30bad2469389546731f7e8a698cc1d0aed001ea15d",
+      "relationship": "matches_upstream"
+    },
+    "scripts/create_validation_image.py": {
+      "installed_sha256": "8fa9fd7962c9f940045b81cf6b991e7c1057c1838e3f9cc6d305007a222ffebf",
+      "upstream_sha256": "8fa9fd7962c9f940045b81cf6b991e7c1057c1838e3f9cc6d305007a222ffebf",
+      "relationship": "matches_upstream"
+    },
+    "scripts/extract_form_field_info.py": {
+      "installed_sha256": "bb235b36f497bbb1c7c6821cecf527bbba7213520de11219da99f7b13a38c109",
+      "upstream_sha256": "bb235b36f497bbb1c7c6821cecf527bbba7213520de11219da99f7b13a38c109",
+      "relationship": "matches_upstream"
+    },
+    "scripts/extract_form_structure.py": {
+      "installed_sha256": "6814e3fe8f78c2b16d766c132b5a727ff7a31b71d76a7d46bd6e40fe50bc97c5",
+      "upstream_sha256": "6814e3fe8f78c2b16d766c132b5a727ff7a31b71d76a7d46bd6e40fe50bc97c5",
+      "relationship": "matches_upstream"
+    },
+    "scripts/fill_fillable_fields.py": {
+      "installed_sha256": "d140872c2e92e41b1e05370ae8d270c5b7f5ebdf55d9905f03bc974a9c708ff5",
+      "upstream_sha256": "d140872c2e92e41b1e05370ae8d270c5b7f5ebdf55d9905f03bc974a9c708ff5",
+      "relationship": "matches_upstream"
+    },
+    "scripts/fill_pdf_form_with_annotations.py": {
+      "installed_sha256": "8a56e063a49ed53c0b0e1d312ecf8023af76816ed139486ec3b539873de202fd",
+      "upstream_sha256": "8a56e063a49ed53c0b0e1d312ecf8023af76816ed139486ec3b539873de202fd",
+      "relationship": "matches_upstream"
+    }
+  },
+  "notes": "This metadata records a verified source snapshot. Preserved local differences are not claimed to match upstream. No downloaded scripts were executed during preparation.",
+  "repository": "https://github.com/anthropics/skills",
+  "commit": "2c5958ecac7cee2b583967a2c4981d0f4a75c579",
+  "path": "skills/pdf",
+  "installed_name": "pdf"
+}

@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/Rimagination/dy-note",
+  "commit": "9a65f0d069cacdf5b0d7529f2ce1139d38072b47",
+  "path": ".",
+  "installed_name": "dy-note",
+  "checked_on": "2026-11-11",
+  "source_verification": "installed identity and exact per-file comparison against pinned upstream snapshots",
+  "comparison_commit": null,
+  "note": "User files and omitted repository-only assets are preserved; this pin supplies a baseline for future three-way comparisons."
+}

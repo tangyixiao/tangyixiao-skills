@@ -1,7 +1,8 @@
 ---
 name: remotion-maps
 description: Remotion Map animation knowledge
-version: 4.0.518
+metadata:
+  upstream-version: "4.0.542"
 ---
 
 # Remotion Maps

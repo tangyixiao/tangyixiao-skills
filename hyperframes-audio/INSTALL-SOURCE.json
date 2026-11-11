@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "upstream_repository": "https://github.com/heygen-com/hyperframes",
+  "upstream_commit": "8a15d9feedc62dc9695246dceda9271a6d0a08e9",
+  "checked_on": "2026-11-11",
+  "upstream_path": null,
+  "retired_upstream_path": "skills/hyperframes-audio",
+  "status": "local_compatibility_alias_for_retired_upstream_skill",
+  "files": {
+    "LEGACY-SKILL.md": {
+      "installed_sha256": "03007db5f0ea61f093c401f681e30d686c4a490f7462c6fd34949722e881b278",
+      "upstream_sha256": null,
+      "origin": "byte_exact_archive_of_original_local_entry",
+      "verified_previous_commit": null
+    },
+    "SKILL.md": {
+      "installed_sha256": "c111d348b333cb6d85cbbfec69931c812b2f780a2e2ca975c9405ce54e1560d9",
+      "upstream_sha256": null,
+      "origin": "compatibility_alias_with_archived_exact_historical_entry",
+      "verified_previous_commit": "173103dfdec5738f85733e6796d56932ad2a7436"
+    },
+    "references/fx-registry.md": {
+      "installed_sha256": "5c3d6f5e0037a1596fd2df70037d57e638f08492f58d8e75bf2225de52162adc",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "18a922f43342a3afb6e03e80ab7174d78552da95"
+    },
+    "references/attributes.md": {
+      "installed_sha256": "314cf04f277670c11bc3ede695b430f832d9df9d2eabb4aa645a9a299ae53e91",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "18a922f43342a3afb6e03e80ab7174d78552da95"
+    },
+    "references/diagnosis.md": {
+      "installed_sha256": "6496d8ba77e74adc48a81defe3c9c13310f6fca41ec17ca171dc851bc6e2b2e9",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/presets.md": {
+      "installed_sha256": "6878ef09982cb9cefb2d0148a22d8ed431806b3cef9f62e2d1d8cdbabec37917",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "scripts/carve.test.mjs": {
+      "installed_sha256": "6f72d9e0a349d9deaee62f1835b9c5639dc71389643f5d37accc0844958b43f6",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "scripts/carve.mjs": {
+      "installed_sha256": "61ade17adf4bf0c6bcaf0fed7f379ba5ede03d821a2a8e30c016fee1b71e1cab",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "18a922f43342a3afb6e03e80ab7174d78552da95"
+    }
+  },
+  "notes": [
+    "Upstream consolidated seven former skills into hyperframes and media-use. Current four core skills are copied as a coherent set; seven installed names remain local compatibility interfaces.",
+    "No new skill names are installed. reverse-any-video, style-sampling, slideshow, remotion-to-hyperframes and figma remain absent unless separately installed.",
+    "Every existing file is preserved or archived. No deletion is proposed. Original legacy SKILL.md files are archived at the same directory depth as LEGACY-SKILL.md so their relative paths remain valid.",
+    "hyperframes-studio/SKILL.md has no exact match in its five published historical file revisions. Its complete original text remains in the active entry after an additive compatibility notice and also in LEGACY-SKILL.md.",
+    "Retained legacy recipes are a local reference library. Active composition behavior follows the current four upstream skills, rather than the archived auto-update and workflow-install instructions."
+  ],
+  "frontmatter_changes": [
+    "description uses hf-audio-group element name without angle brackets to fit Codex validator"
+  ],
+  "repository": "https://github.com/heygen-com/hyperframes",
+  "commit": "8a15d9feedc62dc9695246dceda9271a6d0a08e9",
+  "path": "skills/hyperframes-audio",
+  "installed_name": "hyperframes-audio",
+  "source_type": "local-compatibility-adapter"
+}

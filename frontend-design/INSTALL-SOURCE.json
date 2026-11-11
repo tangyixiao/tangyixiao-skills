@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "upstream_repository": "https://github.com/anthropics/skills",
+  "upstream_commit": "2c5958ecac7cee2b583967a2c4981d0f4a75c579",
+  "upstream_path": "skills/frontend-design",
+  "checked_on": "2026-11-11",
+  "mapping": "confirmed_by_exact_file_hashes_and_upstream_history",
+  "preserved_local_differences": [],
+  "files": {
+    "LICENSE.txt": {
+      "installed_sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "upstream_sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "relationship": "matches_upstream"
+    },
+    "SKILL.md": {
+      "installed_sha256": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3",
+      "upstream_sha256": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3",
+      "relationship": "matches_upstream"
+    }
+  },
+  "notes": "This metadata records a verified source snapshot. Preserved local differences are not claimed to match upstream. No downloaded scripts were executed during preparation.",
+  "repository": "https://github.com/anthropics/skills",
+  "commit": "2c5958ecac7cee2b583967a2c4981d0f4a75c579",
+  "path": "skills/frontend-design",
+  "installed_name": "frontend-design"
+}

@@ -3,14 +3,13 @@
 Check the directory two levels above the loaded `SKILL.md` for `plugin.json`,
 `.claude-plugin/plugin.json`, `.codex-plugin/plugin.json`, or
 `.cursor-plugin/plugin.json` identifying `hyperframes`, or a Gemini extension manifest.
-That directory is `<PLUGIN_ROOT>`. If none exists, this is a standalone skill;
-follow the normal installation and freshness instructions.
+That directory is `<PLUGIN_ROOT>`. If none exists, this is a standalone skill
+install; run `npx hyperframes` directly.
 
-For a plugin installation, these rules replace the standalone update commands
-in every workflow and reference:
+For a plugin installation, these rules apply in every skill and reference:
 
 - Do not run `hyperframes skills update`, `skills check`, or `npx skills add`.
-  The agent's plugin manager owns installation and updates. Read the workflow at
+  The agent's plugin manager owns installation and updates. Read the skill at
   `<PLUGIN_ROOT>/skills/<name>/SKILL.md`; report a missing bundled skill instead
   of downloading a different release. Resolve all skill references inside this
   bundle, even if a standalone copy is also installed. Claude exposes the router
@@ -35,9 +34,9 @@ in every workflow and reference:
   version alone does not freeze those inputs.
 - Treat the plugin directory as read-only. Put outputs and temporary work in the
   project or a temporary directory. Pass this plugin root and launcher convention
-  to any delegated workflow so it does not fall back to global skills.
+  to any delegated agent so it does not fall back to global skills.
 
-To get newer skills, use the client's plugin update flow and reload the session.
-Do not silently update an installed plugin during a video task.
+Newer skills come through the client's plugin update flow and a session reload,
+which the person runs. Do not update an installed plugin yourself.
 
 The launcher suppresses CLI update notices as well as standalone skill refreshes, including when running an older CLI with a stale notice cache. It passes the release as `HYPERFRAMES_PLUGIN_VERSION` for plugin-aware helpers and as `HYPERFRAMES_SKILL_PKG_VERSION` for the existing helper-package bootstrap. Our release process versions those packages together.

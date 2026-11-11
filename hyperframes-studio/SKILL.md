@@ -12,6 +12,20 @@ description: >
   `creator-editing-recipes.md` in `/hyperframes-core`.
 ---
 
+# hyperframes-studio: compatibility entry
+
+Upstream consolidated this skill into the current HyperFrames core. The installed name remains available; read [HyperFrames](../hyperframes/SKILL.md) first, then the task's current reference:
+
+- [Editing boundaries, work loop and editable structure](../hyperframes/SKILL.md)
+- [Timeline and project history](../hyperframes-cli/SKILL.md)
+- [Storyboard](../hyperframes/references/storyboard.md)
+
+Follow the current composition contract and CLI guidance. Do not run archived `skills update hyperframes-studio` commands or use removed workflows as prerequisites. [LEGACY-SKILL.md](LEGACY-SKILL.md) and this directory's existing resources preserve the previous interfaces and recipes for reference; they do not override the current runtime contract. No new skill is required by this compatibility entry.
+
+Keep the person's content, locked storyboard frames and manual edits. Questions and explicit holds authorize no composition changes; an explicit request for no file changes also means no plan-file writes. Render after the preview is approved, or when the person has already requested the file or no stops, after validation and visual review.
+
+## Preserved local Studio conventions
+
 **Plugin installs:** Before setup or freshness commands, follow [plugin execution rules](../hyperframes/references/plugin-installation.md) when this skill is inside a HyperFrames plugin. Standalone installs keep the update instructions below.
 
 # HyperFrames Studio conventions

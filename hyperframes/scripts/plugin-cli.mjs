@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 // Run from the user's project; locate the release from this installed file.
 import { spawnSync } from "node:child_process";
-import { existsSync, readFileSync, realpathSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { join, win32 } from "node:path";
-import { fileURLToPath, pathToFileURL } from "node:url";
+import { fileURLToPath } from "node:url";
+import { isMainModule } from "./lib/main-module.mjs";
 
 const root = fileURLToPath(new URL("../../../", import.meta.url));
 const manifests = [
@@ -28,7 +29,7 @@ export function pluginVersion(pluginRoot = root) {
     return manifest.version;
   }
   throw new Error(
-    "No HyperFrames plugin manifest found. Use the standalone skills installation instructions.",
+    "No HyperFrames plugin manifest found. This is a standalone skill install; run `npx hyperframes` directly.",
   );
 }
 
@@ -44,7 +45,7 @@ export function invocation(
 ) {
   if (args[0] === "skills")
     throw new Error(
-      "Update HyperFrames through your agent's plugin manager; bundled skills are release-managed.",
+      "Bundled skills are release-managed; the person updates HyperFrames through their agent's plugin manager.",
     );
   const childEnv = {
     ...env,
@@ -71,7 +72,7 @@ export function invocation(
   return { command: node, args: [npx, ...cliArgs], env: childEnv };
 }
 
-if (process.argv[1] && pathToFileURL(realpathSync(process.argv[1])).href === import.meta.url) {
+if (isMainModule(import.meta.url)) {
   try {
     const command = invocation(process.argv.slice(2));
     const result = spawnSync(command.command, command.args, {

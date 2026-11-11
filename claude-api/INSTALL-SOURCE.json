@@ -1,0 +1,501 @@
+{
+  "schema_version": 1,
+  "upstream_repository": "https://github.com/anthropics/skills",
+  "upstream_commit": "2c5958ecac7cee2b583967a2c4981d0f4a75c579",
+  "upstream_path": "skills/claude-api",
+  "checked_on": "2026-11-11",
+  "mapping": "confirmed_by_exact_file_hashes_and_upstream_history",
+  "preserved_local_differences": [
+    "SKILL.md: Codex description-length adaptation"
+  ],
+  "files": {
+    "LICENSE.txt": {
+      "installed_sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+      "upstream_sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+      "relationship": "matches_upstream"
+    },
+    "SKILL.md": {
+      "installed_sha256": "ef5cfa72809a77d3d82953ceab2508a33b8b990e20dfddb61bf034a426a02310",
+      "upstream_sha256": "40537cca17c4aa86e4ce83ced39efcbfb1204905e3cf4c4ff98f2eab011e4b7f",
+      "relationship": "codex_frontmatter_adaptation"
+    },
+    "csharp/claude-api/README.md": {
+      "installed_sha256": "87a2cc5c6e670e0bf34120f9a592d321567eea57c716c06791f6d2dcaba08b00",
+      "upstream_sha256": "87a2cc5c6e670e0bf34120f9a592d321567eea57c716c06791f6d2dcaba08b00",
+      "relationship": "matches_upstream"
+    },
+    "csharp/claude-api/batches.md": {
+      "installed_sha256": "ec276fccf21757ed00803dfa4bc35f14f334138629fa53c77a025d718eda96a1",
+      "upstream_sha256": "ec276fccf21757ed00803dfa4bc35f14f334138629fa53c77a025d718eda96a1",
+      "relationship": "matches_upstream"
+    },
+    "csharp/claude-api/files-api.md": {
+      "installed_sha256": "766ccf5dca9ef3caba8cefeddde10f6d171a7bd2ff4c97689462fad2d0d18e4b",
+      "upstream_sha256": "766ccf5dca9ef3caba8cefeddde10f6d171a7bd2ff4c97689462fad2d0d18e4b",
+      "relationship": "matches_upstream"
+    },
+    "csharp/claude-api/streaming.md": {
+      "installed_sha256": "bc0100e50b3495e869901bcfb231870cb3483b936534af5fd3dddb5d07e4531e",
+      "upstream_sha256": "bc0100e50b3495e869901bcfb231870cb3483b936534af5fd3dddb5d07e4531e",
+      "relationship": "matches_upstream"
+    },
+    "csharp/claude-api/tool-use.md": {
+      "installed_sha256": "18aa857c41e39eedb35815bfd8d50868a1bbc1f1a657f5e7233a3879baebc764",
+      "upstream_sha256": "18aa857c41e39eedb35815bfd8d50868a1bbc1f1a657f5e7233a3879baebc764",
+      "relationship": "matches_upstream"
+    },
+    "curl/examples.md": {
+      "installed_sha256": "4520e447d37924e62fe982923f3eceea5338dbf3b3a0d25d0f914272c16b90a0",
+      "upstream_sha256": "4520e447d37924e62fe982923f3eceea5338dbf3b3a0d25d0f914272c16b90a0",
+      "relationship": "matches_upstream"
+    },
+    "curl/managed-agents.md": {
+      "installed_sha256": "faa7dd3d83cfd32d1faabb13fee5902e041285579b00256f17fd21681ed3ff2a",
+      "upstream_sha256": "faa7dd3d83cfd32d1faabb13fee5902e041285579b00256f17fd21681ed3ff2a",
+      "relationship": "matches_upstream"
+    },
+    "go/claude-api/README.md": {
+      "installed_sha256": "c73ac644d8efe65a8d149e800267f98b0aa9d1e716ca38a22fd8803d5c35bfae",
+      "upstream_sha256": "c73ac644d8efe65a8d149e800267f98b0aa9d1e716ca38a22fd8803d5c35bfae",
+      "relationship": "matches_upstream"
+    },
+    "go/claude-api/files-api.md": {
+      "installed_sha256": "7bf67ece5e4d18b1fb07085a55b680420cc7bd4de94a1fb2bb73cb23f39c20f0",
+      "upstream_sha256": "7bf67ece5e4d18b1fb07085a55b680420cc7bd4de94a1fb2bb73cb23f39c20f0",
+      "relationship": "matches_upstream"
+    },
+    "go/claude-api/streaming.md": {
+      "installed_sha256": "a523e992e438309ca1bbc075ded2b652eb257242fd0ce521afd3b8ea024ed94d",
+      "upstream_sha256": "a523e992e438309ca1bbc075ded2b652eb257242fd0ce521afd3b8ea024ed94d",
+      "relationship": "matches_upstream"
+    },
+    "go/claude-api/tool-use.md": {
+      "installed_sha256": "18c6dc0cec151293b44697c340e0e0759f6081ad711ca34b06570c2450f243e9",
+      "upstream_sha256": "18c6dc0cec151293b44697c340e0e0759f6081ad711ca34b06570c2450f243e9",
+      "relationship": "matches_upstream"
+    },
+    "go/managed-agents/README.md": {
+      "installed_sha256": "0343be8d49f94687fe5e068ad69d9e05253b408e7bcd0e230b39924f6404facc",
+      "upstream_sha256": "0343be8d49f94687fe5e068ad69d9e05253b408e7bcd0e230b39924f6404facc",
+      "relationship": "matches_upstream"
+    },
+    "java/claude-api/README.md": {
+      "installed_sha256": "cb6d395dc1d930371f828290132681541eff7f1a7e2739bb4c6655ebbb3b8c7f",
+      "upstream_sha256": "cb6d395dc1d930371f828290132681541eff7f1a7e2739bb4c6655ebbb3b8c7f",
+      "relationship": "matches_upstream"
+    },
+    "java/claude-api/files-api.md": {
+      "installed_sha256": "1c792f3421de32f42a56235327f87807a5579340726bba677ec13e05f9b493c7",
+      "upstream_sha256": "1c792f3421de32f42a56235327f87807a5579340726bba677ec13e05f9b493c7",
+      "relationship": "matches_upstream"
+    },
+    "java/claude-api/streaming.md": {
+      "installed_sha256": "de13bc9573b37edb5af69606853c4fde3d494ee10ff47d1a030ecef9cc17463b",
+      "upstream_sha256": "de13bc9573b37edb5af69606853c4fde3d494ee10ff47d1a030ecef9cc17463b",
+      "relationship": "matches_upstream"
+    },
+    "java/claude-api/tool-use.md": {
+      "installed_sha256": "1916b8d4e49b5d319a2d0c7e21b5a3d7a0f225e4a94d82139e769f66eb66f6d1",
+      "upstream_sha256": "1916b8d4e49b5d319a2d0c7e21b5a3d7a0f225e4a94d82139e769f66eb66f6d1",
+      "relationship": "matches_upstream"
+    },
+    "java/managed-agents/README.md": {
+      "installed_sha256": "ba2a845898b302dc78b5354aa8f34ae4fc2c2ea41d12aa7d0440db59ee004e0c",
+      "upstream_sha256": "ba2a845898b302dc78b5354aa8f34ae4fc2c2ea41d12aa7d0440db59ee004e0c",
+      "relationship": "matches_upstream"
+    },
+    "php/claude-api/README.md": {
+      "installed_sha256": "00e2e88f3ea9a6cce812d3e6ae9e035bc36f88828a09e518bb73af91097a9d66",
+      "upstream_sha256": "00e2e88f3ea9a6cce812d3e6ae9e035bc36f88828a09e518bb73af91097a9d66",
+      "relationship": "matches_upstream"
+    },
+    "php/claude-api/batches.md": {
+      "installed_sha256": "6f82a29f718ff6e6b02aaaee3cfd6cda2feb82aca57d945f11a2c021214a699d",
+      "upstream_sha256": "6f82a29f718ff6e6b02aaaee3cfd6cda2feb82aca57d945f11a2c021214a699d",
+      "relationship": "matches_upstream"
+    },
+    "php/claude-api/files-api.md": {
+      "installed_sha256": "0715a0d4cce88fd885f57bd33b4654071a9068d5f8a892143b062c78fe51afc9",
+      "upstream_sha256": "0715a0d4cce88fd885f57bd33b4654071a9068d5f8a892143b062c78fe51afc9",
+      "relationship": "matches_upstream"
+    },
+    "php/claude-api/streaming.md": {
+      "installed_sha256": "3b8ac667b21f17750eb3c1fc7dc166fd7b1f57a1d8b11e74489de4432e21d31d",
+      "upstream_sha256": "3b8ac667b21f17750eb3c1fc7dc166fd7b1f57a1d8b11e74489de4432e21d31d",
+      "relationship": "matches_upstream"
+    },
+    "php/claude-api/tool-use.md": {
+      "installed_sha256": "1d79c316ef608d8327da1ae7495ecc4a0c517bdd761037c886d8fc61a0eca7d0",
+      "upstream_sha256": "1d79c316ef608d8327da1ae7495ecc4a0c517bdd761037c886d8fc61a0eca7d0",
+      "relationship": "matches_upstream"
+    },
+    "php/managed-agents/README.md": {
+      "installed_sha256": "2f9ada8a85098a7a4a7265c29fadb74d695a33bf19bc6d5df3a2c275b4a535b2",
+      "upstream_sha256": "2f9ada8a85098a7a4a7265c29fadb74d695a33bf19bc6d5df3a2c275b4a535b2",
+      "relationship": "matches_upstream"
+    },
+    "python/claude-api/README.md": {
+      "installed_sha256": "284fbc6408809afd27288da95c5fb32daa48bd77518cd5fd4e973cc05363eaa8",
+      "upstream_sha256": "284fbc6408809afd27288da95c5fb32daa48bd77518cd5fd4e973cc05363eaa8",
+      "relationship": "matches_upstream"
+    },
+    "python/claude-api/batches.md": {
+      "installed_sha256": "7e4d07173845836617be3db70482c182311ad2d6d5ddf786482ca57c7c45776c",
+      "upstream_sha256": "7e4d07173845836617be3db70482c182311ad2d6d5ddf786482ca57c7c45776c",
+      "relationship": "matches_upstream"
+    },
+    "python/claude-api/files-api.md": {
+      "installed_sha256": "2aa142978660d9ae3200d21a4d333531ca101898706f620834304e8a7d534580",
+      "upstream_sha256": "2aa142978660d9ae3200d21a4d333531ca101898706f620834304e8a7d534580",
+      "relationship": "matches_upstream"
+    },
+    "python/claude-api/sdk-upgrade.md": {
+      "installed_sha256": "f7c5651b21dd6fd5651935415d907fa0a369736f3055d50edb3d236ea016527c",
+      "upstream_sha256": "f7c5651b21dd6fd5651935415d907fa0a369736f3055d50edb3d236ea016527c",
+      "relationship": "matches_upstream"
+    },
+    "python/claude-api/streaming.md": {
+      "installed_sha256": "8f73a54dbbb5e82c2c7690d7d866f17ad8c72f662a2be6dd788b5c0956714026",
+      "upstream_sha256": "8f73a54dbbb5e82c2c7690d7d866f17ad8c72f662a2be6dd788b5c0956714026",
+      "relationship": "matches_upstream"
+    },
+    "python/claude-api/tool-use.md": {
+      "installed_sha256": "548dcc4bd2a36e8b90cec446f9b0b7917d2d75a085c7c2603b28c840bd621621",
+      "upstream_sha256": "548dcc4bd2a36e8b90cec446f9b0b7917d2d75a085c7c2603b28c840bd621621",
+      "relationship": "matches_upstream"
+    },
+    "python/managed-agents/README.md": {
+      "installed_sha256": "82b6e5847027b0ffe5976116e5c249a58e9e2781eb09e914a81ee2f9eb970245",
+      "upstream_sha256": "82b6e5847027b0ffe5976116e5c249a58e9e2781eb09e914a81ee2f9eb970245",
+      "relationship": "matches_upstream"
+    },
+    "ruby/claude-api/README.md": {
+      "installed_sha256": "c7de89d236f22bc0b44a091a45ee186ec057caa021a71acd4d3849599cbf3b36",
+      "upstream_sha256": "c7de89d236f22bc0b44a091a45ee186ec057caa021a71acd4d3849599cbf3b36",
+      "relationship": "matches_upstream"
+    },
+    "ruby/claude-api/streaming.md": {
+      "installed_sha256": "09b784f2ab0a5fd17e0589225408c618d26c6dd3cd601364ff92f409d5b104a0",
+      "upstream_sha256": "09b784f2ab0a5fd17e0589225408c618d26c6dd3cd601364ff92f409d5b104a0",
+      "relationship": "matches_upstream"
+    },
+    "ruby/claude-api/tool-use.md": {
+      "installed_sha256": "80cbb7c7fd4a01b816524eb54e0f8f4e5b4cc7643d393dfce6b9682e0f4d61b6",
+      "upstream_sha256": "80cbb7c7fd4a01b816524eb54e0f8f4e5b4cc7643d393dfce6b9682e0f4d61b6",
+      "relationship": "matches_upstream"
+    },
+    "ruby/managed-agents/README.md": {
+      "installed_sha256": "729ba22b8711a09192006d169098f16b933dd124ff36421772e4334d862306ab",
+      "upstream_sha256": "729ba22b8711a09192006d169098f16b933dd124ff36421772e4334d862306ab",
+      "relationship": "matches_upstream"
+    },
+    "shared/admin-api.md": {
+      "installed_sha256": "a69c53817391fca50c0a1848f46de9debf71fa3681298fccb0a6435b760bac2d",
+      "upstream_sha256": "a69c53817391fca50c0a1848f46de9debf71fa3681298fccb0a6435b760bac2d",
+      "relationship": "matches_upstream"
+    },
+    "shared/agent-design.md": {
+      "installed_sha256": "9960728faf6976a2ddfceed02ed72af122d3b2558af573a9a0ea207b3adec2bc",
+      "upstream_sha256": "9960728faf6976a2ddfceed02ed72af122d3b2558af573a9a0ea207b3adec2bc",
+      "relationship": "matches_upstream"
+    },
+    "shared/anthropic-cli.md": {
+      "installed_sha256": "2baa725ea0248ab7d98dcb218f09e5eb22f768006ad28f4d5011b4975b4d500e",
+      "upstream_sha256": "2baa725ea0248ab7d98dcb218f09e5eb22f768006ad28f4d5011b4975b4d500e",
+      "relationship": "matches_upstream"
+    },
+    "shared/claude-platform-on-aws.md": {
+      "installed_sha256": "dec03193c61909167846c0526a4feacf011578b5e7ee29f76378141315cf97f5",
+      "upstream_sha256": "dec03193c61909167846c0526a4feacf011578b5e7ee29f76378141315cf97f5",
+      "relationship": "matches_upstream"
+    },
+    "shared/cost-optimization.md": {
+      "installed_sha256": "d0107a954e9059f43c0aaac07ac1f8a9f5aa0a898834d3d983d623e5976e051b",
+      "upstream_sha256": "d0107a954e9059f43c0aaac07ac1f8a9f5aa0a898834d3d983d623e5976e051b",
+      "relationship": "matches_upstream"
+    },
+    "shared/error-codes.md": {
+      "installed_sha256": "1abf8dcc262732f7ee5e4c58d1909fbb0722ac12e1b957bffdf64f28fde9e4d2",
+      "upstream_sha256": "1abf8dcc262732f7ee5e4c58d1909fbb0722ac12e1b957bffdf64f28fde9e4d2",
+      "relationship": "matches_upstream"
+    },
+    "shared/evals/build-eval.md": {
+      "installed_sha256": "c8f6ae960867f6b3b35557aec75361553888ae7168f268365444bf6a4e09a5d7",
+      "upstream_sha256": "c8f6ae960867f6b3b35557aec75361553888ae7168f268365444bf6a4e09a5d7",
+      "relationship": "matches_upstream"
+    },
+    "shared/evals/cost-hillclimb.md": {
+      "installed_sha256": "dd46a354fed24d96c7f9acf42f9da64f5cceaa797949662d82374fd2cf7a3515",
+      "upstream_sha256": "dd46a354fed24d96c7f9acf42f9da64f5cceaa797949662d82374fd2cf7a3515",
+      "relationship": "matches_upstream"
+    },
+    "shared/evals/eval-audit.md": {
+      "installed_sha256": "a013f8eb0452c51c5a31860df0fb47219dcdb4da507092fc98867225095026ba",
+      "upstream_sha256": "a013f8eb0452c51c5a31860df0fb47219dcdb4da507092fc98867225095026ba",
+      "relationship": "matches_upstream"
+    },
+    "shared/evals/eval-hillclimb.md": {
+      "installed_sha256": "315ae8540ebaeb9f1d7de5efa49625e6137ead255dc3a545b63393df89375588",
+      "upstream_sha256": "315ae8540ebaeb9f1d7de5efa49625e6137ead255dc3a545b63393df89375588",
+      "relationship": "matches_upstream"
+    },
+    "shared/evals/report/SCHEMA.md": {
+      "installed_sha256": "9a83404a9b3c413113df39d9bdf08e003ff4d6a75386f4010887da3298766687",
+      "upstream_sha256": "9a83404a9b3c413113df39d9bdf08e003ff4d6a75386f4010887da3298766687",
+      "relationship": "matches_upstream"
+    },
+    "shared/evals/report/build-report-lite.mjs": {
+      "installed_sha256": "af79ca5fa5f06747dbcaa1d40017c8c8e81e0aa11cb8e32b848043893cdb03c7",
+      "upstream_sha256": "af79ca5fa5f06747dbcaa1d40017c8c8e81e0aa11cb8e32b848043893cdb03c7",
+      "relationship": "matches_upstream"
+    },
+    "shared/evals/report/runner-scaffold.mjs": {
+      "installed_sha256": "c3a87ba4b94b3018b83c075d5148ba7760580aa447699d513d45ab55b82a531a",
+      "upstream_sha256": "c3a87ba4b94b3018b83c075d5148ba7760580aa447699d513d45ab55b82a531a",
+      "relationship": "matches_upstream"
+    },
+    "shared/live-sources.md": {
+      "installed_sha256": "cc82c88587c861919557598df0421ea7e8cec683f63adead997a0170dc78732b",
+      "upstream_sha256": "cc82c88587c861919557598df0421ea7e8cec683f63adead997a0170dc78732b",
+      "relationship": "matches_upstream"
+    },
+    "shared/managed-agents-api-reference.md": {
+      "installed_sha256": "efd84dc8a17a2842965c775a905b17fa94cf762cc544df81e708f3aa7a89ae7b",
+      "upstream_sha256": "efd84dc8a17a2842965c775a905b17fa94cf762cc544df81e708f3aa7a89ae7b",
+      "relationship": "matches_upstream"
+    },
+    "shared/managed-agents-client-patterns.md": {
+      "installed_sha256": "e9cf54ca98a9cdd7dba0f51acfedfc1b0f160bad243e39f338ff39d4bf5bf823",
+      "upstream_sha256": "e9cf54ca98a9cdd7dba0f51acfedfc1b0f160bad243e39f338ff39d4bf5bf823",
+      "relationship": "matches_upstream"
+    },
+    "shared/managed-agents-core.md": {
+      "installed_sha256": "b1e7f90f644ef3333bc2c8407ba17410cf672314868474c73242ac969e22007f",
+      "upstream_sha256": "b1e7f90f644ef3333bc2c8407ba17410cf672314868474c73242ac969e22007f",
+      "relationship": "matches_upstream"
+    },
+    "shared/managed-agents-environments.md": {
+      "installed_sha256": "227e52e6a3d1c967c68912738ff184a97d1f4cd019c6a7bc7cd90c9b9857e5a5",
+      "upstream_sha256": "227e52e6a3d1c967c68912738ff184a97d1f4cd019c6a7bc7cd90c9b9857e5a5",
+      "relationship": "matches_upstream"
+    },
+    "shared/managed-agents-events.md": {
+      "installed_sha256": "3c5edc1428bc4b9cff1ebf01cecffaff3ef1650c19afa48c616fcd05b9586e03",
+      "upstream_sha256": "3c5edc1428bc4b9cff1ebf01cecffaff3ef1650c19afa48c616fcd05b9586e03",
+      "relationship": "matches_upstream"
+    },
+    "shared/managed-agents-memory.md": {
+      "installed_sha256": "0dec5641630f97629ea75bbbe5c2bced861f9c16b0572a68c901849ea4d00bcb",
+      "upstream_sha256": "0dec5641630f97629ea75bbbe5c2bced861f9c16b0572a68c901849ea4d00bcb",
+      "relationship": "matches_upstream"
+    },
+    "shared/managed-agents-multiagent.md": {
+      "installed_sha256": "f3d03cc910064cf419c80ce79c5fe62abde127467deea55491b447a07953a06b",
+      "upstream_sha256": "f3d03cc910064cf419c80ce79c5fe62abde127467deea55491b447a07953a06b",
+      "relationship": "matches_upstream"
+    },
+    "shared/managed-agents-onboarding-from-quickstart.md": {
+      "installed_sha256": "e37628c5639786a7868acfed4be0e25678b69b7d13a9aced03d74deebe042342",
+      "upstream_sha256": "e37628c5639786a7868acfed4be0e25678b69b7d13a9aced03d74deebe042342",
+      "relationship": "matches_upstream"
+    },
+    "shared/managed-agents-onboarding-from-url.md": {
+      "installed_sha256": "b6c49289186d7cc521c995ba88fa916b65433101b2b3e9bf3c9add94ad87fa34",
+      "upstream_sha256": "b6c49289186d7cc521c995ba88fa916b65433101b2b3e9bf3c9add94ad87fa34",
+      "relationship": "matches_upstream"
+    },
+    "shared/managed-agents-onboarding.md": {
+      "installed_sha256": "025683a9ee3db081d8a6978980349ce68d1df316d0c5aea31ae12438907208c9",
+      "upstream_sha256": "025683a9ee3db081d8a6978980349ce68d1df316d0c5aea31ae12438907208c9",
+      "relationship": "matches_upstream"
+    },
+    "shared/managed-agents-outcomes.md": {
+      "installed_sha256": "a516c6bf6a6a76f7f5ef83ec80895efd5de718e8f9418b57c705ce151afc5afe",
+      "upstream_sha256": "a516c6bf6a6a76f7f5ef83ec80895efd5de718e8f9418b57c705ce151afc5afe",
+      "relationship": "matches_upstream"
+    },
+    "shared/managed-agents-overview.md": {
+      "installed_sha256": "abcbdc29435c07be4749e21f005ed51f45942af03fa0bdcdeb18ebfa38c6a6f8",
+      "upstream_sha256": "abcbdc29435c07be4749e21f005ed51f45942af03fa0bdcdeb18ebfa38c6a6f8",
+      "relationship": "matches_upstream"
+    },
+    "shared/managed-agents-quickstarts/bug-hunter.md": {
+      "installed_sha256": "9afd40ef3e1bca9e1cc4c6655d314127cec0b4dcff0e12f6016508c134954248",
+      "upstream_sha256": "9afd40ef3e1bca9e1cc4c6655d314127cec0b4dcff0e12f6016508c134954248",
+      "relationship": "matches_upstream"
+    },
+    "shared/managed-agents-quickstarts/contract-tracker.md": {
+      "installed_sha256": "312ee5f886de59b6db4603d2df9766d66285db36973656c5b9ff0bcc1ed02279",
+      "upstream_sha256": "312ee5f886de59b6db4603d2df9766d66285db36973656c5b9ff0bcc1ed02279",
+      "relationship": "matches_upstream"
+    },
+    "shared/managed-agents-quickstarts/data-analyst.md": {
+      "installed_sha256": "c2116bac43972f2b40311104bd7cd4e084cca806dd40a1ddf8462845d785bd57",
+      "upstream_sha256": "c2116bac43972f2b40311104bd7cd4e084cca806dd40a1ddf8462845d785bd57",
+      "relationship": "matches_upstream"
+    },
+    "shared/managed-agents-quickstarts/deep-researcher.md": {
+      "installed_sha256": "a680856d874dff23cd3f016e36d0a58bc4db36c56d790d216743f236ee37a48c",
+      "upstream_sha256": "a680856d874dff23cd3f016e36d0a58bc4db36c56d790d216743f236ee37a48c",
+      "relationship": "matches_upstream"
+    },
+    "shared/managed-agents-quickstarts/explainer-video-maker.md": {
+      "installed_sha256": "c2570c5e14d51c5caa77646ac417d18619d34a27cc94dc72cf020c698f2803f3",
+      "upstream_sha256": "c2570c5e14d51c5caa77646ac417d18619d34a27cc94dc72cf020c698f2803f3",
+      "relationship": "matches_upstream"
+    },
+    "shared/managed-agents-quickstarts/field-monitor.md": {
+      "installed_sha256": "f17f26eee0109f4172134c5bea5761c52b8459e44ae03608c701cd3492f4a3af",
+      "upstream_sha256": "f17f26eee0109f4172134c5bea5761c52b8459e44ae03608c701cd3492f4a3af",
+      "relationship": "matches_upstream"
+    },
+    "shared/managed-agents-quickstarts/incident-commander.md": {
+      "installed_sha256": "badd3622ffab0798ab44a55189f47e95c107107ce57eda9fa5357b1aded8fb2a",
+      "upstream_sha256": "badd3622ffab0798ab44a55189f47e95c107107ce57eda9fa5357b1aded8fb2a",
+      "relationship": "matches_upstream"
+    },
+    "shared/managed-agents-quickstarts/performance-tuner.md": {
+      "installed_sha256": "922396e14b569bc98a7bdde34d10890cc81c5184e81971e6c9be108d191dd639",
+      "upstream_sha256": "922396e14b569bc98a7bdde34d10890cc81c5184e81971e6c9be108d191dd639",
+      "relationship": "matches_upstream"
+    },
+    "shared/managed-agents-quickstarts/sprint-retro-facilitator.md": {
+      "installed_sha256": "8b5ed9895feb1ade54578a270493c63d0f57b3bb0fbc2eafcfa2e87d3130fa75",
+      "upstream_sha256": "8b5ed9895feb1ade54578a270493c63d0f57b3bb0fbc2eafcfa2e87d3130fa75",
+      "relationship": "matches_upstream"
+    },
+    "shared/managed-agents-quickstarts/structured-extractor.md": {
+      "installed_sha256": "c278074c8c48d35fc6c68ed32eaa8704cae73a8e74035fd1d4a6abdcb9bd0fbd",
+      "upstream_sha256": "c278074c8c48d35fc6c68ed32eaa8704cae73a8e74035fd1d4a6abdcb9bd0fbd",
+      "relationship": "matches_upstream"
+    },
+    "shared/managed-agents-quickstarts/support-agent.md": {
+      "installed_sha256": "da75c50edf207f5ef468fbbbfc2e77d56e7d906a6c2cda28756f896195e171c5",
+      "upstream_sha256": "da75c50edf207f5ef468fbbbfc2e77d56e7d906a6c2cda28756f896195e171c5",
+      "relationship": "matches_upstream"
+    },
+    "shared/managed-agents-quickstarts/support-to-eng-escalator.md": {
+      "installed_sha256": "46720e5341808a9938825be44f936c91f83739ebdef9e1d17d9f0ec22738346b",
+      "upstream_sha256": "46720e5341808a9938825be44f936c91f83739ebdef9e1d17d9f0ec22738346b",
+      "relationship": "matches_upstream"
+    },
+    "shared/managed-agents-quickstarts/watchlist-scanner.md": {
+      "installed_sha256": "e67861c63b9d46b01c8d2784998b7f0de9a87aa6012b77127def1253c5ac13db",
+      "upstream_sha256": "e67861c63b9d46b01c8d2784998b7f0de9a87aa6012b77127def1253c5ac13db",
+      "relationship": "matches_upstream"
+    },
+    "shared/managed-agents-scheduled-deployments.md": {
+      "installed_sha256": "3fdf7bd691b4f798149d7ebdb933dcee7d14d5d47dd6bf8196c41b819223175e",
+      "upstream_sha256": "3fdf7bd691b4f798149d7ebdb933dcee7d14d5d47dd6bf8196c41b819223175e",
+      "relationship": "matches_upstream"
+    },
+    "shared/managed-agents-self-hosted-sandboxes.md": {
+      "installed_sha256": "a0c0d98ee1921ee5856a9fd1c02931d724c7b7ffffe17f72c85bc90190399085",
+      "upstream_sha256": "a0c0d98ee1921ee5856a9fd1c02931d724c7b7ffffe17f72c85bc90190399085",
+      "relationship": "matches_upstream"
+    },
+    "shared/managed-agents-tools.md": {
+      "installed_sha256": "9a9fd54ebb5e81eb0c6b7505f1cadc420fed5696cdab3e0080dd00ccf2e37b6f",
+      "upstream_sha256": "9a9fd54ebb5e81eb0c6b7505f1cadc420fed5696cdab3e0080dd00ccf2e37b6f",
+      "relationship": "matches_upstream"
+    },
+    "shared/managed-agents-webhooks.md": {
+      "installed_sha256": "38746f77a3ee971f9b1f7d47cec9e753131bf271fd795aed5c3da1764c9a6ac1",
+      "upstream_sha256": "38746f77a3ee971f9b1f7d47cec9e753131bf271fd795aed5c3da1764c9a6ac1",
+      "relationship": "matches_upstream"
+    },
+    "shared/model-migration.md": {
+      "installed_sha256": "b4fe96362b865a28726ab877c966624d5bfc2f86ff9b34940a34e3f8b6fc034e",
+      "upstream_sha256": "b4fe96362b865a28726ab877c966624d5bfc2f86ff9b34940a34e3f8b6fc034e",
+      "relationship": "matches_upstream"
+    },
+    "shared/models.md": {
+      "installed_sha256": "c1af1f093d46fd58e50ef3e8e28d339650f333059bfc49a63d01d0175675161b",
+      "upstream_sha256": "c1af1f093d46fd58e50ef3e8e28d339650f333059bfc49a63d01d0175675161b",
+      "relationship": "matches_upstream"
+    },
+    "shared/platform-availability.md": {
+      "installed_sha256": "607997bc16de403970cb32c1dc1fa63e68f7f02328728be59397e7cefb2efed4",
+      "upstream_sha256": "607997bc16de403970cb32c1dc1fa63e68f7f02328728be59397e7cefb2efed4",
+      "relationship": "matches_upstream"
+    },
+    "shared/preserved-thinking-migration.md": {
+      "installed_sha256": "29921d69fa8dc7e450e7bb793c9f59ae755262ccc933a52eb7116c207defb34c",
+      "upstream_sha256": "29921d69fa8dc7e450e7bb793c9f59ae755262ccc933a52eb7116c207defb34c",
+      "relationship": "matches_upstream"
+    },
+    "shared/preserved-thinking-migration/causes.md": {
+      "installed_sha256": "c2dbadb0439806863723e5ef7279d626d731d8179fd39293ff26d226b94d3694",
+      "upstream_sha256": "c2dbadb0439806863723e5ef7279d626d731d8179fd39293ff26d226b94d3694",
+      "relationship": "matches_upstream"
+    },
+    "shared/preserved-thinking-migration/drop_block_probe.py": {
+      "installed_sha256": "f23abb75bc079d835f57da7598ac5a1bee4318214ab803185feb94d8db8c4b88",
+      "upstream_sha256": "f23abb75bc079d835f57da7598ac5a1bee4318214ab803185feb94d8db8c4b88",
+      "relationship": "matches_upstream"
+    },
+    "shared/preserved-thinking-migration/prefix_diff.py": {
+      "installed_sha256": "734934b81b5f26e9ed2f8f51f44fed6554233de4f37b22a8845ae4ffcb622ac0",
+      "upstream_sha256": "734934b81b5f26e9ed2f8f51f44fed6554233de4f37b22a8845ae4ffcb622ac0",
+      "relationship": "matches_upstream"
+    },
+    "shared/prompt-audit.md": {
+      "installed_sha256": "1a50ec950f9c11bb4ad1a5032a26bb20cd52c9d358adf6add2cb1ceb1aaf6cc9",
+      "upstream_sha256": "1a50ec950f9c11bb4ad1a5032a26bb20cd52c9d358adf6add2cb1ceb1aaf6cc9",
+      "relationship": "matches_upstream"
+    },
+    "shared/prompt-caching.md": {
+      "installed_sha256": "5800f883ff1babe24105e7e0e3fc7e9b03dfcce25bb2ccded4bb40d8c81d8464",
+      "upstream_sha256": "5800f883ff1babe24105e7e0e3fc7e9b03dfcce25bb2ccded4bb40d8c81d8464",
+      "relationship": "matches_upstream"
+    },
+    "shared/token-counting.md": {
+      "installed_sha256": "8674e246c165decdc13106a4861a254ededb0421caf7fa4015ed0fb36e6c60dc",
+      "upstream_sha256": "8674e246c165decdc13106a4861a254ededb0421caf7fa4015ed0fb36e6c60dc",
+      "relationship": "matches_upstream"
+    },
+    "shared/tool-use-concepts.md": {
+      "installed_sha256": "62293e7bb7763f7ae487d3b98ead6b733689b2fd7089784ad5859dd869a153f5",
+      "upstream_sha256": "62293e7bb7763f7ae487d3b98ead6b733689b2fd7089784ad5859dd869a153f5",
+      "relationship": "matches_upstream"
+    },
+    "typescript/claude-api/README.md": {
+      "installed_sha256": "b2a01ccbaa0d4406e400bcd8efc033759af5d646a97aab744aee55bf07d6ab16",
+      "upstream_sha256": "b2a01ccbaa0d4406e400bcd8efc033759af5d646a97aab744aee55bf07d6ab16",
+      "relationship": "matches_upstream"
+    },
+    "typescript/claude-api/batches.md": {
+      "installed_sha256": "acc33bb981acd48b6ee9a6b2c2afeef9487c42ef2b117225da3949dc61efb464",
+      "upstream_sha256": "acc33bb981acd48b6ee9a6b2c2afeef9487c42ef2b117225da3949dc61efb464",
+      "relationship": "matches_upstream"
+    },
+    "typescript/claude-api/files-api.md": {
+      "installed_sha256": "df8e4e433a4ded6d4c3eb40de9bc0782cf77aaa8e3e331a539aec1cff55d1316",
+      "upstream_sha256": "df8e4e433a4ded6d4c3eb40de9bc0782cf77aaa8e3e331a539aec1cff55d1316",
+      "relationship": "matches_upstream"
+    },
+    "typescript/claude-api/streaming.md": {
+      "installed_sha256": "09db982effb0b7d14e29eddd5425b00040debfedccf3dd0db9af73f7d2da3e79",
+      "upstream_sha256": "09db982effb0b7d14e29eddd5425b00040debfedccf3dd0db9af73f7d2da3e79",
+      "relationship": "matches_upstream"
+    },
+    "typescript/claude-api/tool-use.md": {
+      "installed_sha256": "d0c3e5da146c6da8a85ced14f964dc33de4c0153aa2748dee35c319752e8b725",
+      "upstream_sha256": "d0c3e5da146c6da8a85ced14f964dc33de4c0153aa2748dee35c319752e8b725",
+      "relationship": "matches_upstream"
+    },
+    "typescript/managed-agents/README.md": {
+      "installed_sha256": "5daf6b0c6a443e1ae720b0a7343e061ebdbaeb751dd674f37f9abf9d12efc66f",
+      "upstream_sha256": "5daf6b0c6a443e1ae720b0a7343e061ebdbaeb751dd674f37f9abf9d12efc66f",
+      "relationship": "matches_upstream"
+    }
+  },
+  "notes": "This metadata records a verified source snapshot. Preserved local differences are not claimed to match upstream. No downloaded scripts were executed during preparation.",
+  "repository": "https://github.com/anthropics/skills",
+  "commit": "2c5958ecac7cee2b583967a2c4981d0f4a75c579",
+  "path": "skills/claude-api",
+  "installed_name": "claude-api",
+  "frontmatter_changes": [
+    "description shortened to fit Codex 1024-character limit; trigger conditions retained"
+  ]
+}

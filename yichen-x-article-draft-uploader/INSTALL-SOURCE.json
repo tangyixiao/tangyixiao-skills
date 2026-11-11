@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/mcncarl/yichen-skills",
+  "commit": "c9f47ecbcda513c0ce160bb55bfaf01060765053",
+  "path": "yichen-x-article-draft-uploader",
+  "installed_name": "yichen-x-article-draft-uploader",
+  "checked_on": "2026-11-11",
+  "source_verification": "installed identity and exact per-file comparison against pinned upstream snapshots",
+  "comparison_commit": null,
+  "note": "User files and omitted repository-only assets are preserved; this pin supplies a baseline for future three-way comparisons."
+}

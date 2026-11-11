@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "upstream_repository": "https://github.com/heygen-com/hyperframes",
+  "upstream_commit": "8a15d9feedc62dc9695246dceda9271a6d0a08e9",
+  "checked_on": "2026-11-11",
+  "upstream_path": null,
+  "retired_upstream_path": "skills/hyperframes-core",
+  "status": "local_compatibility_alias_for_retired_upstream_skill",
+  "files": {
+    "LEGACY-SKILL.md": {
+      "installed_sha256": "18ac7784765cc29af5a4d88f2a63a15deaf5395985009af188b5e3718edcfe3d",
+      "upstream_sha256": null,
+      "origin": "byte_exact_archive_of_original_local_entry",
+      "verified_previous_commit": null
+    },
+    "SKILL.md": {
+      "installed_sha256": "8c69fd8b51dbc0e45eda65fb4faa09377b5b2b73fdd6317fa862a861acfc0e54",
+      "upstream_sha256": null,
+      "origin": "compatibility_alias_with_archived_exact_historical_entry",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/full-screen-motion.md": {
+      "installed_sha256": "4534cc717e94f9b7a83d5b86990d6af16594d18c4b9ddcb97950d919288f3994",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/tracks-and-clips.md": {
+      "installed_sha256": "c0fbb3242406e0a1f2de507427330fb998d411587b8790eec17128ee6b4f8204",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/data-attributes.md": {
+      "installed_sha256": "9da0123bbd9508c32b3ea11bf6ab8edbf4fd725ab35d51cce735a6b03f3b4a96",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/creator-editing-recipes.md": {
+      "installed_sha256": "8db8ed156e9e3d1a01bb6b25b92fe6597152e6c8f18128d40a03d52fe46a2af9",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/composition-patterns.md": {
+      "installed_sha256": "bcdf548ba1fec8decce5ea22c7bed99c73ba268986b1bfefc837f2d7f70f55b0",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/minimal-composition.md": {
+      "installed_sha256": "0884abd9feeeea48d0de3d517c3d074859b9c322318401a928b9d1f9ee2cf851",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/tailwind.md": {
+      "installed_sha256": "bce2e8ae118f91df3a9790e99273f50942f12d1c345a149d6762c9411e3dfd2c",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/determinism-rules.md": {
+      "installed_sha256": "415a3f08cf3be801e6ca381fd47959e787947da325a7ee30b8104b8b80198fd5",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/variables-and-media.md": {
+      "installed_sha256": "d905b18425dfbbcf232aa9557708425bdf4b52c13f999093e04c9f7f1428d6a1",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/sub-compositions.md": {
+      "installed_sha256": "7caf63046ea0d1915b51e4eb49897101e36dc716ea1195f9a34cef4ba9c18f64",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    }
+  },
+  "notes": [
+    "Upstream consolidated seven former skills into hyperframes and media-use. Current four core skills are copied as a coherent set; seven installed names remain local compatibility interfaces.",
+    "No new skill names are installed. reverse-any-video, style-sampling, slideshow, remotion-to-hyperframes and figma remain absent unless separately installed.",
+    "Every existing file is preserved or archived. No deletion is proposed. Original legacy SKILL.md files are archived at the same directory depth as LEGACY-SKILL.md so their relative paths remain valid.",
+    "hyperframes-studio/SKILL.md has no exact match in its five published historical file revisions. Its complete original text remains in the active entry after an additive compatibility notice and also in LEGACY-SKILL.md.",
+    "Retained legacy recipes are a local reference library. Active composition behavior follows the current four upstream skills, rather than the archived auto-update and workflow-install instructions."
+  ],
+  "repository": "https://github.com/heygen-com/hyperframes",
+  "commit": "8a15d9feedc62dc9695246dceda9271a6d0a08e9",
+  "path": "skills/hyperframes-core",
+  "installed_name": "hyperframes-core",
+  "source_type": "local-compatibility-adapter"
+}

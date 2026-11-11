@@ -1,0 +1,754 @@
+{
+  "schema_version": 1,
+  "upstream_repository": "https://github.com/heygen-com/hyperframes",
+  "upstream_commit": "8a15d9feedc62dc9695246dceda9271a6d0a08e9",
+  "checked_on": "2026-11-11",
+  "upstream_path": "skills/media-use",
+  "retired_upstream_path": null,
+  "status": "current_upstream_with_retained_legacy_resources",
+  "files": {
+    ".gitignore": {
+      "installed_sha256": "a299ec0fcdb6bc6670cf9fb22eefe3fcc37730e2e554b7f54e25de88be1ede02",
+      "upstream_sha256": "a299ec0fcdb6bc6670cf9fb22eefe3fcc37730e2e554b7f54e25de88be1ede02",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "SKILL.md": {
+      "installed_sha256": "f1a33fdf411ad8cb0998ccec0a1bcb1fa5bab0f1c14588c82c725cf5fe3961d1",
+      "upstream_sha256": "f1a33fdf411ad8cb0998ccec0a1bcb1fa5bab0f1c14588c82c725cf5fe3961d1",
+      "origin": "current_upstream",
+      "verified_previous_commit": "18a922f43342a3afb6e03e80ab7174d78552da95"
+    },
+    "references/heygen.md": {
+      "installed_sha256": "63a14267f2661b985a8b502c325428be7dda7faf7f4fda726b0076a46e47070b",
+      "upstream_sha256": "63a14267f2661b985a8b502c325428be7dda7faf7f4fda726b0076a46e47070b",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "references/local.md": {
+      "installed_sha256": "659271d787fe3bdd39f0bc32b1eeb03860b9c76c2672cb71b6bb8d4a88fe4385",
+      "upstream_sha256": "659271d787fe3bdd39f0bc32b1eeb03860b9c76c2672cb71b6bb8d4a88fe4385",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "references/mixing.md": {
+      "installed_sha256": "0ac67d3230cf1a6e31ca9355371ea133557d7e2fdb541742a02f086eac20a574",
+      "upstream_sha256": "0ac67d3230cf1a6e31ca9355371ea133557d7e2fdb541742a02f086eac20a574",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "references/meta.md": {
+      "installed_sha256": "3651b66e86874b21e9636de65be5a4581f4f394f3c8fc02ddc9128f4dcfa107c",
+      "upstream_sha256": "3651b66e86874b21e9636de65be5a4581f4f394f3c8fc02ddc9128f4dcfa107c",
+      "origin": "current_upstream",
+      "verified_previous_commit": "18a922f43342a3afb6e03e80ab7174d78552da95"
+    },
+    "references/media-treatment-recipes.md": {
+      "installed_sha256": "852e7e978af56c9e99ba14f19009da974cd78f99b399ca194dc416c31c49bda5",
+      "upstream_sha256": "852e7e978af56c9e99ba14f19009da974cd78f99b399ca194dc416c31c49bda5",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/memory.md": {
+      "installed_sha256": "55477edafb7f9c8294cafd3f1633b7a1820d538695c0868f9c3ddb6b418dadbc",
+      "upstream_sha256": "55477edafb7f9c8294cafd3f1633b7a1820d538695c0868f9c3ddb6b418dadbc",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/audio.md": {
+      "installed_sha256": "2899b79a2f84c3d4541d410d334f08df1482726748faea6c48493f543121404d",
+      "upstream_sha256": "2899b79a2f84c3d4541d410d334f08df1482726748faea6c48493f543121404d",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/media-treatments.md": {
+      "installed_sha256": "32b9b3bb6fb3838829ff08dc5650b2eb065086b4bd5db9c431e9629a38e93385",
+      "upstream_sha256": "32b9b3bb6fb3838829ff08dc5650b2eb065086b4bd5db9c431e9629a38e93385",
+      "origin": "current_upstream",
+      "verified_previous_commit": "18a922f43342a3afb6e03e80ab7174d78552da95"
+    },
+    "references/setup-providers.md": {
+      "installed_sha256": "5cc3c135398435afa6a06e3ba533da871c07d7c5aa2a4dd4d4d5520c119f284b",
+      "upstream_sha256": "5cc3c135398435afa6a06e3ba533da871c07d7c5aa2a4dd4d4d5520c119f284b",
+      "origin": "current_upstream",
+      "verified_previous_commit": "18a922f43342a3afb6e03e80ab7174d78552da95"
+    },
+    "references/resolve.md": {
+      "installed_sha256": "676115ab007793b127ab535c7b26ea1bd3a0a10c21806ceaf595b92eb15b3c2c",
+      "upstream_sha256": "676115ab007793b127ab535c7b26ea1bd3a0a10c21806ceaf595b92eb15b3c2c",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/operations.md": {
+      "installed_sha256": "2d794c051efc7bef188a07612ac33210fa4fc3888428a44101aa18315014b5d2",
+      "upstream_sha256": "2d794c051efc7bef188a07612ac33210fa4fc3888428a44101aa18315014b5d2",
+      "origin": "current_upstream",
+      "verified_previous_commit": "18a922f43342a3afb6e03e80ab7174d78552da95"
+    },
+    "references/telemetry-dashboard.md": {
+      "installed_sha256": "bdc30ad1ff84ebe7f5ca835acb9f47b33717e041ea79b41c6f0db489b86094a7",
+      "upstream_sha256": "bdc30ad1ff84ebe7f5ca835acb9f47b33717e041ea79b41c6f0db489b86094a7",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/grading.md": {
+      "installed_sha256": "430e2b57dfb64c3acfbdd02317ba967ebb580d42b348686ccffbc175d3de8392",
+      "upstream_sha256": "430e2b57dfb64c3acfbdd02317ba967ebb580d42b348686ccffbc175d3de8392",
+      "origin": "current_upstream",
+      "verified_previous_commit": "18a922f43342a3afb6e03e80ab7174d78552da95"
+    },
+    "scripts/dither.mjs": {
+      "installed_sha256": "8e9f437526f39f417f6793912ddeef71094ddb5a5b8d4893c5339086bc39547f",
+      "upstream_sha256": "8e9f437526f39f417f6793912ddeef71094ddb5a5b8d4893c5339086bc39547f",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "scripts/transcript-cut.mjs": {
+      "installed_sha256": "17e148571738ad8cf30b0ccb3f28d0837df5072114b9dfb63bc8d9f5d25e5a5d",
+      "upstream_sha256": "17e148571738ad8cf30b0ccb3f28d0837df5072114b9dfb63bc8d9f5d25e5a5d",
+      "origin": "current_upstream",
+      "verified_previous_commit": "18a922f43342a3afb6e03e80ab7174d78552da95"
+    },
+    "scripts/audio-duck.mjs": {
+      "installed_sha256": "6beac3c1c6c0e0375e67a04c184406ced3740cc832bb3ba9a09c796bbe16d40e",
+      "upstream_sha256": "6beac3c1c6c0e0375e67a04c184406ced3740cc832bb3ba9a09c796bbe16d40e",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "scripts/compatibility.test.mjs": {
+      "installed_sha256": "3263a2e82b06560d2c0ea9f7e41b3fe46bec624b70c539ccb121b880dae2250e",
+      "upstream_sha256": "3263a2e82b06560d2c0ea9f7e41b3fe46bec624b70c539ccb121b880dae2250e",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "scripts/resolve.mjs": {
+      "installed_sha256": "85aec401d22b65639fa6a91056e515563135962a127516aaae1e2644d48fa0b9",
+      "upstream_sha256": "85aec401d22b65639fa6a91056e515563135962a127516aaae1e2644d48fa0b9",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "scripts/dither.test.mjs": {
+      "installed_sha256": "c22c3a0ae41647ac3f733b489a6bc6043fd294155d00954be5d901b3cff7d216",
+      "upstream_sha256": "c22c3a0ae41647ac3f733b489a6bc6043fd294155d00954be5d901b3cff7d216",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "scripts/transcribe.mjs": {
+      "installed_sha256": "9e0f2fd2775e3a76267fc219d4b5aa52373a95478812884f8f40f6292e09dac7",
+      "upstream_sha256": "9e0f2fd2775e3a76267fc219d4b5aa52373a95478812884f8f40f6292e09dac7",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "scripts/recipe.mjs": {
+      "installed_sha256": "97d2a12604084668599c44f235d6300b77593f86a9a58a6034cf5aa92c98fcba",
+      "upstream_sha256": "97d2a12604084668599c44f235d6300b77593f86a9a58a6034cf5aa92c98fcba",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "scripts/transcribe.test.mjs": {
+      "installed_sha256": "39a456ac37a0eca282417b09d7e556c0f2ac11ab3726bc361ff077e75a963ae1",
+      "upstream_sha256": "39a456ac37a0eca282417b09d7e556c0f2ac11ab3726bc361ff077e75a963ae1",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "scripts/prefs.mjs": {
+      "installed_sha256": "f551d5efe51dea7b59d37595c052b950111c6734d913567630181959e7497a04",
+      "upstream_sha256": "f551d5efe51dea7b59d37595c052b950111c6734d913567630181959e7497a04",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "scripts/resolve-plugin.test.mjs": {
+      "installed_sha256": "fe8f4dce139b3a88e9ba817da335ae7667a644a715f250613901f7cc1e75f0ed",
+      "upstream_sha256": "fe8f4dce139b3a88e9ba817da335ae7667a644a715f250613901f7cc1e75f0ed",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "scripts/eval.mjs": {
+      "installed_sha256": "fadf274111a682acbfdff91eca75b977e3821c53026cd058551c538027f21f51",
+      "upstream_sha256": "fadf274111a682acbfdff91eca75b977e3821c53026cd058551c538027f21f51",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "scripts/transcript-cut.test.mjs": {
+      "installed_sha256": "af546cd7d473eb5f4258148a8dd8ec637a67a242cd50948abe1e0dcd6f64c527",
+      "upstream_sha256": "af546cd7d473eb5f4258148a8dd8ec637a67a242cd50948abe1e0dcd6f64c527",
+      "origin": "current_upstream",
+      "verified_previous_commit": "18a922f43342a3afb6e03e80ab7174d78552da95"
+    },
+    "luts/README.md": {
+      "installed_sha256": "c06cbbf2aab80cbf8aa25c83497202a63107a61e083b6c199a89d513e8096a3b",
+      "upstream_sha256": "c06cbbf2aab80cbf8aa25c83497202a63107a61e083b6c199a89d513e8096a3b",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "luts/index.json": {
+      "installed_sha256": "988ac83c14bc3a9ef09aa6ab64459a0aa9e766e96361738136970ec89df1675a",
+      "upstream_sha256": "988ac83c14bc3a9ef09aa6ab64459a0aa9e766e96361738136970ec89df1675a",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/references/sfx.md": {
+      "installed_sha256": "b89b14e4d819594d07cf2899e3ca59ceafe743e77e7df46dafdbebe4effebe75",
+      "upstream_sha256": "b89b14e4d819594d07cf2899e3ca59ceafe743e77e7df46dafdbebe4effebe75",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/references/tts.md": {
+      "installed_sha256": "e7490d588d4ecc6fc0091e44ee698797c623bbb31f921ec06b6efe30ab2b4ba2",
+      "upstream_sha256": "e7490d588d4ecc6fc0091e44ee698797c623bbb31f921ec06b6efe30ab2b4ba2",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/references/remove-background.md": {
+      "installed_sha256": "fb6b38a25c6535c57a461bbe2ca681b38f18e5f09b1e904e4a0b5f6eca7a5b98",
+      "upstream_sha256": "fb6b38a25c6535c57a461bbe2ca681b38f18e5f09b1e904e4a0b5f6eca7a5b98",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/references/requirements.md": {
+      "installed_sha256": "50b48c6de19617a385cff8dcbfbca0b5187aacd9cc67f8a9ad3c8fa8922f02af",
+      "upstream_sha256": "50b48c6de19617a385cff8dcbfbca0b5187aacd9cc67f8a9ad3c8fa8922f02af",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/references/transcribe.md": {
+      "installed_sha256": "5525a555f5356766a5e3333a945b5f90af51f63b2b98210d23e3a605a5de8703",
+      "upstream_sha256": "5525a555f5356766a5e3333a945b5f90af51f63b2b98210d23e3a605a5de8703",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/references/tts-to-captions.md": {
+      "installed_sha256": "bc74fa83c096d64997dde33c9873c01b23c3b575b80689793440cd91466c8bd1",
+      "upstream_sha256": "bc74fa83c096d64997dde33c9873c01b23c3b575b80689793440cd91466c8bd1",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/references/bgm.md": {
+      "installed_sha256": "49c9d4d8b733e9c0d80e084be35c99432e2accc1c57266b3f01c3155e0acc47e",
+      "upstream_sha256": "49c9d4d8b733e9c0d80e084be35c99432e2accc1c57266b3f01c3155e0acc47e",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/scripts/carve.mjs": {
+      "installed_sha256": "7ddef413955ca81b66eba4630e3296220613150d428795f636577f2d8626c160",
+      "upstream_sha256": "7ddef413955ca81b66eba4630e3296220613150d428795f636577f2d8626c160",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "audio/scripts/carve.test.mjs": {
+      "installed_sha256": "6f72d9e0a349d9deaee62f1835b9c5639dc71389643f5d37accc0844958b43f6",
+      "upstream_sha256": "6f72d9e0a349d9deaee62f1835b9c5639dc71389643f5d37accc0844958b43f6",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "audio/scripts/extract-audio-data.py": {
+      "installed_sha256": "2b72d7aaa8688a4c524042274364f9696fb26fa9dd7125c58798cbdf021950e8",
+      "upstream_sha256": "2b72d7aaa8688a4c524042274364f9696fb26fa9dd7125c58798cbdf021950e8",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "audio/scripts/recording.test.mjs": {
+      "installed_sha256": "601089c12f4d7fca5ed0959a74e6f6937006e509c264d7188357b73e7f6e5d89",
+      "upstream_sha256": "601089c12f4d7fca5ed0959a74e6f6937006e509c264d7188357b73e7f6e5d89",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "audio/scripts/heygen-tts.mjs": {
+      "installed_sha256": "0105b07581bde333ae84c1128f12a13ca29a4ce6d0f2f5268878e97c37182ed2",
+      "upstream_sha256": "0105b07581bde333ae84c1128f12a13ca29a4ce6d0f2f5268878e97c37182ed2",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/scripts/heygen-tts.test.mjs": {
+      "installed_sha256": "55f54468f0ba01f24c7a587f1b58d7d128a9c03919dfadd92dc2929aa1e8ed69",
+      "upstream_sha256": "55f54468f0ba01f24c7a587f1b58d7d128a9c03919dfadd92dc2929aa1e8ed69",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/scripts/heygen-voice.mjs": {
+      "installed_sha256": "1ab6d29860c106b49ca0c3dec408d99a8d3297a5bbc953d21f1148c3d8568064",
+      "upstream_sha256": "1ab6d29860c106b49ca0c3dec408d99a8d3297a5bbc953d21f1148c3d8568064",
+      "origin": "current_upstream",
+      "verified_previous_commit": "2497402b270a4f613cf57abc1c29cbc260fb8c07"
+    },
+    "audio/scripts/audio.mjs": {
+      "installed_sha256": "1219440e848b0e899a3c3a010a8a57dfd72efe2b321ccfc7f5745413e75b992f",
+      "upstream_sha256": "1219440e848b0e899a3c3a010a8a57dfd72efe2b321ccfc7f5745413e75b992f",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/scripts/heygen-voice.test.mjs": {
+      "installed_sha256": "d0920895246ee7679a424ffa36ed13d3f1bb7c03b8641c8bbb4a4efd4ede320b",
+      "upstream_sha256": "d0920895246ee7679a424ffa36ed13d3f1bb7c03b8641c8bbb4a4efd4ede320b",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/scripts/audio.test.mjs": {
+      "installed_sha256": "07df6c38f1d98305fce9f37848334d6c84e26bceb52eca1e0ee3f9fa2fd2ae12",
+      "upstream_sha256": "07df6c38f1d98305fce9f37848334d6c84e26bceb52eca1e0ee3f9fa2fd2ae12",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/scripts/wait-bgm.test.mjs": {
+      "installed_sha256": "8f3c50a19e14c6d0b6c2d871892be8fa1022d6ee5653f3f5224c955f4afdf862",
+      "upstream_sha256": "8f3c50a19e14c6d0b6c2d871892be8fa1022d6ee5653f3f5224c955f4afdf862",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/scripts/wait-bgm.mjs": {
+      "installed_sha256": "bb9cf35cae4342ca1b03c1c129df199d6e389b67a8d5be9d4973a3bc20d585e3",
+      "upstream_sha256": "bb9cf35cae4342ca1b03c1c129df199d6e389b67a8d5be9d4973a3bc20d585e3",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/scripts/gemini-pipeline.test.mjs": {
+      "installed_sha256": "b052640bc7d112d4009145f0e5fdc74a3411bdae94113963e9f57a2fafbe7f44",
+      "upstream_sha256": "b052640bc7d112d4009145f0e5fdc74a3411bdae94113963e9f57a2fafbe7f44",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/scripts/lyria-recipe.py": {
+      "installed_sha256": "07bcba4a128430545a03e7ced49b9a6750a77d72a3659d67e4e9886fe9731436",
+      "upstream_sha256": "07bcba4a128430545a03e7ced49b9a6750a77d72a3659d67e4e9886fe9731436",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/assets/sfx/click-soft.mp3": {
+      "installed_sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+      "upstream_sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/assets/sfx/notification.mp3": {
+      "installed_sha256": "b1559967dedb7994a82371f10cec9f7f3992e6b147b4cd88d62112bcdc3f9ba3",
+      "upstream_sha256": "b1559967dedb7994a82371f10cec9f7f3992e6b147b4cd88d62112bcdc3f9ba3",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/assets/sfx/key-press.mp3": {
+      "installed_sha256": "bcc892df0898bf466162f14233c3e92a8c1ea351f6affd8a3a7e56c9a760bb72",
+      "upstream_sha256": "bcc892df0898bf466162f14233c3e92a8c1ea351f6affd8a3a7e56c9a760bb72",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/assets/sfx/glitch-3.mp3": {
+      "installed_sha256": "7ebe61cfd0d69a2d35d9ee3a88c26025101e999d5cc6bfb2df410f820b433042",
+      "upstream_sha256": "7ebe61cfd0d69a2d35d9ee3a88c26025101e999d5cc6bfb2df410f820b433042",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/assets/sfx/CREDITS.md": {
+      "installed_sha256": "79590c7738b0427b10f362f76b02cfd2643158a40e1d5fd787f9ac6b33bcf4ce",
+      "upstream_sha256": "79590c7738b0427b10f362f76b02cfd2643158a40e1d5fd787f9ac6b33bcf4ce",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/assets/sfx/ping.mp3": {
+      "installed_sha256": "c54d088fa2709e6b3c9ce87594a9187d0d5338d3a8c683271f9c4353a8ee8c91",
+      "upstream_sha256": "c54d088fa2709e6b3c9ce87594a9187d0d5338d3a8c683271f9c4353a8ee8c91",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/assets/sfx/chime.mp3": {
+      "installed_sha256": "74823b1b27703c56e0652db838f503c150ce9c2442d47d27430af3d5121d6d12",
+      "upstream_sha256": "74823b1b27703c56e0652db838f503c150ce9c2442d47d27430af3d5121d6d12",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/assets/sfx/glitch-1.mp3": {
+      "installed_sha256": "760b72bdaad71f83350e2ef3a9d037daf58f44855a05a6cce25d990f1ffb888a",
+      "upstream_sha256": "760b72bdaad71f83350e2ef3a9d037daf58f44855a05a6cce25d990f1ffb888a",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/assets/sfx/whoosh.mp3": {
+      "installed_sha256": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+      "upstream_sha256": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/assets/sfx/sparkle.mp3": {
+      "installed_sha256": "a66b2829a307bcb5b1f6551d7cdc72fe45bbe9a91abfb994d28db8d5e4e42ea8",
+      "upstream_sha256": "a66b2829a307bcb5b1f6551d7cdc72fe45bbe9a91abfb994d28db8d5e4e42ea8",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/assets/sfx/pop.mp3": {
+      "installed_sha256": "19ab7193f626ff57fdeef60b45543bac416fcbcec803cfb417abe4b271c1b352",
+      "upstream_sha256": "19ab7193f626ff57fdeef60b45543bac416fcbcec803cfb417abe4b271c1b352",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/assets/sfx/error.mp3": {
+      "installed_sha256": "b4882e3941ca496b5038e7c7d64318419da9f69d3da9540a1c693adc639cf121",
+      "upstream_sha256": "b4882e3941ca496b5038e7c7d64318419da9f69d3da9540a1c693adc639cf121",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/assets/sfx/typing.mp3": {
+      "installed_sha256": "944160652faeb7b32acc9341ede4d735a5c9a4ce3fe8509ef7eab91efb430487",
+      "upstream_sha256": "944160652faeb7b32acc9341ede4d735a5c9a4ce3fe8509ef7eab91efb430487",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/assets/sfx/whoosh-short.mp3": {
+      "installed_sha256": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+      "upstream_sha256": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/assets/sfx/whoosh-cinematic.mp3": {
+      "installed_sha256": "0a0f3505856fdfa84ac6b86b3c55ccd0ef1eb4ff0907d7b6934002218a73404e",
+      "upstream_sha256": "0a0f3505856fdfa84ac6b86b3c55ccd0ef1eb4ff0907d7b6934002218a73404e",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/assets/sfx/click.mp3": {
+      "installed_sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+      "upstream_sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/assets/sfx/impact-bass-1.mp3": {
+      "installed_sha256": "634d5eda5eb7b501aca98393a64f3815eccf24157cd1d95df55aaec1b5000bd7",
+      "upstream_sha256": "634d5eda5eb7b501aca98393a64f3815eccf24157cd1d95df55aaec1b5000bd7",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/assets/sfx/riser.mp3": {
+      "installed_sha256": "d2f29d49f27dee7d3b25af22ffe5bebc39390cc5d5fb3b3e1c433499c77f3d1d",
+      "upstream_sha256": "d2f29d49f27dee7d3b25af22ffe5bebc39390cc5d5fb3b3e1c433499c77f3d1d",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/assets/sfx/glitch-2.mp3": {
+      "installed_sha256": "b326efdf687f18f68f0df7443a65b0ea7a4a1287dfe3143ea23707cc645257f1",
+      "upstream_sha256": "b326efdf687f18f68f0df7443a65b0ea7a4a1287dfe3143ea23707cc645257f1",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/assets/sfx/manifest.json": {
+      "installed_sha256": "1b1aae06c6e25412e1d217ebf1e646a0ed36410c0fcad11acdb8f5d5e5b7dc10",
+      "upstream_sha256": "1b1aae06c6e25412e1d217ebf1e646a0ed36410c0fcad11acdb8f5d5e5b7dc10",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/assets/sfx/impact-bass-2.mp3": {
+      "installed_sha256": "fb832995477784f44ba8533359d20caf706195b52117ecc2a33b3e63e3c1307b",
+      "upstream_sha256": "fb832995477784f44ba8533359d20caf706195b52117ecc2a33b3e63e3c1307b",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/scripts/lib/main-module.mjs": {
+      "installed_sha256": "61811e09110856e1439c29875e4a4ad7701ae45d4045f9d1dcb6a7929698e4c0",
+      "upstream_sha256": "61811e09110856e1439c29875e4a4ad7701ae45d4045f9d1dcb6a7929698e4c0",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "audio/scripts/lib/openverse.mjs": {
+      "installed_sha256": "e2b176ed6e0b91231debab84ef6633a1a4885e400b9511a39f11e97acef261bd",
+      "upstream_sha256": "e2b176ed6e0b91231debab84ef6633a1a4885e400b9511a39f11e97acef261bd",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "audio/scripts/lib/recording.mjs": {
+      "installed_sha256": "37e8e5b606fd74901da5e486bab7ac41bb7c330a6c11c16d7f5110b9b1eac686",
+      "upstream_sha256": "37e8e5b606fd74901da5e486bab7ac41bb7c330a6c11c16d7f5110b9b1eac686",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "audio/scripts/lib/tts.cleanup.test.mjs": {
+      "installed_sha256": "bacb2ac60b7d755237aad3535b90c0093d0ff1b3cd71c9c8dc80cfc37f4efdf8",
+      "upstream_sha256": "bacb2ac60b7d755237aad3535b90c0093d0ff1b3cd71c9c8dc80cfc37f4efdf8",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "audio/scripts/lib/voice-credit.mjs": {
+      "installed_sha256": "16a45db14f36ba557654f8104df09481e9d34234aebcb4cdc1ff5213bed3d4e5",
+      "upstream_sha256": "16a45db14f36ba557654f8104df09481e9d34234aebcb4cdc1ff5213bed3d4e5",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "audio/scripts/lib/voice-credit.test.mjs": {
+      "installed_sha256": "c7f3fccb3767b702ee3e99643fe8a44fa255c5a95999aef1535be6455cd2bd5a",
+      "upstream_sha256": "c7f3fccb3767b702ee3e99643fe8a44fa255c5a95999aef1535be6455cd2bd5a",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "audio/scripts/lib/gemini-tts.test.mjs": {
+      "installed_sha256": "68b3fae36ec470a7c1dc67fc340239af76495c5d3ae5ae26db14bbd7cfc7f5fc",
+      "upstream_sha256": "68b3fae36ec470a7c1dc67fc340239af76495c5d3ae5ae26db14bbd7cfc7f5fc",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/scripts/lib/heygen.mjs": {
+      "installed_sha256": "bb8605a78cf0e30952d40e9f7aba81e957db1c71c26cdaa59dc8702621da3e9e",
+      "upstream_sha256": "bb8605a78cf0e30952d40e9f7aba81e957db1c71c26cdaa59dc8702621da3e9e",
+      "origin": "current_upstream",
+      "verified_previous_commit": "2497402b270a4f613cf57abc1c29cbc260fb8c07"
+    },
+    "audio/scripts/lib/gemini-auth.mjs": {
+      "installed_sha256": "72fa1b984693279656ef5398bbdc48c074040ac4feafaedd1b7c45f12545bf10",
+      "upstream_sha256": "72fa1b984693279656ef5398bbdc48c074040ac4feafaedd1b7c45f12545bf10",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/scripts/lib/tts.mjs": {
+      "installed_sha256": "6b2b44e566d12117b11f988bb0189984764f8115922971d7b27ede48c68c8acc",
+      "upstream_sha256": "6b2b44e566d12117b11f988bb0189984764f8115922971d7b27ede48c68c8acc",
+      "origin": "current_upstream",
+      "verified_previous_commit": "2497402b270a4f613cf57abc1c29cbc260fb8c07"
+    },
+    "audio/scripts/lib/python.test.mjs": {
+      "installed_sha256": "98e5da89c84f1aaa61797ea0989d2a6d2f7b5fe89cb73270347e553ef0ea42c3",
+      "upstream_sha256": "98e5da89c84f1aaa61797ea0989d2a6d2f7b5fe89cb73270347e553ef0ea42c3",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/scripts/lib/gemini-auth.test.mjs": {
+      "installed_sha256": "4a74c9e910914d57c715b0ed487e6e8ce2af265e32edfe04e8432780a6ffe0b0",
+      "upstream_sha256": "4a74c9e910914d57c715b0ed487e6e8ce2af265e32edfe04e8432780a6ffe0b0",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/scripts/lib/audio-meta.mjs": {
+      "installed_sha256": "94e1b4cf242362eeb52bb8a5665b5b50fe4ffdc7854f4366b82e290c33d03890",
+      "upstream_sha256": "94e1b4cf242362eeb52bb8a5665b5b50fe4ffdc7854f4366b82e290c33d03890",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/scripts/lib/tts.spawn.test.mjs": {
+      "installed_sha256": "62ec9589648477e8c7242567e9daa67d1cf07a0fbe2cf9968acef8df8e982ef2",
+      "upstream_sha256": "62ec9589648477e8c7242567e9daa67d1cf07a0fbe2cf9968acef8df8e982ef2",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/scripts/lib/media-record.mjs": {
+      "installed_sha256": "959bc6b444b35cee55ce9374c36e227caeaa561ac56fadfddf3f82e79aa045db",
+      "upstream_sha256": "959bc6b444b35cee55ce9374c36e227caeaa561ac56fadfddf3f82e79aa045db",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/scripts/lib/gemini-tts.mjs": {
+      "installed_sha256": "bf003704ac37e81a9e1b500103691c37670f9ff556e1dde3062e2e87873ef914",
+      "upstream_sha256": "bf003704ac37e81a9e1b500103691c37670f9ff556e1dde3062e2e87873ef914",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/scripts/lib/heygen.test.mjs": {
+      "installed_sha256": "777b285db83383e30850f90a3d32030dc39cb8c6902a1f676a2c67066fa80b51",
+      "upstream_sha256": "777b285db83383e30850f90a3d32030dc39cb8c6902a1f676a2c67066fa80b51",
+      "origin": "current_upstream",
+      "verified_previous_commit": "2497402b270a4f613cf57abc1c29cbc260fb8c07"
+    },
+    "audio/scripts/lib/python.mjs": {
+      "installed_sha256": "0ac1cb129bbe6b8b0d0a0fb813f258dd033698bf8c23da46fc7ebddcc011b0d2",
+      "upstream_sha256": "0ac1cb129bbe6b8b0d0a0fb813f258dd033698bf8c23da46fc7ebddcc011b0d2",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/scripts/lib/gemini-auth_test.py": {
+      "installed_sha256": "5f524492aa5d4fa77c45bfed0002a33045677bd1c28027ff80554c9911f32b66",
+      "upstream_sha256": "5f524492aa5d4fa77c45bfed0002a33045677bd1c28027ff80554c9911f32b66",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/scripts/lib/sfx.mjs": {
+      "installed_sha256": "5c443cdf72bf14552f23a468e311b273e1448b49aeca385f2484995217f75d3f",
+      "upstream_sha256": "5c443cdf72bf14552f23a468e311b273e1448b49aeca385f2484995217f75d3f",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/scripts/lib/media-record.test.mjs": {
+      "installed_sha256": "74824ab8fff9376955222665e4d84d1168c783e417b7feb01609124b3ec4df8b",
+      "upstream_sha256": "74824ab8fff9376955222665e4d84d1168c783e417b7feb01609124b3ec4df8b",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/scripts/lib/audio-meta.test.mjs": {
+      "installed_sha256": "e6627824e12aec0c19c7d6f28cd8445ed6a341c846b873f467337e1af96e0e7a",
+      "upstream_sha256": "e6627824e12aec0c19c7d6f28cd8445ed6a341c846b873f467337e1af96e0e7a",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/scripts/lib/gemini-auth.py": {
+      "installed_sha256": "5ba85af3b5b46bfa04013f5d24b2c5b72dc7677b6cc5ef5ef926de82be4f8542",
+      "upstream_sha256": "5ba85af3b5b46bfa04013f5d24b2c5b72dc7677b6cc5ef5ef926de82be4f8542",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/scripts/lib/sfx.test.mjs": {
+      "installed_sha256": "87bc81631a1dae1e251e13bb219521815f1cc14f7ec30b8d29b38885138f360d",
+      "upstream_sha256": "87bc81631a1dae1e251e13bb219521815f1cc14f7ec30b8d29b38885138f360d",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/scripts/lib/bgm.test.mjs": {
+      "installed_sha256": "59b6b3d23a7de4b8dcaef846290ec14c6f74530a4e9a8fd5fa354501c35c73ad",
+      "upstream_sha256": "59b6b3d23a7de4b8dcaef846290ec14c6f74530a4e9a8fd5fa354501c35c73ad",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/scripts/lib/bgm-volume.mjs": {
+      "installed_sha256": "bb9debebdbd09724f6d07cd10b3982a076639664420ff8caf5f5a36ae7429a8c",
+      "upstream_sha256": "bb9debebdbd09724f6d07cd10b3982a076639664420ff8caf5f5a36ae7429a8c",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/scripts/lib/concurrency.test.mjs": {
+      "installed_sha256": "daf0b162a9c3fc1a20cc22dff19566530e198459a10afcdf42ad39bec2426f55",
+      "upstream_sha256": "daf0b162a9c3fc1a20cc22dff19566530e198459a10afcdf42ad39bec2426f55",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/scripts/lib/concurrency.mjs": {
+      "installed_sha256": "36a28dc1a0528b5605cba29a593dd54a786ad6283611b09a634946b12a5ed32e",
+      "upstream_sha256": "36a28dc1a0528b5605cba29a593dd54a786ad6283611b09a634946b12a5ed32e",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/scripts/lib/tts.test.mjs": {
+      "installed_sha256": "4b83343efa80c285f945a183ff0cf1a62b19ce7f9faae109fe0f2ae937cbf5aa",
+      "upstream_sha256": "4b83343efa80c285f945a183ff0cf1a62b19ce7f9faae109fe0f2ae937cbf5aa",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/scripts/lib/bgm.mjs": {
+      "installed_sha256": "2e7e7590bef554c4aa8fa0250ca4fd0dc96da5e388644c90128cf7767c6a7532",
+      "upstream_sha256": "2e7e7590bef554c4aa8fa0250ca4fd0dc96da5e388644c90128cf7767c6a7532",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/references/captions/motion.md": {
+      "installed_sha256": "ee1b89fc53e7433e1c1192c24e09365a3894bae653d8061c2bbc4202c097250f",
+      "upstream_sha256": "ee1b89fc53e7433e1c1192c24e09365a3894bae653d8061c2bbc4202c097250f",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/references/captions/authoring.md": {
+      "installed_sha256": "c1f159e6a99b5ed65812fbc777fabdbf8cb82dec7fcb2e970b9524653d96bb59",
+      "upstream_sha256": "c1f159e6a99b5ed65812fbc777fabdbf8cb82dec7fcb2e970b9524653d96bb59",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "audio/references/captions/transcript-handling.md": {
+      "installed_sha256": "84c4d5181749022c00b6de62ffe95fe257598fb5f9111d9e8541d25a13836287",
+      "upstream_sha256": "84c4d5181749022c00b6de62ffe95fe257598fb5f9111d9e8541d25a13836287",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "scripts/lib/credit-limit.mjs": {
+      "installed_sha256": "1699e9136a4f5fbe8e019d5c57932c3d41b880c72f0ebb88c2ad6a50eb9a1e9b",
+      "upstream_sha256": "1699e9136a4f5fbe8e019d5c57932c3d41b880c72f0ebb88c2ad6a50eb9a1e9b",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "scripts/lib/telemetry.test.mjs": {
+      "installed_sha256": "2733285623440cef340ec50e55a6f2d50e330b8122ceef853cf5e670eab6c76e",
+      "upstream_sha256": "2733285623440cef340ec50e55a6f2d50e330b8122ceef853cf5e670eab6c76e",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "scripts/lib/config-lock.mjs": {
+      "installed_sha256": "a9d1679e2039be38cd1756a1011f813ae4be0577c2ff77b9ed411b99b1c94275",
+      "upstream_sha256": "a9d1679e2039be38cd1756a1011f813ae4be0577c2ff77b9ed411b99b1c94275",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "scripts/lib/index-gen.mjs": {
+      "installed_sha256": "fde84f36ebfb4fa819935956b2b6dc43a70b749a5c846d5470295d7c439e40e6",
+      "upstream_sha256": "fde84f36ebfb4fa819935956b2b6dc43a70b749a5c846d5470295d7c439e40e6",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "scripts/lib/npx-sync.mjs": {
+      "installed_sha256": "c9954898a7c80067f8852e44dd5eaeead38c7552a5efe144cfac3d88641ba2ca",
+      "upstream_sha256": "c9954898a7c80067f8852e44dd5eaeead38c7552a5efe144cfac3d88641ba2ca",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "scripts/lib/error-diffusion.mjs": {
+      "installed_sha256": "aa718fe95f98087979bab5ea31d68b8e45fbde0c5b874c6888ad21923fb45936",
+      "upstream_sha256": "aa718fe95f98087979bab5ea31d68b8e45fbde0c5b874c6888ad21923fb45936",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "scripts/lib/transcriptCutFade.mjs": {
+      "installed_sha256": "ee9c7ec28650cf0f6a0f1f21f1c6a1faa5e152337163cccc0cc9a109b3c99805",
+      "upstream_sha256": "ee9c7ec28650cf0f6a0f1f21f1c6a1faa5e152337163cccc0cc9a109b3c99805",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "scripts/lib/telemetry.mjs": {
+      "installed_sha256": "b817e192cb6a676db4de3a47058edd858815a0e7fb8d9fb80c150085e9284330",
+      "upstream_sha256": "b817e192cb6a676db4de3a47058edd858815a0e7fb8d9fb80c150085e9284330",
+      "origin": "current_upstream",
+      "verified_previous_commit": "18a922f43342a3afb6e03e80ab7174d78552da95"
+    },
+    "scripts/lib/media-fetch.mjs": {
+      "installed_sha256": "6a90740eee3e4765b83b4c9726676b2935a7fbc9990f61ad5b166f9263188366",
+      "upstream_sha256": "6a90740eee3e4765b83b4c9726676b2935a7fbc9990f61ad5b166f9263188366",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "scripts/lib/duck.mjs": {
+      "installed_sha256": "0930aea672a8cb204d344902cb90442491a8979f9f554f9c7c61cd13666a6846",
+      "upstream_sha256": "0930aea672a8cb204d344902cb90442491a8979f9f554f9c7c61cd13666a6846",
+      "origin": "current_upstream",
+      "verified_previous_commit": "18a922f43342a3afb6e03e80ab7174d78552da95"
+    },
+    "scripts/lib/prefs-store.mjs": {
+      "installed_sha256": "960429595e5c5dda3f88f2899852d2ac2322a7d26b27ed8139612d0161fff749",
+      "upstream_sha256": "960429595e5c5dda3f88f2899852d2ac2322a7d26b27ed8139612d0161fff749",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "scripts/lib/cutlist.mjs": {
+      "installed_sha256": "c395f49bdb602b29dfc1ea98b7f6d0d5d8781f00eca1c16d009d10e7ef0205be",
+      "upstream_sha256": "c395f49bdb602b29dfc1ea98b7f6d0d5d8781f00eca1c16d009d10e7ef0205be",
+      "origin": "current_upstream",
+      "verified_previous_commit": "18a922f43342a3afb6e03e80ab7174d78552da95"
+    },
+    "scripts/lib/media-home.mjs": {
+      "installed_sha256": "7f69890d7b822f202b44ddec0d8176c767cd8b1da4dfc4d918599c6a05cfecb1",
+      "upstream_sha256": "7f69890d7b822f202b44ddec0d8176c767cd8b1da4dfc4d918599c6a05cfecb1",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "scripts/lib/parakeet-words.mjs": {
+      "installed_sha256": "d5b66efe6cb8975beab2f523503113c3be3117e687ebc20695e7ab08c2ba1b4d",
+      "upstream_sha256": "d5b66efe6cb8975beab2f523503113c3be3117e687ebc20695e7ab08c2ba1b4d",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "scripts/lib/manifest.mjs": {
+      "installed_sha256": "67f827f7591241c170fd92eb7fa789df2f1756b2cd4889907141936179f5d00f",
+      "upstream_sha256": "67f827f7591241c170fd92eb7fa789df2f1756b2cd4889907141936179f5d00f",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "scripts/lib/words.mjs": {
+      "installed_sha256": "bfc1f93523d2fc8ce55580b262efcca537c7feabaf029c1c6f33433591377adb",
+      "upstream_sha256": "bfc1f93523d2fc8ce55580b262efcca537c7feabaf029c1c6f33433591377adb",
+      "origin": "current_upstream",
+      "verified_previous_commit": "18a922f43342a3afb6e03e80ab7174d78552da95"
+    },
+    "scripts/lib/recipe-store.mjs": {
+      "installed_sha256": "6d2786c2ba4959178351047c3b6d1d2b29a701685c9b256fcc4793c50717ce83",
+      "upstream_sha256": "6d2786c2ba4959178351047c3b6d1d2b29a701685c9b256fcc4793c50717ce83",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    }
+  },
+  "notes": [
+    "Upstream consolidated seven former skills into hyperframes and media-use. Current four core skills are copied as a coherent set; seven installed names remain local compatibility interfaces.",
+    "No new skill names are installed. reverse-any-video, style-sampling, slideshow, remotion-to-hyperframes and figma remain absent unless separately installed.",
+    "Every existing file is preserved or archived. No deletion is proposed. Original legacy SKILL.md files are archived at the same directory depth as LEGACY-SKILL.md so their relative paths remain valid.",
+    "hyperframes-studio/SKILL.md has no exact match in its five published historical file revisions. Its complete original text remains in the active entry after an additive compatibility notice and also in LEGACY-SKILL.md.",
+    "Retained legacy recipes are a local reference library. Active composition behavior follows the current four upstream skills, rather than the archived auto-update and workflow-install instructions."
+  ],
+  "repository": "https://github.com/heygen-com/hyperframes",
+  "commit": "8a15d9feedc62dc9695246dceda9271a6d0a08e9",
+  "path": "skills/media-use",
+  "installed_name": "media-use"
+}

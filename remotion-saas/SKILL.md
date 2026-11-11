@@ -1,7 +1,8 @@
 ---
 name: remotion-saas
 description: Build an app with Remotion
-version: 4.0.518
+metadata:
+  upstream-version: "4.0.542"
 ---
 
 One can build apps with Remotion.  

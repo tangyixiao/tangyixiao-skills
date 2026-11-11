@@ -1,0 +1,628 @@
+{
+  "schema_version": 1,
+  "upstream_repository": "https://github.com/heygen-com/hyperframes",
+  "upstream_commit": "8a15d9feedc62dc9695246dceda9271a6d0a08e9",
+  "checked_on": "2026-11-11",
+  "upstream_path": "skills/hyperframes",
+  "retired_upstream_path": null,
+  "status": "current_upstream_with_retained_legacy_resources",
+  "files": {
+    "SKILL.md": {
+      "installed_sha256": "b50119741ee07c87be5b2d6cad47b22d32821d8e1252228db05ed62c07c24f89",
+      "upstream_sha256": "85afaf987ee74bdb022bb952857695ccaabf2137f3a3924bbfa9aad81a436243",
+      "origin": "current_upstream_with_local_compatibility_notice",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/captions.md": {
+      "installed_sha256": "e7e2af7eace992487baa455bfa703fb3d770fb29f36732541554e60a46896d54",
+      "upstream_sha256": "e7e2af7eace992487baa455bfa703fb3d770fb29f36732541554e60a46896d54",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "references/film.md": {
+      "installed_sha256": "b684403f725cf720b9f192bafd420ca55f24060114004234a4e46a715de7a183",
+      "upstream_sha256": "b684403f725cf720b9f192bafd420ca55f24060114004234a4e46a715de7a183",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "references/format.md": {
+      "installed_sha256": "1eae5b314fab5e36e7ff5f41e9a3f95db4b5efb179ad8ef7cc74ef9235d49d62",
+      "upstream_sha256": "1eae5b314fab5e36e7ff5f41e9a3f95db4b5efb179ad8ef7cc74ef9235d49d62",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "references/look.md": {
+      "installed_sha256": "5128a54cdb75bca2f627170e4a3a9667f4f11cf1579301fc16c53862c29c3ad3",
+      "upstream_sha256": "5128a54cdb75bca2f627170e4a3a9667f4f11cf1579301fc16c53862c29c3ad3",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "references/motion.md": {
+      "installed_sha256": "bd55ea56343346060cd612a30874996e82f48ac5051ecb2bd1ab01efe4e2fc71",
+      "upstream_sha256": "bd55ea56343346060cd612a30874996e82f48ac5051ecb2bd1ab01efe4e2fc71",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "references/overlays.md": {
+      "installed_sha256": "d87fa3d13e8e0dace593f4aafb68c085b7f4393eee468c7695a74d5665150da3",
+      "upstream_sha256": "d87fa3d13e8e0dace593f4aafb68c085b7f4393eee468c7695a74d5665150da3",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "references/path-tracing.md": {
+      "installed_sha256": "c45284156bfb77b5151cf6e5b34d47cad8e7da871147e842b4ebe358b187c6b7",
+      "upstream_sha256": "c45284156bfb77b5151cf6e5b34d47cad8e7da871147e842b4ebe358b187c6b7",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "references/review.md": {
+      "installed_sha256": "90886b58db02aaa53e6b91c433748629eda061b18465804b56ebbbab92508e56",
+      "upstream_sha256": "90886b58db02aaa53e6b91c433748629eda061b18465804b56ebbbab92508e56",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "references/runtimes.md": {
+      "installed_sha256": "438b527d08c6aaef96f9750d4be68e8b558aebeb6ce96cf39c5338bd170032e5",
+      "upstream_sha256": "438b527d08c6aaef96f9750d4be68e8b558aebeb6ce96cf39c5338bd170032e5",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "references/sound.md": {
+      "installed_sha256": "be9e39ef947678b3ffed452063ce414af4a7d7c534b1e6c440bb5ce474d28ab4",
+      "upstream_sha256": "be9e39ef947678b3ffed452063ce414af4a7d7c534b1e6c440bb5ce474d28ab4",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "references/spec.md": {
+      "installed_sha256": "6fa0658c5cf5c23058f70a6549cc952d683979052a0934760ba748bbec88fbc0",
+      "upstream_sha256": "6fa0658c5cf5c23058f70a6549cc952d683979052a0934760ba748bbec88fbc0",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "references/story.md": {
+      "installed_sha256": "3c2b96bb7f262652f4bf5efdef1ae806b47fd259c6704cb131938c5254965f22",
+      "upstream_sha256": "3c2b96bb7f262652f4bf5efdef1ae806b47fd259c6704cb131938c5254965f22",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "references/storyboard.md": {
+      "installed_sha256": "b71197f1234c435e7c91ad22e6ce348542a9e4cddede41dba09c8986edc6598b",
+      "upstream_sha256": "b71197f1234c435e7c91ad22e6ce348542a9e4cddede41dba09c8986edc6598b",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "references/script-format.md": {
+      "installed_sha256": "7637028d866d3d4a21d0b7934d6db4f73585a28c28da060d00cecc39c47e2e3d",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/plugin-installation.md": {
+      "installed_sha256": "892b465cc09e9481c605a243305830f82d0298d011271752501175ebc076d1c8",
+      "upstream_sha256": "892b465cc09e9481c605a243305830f82d0298d011271752501175ebc076d1c8",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/capability-menu.md": {
+      "installed_sha256": "44b7c86d35d2b4430b00c7a114efcfd1537d62fac6879b0d07be9f021a1598ce",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "18a922f43342a3afb6e03e80ab7174d78552da95"
+    },
+    "references/review-loop.md": {
+      "installed_sha256": "84e8ef3df646b80ece6cca9da8256ab89d57a992d2ed9585f90ec2a15f27cfa1",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/intent-interview.md": {
+      "installed_sha256": "c67ccb9a11615b87e4d3eca3b9cbcbf09aab4e29c2f46b3f765174299576bed4",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/frame-worker-core.md": {
+      "installed_sha256": "dcfdf62b928bd09e369415e40a70005d828b6bfbb5759750267d41be40c684b9",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "18a922f43342a3afb6e03e80ab7174d78552da95"
+    },
+    "references/brief-format.md": {
+      "installed_sha256": "1e4f2f67989052fedd56fd1211e7a8c27f70aa5dba14ccd18e23cbd44d825adb",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/workflow-catalog.md": {
+      "installed_sha256": "5f3e684ca26bc811c3c124e39633fbb685a410de1563f989b8a8cadab2680d8a",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/subagent-dispatch.md": {
+      "installed_sha256": "979074196889d149fff53afebd6604258dbab777951f455c9a831ffb8576cab7",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "18a922f43342a3afb6e03e80ab7174d78552da95"
+    },
+    "references/production-loop.md": {
+      "installed_sha256": "15020c02cc399e17c23ab461d879ea225caa39eb93381a4a9c18080c8b84bcc1",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/storyboard-format.md": {
+      "installed_sha256": "f79e3be44cf2e506cdd2d1c46926319a0067f11889fe8aaf3a55759a9c61fb86",
+      "upstream_sha256": "f79e3be44cf2e506cdd2d1c46926319a0067f11889fe8aaf3a55759a9c61fb86",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/pitch-round.md": {
+      "installed_sha256": "2d9ceb09ff7be704ebe47b64152b8f6d5dd611925d405e9f87f47f24dd65775c",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/brief-contract.md": {
+      "installed_sha256": "0b934224161ef3321d635ad62ede6a7d9d62696cbca66d4b56b9e235248702cc",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/skill-lifecycle.md": {
+      "installed_sha256": "094f8bc2d2ec3db9f306d9ab2a2d9a60a65e00bbeeb2f1aa4760d92b1f438b6d",
+      "upstream_sha256": "094f8bc2d2ec3db9f306d9ab2a2d9a60a65e00bbeeb2f1aa4760d92b1f438b6d",
+      "origin": "current_upstream",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/route-briefs.md": {
+      "installed_sha256": "67f38ec0c8b4e009464657cfd87d886f46b24629fca91571d9efaa1dbe5280d0",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "scripts/bake-basemap.mjs": {
+      "installed_sha256": "8322256cd43c597e2962af6c33c6be652084ae24c0c9a6af24183388d64e2b8d",
+      "upstream_sha256": "8322256cd43c597e2962af6c33c6be652084ae24c0c9a6af24183388d64e2b8d",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "scripts/locate.mjs": {
+      "installed_sha256": "9274b1b63a74b305f044dfd907ae5ddae538d566d31c23b81c39975be6317147",
+      "upstream_sha256": "9274b1b63a74b305f044dfd907ae5ddae538d566d31c23b81c39975be6317147",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "scripts/plugin-cli.mjs": {
+      "installed_sha256": "c8b63aa466ce76dc7b40a314fe28f36ac4b71c5e893cb6b24f1a32f55c145132",
+      "upstream_sha256": "c8b63aa466ce76dc7b40a314fe28f36ac4b71c5e893cb6b24f1a32f55c145132",
+      "origin": "current_upstream",
+      "verified_previous_commit": "18a922f43342a3afb6e03e80ab7174d78552da95"
+    },
+    "scripts/plugin-cli.test.mjs": {
+      "installed_sha256": "abfdf2498b57509438077803bee3a626c6fc13e1014ae066e5281edbfc4ca23d",
+      "upstream_sha256": "abfdf2498b57509438077803bee3a626c6fc13e1014ae066e5281edbfc4ca23d",
+      "origin": "current_upstream",
+      "verified_previous_commit": "18a922f43342a3afb6e03e80ab7174d78552da95"
+    },
+    "scripts/lib/main-module.mjs": {
+      "installed_sha256": "61811e09110856e1439c29875e4a4ad7701ae45d4045f9d1dcb6a7929698e4c0",
+      "upstream_sha256": "61811e09110856e1439c29875e4a4ad7701ae45d4045f9d1dcb6a7929698e4c0",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "scripts/lib/main-module.test.mjs": {
+      "installed_sha256": "3d0ee22dd8b7acbdf8997c11449f29f13bafe6b20668a478ba504f66ec1ef151",
+      "upstream_sha256": "3d0ee22dd8b7acbdf8997c11449f29f13bafe6b20668a478ba504f66ec1ef151",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "scripts/lib/frame-packets-core.mjs": {
+      "installed_sha256": "1c8b10b77568c959caf97467451ff65a71197872fba5f08f5cdf6fd6c37abdd6",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "18a922f43342a3afb6e03e80ab7174d78552da95"
+    },
+    "references/types/3d.md": {
+      "installed_sha256": "1194492ec496e2146ae1e772fd5de6e23d850d25523f80ea61540331d748291e",
+      "upstream_sha256": "1194492ec496e2146ae1e772fd5de6e23d850d25523f80ea61540331d748291e",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "references/types/character.md": {
+      "installed_sha256": "e8b4f6fd622acff593e2d7e478aa4e18ace1f9f785d16e42db5faf57ed525498",
+      "upstream_sha256": "e8b4f6fd622acff593e2d7e478aa4e18ace1f9f785d16e42db5faf57ed525498",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "references/types/data.md": {
+      "installed_sha256": "c5fda22433aca573b871eeff956cd57e3773d6b16ffd9b3cc5726937912c1b7a",
+      "upstream_sha256": "c5fda22433aca573b871eeff956cd57e3773d6b16ffd9b3cc5726937912c1b7a",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "references/types/explainer.md": {
+      "installed_sha256": "ef2bd945bd347e760fd483515189c58e8000bd2cbc5f4b1c2d3e5d34e4d81f4e",
+      "upstream_sha256": "ef2bd945bd347e760fd483515189c58e8000bd2cbc5f4b1c2d3e5d34e4d81f4e",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "references/types/launch.md": {
+      "installed_sha256": "1405b663227018d3dd7bfef895bcea3d3dd6c596078316bec30e8686d014f661",
+      "upstream_sha256": "1405b663227018d3dd7bfef895bcea3d3dd6c596078316bec30e8686d014f661",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "references/types/music.md": {
+      "installed_sha256": "868df2814d2a8e8f2bc884372d674320aee43c995fc67d25a109ebfdecb58b4a",
+      "upstream_sha256": "868df2814d2a8e8f2bc884372d674320aee43c995fc67d25a109ebfdecb58b4a",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "references/types/vertical.md": {
+      "installed_sha256": "fed9f5a1a3ceb204bb54e0dda0fd50befe611d0ab388a5036fc80cbc117a691b",
+      "upstream_sha256": "fed9f5a1a3ceb204bb54e0dda0fd50befe611d0ab388a5036fc80cbc117a691b",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "references/routes/motion-graphics.md": {
+      "installed_sha256": "b0388400c4da484ea383c6938df47db7d67d9194aa0ccb3e03c4e53d8691fb7c",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/routes/embedded-captions.md": {
+      "installed_sha256": "4e2f83a54caad625ae0dc4150b619f8b5afd65410965f53f6a40c430253207d1",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/routes/general-video.md": {
+      "installed_sha256": "dda0e1559cb57e5ba8e589f0fa6eedadbef78030bd2dccb4172b3b496da9fef1",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/routes/talking-head-recut.md": {
+      "installed_sha256": "d027e04e427c358ca0182e55b0449c0256ad7828b13b6e760d64a60de01eb0cc",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/routes/faceless-explainer.md": {
+      "installed_sha256": "cd76f75e109e11c1bbda483b46791acd98103184a7102eb0365f966abec6b037",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/routes/pr-to-video.md": {
+      "installed_sha256": "179d31b24940f6ee80d833d03e7b9b4c012cede7cbc07f88b460637239d66a57",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/routes/remotion-to-hyperframes.md": {
+      "installed_sha256": "86cffe564eb4e92b12375f558aeb5d30e271f97416d3c5f32ee77bcf6b14e35c",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/routes/product-launch-video.md": {
+      "installed_sha256": "ed2cba0be42a1e34361f65f7c633110935ef53c47933584e7b9ffc2ff07c366f",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/routes/music-to-video.md": {
+      "installed_sha256": "f0b8c86130ea1167f9c3116cae5b3440f86d184c6264cad1cb2dad0675e09dc2",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "references/routes/slideshow.md": {
+      "installed_sha256": "8f81d2f8102dd257fd3b7730edbda618c2ec8e0c180e4494e89592aa7cc5cc5b",
+      "upstream_sha256": null,
+      "origin": "retained_local_legacy_file",
+      "verified_previous_commit": "e8eb358fe21d6f1a611e04f8df27ca366b337ce9"
+    },
+    "assets/frame-presets/biennale-yellow/FRAME.md": {
+      "installed_sha256": "76d22cced9c152b0edb520543cf34c4ce772a312caa7211c40d4315b53c053cf",
+      "upstream_sha256": "76d22cced9c152b0edb520543cf34c4ce772a312caa7211c40d4315b53c053cf",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/biennale-yellow/caption-skin.html": {
+      "installed_sha256": "b0e4812d9cb5852969be276f8a98ffa2b293ba8cc902fababae3f3f6340088c3",
+      "upstream_sha256": "b0e4812d9cb5852969be276f8a98ffa2b293ba8cc902fababae3f3f6340088c3",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/biennale-yellow/frame-showcase.html": {
+      "installed_sha256": "5ba04e47cf9897e023dcfa49e1ec26fe26bac0c5061097dc6e7cb1d9ed46d7d0",
+      "upstream_sha256": "5ba04e47cf9897e023dcfa49e1ec26fe26bac0c5061097dc6e7cb1d9ed46d7d0",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/blockframe/FRAME.md": {
+      "installed_sha256": "ef8d9d47a209bed4ccc2d928c14a81cdaecb5129f5dc0cdc0dc40afc7ef92931",
+      "upstream_sha256": "ef8d9d47a209bed4ccc2d928c14a81cdaecb5129f5dc0cdc0dc40afc7ef92931",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/blockframe/caption-skin.html": {
+      "installed_sha256": "a1073a9910efb0bd146d9ee4513ef95bd72c4993db399ccb4decf2d10002faab",
+      "upstream_sha256": "a1073a9910efb0bd146d9ee4513ef95bd72c4993db399ccb4decf2d10002faab",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/blockframe/frame-showcase.html": {
+      "installed_sha256": "8d2e4963713928b353d0aa28c2c83fce415df81b66a500c192b602c0aaf4ddf2",
+      "upstream_sha256": "8d2e4963713928b353d0aa28c2c83fce415df81b66a500c192b602c0aaf4ddf2",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/blue-professional/FRAME.md": {
+      "installed_sha256": "62e9a445885f6057084493de385a8ce20c3b4a299ae36a553ef54884f06bad68",
+      "upstream_sha256": "62e9a445885f6057084493de385a8ce20c3b4a299ae36a553ef54884f06bad68",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/blue-professional/caption-skin.html": {
+      "installed_sha256": "e2524d610d0c833f6b71355357c13b26e670ec581c28ce37d12ead15ce4297b4",
+      "upstream_sha256": "e2524d610d0c833f6b71355357c13b26e670ec581c28ce37d12ead15ce4297b4",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/blue-professional/frame-showcase.html": {
+      "installed_sha256": "715b130d086977a48925a3c79bb079fbc7270274c9c9a7761bf275df3020b0ba",
+      "upstream_sha256": "715b130d086977a48925a3c79bb079fbc7270274c9c9a7761bf275df3020b0ba",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/bold-poster/FRAME.md": {
+      "installed_sha256": "af756ef993099f9ac78328f676eb79a6572ff0e9c2aacf12787471cd4525b171",
+      "upstream_sha256": "af756ef993099f9ac78328f676eb79a6572ff0e9c2aacf12787471cd4525b171",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/bold-poster/caption-skin.html": {
+      "installed_sha256": "a19c81d30377687605e2345601efabba5315d0d4db13c3ab4748d7004778c24a",
+      "upstream_sha256": "a19c81d30377687605e2345601efabba5315d0d4db13c3ab4748d7004778c24a",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/bold-poster/frame-showcase.html": {
+      "installed_sha256": "57bbc3374b6a8b37ce59e36ed784c22bbb88fd44d039955221913b3e1bacf159",
+      "upstream_sha256": "57bbc3374b6a8b37ce59e36ed784c22bbb88fd44d039955221913b3e1bacf159",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/broadside/FRAME.md": {
+      "installed_sha256": "3af0a1e5e61bece19841671672d7732082f03d5699b713475e90323a21dbcc89",
+      "upstream_sha256": "3af0a1e5e61bece19841671672d7732082f03d5699b713475e90323a21dbcc89",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/broadside/caption-skin.html": {
+      "installed_sha256": "f074e1a9662d48ec0008aff7fffa1bdeeda40c5c5e05db9bd0fa6dd2ecdc7a6b",
+      "upstream_sha256": "f074e1a9662d48ec0008aff7fffa1bdeeda40c5c5e05db9bd0fa6dd2ecdc7a6b",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/broadside/frame-showcase.html": {
+      "installed_sha256": "8d23a2cbeb898568a5626b38ffc864236fb4a09930d59b17c34c45f34c8e4161",
+      "upstream_sha256": "8d23a2cbeb898568a5626b38ffc864236fb4a09930d59b17c34c45f34c8e4161",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/capsule/FRAME.md": {
+      "installed_sha256": "f06dba67a3859f7c732b5177f7bcc58c94592caa5d6bbbcc6730a7876f5baa7a",
+      "upstream_sha256": "f06dba67a3859f7c732b5177f7bcc58c94592caa5d6bbbcc6730a7876f5baa7a",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/capsule/caption-skin.html": {
+      "installed_sha256": "0e62f725051213512566b6f615c438b893a3b39507a5a2666a52938c8dd74e46",
+      "upstream_sha256": "0e62f725051213512566b6f615c438b893a3b39507a5a2666a52938c8dd74e46",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/capsule/frame-showcase.html": {
+      "installed_sha256": "b3a642b5df3bbfb1ff227f1b82ee3ea02b51f20a0d7c5c46c97d72b180cddb4f",
+      "upstream_sha256": "b3a642b5df3bbfb1ff227f1b82ee3ea02b51f20a0d7c5c46c97d72b180cddb4f",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/cartesian/FRAME.md": {
+      "installed_sha256": "3dc6a31813a333b2a7a1509ddbd3b4dabbbd7e12e6479b6cff10d69c185fec95",
+      "upstream_sha256": "3dc6a31813a333b2a7a1509ddbd3b4dabbbd7e12e6479b6cff10d69c185fec95",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/cartesian/caption-skin.html": {
+      "installed_sha256": "e3e08147d1725d40576f4f97687ce0c6a4c32ee1b74dac2720f0ba652b9dfcfd",
+      "upstream_sha256": "e3e08147d1725d40576f4f97687ce0c6a4c32ee1b74dac2720f0ba652b9dfcfd",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/cartesian/frame-showcase.html": {
+      "installed_sha256": "d7867cee5e07c4f22345c566071f2ce0261b3fccca111a94dfbec5fde64f3e55",
+      "upstream_sha256": "d7867cee5e07c4f22345c566071f2ce0261b3fccca111a94dfbec5fde64f3e55",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/cobalt-grid/FRAME.md": {
+      "installed_sha256": "62a6c9e6e5188cc29b9c0098e9bb8e72c23f152d9a99dd92c58139d26b69b19f",
+      "upstream_sha256": "62a6c9e6e5188cc29b9c0098e9bb8e72c23f152d9a99dd92c58139d26b69b19f",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/cobalt-grid/caption-skin.html": {
+      "installed_sha256": "5cc71d8f0669e80d12ccb6bb83722870eecfeccade0bf64f8fb165e23fbadf3f",
+      "upstream_sha256": "5cc71d8f0669e80d12ccb6bb83722870eecfeccade0bf64f8fb165e23fbadf3f",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/cobalt-grid/frame-showcase.html": {
+      "installed_sha256": "b135214cd2e310273a01e3f72b2828149f022803954a22a13cbf27aa1c2f518a",
+      "upstream_sha256": "b135214cd2e310273a01e3f72b2828149f022803954a22a13cbf27aa1c2f518a",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/code-editorial/FRAME.md": {
+      "installed_sha256": "c24f6925cf938b88a93368443091440648e715c75ac38bd90abdaab6130bb4ad",
+      "upstream_sha256": "c24f6925cf938b88a93368443091440648e715c75ac38bd90abdaab6130bb4ad",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/code-editorial/caption-skin.html": {
+      "installed_sha256": "724a20adff3824e4d31d5d51cc094337209a896a5ef3ae1e4e28aa502ee980e4",
+      "upstream_sha256": "724a20adff3824e4d31d5d51cc094337209a896a5ef3ae1e4e28aa502ee980e4",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/code-editorial/frame-showcase.html": {
+      "installed_sha256": "08d711f5409a6af3fb6de05febe47fee77e4c8e85517bf2d087e2277b524e4ab",
+      "upstream_sha256": "08d711f5409a6af3fb6de05febe47fee77e4c8e85517bf2d087e2277b524e4ab",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/coral/FRAME.md": {
+      "installed_sha256": "8530ecb36d1bb2d53392d88d972df35beeba19a5bcb3260fc9b18a58de7cdfe8",
+      "upstream_sha256": "8530ecb36d1bb2d53392d88d972df35beeba19a5bcb3260fc9b18a58de7cdfe8",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/coral/caption-skin.html": {
+      "installed_sha256": "44904b0567292521391fb576f07de7d2f5d8bce81d0369460f1054d093a06877",
+      "upstream_sha256": "44904b0567292521391fb576f07de7d2f5d8bce81d0369460f1054d093a06877",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/coral/frame-showcase.html": {
+      "installed_sha256": "8ddf31ae13a4e57fe9730892fbbcb171cae67a204b5cb00b00374984f49b8f76",
+      "upstream_sha256": "8ddf31ae13a4e57fe9730892fbbcb171cae67a204b5cb00b00374984f49b8f76",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/creative-mode/FRAME.md": {
+      "installed_sha256": "c1a1359502d9fc79ef267305291fe0f651219c72d88088cee32327dd933dead8",
+      "upstream_sha256": "c1a1359502d9fc79ef267305291fe0f651219c72d88088cee32327dd933dead8",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/creative-mode/caption-skin.html": {
+      "installed_sha256": "2a45f759d64f5f6713ad2d529468df5bb345afe7d441d46c6316072348c1061b",
+      "upstream_sha256": "2a45f759d64f5f6713ad2d529468df5bb345afe7d441d46c6316072348c1061b",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/creative-mode/frame-showcase.html": {
+      "installed_sha256": "32c1371fcd526c56edb515e5b255ad736a3e330ba3ff2631c61576064b384ef0",
+      "upstream_sha256": "32c1371fcd526c56edb515e5b255ad736a3e330ba3ff2631c61576064b384ef0",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/daisy-days/FRAME.md": {
+      "installed_sha256": "42d827dbd279990052e171d04380b5e6bbc111ae391dc283deb7a452e70b9b97",
+      "upstream_sha256": "42d827dbd279990052e171d04380b5e6bbc111ae391dc283deb7a452e70b9b97",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/daisy-days/caption-skin.html": {
+      "installed_sha256": "5af839f607efb817d96956f3b016fd6fd065851f69ac1ac223a8634737bd497e",
+      "upstream_sha256": "5af839f607efb817d96956f3b016fd6fd065851f69ac1ac223a8634737bd497e",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/daisy-days/frame-showcase.html": {
+      "installed_sha256": "4fb93e5fa3ba12367f303996b6ca8b62f8e18c721d02e8032274df12d49d96f3",
+      "upstream_sha256": "4fb93e5fa3ba12367f303996b6ca8b62f8e18c721d02e8032274df12d49d96f3",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/editorial-forest/FRAME.md": {
+      "installed_sha256": "ceeb2ab768367da1e1f3e1eca36ab9feeb3de3e4d15493319b0044c3d869329c",
+      "upstream_sha256": "ceeb2ab768367da1e1f3e1eca36ab9feeb3de3e4d15493319b0044c3d869329c",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/editorial-forest/caption-skin.html": {
+      "installed_sha256": "50427bf7fcec9c8ac22f195a0e7fc442ad85e733198837ee0b9b8050296a0fa5",
+      "upstream_sha256": "50427bf7fcec9c8ac22f195a0e7fc442ad85e733198837ee0b9b8050296a0fa5",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/editorial-forest/frame-showcase.html": {
+      "installed_sha256": "bb87b88b91184f4fee7f02eea63ed35d9d378fa89fad8988326e31e82a43dbb1",
+      "upstream_sha256": "bb87b88b91184f4fee7f02eea63ed35d9d378fa89fad8988326e31e82a43dbb1",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/code-editorial/fonts/EBGaramond-400.woff2": {
+      "installed_sha256": "b63448e2680a0dbde70ebb2f3de78f6c515122835491f938e8a8595b46f29210",
+      "upstream_sha256": "b63448e2680a0dbde70ebb2f3de78f6c515122835491f938e8a8595b46f29210",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/code-editorial/fonts/EBGaramond-700.woff2": {
+      "installed_sha256": "5d0f8a497a48fd2a3611d07acc844f65c9fbb35419eafa4e1295f5f0f95f86e4",
+      "upstream_sha256": "5d0f8a497a48fd2a3611d07acc844f65c9fbb35419eafa4e1295f5f0f95f86e4",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/code-editorial/fonts/Inter-400.woff2": {
+      "installed_sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc",
+      "upstream_sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/code-editorial/fonts/Inter-700.woff2": {
+      "installed_sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491",
+      "upstream_sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/code-editorial/fonts/JetBrainsMono-400.woff2": {
+      "installed_sha256": "14425ba9c695763c1547f48a206b7aa60350a33ae23de09f0407877f3fcd89eb",
+      "upstream_sha256": "14425ba9c695763c1547f48a206b7aa60350a33ae23de09f0407877f3fcd89eb",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/code-editorial/fonts/JetBrainsMono-700.woff2": {
+      "installed_sha256": "d0d4e818808f2a0ba39b2b09d1989366f63494e295f003c7ef436697378507e8",
+      "upstream_sha256": "d0d4e818808f2a0ba39b2b09d1989366f63494e295f003c7ef436697378507e8",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/code-editorial/fonts/OFL-eb-garamond.txt": {
+      "installed_sha256": "f03c8eda63076cd52317dcd40aa04db8472d4cb592dfaafa385129dfdafc7f9c",
+      "upstream_sha256": "f03c8eda63076cd52317dcd40aa04db8472d4cb592dfaafa385129dfdafc7f9c",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/code-editorial/fonts/OFL-inter.txt": {
+      "installed_sha256": "3b0a5fca3d17942cde889069889dedbbbd075e9b599968c82a95f4d944e9b345",
+      "upstream_sha256": "3b0a5fca3d17942cde889069889dedbbbd075e9b599968c82a95f4d944e9b345",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    },
+    "assets/frame-presets/code-editorial/fonts/OFL-jetbrains-mono.txt": {
+      "installed_sha256": "403581b69dac5cff4079205e01c6b467e56af449ecbd7247693ddb1baafa005b",
+      "upstream_sha256": "403581b69dac5cff4079205e01c6b467e56af449ecbd7247693ddb1baafa005b",
+      "origin": "current_upstream",
+      "verified_previous_commit": null
+    }
+  },
+  "notes": [
+    "Upstream consolidated seven former skills into hyperframes and media-use. Current four core skills are copied as a coherent set; seven installed names remain local compatibility interfaces.",
+    "No new skill names are installed. reverse-any-video, style-sampling, slideshow, remotion-to-hyperframes and figma remain absent unless separately installed.",
+    "Every existing file is preserved or archived. No deletion is proposed. Original legacy SKILL.md files are archived at the same directory depth as LEGACY-SKILL.md so their relative paths remain valid.",
+    "hyperframes-studio/SKILL.md has no exact match in its five published historical file revisions. Its complete original text remains in the active entry after an additive compatibility notice and also in LEGACY-SKILL.md.",
+    "Retained legacy recipes are a local reference library. Active composition behavior follows the current four upstream skills, rather than the archived auto-update and workflow-install instructions."
+  ],
+  "repository": "https://github.com/heygen-com/hyperframes",
+  "commit": "8a15d9feedc62dc9695246dceda9271a6d0a08e9",
+  "path": "skills/hyperframes",
+  "installed_name": "hyperframes"
+}
