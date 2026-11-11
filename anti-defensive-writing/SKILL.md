@@ -1,578 +1,127 @@
 ---
 name: anti-defensive-writing
-description: Reduce defensive writing in drafts and revisions by removing unnecessary caveats, disclaimers, hedges, apology-like framing, negative self-limiting statements, and over-explanations while preserving necessary scope, accuracy, safety, legal, ethical, and methodological limits. Use when drafting or revising academic writing, papers, essays, abstracts, introductions, contribution statements, discussions, conclusions, technical explanations, grant writing, product writing, policy writing, professional reports, or any text the user wants to be clearer, stronger, more direct, more concise, more confident, less verbose, less caveated, less apologetic, or less defensive.
+description: >-
+  Use when drafting or revising answers, causal explanations, academic papers,
+  technical plans, reports, or professional prose with defensive caveats,
+  unsolicited rebuttals, repetitive negation, or formulaic contrasts. Also use
+  for 肯定式优先写作、无请求反驳、无端纠错、机械转折、过度防御、少说不等于、
+  别假想反方, or requests for affirmative-first writing in any language.
 ---
 
-# Anti-Defensive Writing
+# Anti-Defensive Writing / 肯定式优先写作
 
-## Core Rule
+直接回答用户实际提出的问题。优先给出事实、判断、机制、证据、过程与例子，让读者随着正文推进建立理解。肯定式优先写作（affirmative-first writing）适用于所有自然语言；按用户指定的语言输出，未指定时沿用原稿语言。
 
-Advance the claim directly.
+若用户希望每次启动 Codex 都采用这些规则，可将 [GLOBAL-INSTRUCTIONS.md](GLOBAL-INSTRUCTIONS.md) 中的约定合并到各设备 Codex home 下的 `AGENTS.md`。该模板按技能名称定位文件，适合与技能一起通过 Git 同步。
 
-Say what is true, what the text argues, what the evidence shows, or what the method does. Do not default to explaining what the text does not claim, does not prove, does not imply, does not cover, or does not attempt.
+## 从实际问题组织答案
 
-Use a calm, competent authorial posture. Write as an author explaining an argument to the reader, not as an author negotiating with an imagined critic.
+先识别用户要解释什么、判断什么、完成什么，沿着这个目标展开。
 
-## Preserve Necessary Precision
+- **问原因或机制**：写清谁采取了什么行动、通过哪个中间环节、改变了哪个变量、产生什么结果。说明各环节成立的条件与影响大小。
+- **问事实**：给出已知事实及相关证据；待核实的具体部分直接标明。
+- **问怎么办**：给出可执行的步骤、必要前提与判断结果的方法。
+- **问评价或预测**：根据现有证据给出当前判断，再解释依据、成立条件与会改变判断的信息。
+- **要求改写**：交付改写后的正文。只标问题时，标出位置、影响与修改方向。局部修改保持局部范围。
 
-Keep limitations when they are necessary for accuracy, ethics, law, safety, or methodological transparency.
+用户问一般传导机制时，展开机制。具体事件中已经发生了哪些环节，要由相应证据支持。原因未知时指出缺口；假设性解释明确按假设表述。
 
-A limitation is necessary when it affects:
+直接程度与用户要求的深度相配。复杂问题需要展开关键推导、证据和例子；每段围绕一个问题，提供新的事实、机制、推理或判断依据。
 
-- the validity of the claim;
-- the interpretation of the evidence;
-- the scope of application;
-- the research design;
-- the reader's ability to use the result correctly.
+## 优先采用的表达
 
-Write necessary limitations once, clearly and calmly. Place them in the appropriate section, usually methods, discussion, or limitations. Do not scatter them through abstracts, introductions, contribution paragraphs, topic sentences, conclusions, or executive summaries unless the limitation is essential to that exact sentence.
+用主体和动作组织句子，直接写出研究内容、观察结果、操作要求与适用范围。结论过宽时缩小主张，概念含糊时补充定义，理由薄弱时整理已有证据与推理。
 
-## Detection Checklist
+需要表达不确定性时，说清未知的变量、证据缺口，以及它如何影响当前判断。保留有依据的“可能”“提示”“under these conditions”。同一项不确定性在相关位置说明，后文随推理继续。
 
-Before finalizing a draft or revision, check for:
+受到纠正时，指出具体错误，给出修正并继续处理原问题。致歉需要简短；修正后的事实或实际行动应当占据正文。
 
-- unnecessary disclaimers;
-- repeated statements of what the text does not claim;
-- excessive hedging;
-- caveats in high-impact positions;
-- paragraphs that start with limitations;
-- negative framing where positive framing would work;
-- explanations added only to prevent hypothetical misunderstanding;
-- self-undermining contribution statements;
-- unnecessary "not X but Y" structures;
-- redundant "however", "nevertheless", or "although" transitions.
+## 识别无请求反驳与防御性过度限定
 
-Revise any item that weakens the text without improving accuracy.
+检查句子在语境中的作用及全文密度。以下写法及其任何语言中的同义表达，常被用来填充防御性段落：
 
-## Rewrite Procedure
+| 表现 | 需要检查的问题 |
+| --- | --- |
+| “X 不等于／不意味着／不能证明 Y”“不能据此推断” | 被排除的 Y 是否与当前问题相关？排除后是否解释了实际问题？ |
+| “既不能……也不能……更不意味着……” | 是否连续塞入多个用户从未主张的结论？ |
+| “不是 X，而是 Y”“不只是 X，更是 Y”“真正的问题在于” | 对照是否有实质依据？能否直接说清 Y 的机制？ |
+| “即使 A，也不能说明 B”“虽然如此，仍不能排除” | 是否引入了无关的假想结论？ |
+| “需要强调边界”“不能简单归因”“单一案例不足以说明” | 这项限定具体改变了哪个判断或行动？ |
+| 每段都出现转折、例外、提醒或纠偏 | 是否形成了反复自我辩护的固定节奏？ |
 
-1. Identify the function of the defensive sentence.
+未经请求的澄清默认省略。遇到用户明确表达的误解，或与当前问题直接相关、会改变理解和行动的重要误解时，简洁说明理由。一次澄清已经解决的问题，后文直接使用修正后的概念。
 
-Classify it as one of:
+按实际功能判断，识别换词、翻译、拆句和括号中的重复防御。单纯替换句式以后，读者仍须处理的无关假想命题也应删去。全文判断重在相关性与信息价值，避免设置机械的否定词计数或澄清次数配额。
 
-- unnecessary disclaimer;
-- necessary scope condition;
-- real methodological limitation;
-- useful conceptual contrast;
-- evidence-based qualification;
-- redundant clarification.
+## 实质性批判与必要限定
 
-2. Delete unnecessary disclaimers.
+用户要求批评、反驳、比较观点时，准确交代对方主张与理由，再分析其假设、证据、推理断点和替代解释。让批判充分展开到问题所需的深度。
 
-Remove any sentence that does not add evidence, scope, logic, conceptual precision, or necessary reader guidance.
+事实纠错、数学反证、代码缺陷、方法局限、证据强度、适用条件、必要禁止事项、法律与伦理披露以及与任务相关的安全限制，都可能需要明确的否定。保留会影响结论、证据解释或实际操作的内容，并在相应位置解释其作用。
 
-3. Convert defensive limitation into positive scope.
+真实的不利结果、反证与重要未知项同样构成信息增量。通过删改风格来美化结论、隐藏坏消息或提高确定性，会改变原意。
 
-Prefer:
+## 改写时保留事实与技术含义
 
-> The analysis focuses on urban governance cases from 2015 to 2023.
+保留原文的事实、数字、单位、条件、责任主体、引用、论证关系与证据强度。观察到相关关系时沿用相关表述；判断因果需要对应依据。资料未提供的数据、机制、解释、引用或优势，应作为缺口处理。
 
-Avoid:
+示例只展示表达方法。将示例中的细节写入用户文稿前，先确认资料支持。只有实际查看过相应来源或完成检查，才写“已核查”“已验证”及其具体结论。
 
-> We do not claim that these cases are representative of all urban governance contexts.
+对中文技术方案、SOP、报告与演示文稿：
 
-4. Replace hedging with precision.
+- 写明操作、参数、前置条件、结果和实际目的；“用于阐明机制”若承担研究目的，应保留。
+- “仅在……时”“若欲……需要……”承载的前提须完整保留。原稿支持具体条件时，将“在条件允许时”改写为明确前提；条件缺失时指出缺失项。
+- 删去“切记”等说教口吻，保留必要的操作禁令。“不可互相替代”所表达的限制，应在改写后仍然清楚；“两者独立记录”只表达记录方式。
+- 简化“进行……的测量”为“测量……”。依据实际操作使用“测量”“表征”“标定”“解耦”“淬灭”“钳定”等动词，保持操作含义。
 
-Prefer:
+## 学术写作
 
-> The evidence indicates that X influences Y in these cases.
+依据论文的主要贡献组织摘要、引言、实验与结论：新能力、新机制、成本变化或扩展性。保留支撑主线的次要贡献与影响结论的不利证据。
 
-Avoid:
+- **主张与范围**：说清研究对象、条件与发现。必要的方法或外推限制须随相关主张交代；方法、讨论与局限部分承载其余细节。摘要或结论中省略就会误导的限定，应当保留。
+- **指标与取舍**：说明相同条件下哪个指标提高、哪个指标下降及其应用意义。评价标准保持一致；局部结果按其实际影响解释。
+- **实验的作用**：分别回答方法是否有效、优势来自哪里、是否存在其他解释、适用于什么条件。合并重复展示，将偏离主线的内容移至补充材料。
+- **缺失实验**：指出哪项主张缺少支持。例如，缺少模块 A 的消融时，说明模块 A 的贡献待验证，并给出所需比较。
+- **不利结果**：先判断其对核心结论的影响，再交代条件、指标与结果。证据有限时收窄主张；证据相反时修正或撤回主张。未知原因保持未知。
+- **审稿与正文**：区分已证实的问题、待核实的问题和可选的补充实验。修改正文时处理会影响结论或理解的内容。
+- **语气**：把“仅仅做了初步尝试”“只能提供有限参考”等空泛自评替换为实际完成的研究；保留与证据相称的“初步”“可能”“提示”。
 
-> This may suggest that X could potentially influence Y.
+## 改写示例
 
-If uncertainty is real, specify its source:
+以下机制与数字均为示例条件，实际写作使用对应资料中的事实。
 
-> The available evidence supports this interpretation, although the design does not estimate population-level effects.
+**机制解释，示例条件：丑闻引发合作方担忧。**
 
-5. Rebuild the paragraph around the main point.
+防御性写法：“私人丑闻既不能证明间谍渗透，更不能说明已经泄密，也不代表有人准备撤换他。”
 
-Ensure the paragraph has:
+直接展开：“合作方担忧可能转化为合同审查、暂停续约或提出管理层安排要求。收入预期与履职稳定性因此受到影响，董事会会据此评估调查、权力调整或接班安排。压力的大小取决于合同条款、合作方反应及董事会掌握的信息。”
 
-- a clear topic sentence;
-- one main job;
-- a logical sequence;
-- no repeated caveats;
-- no apology-like framing;
-- a direct connection to the larger argument.
+**原因解释，已知条件：字段不兼容导致迁移与测试延期。**
 
-## Writing Principles
+防御性写法：“一次延期不等于能力不足，也不能说明项目失败。”
 
-Lead with the claim. Start paragraphs with the point, not with a caveat.
+直接展开：“旧系统有三种不兼容字段，迁移脚本需要逐项重写，集成测试因此增加了两周。”
 
-Use positive scope. State what the text examines, explains, tests, compares, or contributes.
+**论文取舍，已知条件：同一测试下准确率与延迟的变化。**
 
-Strengthen with evidence, not apology. When a claim feels too broad, improve the concepts, evidence, causal logic, scope, or paragraph structure instead of adding protective caveats.
+空泛评价：“较低的准确率说明方法仍有局限。”
 
-Keep one paragraph, one job. Do not mix argument, caveat, apology, exception, and clarification in the same paragraph.
+具体陈述：“相同测试条件下，延迟从 100 ms 降至 60 ms，准确率从 90% 降至 89%。”
 
-Use contrast only when the contrast itself is part of the argument. Avoid reflexive "not X but Y", "rather than", "instead of", "to be clear", and "it should be noted that" structures.
+**纠正错误。**
 
-## Technical Plans and SOPs
+防御性回应：“承认问题也不意味着已经解决，即使这次改好也不能保证以后。”
 
-In Chinese technical plans, SOPs, reports, and presentations:
+直接修正：“我把你询问的公司治理机制误写成了对泄密指控的反驳。丑闻影响治理的传导过程是：……”
 
-Remove redundancy and admonitory tone while preserving technical meaning, applicability conditions, prohibitions, and operational purpose. Do not change the operation to make the text sound more concise or specialized.
+## 输出前检查
 
-- **State the plan directly:** Give the procedure, parameters, prerequisites, and findings. Remove commentary about the writing only when it adds no substantive information. Keep phrases such as “用于阐明机制” when they state a real research purpose.
-- **Name technical prerequisites:** Replace vague wording such as “在条件允许时” with concrete prerequisites supported by the draft, for example, “标定前提：……”. Keep necessary conditions expressed by “仅在……时” or “若欲……需要……”, or rewrite them equivalently. Do not replace them with an unconditional action; identify missing conditions when they are unspecified.
-- **Use operational language:** State the required handling directly and remove admonitory wording such as “切记”, while retaining necessary prohibitions and technical conclusions. Keep “不可互相替代” when it expresses a real restriction. Use “两者独立记录并平行分析” only when the procedure calls for it; this does not convey non-interchangeability.
-- **Choose precise verbs:** Simplify redundant phrasing such as “进行……的测量” to “测量……”. “测量” and “表征” are valid technical verbs. Use “标定”, “解耦”, “淬灭”, or “钳定” only when they describe the actual operation; do not substitute a different operation to sound more specialized.
+静默阅读全文：
 
-## Preferred Patterns
+1. 开头是否给出了当前能支持的答案、判断或交付物？正文是否完成了用户要求的深度？
+2. 是否凭空安排反方、默认读者会犯低级错误，或把解释问题变成证据审判？删去这些段落后，用事实、机制或推理补齐实际问题。
+3. 是否反复沿用“观点—纠偏—边界”的节奏？合并重复限定，让段落按论证需要自然推进。
+4. 每次纠错或限定是否影响读者理解、判断或行动？它贡献的具体理由是否已经写出？
+5. 改写后是否保留了必要条件、禁止事项、不利结果和证据强度？是否引入了资料之外的事实、引用或确定性？
 
-Use patterns like:
-
-- "This paper examines..."
-- "This study shows..."
-- "The analysis focuses on..."
-- "The evidence indicates..."
-- "This design allows..."
-- "The results suggest..."
-- "The central contribution is..."
-- "In this setting, X shapes Y by..."
-
-## Discouraged Patterns
-
-Avoid these unless they are necessary for accuracy:
-
-- "This paper does not claim..."
-- "We do not attempt to..."
-- "This is not to say that..."
-- "This should not be taken to mean..."
-- "The goal is not X but Y..."
-- "Rather than arguing X, this paper argues Y..."
-- "Although this study has limitations..."
-- "Of course, this does not fully capture..."
-- "It is worth noting that..."
-- "To be clear..."
-
-## Examples
-
-Defensive:
-
-> We do not claim that these cases are representative of all contexts.
-
-Stronger:
-
-> The cases show how the mechanism operates across three institutional settings.
-
-Defensive:
-
-> This paper is not intended to provide a comprehensive theory of platform governance, but rather to examine one specific mechanism.
-
-Stronger:
-
-> This paper identifies a mechanism through which platform governance reshapes participation.
-
-Defensive:
-
-> This does not mean that policy design alone determines implementation outcomes.
-
-Stronger:
-
-> Implementation outcomes depend on how policy design interacts with administrative capacity.
-
-Defensive:
-
-> While the sample is limited and cannot capture every variation, it still offers useful insights.
-
-Stronger:
-
-> The sample captures the variation most relevant to the study's theoretical question.
-
-Defensive:
-
-> We are not arguing that this model is superior in every situation.
-
-Stronger:
-
-> The model is most useful when the task requires interpretable comparisons across cases.
-
-## Final Pass
-
-Before producing the final answer, remove any sentence that exists mainly to protect against a hypothetical objection rather than to advance the text. Deliver text that is concise, direct, confident, logically organized, and free of unnecessary disclaimers.
-
-# Additional Rules
-
-Use the requested language, or retain the draft's language. Apply the paper rules to paper revisions. Keep local edits local.
-
-## Main Argument
-
-Identify the paper's main contribution: a new capability, a new mechanism, lower cost, or better scalability.
-
-Organize the abstract, introduction, experiments, and conclusion around it. Keep supporting contributions. Remove unrelated setup.
-
-## Metrics and Claims
-
-When a metric is unfavorable, check the task, evaluation conditions, and application needs.
-
-State the specific tradeoff. Do not turn one weaker metric into a verdict on the whole method or change the evaluation criteria to avoid the result.
-
-Given:
-
-> Under the same test conditions, accuracy falls from 90% to 89%, and latency falls from 100 ms to 60 ms.
-
-Prefer:
-
-> The method reduces latency from 100 ms to 60 ms, with 89% accuracy compared with the baseline's 90%.
-
-Avoid:
-
-> The lower accuracy reveals limitations of the method.
-
-## The Role of Each Experiment
-
-Each experiment should address at least one question:
-
-- Does the method work?
-- What explains its advantage?
-- Can alternative explanations be ruled out?
-- Under what conditions does it apply?
-
-Suggest combining or removing redundant presentation and moving tangential material to the supplement. Retain unfavorable results that affect the central conclusion.
-
-When an experiment is missing, identify the unsupported claim. For example, without an ablation of module A, the gain cannot yet be attributed to A. Avoid the blanket statement “the experiments are insufficient.”
-
-## Procedure for Unfavorable Results
-
-1. Determine whether the result affects the central conclusion or its interpretation. Discuss results that affect the conclusion.
-2. State the conditions, metric, and finding. Do not invent an explanation when the cause is unknown.
-3. Check for overclaiming. Narrow or withdraw unsupported claims.
-4. Check whether a local observation has been described as a general defect.
-5. Place limitations in the relevant sections. Keep qualifications essential to understanding claims in the abstract and conclusion.
-
-## Before Submission
-
-- Remove self-criticism that adds no information.
-- Narrow claims that exceed the evidence.
-- Remove repeated limitation statements from the abstract and conclusion.
-- Keep the central contribution clear throughout the paper.
-
-## Review Comments and Manuscript Text
-
-During reviewer simulation, distinguish demonstrated problems, questions needing verification, and optional additional experiments.
-
-When revising, address problems that affect the conclusion or its interpretation. Do not turn every possible reviewer objection into a limitation in the paper.
-
-## Chinese Patterns
-
-Inspect habitual modesty such as “仅仅做了初步尝试,” “只能提供有限参考,” and “仍有很大提升空间.” Replace vague self-assessment with specific information about the study.
-
-Prefer:
-
-> 本文在两个数据集上评估该方法。
-
-Avoid:
-
-> 本文仅在两个数据集上做了初步尝试，只能提供有限参考。
-
-Keep “初步,” “可能,” and “提示” when the evidence warrants them. Do not add “显著” or “全面领先” merely to sound stronger.
-
-## English Patterns
-
-Remove stacked hedges. Keep uncertainty warranted by the evidence. Do not turn an observed association into a causal claim.
-
-Given:
-
-> An observational analysis finds an association between X and Y.
-
-Prefer:
-
-> X is associated with Y in this observational analysis.
-
-Avoid:
-
-> These results may potentially suggest that X could possibly be associated with Y.
-
-Do not mechanically delete “may,” “suggests,” or “under these conditions.” Decide from the evidence.
-
-## Using the Examples
-
-Examples illustrate phrasing; they do not supply facts. Do not add data, mechanisms, causal relationships, or unsupported advantages. Wording such as “three institutional settings,” “the most relevant variation,” or “most useful” requires evidence in the draft.
-
-# 中文版：原版规则
-
-## 核心规则
-
-直接说清文章的观点。
-
-说清事实是什么、文章提出了什么观点、证据表明什么、方法能做什么。不要反复解释文章没说什么、没证明什么、不意味着什么，或不打算研究什么。
-
-语气平静、专业。把观点和理由向读者讲清楚，不必处处预防别人挑错。
-
-## 保留必要的限定
-
-为保证事实准确、交代清楚研究方法，以及满足伦理、法律和安全要求，必要的限定应当保留。
-
-如果省略某项限定会影响以下内容，就应说明：
-
-- 观点是否成立；
-- 如何理解证据；
-- 结论的适用范围；
-- 研究设计；
-- 读者能否正确使用研究结果。
-
-必要的限制应清楚说明，通常放在方法、讨论或局限部分。不要在摘要、引言、贡献段落、段首句和结论中反复强调。某句话离开限定就会让人误解时，应保留该限定。
-
-## 检查清单
-
-初稿或修改稿定稿前，检查是否存在：
-
-- 不必要的免责声明；
-- 反复说明“本文并不是说……”；
-- 叠加“可能”“或许”“在一定程度上”等保留措辞；
-- 在摘要、段首和结论中堆放限制条件；
-- 段落还没说观点，先强调不足；
-- 本可直接说明研究内容，却先说不研究什么；
-- 只为防备可能的误解而追加解释；
-- 介绍贡献时又主动贬低其价值；
-- 不必要的“不是 X，而是 Y”结构；
-- 多余的“然而”“尽管如此”“虽然”等转折或让步。
-
-如果一句话只是在示弱，没有让意思更准确，就删掉或改写。
-
-## 修改流程
-
-1. 判断这句话为什么要写。
-
-看它属于哪一种：
-
-- 不必要的免责声明；
-- 必要的范围限定；
-- 真实的方法局限；
-- 有助于论证的概念区分；
-- 根据证据作出的必要限定；
-- 重复澄清。
-
-2. 删除不必要的免责声明。
-
-一句话如果既不提供证据，也不说明范围、推进论证、澄清概念或帮助理解，就删掉。
-
-3. 直接说明研究范围。
-
-优先：
-
-> 本文分析了 2015 至 2023 年的城市治理案例。
-
-避免：
-
-> 我们并不认为这些案例能够代表所有城市治理情境。
-
-4. 把话说准，减少层层保留。
-
-优先：
-
-> 证据表明，在这些案例中，X 会影响 Y。
-
-避免：
-
-> 这或许说明，X 可能在一定程度上对 Y 产生潜在影响。
-
-如果确实存在不确定性，说明它来自哪里：
-
-> 现有证据支持这一解释，但尚不能据此估计总体效应。
-
-5. 围绕这段要表达的观点重新组织。
-
-检查每一段：
-
-- 开头是否说清观点；
-- 是否围绕一件事展开；
-- 前后顺序是否合理；
-- 是否反复强调同一项限制；
-- 是否夹杂道歉式表述；
-- 是否有助于全文论证。
-
-## 写作原则
-
-先说观点。不要一开头就强调不足。
-
-直接说明研究内容。说清楚文章研究、解释、检验、比较了什么，或者贡献了什么。
-
-用证据支持观点。结论说得太大，就缩小范围；概念不清，就把概念说清；理由不足，就补充已有证据或理顺推理。不要只在后面追加一句“当然也存在局限”。
-
-一段说清一件事。不要把论证、限制、道歉、例外和澄清都塞进同一段。
-
-需要区分两种观点或解释差异时，再使用对比。不要习惯性地套用“不是 X，而是 Y”“与其说……不如说……”“需要澄清的是”“值得注意的是”。
-
-## 中文技术写作与 SOP
-
-适用于中文技术方案、SOP、报告和演示文稿。
-
-改写只消除冗余和说教语气，必须保留原文的技术含义、适用条件、禁止事项与操作目的；不得为追求简洁或专业感改变操作含义。
-
-- **直接呈现方案**：写明操作、参数、前置条件和结果。删除不提供实质信息的写作说明；“用于阐明机制”等表述若说明真实研究目的，应予保留。
-- **明确技术前提**：将“在条件允许时”等含糊表达改为原文有依据的具体前提，如“标定前提：……”。“仅在……时”“若欲……需要……”若承载必要条件，应保留或等义改写，不得直接改成执行动作而丢失限制；条件不明时应指出缺失信息。
-- **采用 SOP 语言**：直接说明操作规范，删去“切记”等说教语气，同时保留必要的禁止事项和技术结论。“不可互相替代”若表达真实限制，应保留；“两者独立记录并平行分析”仅在符合原操作要求时使用，不能替代不可互换的结论。
-- **使用准确技术动词**：将“进行……的测量”等冗余表达简化为“测量……”。“测量”“表征”本身就是准确动词；只有原操作确实对应“标定”“解耦”“淬灭”或“钳定”时才使用这些词，不得为显得专业而替换操作含义。
-
-## 推荐句式
-
-- “本文研究……”
-- “本研究表明……”
-- “本文重点分析……”
-- “证据表明……”
-- “该设计可以……”
-- “结果提示……”
-- “主要贡献在于……”
-- “在这些条件下，X 通过……影响 Y。”
-
-## 应避免的句式
-
-除非删掉会影响准确性，否则避免：
-
-- “本文并不声称……”
-- “我们并不试图……”
-- “这并不是说……”
-- “这不应被理解为……”
-- “目标不是 X，而是 Y……”
-- “本文并非论证 X，而是论证 Y……”
-- “尽管本研究存在局限……”
-- “当然，这并不能完全涵盖……”
-- “值得注意的是……”
-- “需要澄清的是……”
-
-## 示例
-
-防御性表达：
-
-> 我们并不认为这些案例能够代表所有情境。
-
-更直接：
-
-> 这些案例展示了该机制在三种制度环境中如何运作。
-
-防御性表达：
-
-> 本文无意提供完整的平台治理理论，而是探讨其中一个具体机制。
-
-更直接：
-
-> 本文揭示了平台治理改变参与方式的一种机制。
-
-防御性表达：
-
-> 这并不意味着政策设计能够单独决定执行结果。
-
-更直接：
-
-> 执行结果取决于政策设计与行政能力的相互作用。
-
-防御性表达：
-
-> 虽然样本有限，无法涵盖所有差异，但仍能提供一些有用的启示。
-
-更直接：
-
-> 该样本涵盖了与本研究理论问题最相关的差异。
-
-防御性表达：
-
-> 我们并不认为该模型在所有情况下都更优。
-
-更直接：
-
-> 需要比较案例并解释差异时，该模型最为适用。
-
-## 最后检查
-
-输出前再读一遍：哪些句子只是怕别人质疑，却没有提供信息、说清范围或帮助论证？删掉这些句子，让正文简洁、直接、逻辑清楚。
-
-# 扩充规则
-
-按用户指定的语言输出；未指定时沿用原稿语言。修改论文时使用下述论文规则；只改一段时，处理与该段有关的内容即可。
-
-## 核心主线
-
-先确定论文的主要贡献：实现了什么新能力、揭示了什么新机制、降低了多少成本，或改善了哪些扩展能力。
-
-围绕主要贡献组织摘要、引言、实验和结论。保留有助于说明主要贡献的其他成果，删去无关铺垫。
-
-## 指标与主张
-
-某项指标落后时，先看论文要解决什么问题、在什么条件下比较、实际使用需要什么。
-
-说清哪个指标提高了、哪个指标下降了。不要把一个指标落后写成整个方法有问题，也不要为了回避结果更换评价标准。
-
-已知：
-
-> 相同测试条件下，准确率从 90% 降到 89%，延迟从 100 ms 降到 60 ms。
-
-优先：
-
-> 该方法将延迟从 100 ms 降至 60 ms，准确率为 89%，基线为 90%。
-
-避免：
-
-> 准确率较低，说明该方法仍存在一定局限。
-
-## 实验的作用
-
-每个实验应说明至少一件事：
-
-- 方法是否有效；
-- 优势来自哪里；
-- 能否排除其他解释；
-- 方法在什么条件下适用。
-
-重复展示的结果，建议合并或精简；与主要结论关系不大的内容，可移到补充材料。会影响核心结论的不利结果必须保留。
-
-少做一个实验，先说清哪句话因此缺少依据。例如，缺少模块 A 的消融实验，就还不能认定性能提升来自 A；不要笼统写成“实验不充分”。
-
-## 不利结果的处理流程
-
-1. 看这项结果是否影响核心结论或读者理解。有影响，就应讨论。
-2. 写清在什么条件下，哪个指标出现了什么结果。原因不明，就不要编造解释。
-3. 看结论是否说得太大。证据只支持部分情况，就缩小范围；完全不支持，就撤回结论。
-4. 看是否把某个条件下的问题说成了方法的普遍缺陷。
-5. 把限制放在相关章节。摘要或结论省略某个限定会让人误解时，应保留该限定。
-
-## 投稿前检查
-
-- 删去没有增加信息的自我否定。
-- 收回或缩小证据撑不住的结论。
-- 删除摘要和结论中重复出现的限制声明。
-- 确认摘要、引言、实验和结论都围绕主要贡献展开。
-
-## 审稿意见与正文
-
-模拟审稿时，分清哪些问题已经有证据，哪些还需要核实，哪些实验只是补做会更好。
-
-改正文时，处理确实影响结论或读者理解的问题。不要把审稿人可能提出的每个疑问，都写成论文的局限。
-
-## 中文表达
-
-检查“仅仅做了初步尝试”“只能提供有限参考”“仍有很大提升空间”等习惯性谦辞。直接说做了什么、发现了什么。
-
-优先：
-
-> 本文在两个数据集上评估该方法。
-
-避免：
-
-> 本文仅在两个数据集上做了初步尝试，只能提供有限参考。
-
-“初步”“可能”“提示”确实符合研究情况时，应当保留。不要为了显得有力就加上“显著”“全面领先”。
-
-## 英文表达
-
-删掉重复的保留词，但不能把尚不确定的结果说成定论。只发现相关关系时，不能改写成因果关系。
-
-已知：
-
-> 观察性分析发现 X 与 Y 相关。
-
-优先：
-
-> X is associated with Y in this observational analysis.
-
-避免：
-
-> These results may potentially suggest that X could possibly be associated with Y.
-
-不要机械删除 “may”“suggests”“under these conditions”。按证据判断是否需要。
-
-## 示例的使用
-
-示例只供参考写法，其中的事实不能直接用到用户的文章里。不要为了让句子更有力而补造数据、机制、因果关系或优势。使用“三种制度环境”“最相关的差异”“最为适用”等表述前，先确认原稿有依据。
+按请求交付正文或修改后的文件。只有用户要求说明修改，或存在影响使用的实质问题时，再附简短说明。
