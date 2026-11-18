@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "description": "Browse a personal skill backup with each entry point, script, reference and license kept alongside the skill it belongs to."
+  },
+  "pages": {
+    "home": {
+      "title": "Find a Codex skill to carry forward · {project}"
+    },
+    "features": {
+      "title": "Features · {project}",
+      "description": "Browse a personal skill backup with each entry point, script, reference and license kept alongside the skill it belongs to."
+    },
+    "download": {
+      "title": "Get started · {project}",
+      "description": "Look for a top-level SKILL.md inside the skill you want, such as clear-human-writing."
+    },
+    "community": {
+      "title": "Community · {project}",
+      "description": "Find usage guidance, follow discussions and review changes to this project."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "download": "Get started",
+    "community": "Community"
+  },
+  "ui": {
+    "skip_link": "Skip to main content",
+    "navigation": "Main navigation",
+    "open_navigation": "Open navigation",
+    "close_navigation": "Close navigation",
+    "language": "Choose language",
+    "theme": "Choose theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "platforms": "Supported platforms",
+    "github": "GitHub",
+    "view_image": "View full illustration",
+    "feature_more": "Explore features",
+    "download": "Browse the skill collection",
+    "release_notes": "Source repository",
+    "documentation": "Documentation",
+    "source": "Source repository",
+    "illustration": "First steps",
+    "license": "Sources and licenses by skill"
+  },
+  "hero": {
+    "title": [
+      "Find a Codex skill to carry forward"
+    ],
+    "description": [
+      "Browse a personal skill backup with each entry point, script, reference and license kept alongside the skill it belongs to."
+    ],
+    "primary_action": "Browse the skill collection",
+    "secondary_action": "Explore features"
+  },
+  "preview": {
+    "caption": "First steps",
+    "tabs": [
+      {
+        "label": "Get started",
+        "icon": "book"
+      }
+    ],
+    "items": [
+      {
+        "title": "Choose a directory",
+        "description": "Look for a top-level SKILL.md inside the skill you want, such as clear-human-writing.",
+        "icon": "book"
+      },
+      {
+        "title": "Keep the files together",
+        "description": "Place the whole skill folder in a directory your client scans and check that a new session discovers the skill.",
+        "icon": "link"
+      }
+    ]
+  },
+  "features": {
+    "title": "Project features",
+    "groups": [
+      {
+        "title": "Read the entry point",
+        "description": "Open SKILL.md inside a skill directory to find its intended use and the materials that go with it.",
+        "detail": "",
+        "icon": "layers"
+      },
+      {
+        "title": "Compare duplicate copies",
+        "description": "Matching copies from the two skill locations are stored once. Differences are reported for review before either copy is replaced.",
+        "detail": "",
+        "icon": "book"
+      }
+    ]
+  },
+  "getting_started": {
+    "title": "Get started · {project}",
+    "steps": [
+      {
+        "title": "Choose a directory",
+        "description": "Look for a top-level SKILL.md inside the skill you want, such as clear-human-writing.",
+        "icon": "book"
+      },
+      {
+        "title": "Keep the files together",
+        "description": "Place the whole skill folder in a directory your client scans and check that a new session discovers the skill.",
+        "icon": "link"
+      }
+    ]
+  },
+  "community": {
+    "title": "Community · {project}",
+    "description": "Find usage guidance, follow discussions and review changes to this project.",
+    "links": [
+      {
+        "label": "Help and feedback",
+        "description": "Browse existing reports or describe a reproducible problem.",
+        "icon": "book"
+      },
+      {
+        "label": "Source repository",
+        "description": "Find the project and its maintenance links.",
+        "icon": "link"
+      },
+      {
+        "label": "Review changes",
+        "description": "Review open pull requests or prepare a contribution.",
+        "icon": "code"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "{copyright}"
+  }
+}
