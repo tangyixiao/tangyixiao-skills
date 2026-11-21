@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.blend1
+renders/
+.DS_Store
+tests/_out/

@@ -1,0 +1,11 @@
+{
+  "name": "side chair (regression fixture)",
+  "overall": {"dims": [0.523, 0.443, 0.888], "tol": 0.01},
+  "parts": {
+    "Seat": {"dims": [0.44, 0.42, 0.03], "attached_to": ["Leg_FL", "Leg_FR", "Leg_BL", "Leg_BR"]},
+    "Post_L": {"attached_to": ["Seat", "Finial_L"]},
+    "Post_R": {"attached_to": ["Seat", "Finial_R"]},
+    "Back_Rail": {"attached_to": ["Post_L", "Post_R"]}
+  },
+  "expect_embedded": [["Leg_*", "Seat"]]
+}

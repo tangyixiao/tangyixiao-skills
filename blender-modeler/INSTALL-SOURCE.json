@@ -1,0 +1,8 @@
+{
+  "repository": "https://github.com/calebrisc/blender-modeler",
+  "commit": "c8f245982108e2627972768d4311cbe172b58137",
+  "path": ".",
+  "installed_name": "blender-modeler",
+  "upstream_skill_sha256": "f89a216a48f132bda5ffba95d61d338ae47d4699602dbceb8b86af0c43dd2ac3",
+  "verified_upstream_files": 27
+}

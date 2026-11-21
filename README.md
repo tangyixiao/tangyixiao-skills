@@ -15,3 +15,5 @@
 当 Codex 获得、安装或更新 skill 时，由 Codex 在当前任务中读取本地 skill 树、完成差异检查，并使用 Git 将变更提交推送到 `origin/main`。本仓库不使用 PowerShell watcher、计划任务、登录启动项或后台常驻进程。
 
 推送前必须排除 `.system` 和凭据文件，并核验实际的 `SKILL.md` 内容与仓库状态。
+
+Expo 启动图标技能仅保留上游安装入口。此修订的技能目录没有明确的再分发许可证，恢复时从原作者获取。[expo-app-icon 固定版本](https://github.com/eho/agent-skills/tree/5570efdaeab95bf33e71a3b8331957c035888b9e/skills/expo-app-icon)

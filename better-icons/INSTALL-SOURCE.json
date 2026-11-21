@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/better-auth/better-icons",
+  "commit": "033316ecb8f4982235af4111a2257e80231f5ab1",
+  "path": "skills",
+  "installed_name": "better-icons",
+  "upstream_skill_sha256": "3d12532000bae46a54ac5ea47a8cc5ce24cb7008b366abe6ccf4f7e86c489110",
+  "verified_upstream_files": 1,
+  "companion_cli": "better-icons@1.0.4"
+}
